@@ -211,8 +211,10 @@ def copy_mat_to_different_line_in_template(line_to_copy, line_to_replace, traili
                 copy_string = content[line_to_copy-1]
 
                 start_idx = copy_string.find("=")
+                end_idx = copy_string.find(" Mat")
 
-                print(start_idx)
+
+                print(copy_string[start_idx:end_idx], file)
 
                 # f = open(file, "wt")
                 # f.writelines(content)
@@ -229,3 +231,5 @@ def copy_mat_to_different_line_in_template(line_to_copy, line_to_replace, traili
 # edit_materials_2_params('Materials.dat', 'BSAW', 'WTrim=', 12, 'LTrim=', 12, 'HasGrain', 'Edited_Materials.dat')
 
 # update_multiple_lines_with_start_and_end_strings('Matching Banding', [15, 19], '[', ']', '05 - ', '.CabTmp')
+
+copy_mat_to_different_line_in_template(24, 23, " BSAW")
