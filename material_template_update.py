@@ -210,11 +210,23 @@ def copy_mat_to_different_line_in_template(line_to_copy, line_to_replace, traili
                 content = f.readlines()
                 copy_string = content[line_to_copy-1]
 
-                start_idx = copy_string.find("=")
-                end_idx = copy_string.find(" Mat")
+                part_idx1 = copy_string.find("=")
+                part_idx2 = copy_string.find(" Mat")
+
+                mat_idx2 = copy_string.find(" MatThick=")
+
+                paste_string = copy_string[:part_idx1]
+                paste_string += content[line_to_replace][part_idx1:part_idx2]
+                paste_string += copy_string[part_idx2:mat_idx2]
+                paste_string += trailing_text
+                paste_string += copy_string[mat_idx2:]
 
 
-                print(copy_string[start_idx:end_idx], file)
+
+
+
+                # prints name of material from copy string
+                # print(copy_string[part_idx1:part_idx2], file)
 
                 # f = open(file, "wt")
                 # f.writelines(content)
