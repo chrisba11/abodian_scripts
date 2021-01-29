@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="Basalto Gloss - Brilliante" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Basalto HG 3/4 638 BRL [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Basalto HG 3/4 638 BRL [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Basalto HG 3/4 638 BRL [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Basalto HG 3/4 638 BRL [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Basalto HG 3/4 638 BRL [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Basalto HG 3/4 638 BRL [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Basalto HG 3/4 638 BRL [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

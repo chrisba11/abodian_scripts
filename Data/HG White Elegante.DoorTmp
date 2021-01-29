@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="HG White Elegante" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="White HG Elegante 3/4 25391 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="White HG Elegante 3/4 25391 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="White HG Elegante 3/4 25391 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="White HG Elegante 3/4 25391 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="White HG Elegante 3/4 25391 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="White HG Elegante 3/4 25391 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="White HG Elegante 3/4 25391 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

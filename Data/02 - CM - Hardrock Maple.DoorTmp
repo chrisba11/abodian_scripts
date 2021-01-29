@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - CM - Hardrock Maple" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Matching Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Matching Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Matching Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Matching Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Matching Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Matching Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Matching Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

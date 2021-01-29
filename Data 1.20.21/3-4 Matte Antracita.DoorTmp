@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="3-4 Matte Antracita" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

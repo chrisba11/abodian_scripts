@@ -1,0 +1,38 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="05 - Maple 58 [Platinum Wenge]" Type="3" SymbolForLabels="">
+  <MaterialReference PartType="Top" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Bottom" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FEnd" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UEnd" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AppliedUE" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Shelf" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AdjustableShelf" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="RolloutShelf" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FixedShelf" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Partition" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Divider" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UBack" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FBack" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Frame" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FramelessRail" Mat="Platinum Wenge 3/4 UC3003 UC [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Nailer" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Stretcher" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Cleat" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInterior" Mat="Platinum Wenge 3/4 UC3003 UC [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInteriorBack" Mat="Platinum Wenge 3/4 UC3003 UC [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinExterior" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinInterior" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ToeSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Sleeper" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Metal" Mat="Mirror 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Special" Mat="Platinum Wenge 3/4 UC3003 UC [Matching Banding] BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ClosetRod" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

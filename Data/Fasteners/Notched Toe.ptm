@@ -1,0 +1,15 @@
+4
+PanelTemplate
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PartFastenerTemplate Name="Notched Toe" CostEach="0" MarkupPercentage="0" AddOnCost="0">
+  <BasePartFastener>
+    <LUE Version="2">
+      <OperationHole Diameter="12.7" Diameter_Eq=".5*tomm" ID="21" X="114.3" Y="520.55" Depth="19.19986" Hide="False" X_Eq="ToeH" Y_Eq="PartW-ToeR+(.25*tomm)" Depth_Eq="UEnd.th" Hide_Eq="" IsUserOp="False" IdTag="30201" Noneditable="False" Anchor="" FlipSideOp="False" />
+    </LUE>
+    <RUE Version="2">
+      <OperationHole Diameter="12.7" Diameter_Eq=".5*tomm" ID="22" X="114.3" Y="69.85" Depth="19.19986" Hide="False" X_Eq="ToeH" Y_Eq="ToeR-(.25*tomm)" Depth_Eq="UEnd.th" Hide_Eq="" IsUserOp="False" IdTag="30301" Noneditable="False" Anchor="" FlipSideOp="False" />
+    </RUE>
+  </BasePartFastener>
+  <WallPartFastener />
+  <TallPartFastener />
+</PartFastenerTemplate>

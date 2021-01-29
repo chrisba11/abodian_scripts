@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - 5pc Painted - Buyout MDF (3)" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="BUYOUT DOORS 3" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="BUYOUT DOORS 3" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="BUYOUT DOORS 3" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="BUYOUT DOORS 3" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="BUYOUT DOORS 3" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="BUYOUT DOORS 3" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="BUYOUT MDF 3/4 (3)" MatThick="19.05" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

@@ -1,0 +1,35 @@
+4
+PanelTemplate
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PartFastenerTemplate Name="Leg Levelers" CostEach="9.5" MarkupPercentage="0" AddOnCost="0">
+  <BasePartFastener>
+    <Bot Version="2">
+      <OperationHole Diameter="10" Diameter_Eq="10" ID="1" X="31.80014" Y="100.2" Depth="19.69986" Hide="False" X_Eq="(UEnd.th*-1)+24+19+LegLevRecessL" Y_Eq="ToeR+24" Depth_Eq="Bottom.th+0.5" Hide_Eq="" IsUserOp="False" IdTag="30701" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+      <OperationHole Diameter="10" Diameter_Eq="10" ID="2" X="387.0002" Y="100.2" Depth="19.69986" Hide="False" X_Eq="(UEnd.th*-1)+W-24-19-LegLevRecessR" Y_Eq="ToeR+24" Depth_Eq="Bottom.th+0.5" Hide_Eq="" IsUserOp="False" IdTag="30702" Noneditable="False" Anchor="BR" FlipSideOp="False" />
+      <OperationHole Diameter="10" Diameter_Eq="10" ID="3" X="387.0002" Y="558.6" Depth="19.69986" Hide="False" X_Eq="(UEnd.th*-1)+W-24-19-LegLevRecessR" Y_Eq="D-24-19-LegLevRecessB" Depth_Eq="Bottom.th+0.5" Hide_Eq="" IsUserOp="False" IdTag="30703" Noneditable="False" Anchor="TR" FlipSideOp="False" />
+      <OperationHole Diameter="10" Diameter_Eq="10" ID="4" X="31.80014" Y="558.6" Depth="19.69986" Hide="False" X_Eq="(UEnd.th*-1)+24+19+LegLevRecessL" Y_Eq="D-24-19-LegLevRecessB" Depth_Eq="Bottom.th+0.5" Hide_Eq="" IsUserOp="False" IdTag="30704" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+      <OperationHole Diameter="10" Diameter_Eq="10" ID="96" X="209.4001" Y="100.2" Depth="19.69986" Hide="True" X_Eq="(UEnd.th*-1)+(W/2)" Y_Eq="ToeR+24" Depth_Eq="Bottom.th+0.5" Hide_Eq="1 | If W &gt; 36.1*tomm Then Hide(0/1)= 0" IsUserOp="False" IdTag="30705" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+      <OperationHole Diameter="10" Diameter_Eq="10" ID="97" X="209.4001" Y="558.6" Depth="19.69986" Hide="True" X_Eq="(UEnd.th*-1)+(W/2)" Y_Eq="D-24-19-LegLevRecessB" Depth_Eq="Bottom.th+0.5" Hide_Eq="1 | If W &gt; 36.1*tomm Then Hide(0/1)= 0" IsUserOp="False" IdTag="30706" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+      <OperationHole Diameter="18" Diameter_Eq="18" ID="2" X="31.80014" Y="100.2" Depth="3" Hide="False" X_Eq="(UEnd.th*-1)+24+19+LegLevRecessL" Y_Eq="ToeR+24" Depth_Eq="3" Hide_Eq="" IsUserOp="False" IdTag="30707" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+      <OperationHole Diameter="18" Diameter_Eq="18" ID="3" X="387.0002" Y="100.2" Depth="3" Hide="False" X_Eq="(UEnd.th*-1)+W-24-19-LegLevRecessR" Y_Eq="ToeR+24" Depth_Eq="3" Hide_Eq="" IsUserOp="False" IdTag="30708" Noneditable="False" Anchor="BR" FlipSideOp="False" />
+      <OperationHole Diameter="18" Diameter_Eq="18" ID="4" X="387.0002" Y="558.6" Depth="3" Hide="False" X_Eq="(UEnd.th*-1)+W-24-19-LegLevRecessR" Y_Eq="D-24-19-LegLevRecessB" Depth_Eq="3" Hide_Eq="" IsUserOp="False" IdTag="30709" Noneditable="False" Anchor="TR" FlipSideOp="False" />
+      <OperationHole Diameter="18" Diameter_Eq="18" ID="5" X="31.80014" Y="558.6" Depth="3" Hide="False" X_Eq="(UEnd.th*-1)+24+19+LegLevRecessL" Y_Eq="D-24-19-LegLevRecessB" Depth_Eq="3" Hide_Eq="" IsUserOp="False" IdTag="30710" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+      <OperationHole Diameter="18" Diameter_Eq="18" ID="6" X="209.4001" Y="100.2" Depth="3" Hide="True" X_Eq="(UEnd.th*-1)+(W/2)" Y_Eq="ToeR+24" Depth_Eq="3" Hide_Eq="1 | If W &gt; 36.1*tomm Then Hide(0/1)= 0" IsUserOp="False" IdTag="30711" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+      <OperationHole Diameter="18" Diameter_Eq="18" ID="7" X="209.4001" Y="558.6" Depth="3" Hide="True" X_Eq="(UEnd.th*-1)+(W/2)" Y_Eq="D-24-19-LegLevRecessB" Depth_Eq="3" Hide_Eq="1 | If W &gt; 36.1*tomm Then Hide(0/1)= 0" IsUserOp="False" IdTag="30712" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+    </Bot>
+  </BasePartFastener>
+  <WallPartFastener>
+    <Bot Version="2">
+      <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="50.8" Y="101.6" Depth="19" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30701" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+      <OperationHole Diameter="10" Diameter_Eq="" ID="2" X="50.8" Y="558.8" Depth="19" Hide="True" X_Eq="" Y_Eq="partL-(2*tomm)" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30702" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+    </Bot>
+  </WallPartFastener>
+  <TallPartFastener>
+    <Bot Version="2">
+      <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="50.8" Y="101.6" Depth="19" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30701" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+      <OperationHole Diameter="10" Diameter_Eq="" ID="2" X="558.8" Y="101.6" Depth="19" Hide="False" X_Eq="PartL-(2*tomm)" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30702" Noneditable="False" Anchor="BR" FlipSideOp="False" />
+      <OperationHole Diameter="10" Diameter_Eq="" ID="3" X="558.8" Y="539.6001" Depth="19" Hide="False" X_Eq="PartL-(2*tomm)" Y_Eq="partW-(2*tomm)" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30703" Noneditable="False" Anchor="TR" FlipSideOp="False" />
+      <OperationHole Diameter="10" Diameter_Eq="" ID="4" X="50.8" Y="539.6001" Depth="19" Hide="False" X_Eq="" Y_Eq="partW-(2*tomm)" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30704" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+    </Bot>
+  </TallPartFastener>
+</PartFastenerTemplate>

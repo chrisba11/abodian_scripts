@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="HG White Elegante Uppers - Matte Antracita Base" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="White HG Elegante 3/4 25931 ELG" MatWallThick="18.39976" />
+  <MaterialReference PartType="DoorPanel" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="White HG Elegante 3/4 25931 ELG" MatWallThick="18.39976" />
+  <MaterialReference PartType="DoorFrame" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="White HG Elegante 3/4 25931 ELG" MatWallThick="18.39976" />
+  <MaterialReference PartType="Drawer" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="White HG Elegante 3/4 25931 ELG" MatWallThick="18.39976" />
+  <MaterialReference PartType="DrawerPanel" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="White HG Elegante 3/4 25931 ELG" MatWallThick="18.39976" />
+  <MaterialReference PartType="DrawerFrame" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="White HG Elegante 3/4 25931 ELG" MatWallThick="18.39976" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Antracita SM Zenit 3/4 Z11 ZNT [Matching Banding]" MatThick="18.4" MatWall="White HG Elegante 3/4 25931 ELG" MatWallThick="18.39976" />
+</MaterialTemplate>

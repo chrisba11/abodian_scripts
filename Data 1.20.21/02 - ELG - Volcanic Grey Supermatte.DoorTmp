@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - ELG - Volcanic Grey Supermatte" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Volcanic Grey SM Elegante 3/4 25321 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Volcanic Grey SM Elegante 3/4 25321 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Volcanic Grey SM Elegante 3/4 25321 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Volcanic Grey SM Elegante 3/4 25321 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Volcanic Grey SM Elegante 3/4 25321 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Volcanic Grey SM Elegante 3/4 25321 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Volcanic Grey SM Elegante 3/4 25321 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

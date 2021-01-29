@@ -1,0 +1,252 @@
+1
+<?xml version="1.0" encoding="utf-16" standalone="yes"?>
+<EdgeAssignmentTemplate Name="Sample Banding for Frameless Cabinets">
+  <BaseDefaultSetting PartType="Shelf">
+    <DefaultEdgeAssignmentSetting PartType="Shelf">
+      <Side Name="Front" Value="1" />
+      <Side Name="Right" Value="0" />
+      <Side Name="Back" Value="0" />
+      <Side Name="Left" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="RolloutShelf">
+    <DefaultEdgeAssignmentSetting PartType="RolloutShelf">
+      <Side Name="Front" Value="1" />
+      <Side Name="Right" Value="1" />
+      <Side Name="Back" Value="1" />
+      <Side Name="Left" Value="1" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="AdjustableShelf">
+    <DefaultEdgeAssignmentSetting PartType="AdjustableShelf">
+      <Side Name="Front" Value="1" />
+      <Side Name="Right" Value="0" />
+      <Side Name="Back" Value="0" />
+      <Side Name="Left" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="FBack">
+    <DefaultEdgeAssignmentSetting PartType="FBack">
+      <Side Name="Bottom" Value="1" />
+      <Side Name="Right" Value="1" />
+      <Side Name="Top" Value="1" />
+      <Side Name="Left" Value="1" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="Nailer">
+    <DefaultEdgeAssignmentSetting PartType="Nailer">
+      <Side Name="Bottom" Value="1" />
+      <Side Name="Right" Value="0" />
+      <Side Name="Top" Value="0" />
+      <Side Name="Left" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="Door">
+    <DefaultEdgeAssignmentSetting PartType="Door">
+      <Side Name="Bottom" Value="2" />
+      <Side Name="Right" Value="2" />
+      <Side Name="Top" Value="2" />
+      <Side Name="Left" Value="2" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="Drawer">
+    <DefaultEdgeAssignmentSetting PartType="Drawer">
+      <Side Name="Bottom" Value="2" />
+      <Side Name="Right" Value="2" />
+      <Side Name="Top" Value="2" />
+      <Side Name="Left" Value="2" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="DrawerSide">
+    <DefaultEdgeAssignmentSetting PartType="DrawerSide">
+      <Side Name="Top" Value="3" />
+      <Side Name="Back" Value="0" />
+      <Side Name="Bottom" Value="3" />
+      <Side Name="Front" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="DrawerFront">
+    <DefaultEdgeAssignmentSetting PartType="DrawerFront">
+      <Side Name="Bottom" Value="3" />
+      <Side Name="Right" Value="0" />
+      <Side Name="Top" Value="3" />
+      <Side Name="Left" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="DrawerBack">
+    <DefaultEdgeAssignmentSetting PartType="DrawerBack">
+      <Side Name="Bottom" Value="3" />
+      <Side Name="Right" Value="0" />
+      <Side Name="Top" Value="3" />
+      <Side Name="Left" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="TraySide">
+    <DefaultEdgeAssignmentSetting PartType="TraySide">
+      <Side Name="Top" Value="3" />
+      <Side Name="Back" Value="3" />
+      <Side Name="Bottom" Value="3" />
+      <Side Name="Front" Value="3" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="TrayFront">
+    <DefaultEdgeAssignmentSetting PartType="TrayFront">
+      <Side Name="Bottom" Value="3" />
+      <Side Name="Right" Value="0" />
+      <Side Name="Top" Value="3" />
+      <Side Name="Left" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="TrayBack">
+    <DefaultEdgeAssignmentSetting PartType="TrayBack">
+      <Side Name="Bottom" Value="3" />
+      <Side Name="Right" Value="0" />
+      <Side Name="Top" Value="3" />
+      <Side Name="Left" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="FinExterior">
+    <DefaultEdgeAssignmentSetting PartType="FinExterior">
+      <Side Name="Front" Value="1" />
+      <Side Name="Top" Value="1" />
+      <Side Name="Back" Value="1" />
+      <Side Name="Bottom" Value="1" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="ToeSkin">
+    <DefaultEdgeAssignmentSetting PartType="ToeSkin">
+      <Side Name="Bottom" Value="0" />
+      <Side Name="Right" Value="1" />
+      <Side Name="Top" Value="0" />
+      <Side Name="Left" Value="1" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="Top">
+    <DefaultEdgeAssignmentSetting PartType="Top">
+      <Side Name="Front" Value="1" />
+      <Side Name="Right" Value="0" />
+      <Side Name="Back" Value="0" />
+      <Side Name="Left" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="Bottom">
+    <DefaultEdgeAssignmentSetting PartType="Bottom">
+      <Side Name="Front" Value="1" />
+      <Side Name="Right" Value="0" />
+      <Side Name="Back" Value="0" />
+      <Side Name="Left" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="FEnd">
+    <DefaultEdgeAssignmentSetting PartType="FEnd">
+      <Side Name="Front" Value="1" />
+      <Side Name="Top" Value="0" />
+      <Side Name="Back" Value="0" />
+      <Side Name="Bottom" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="UEnd">
+    <DefaultEdgeAssignmentSetting PartType="UEnd">
+      <Side Name="Front" Value="1" />
+      <Side Name="Top" Value="0" />
+      <Side Name="Back" Value="0" />
+      <Side Name="Bottom" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="FixedShelf">
+    <DefaultEdgeAssignmentSetting PartType="FixedShelf">
+      <Side Name="Front" Value="1" />
+      <Side Name="Right" Value="0" />
+      <Side Name="Back" Value="0" />
+      <Side Name="Left" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="Partition">
+    <DefaultEdgeAssignmentSetting PartType="Partition">
+      <Side Name="Front" Value="1" />
+      <Side Name="Top" Value="0" />
+      <Side Name="Back" Value="0" />
+      <Side Name="Bottom" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="Stretcher">
+    <DefaultEdgeAssignmentSetting PartType="Stretcher">
+      <Side Name="Front" Value="1" />
+      <Side Name="Right" Value="0" />
+      <Side Name="Back" Value="1" />
+      <Side Name="Left" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="FinInterior">
+    <DefaultEdgeAssignmentSetting PartType="FinInterior">
+      <Side Name="Front" Value="1" />
+      <Side Name="Top" Value="0" />
+      <Side Name="Back" Value="1" />
+      <Side Name="Bottom" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="UfinExterior">
+    <DefaultEdgeAssignmentSetting PartType="UfinExterior">
+      <Side Name="Front" Value="1" />
+      <Side Name="Top" Value="0" />
+      <Side Name="Back" Value="1" />
+      <Side Name="Bottom" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="UfinInterior">
+    <DefaultEdgeAssignmentSetting PartType="UfinInterior">
+      <Side Name="Front" Value="1" />
+      <Side Name="Top" Value="0" />
+      <Side Name="Back" Value="1" />
+      <Side Name="Bottom" Value="0" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="FinSkin">
+    <DefaultEdgeAssignmentSetting PartType="FinSkin">
+      <Side Name="Front" Value="1" />
+      <Side Name="Top" Value="1" />
+      <Side Name="Back" Value="1" />
+      <Side Name="Bottom" Value="1" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <BaseDefaultSetting PartType="UfinSkin">
+    <DefaultEdgeAssignmentSetting PartType="UfinSkin">
+      <Side Name="Front" Value="1" />
+      <Side Name="Top" Value="1" />
+      <Side Name="Back" Value="1" />
+      <Side Name="Bottom" Value="1" />
+    </DefaultEdgeAssignmentSetting>
+  </BaseDefaultSetting>
+  <WallDefaultSetting PartType="Shelf" />
+  <WallDefaultSetting PartType="RolloutShelf" />
+  <WallDefaultSetting PartType="AdjustableShelf" />
+  <WallDefaultSetting PartType="FBack" />
+  <WallDefaultSetting PartType="Nailer" />
+  <WallDefaultSetting PartType="Door" />
+  <WallDefaultSetting PartType="Drawer" />
+  <WallDefaultSetting PartType="DrawerSide" />
+  <WallDefaultSetting PartType="DrawerFront" />
+  <WallDefaultSetting PartType="DrawerBack" />
+  <WallDefaultSetting PartType="TraySide" />
+  <WallDefaultSetting PartType="TrayFront" />
+  <WallDefaultSetting PartType="TrayBack" />
+  <WallDefaultSetting PartType="FinExterior" />
+  <WallDefaultSetting PartType="ToeSkin" />
+  <WallDefaultSetting PartType="Top" />
+  <WallDefaultSetting PartType="FEnd">
+    <DefaultEdgeAssignmentSetting PartType="FEnd">
+      <Side Name="Front" Value="1" />
+      <Side Name="Top" Value="1" />
+      <Side Name="Back" Value="0" />
+      <Side Name="Bottom" Value="1" />
+    </DefaultEdgeAssignmentSetting>
+  </WallDefaultSetting>
+  <WallDefaultSetting PartType="UEnd">
+    <DefaultEdgeAssignmentSetting PartType="UEnd">
+      <Side Name="Front" Value="1" />
+      <Side Name="Top" Value="1" />
+      <Side Name="Back" Value="0" />
+      <Side Name="Bottom" Value="1" />
+    </DefaultEdgeAssignmentSetting>
+  </WallDefaultSetting>
+</EdgeAssignmentTemplate>

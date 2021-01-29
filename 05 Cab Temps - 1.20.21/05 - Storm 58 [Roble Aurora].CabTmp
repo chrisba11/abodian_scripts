@@ -1,0 +1,38 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="05 - Storm 58 [Roble Aurora]" Type="3" SymbolForLabels="">
+  <MaterialReference PartType="Top" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Bottom" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FEnd" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UEnd" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AppliedUE" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Shelf" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AdjustableShelf" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="RolloutShelf" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FixedShelf" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Partition" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Divider" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UBack" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FBack" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Frame" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FramelessRail" Mat="Roble Aurora 3/4 98V FIN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Nailer" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Stretcher" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Cleat" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInterior" Mat="Roble Aurora 3/4 98V FIN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInteriorBack" Mat="Roble Aurora 3/4 98V FIN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinExterior" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinInterior" Mat="Storm Gray 5/8 S565 PAN [Pacaya Medina Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ToeSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Sleeper" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Metal" Mat="Mirror 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Special" Mat="Roble Aurora 3/4 98V FIN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ClosetRod" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

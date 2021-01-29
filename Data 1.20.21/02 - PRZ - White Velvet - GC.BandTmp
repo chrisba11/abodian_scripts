@@ -1,0 +1,8 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - PRZ - White Velvet - GC" Type="4" SymbolForLabels="PS">
+  <MaterialReference PartType="EdgeBand" Mat="0.5mm White Velvet W300 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand2" Mat="1mm White Velvet W300 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Fog Grey SF213 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand4" Mat="White Velvet LAMINATE W300 PRZ" MatThick="1.00076" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

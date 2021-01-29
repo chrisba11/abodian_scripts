@@ -1,0 +1,49 @@
+Mozaik Door Export
+5
+<Door>
+Slab Dw - VG-DowTop
+Drawer Slab - VG.JPG
+False
+50.8
+50.8
+50.8
+0
+0
+0
+0
+True
+False
+False
+
+sn4,0,np,4,ss,152.4,508,sr,0,pt,152.4,508,0,0,0,,,,,0,0,0,0,0,0,0,False,,pt,0,0,0,0,0,,,,,0,0,0,0,0,0,0,False,Right,pt,152.4,0,0,0,0,,,,,0,0,0,0,0,0,0,False,Top,pt,152.4,508,0,0,0,,,,,0,0,0,0,0,0,0,False,Left,pt,0,508,0,0,0,,,,,0,0,0,0,0,0,0,False,Bottom,op,2,od,0,0,0,0,0,0,0,0,0,0,0,0,,0,,,,,,,,,,0,0,False,True,False,False,-1,False,True,od,67.29,478.69,8,64,12.7,0,3,0,2,0,L02,0,,0,,,,14.3-(1/16*tomm)+12.7+DrawerBottom.th+26,(LEThick-FLRevS+5.1+8),,,0 | If PartL < 5.375*tomm Then Quan= 1 | If PartL >= 5.375*tomm And PartL < 7.375*tomm Then Quan= 2 | If PartL >= 7.375*tomm And PartL < 9.375*tomm Then Quan= 3 | If PartL >= 9.375*tomm Then Quan= 5,,1,0,True,True,False,False,-1,False,True,od,67.29,29.31,8,64,12.7,0,3,0,2,0,L02,0,,0,,,,14.3-(1/16*tomm)+12.7+DrawerBottom.th+26,PartW-(REThick-FLRevS+5.1+8),,,0 | If PartL < 5.375*tomm Then Quan= 1 | If PartL >= 5.375*tomm And PartL < 7.375*tomm Then Quan= 2 | If PartL >= 7.375*tomm And PartL < 9.375*tomm Then Quan= 3 | If PartL >= 9.375*tomm Then Quan= 5,,2,0,True,True,False,False,-1,False,True
+sn4,1,np,4,ss,508,50.83,sr,0,pt,508,50.83,1,0,0,,,,,0,0,0,0,0,0,0,False,,pt,0,0,0,0,0,,,,,0,0,0,0,0,0,0,False,,pt,508,0,0,0,0,,,,,0,0,0,0,0,0,0,False,,pt,508,50.83,0,0,0,,,,,0,0,0,0,0,0,0,False,,pt,0,50.83,0,0,0,,,,,0,0,0,0,0,0,0,False,
+sn4,1,np,4,ss,508,50.83,sr,0,pt,508,50.83,1,0,0,,,,,0,0,0,0,0,0,0,False,,pt,0,0,0,0,0,,,,,0,0,0,0,0,0,0,False,,pt,508,0,0,0,0,,,,,0,0,0,0,0,0,0,False,,pt,508,50.83,0,0,0,,,,,0,0,0,0,0,0,0,False,,pt,0,50.83,0,0,0,,,,,0,0,0,0,0,0,0,False,
+sn4,1,np,4,ss,660.34,406.34,sr,0,pt,660.34,406.34,1,0,0,,,,,0,0,0,0,0,0,0,False,,pt,0,0,0,0,0,,,,,0,0,0,0,0,0,0,False,,pt,660.34,0,0,0,0,,,,,0,0,0,0,0,0,0,False,,pt,660.34,406.34,0,0,0,,,,,0,0,0,0,0,0,0,False,,pt,0,406.34,0,0,0,,,,,0,0,0,0,0,0,0,False,
+0
+0
+False
+False
+0
+True
+Vertical Slats
+50.8
+0
+False
+
+0
+0
+False
+
+0
+0
+0
+0
+0
+0
+0
+0
+True
+0
+0
+0
+</Door>

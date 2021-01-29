@@ -1,0 +1,48 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="Plywood 3-4 Template" Type="0" SymbolForLabels="">
+  <MaterialReference PartType="Top" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Bottom" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FEnd" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UEnd" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Shelf" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AdjustableShelf" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="RolloutShelf" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FixedShelf" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Partition" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Divider" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UBack" Mat="1/4 Birch PF" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FBack" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Frame" Mat="Generic Lumber" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Nailer" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Stretcher" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Cleat" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Toe" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Door" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="1/4 Birch PF" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Generic Lumber" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="1/4 Birch PF" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Generic Lumber" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerSide" Mat="1/2 Birch PF" MatThick="11.69924" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFront" Mat="1/2 Birch PF" MatThick="11.69924" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBack" Mat="1/2 Birch PF" MatThick="11.69924" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBottom" Mat="1/4 Birch PF" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TraySide" Mat="1/2 Birch PF" MatThick="11.69924" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFace" Mat="1/2 Birch PF" MatThick="11.69924" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFront" Mat="1/2 Birch PF" MatThick="11.69924" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBack" Mat="1/2 Birch PF" MatThick="11.69924" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBottom" Mat="1/4 Birch PF" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="CounterTop" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInterior" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInteriorBack" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinExterior" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinInterior" Mat="3/4 Birch PF" MatThick="17.80032" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinSkin" Mat="1/4 Birch PF" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinSkin" Mat="1/4 Birch PF" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ToeSkin" Mat="1/4 Birch PF" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Plastic" Mat="1/8 Plastic" MatThick="3.175" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Generic Lumber" MatThick="19.05" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

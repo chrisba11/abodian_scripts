@@ -1,0 +1,13 @@
+Mozaik Guide Export
+7
+<?xml version="1.0" encoding="utf-16" standalone="yes"?>
+<Guide Name="Blue 230M Side Mount" Price="0" SideCl="12.7" BotCl="4" TopCl="16" HoleDia="5" Hole1Inset="37" Hole2Inset="165" Hole3Inset="261" HoleCenterFromReference="14.5" HoleDepth="1.5875" Image="230e.jpg" Comment="Blum Side Mount 75# Epoxy Guide" SocketA_DI="0" SocketA_DU="0" SocketB_DI="0" SocketB_DU="0" SocketDia="0" SocketDepth="0" Hole4Inset="389" Hole5Inset="517" UseGuideLengths="True" Hole6Inset="613" HoleReferenceFromBottom="False">
+  <GuideLength PartNumber="230M3000" Description="75# 3/4 Ext" Length="304.8" Price="0" HolePattern="1,2,3" BoxDepthAdj="0" />
+  <GuideLength PartNumber="230M3500" Description="75# 3/4 Ext" Length="355.6" Price="0" HolePattern="1,2,3" BoxDepthAdj="0" />
+  <GuideLength PartNumber="230M4000" Description="75# 3/4 Ext" Length="406.4" Price="0" HolePattern="1,2,3" BoxDepthAdj="0" />
+  <GuideLength PartNumber="230M4500" Description="75# 3/4 Ext" Length="457.2" Price="0" HolePattern="1,2,3,4" BoxDepthAdj="0" />
+  <GuideLength PartNumber="230M5000" Description="75# 3/4 Ext" Length="508" Price="0" HolePattern="1,2,3,4" BoxDepthAdj="0" />
+  <GuideLength PartNumber="230M5500" Description="75# 3/4 Ext" Length="558.8" Price="0" HolePattern="1,2,3,4,5" BoxDepthAdj="0" />
+  <GuideLength PartNumber="230M6000" Description="75# 3/4 Ext" Length="609.6" Price="0" HolePattern="1,2,3,4,5" BoxDepthAdj="0" />
+  <GuideLength PartNumber="230M6500" Description="75# 3/4 Ext" Length="660.4" Price="0" HolePattern="1,2,3,4,5,6" BoxDepthAdj="0" />
+</Guide>
