@@ -213,15 +213,15 @@ def copy_mat_to_different_line_in_template(line_to_copy, line_to_replace, traili
                 part_idx1 = copy_string.find("=")
                 part_idx2 = copy_string.find(" Mat")
 
-                mat_idx2 = copy_string.find(" MatThick=")
+                mat_idx2 = copy_string.find('" MatThick=')
 
                 paste_string = copy_string[:part_idx1]
-                paste_string += content[line_to_replace][part_idx1:part_idx2]
+                paste_string += content[line_to_replace-1][part_idx1:part_idx2]
                 paste_string += copy_string[part_idx2:mat_idx2]
                 paste_string += trailing_text
                 paste_string += copy_string[mat_idx2:]
 
-
+                print(paste_string, file)
 
 
 
