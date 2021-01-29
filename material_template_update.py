@@ -204,33 +204,28 @@ def copy_mat_to_different_line_in_template(line_to_copy, line_to_replace, traili
     for root, dirs, files in os.walk(dir_path): 
         for file in files:  
 
-                full_path = dir_path + '\\' + file
-                f = open(full_path, "rt")
+            full_path = dir_path + '\\' + file
+            f = open(full_path, "rt")
 
-                content = f.readlines()
-                copy_string = content[line_to_copy-1]
+            content = f.readlines()
+            copy_string = content[line_to_copy-1]
 
-                part_idx1 = copy_string.find("=")
-                part_idx2 = copy_string.find(" Mat")
+            part_idx1 = copy_string.find("=")
+            part_idx2 = copy_string.find(" Mat")
 
-                mat_idx2 = copy_string.find('" MatThick=')
+            mat_idx2 = copy_string.find('" MatThick=')
 
-                paste_string = copy_string[:part_idx1]
-                paste_string += content[line_to_replace-1][part_idx1:part_idx2]
-                paste_string += copy_string[part_idx2:mat_idx2]
-                paste_string += trailing_text
-                paste_string += copy_string[mat_idx2:]
+            paste_string = copy_string[:part_idx1]
+            paste_string += content[line_to_replace-1][part_idx1:part_idx2]
+            paste_string += copy_string[part_idx2:mat_idx2]
+            paste_string += trailing_text
+            paste_string += copy_string[mat_idx2:]
 
-                print(paste_string, file)
+            content[line_to_replace-1] = paste_string
 
-
-
-                # prints name of material from copy string
-                # print(copy_string[part_idx1:part_idx2], file)
-
-                # f = open(file, "wt")
-                # f.writelines(content)
-                # f.close()
+            f = open(full_path, "wt")
+            f.writelines(content)
+            f.close()
 
 
 # replacement_text = '  <MaterialReference PartType="AdjustableShelf" Mat="CM Fog Grey 3/4 SF213 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n'
