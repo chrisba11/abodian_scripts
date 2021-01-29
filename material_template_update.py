@@ -195,7 +195,7 @@ def update_multiple_lines_with_start_and_end_strings(new_text, lines_of_code_arr
                     f.close()
 
 
-def copy_mat_to_different_line(line_to_copy, line_to_replace, trailing_text):
+def copy_mat_to_different_line_in_template(line_to_copy, line_to_replace, trailing_text):
     """
     Copies everything after the part type from line_to_copy
     and replaces everything on line_to_replace after the part type
@@ -203,31 +203,29 @@ def copy_mat_to_different_line(line_to_copy, line_to_replace, trailing_text):
     """
     for root, dirs, files in os.walk(dir_path): 
         for file in files:  
-    
-            # opens a filename ending with end_of_filename parameter
-            # creates a list of all lines in the file
-            # replaces specified index in the list with the original text plus the text supplied added
-            # writes over file with new list content
-            # closes the file
-            # moves to next filename with matching string at start and end, then repeats
 
-            if file.startswith(start_of_filename):
-                if file.endswith(end_of_filename):
-                    full_path = dir_path + '\\' + file
-                    f = open(full_path, "rt")
-                    content = f.readlines()
+            full_path = dir_path + '\\' + file
+            f = open(full_path, "rt")
 
-                    for line_number in lines_of_code_array:
-                        existing_line = content[line_number-1]
-                        idx1 = existing_line.find(insertion_point_start)
-                        idx2 = existing_line.find(insertion_point_end)
-                        new_line = existing_line[:idx1+1] + new_text + existing_line[idx2:]
-                        
-                        content[line_number-1] = new_line
+            content = f.readlines()
+            copy_string = content[line_to_copy-1]
 
-                    f = open(full_path, "wt")
-                    f.writelines(content)
-                    f.close()
+            part_idx1 = copy_string.find("=")
+            part_idx2 = copy_string.find(" Mat")
+
+            mat_idx2 = copy_string.find('" MatThick=')
+
+            paste_string = copy_string[:part_idx1]
+            paste_string += content[line_to_replace-1][part_idx1:part_idx2]
+            paste_string += copy_string[part_idx2:mat_idx2]
+            paste_string += trailing_text
+            paste_string += copy_string[mat_idx2:]
+
+            content[line_to_replace-1] = paste_string
+
+            f = open(full_path, "wt")
+            f.writelines(content)
+            f.close()
 
 
 # replacement_text = '  <MaterialReference PartType="AdjustableShelf" Mat="CM Fog Grey 3/4 SF213 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n'
@@ -240,3 +238,5 @@ def copy_mat_to_different_line(line_to_copy, line_to_replace, trailing_text):
 # edit_materials_2_params('Materials.dat', 'BSAW', 'WTrim=', 12, 'LTrim=', 12, 'HasGrain', 'Edited_Materials.dat')
 
 # update_multiple_lines_with_start_and_end_strings('Matching Banding', [15, 19], '[', ']', '05 - ', '.CabTmp')
+
+copy_mat_to_different_line_in_template(24, 23, " BSAW")
