@@ -1,5 +1,7 @@
 import os
 from reportlab.pdfgen.canvas import Canvas
+from reportlab.lib.units import inch, cm
+from reportlab.lib.pagesizes import LETTER
 
 
 # This is to get the directory that the program is currently running in
@@ -277,8 +279,10 @@ def product_list_with_notes():
 
     pdf_name = job_name + '.pdf'
     pdf_save_name = os.path.join(dir_path, pdf_name)
-    canvas = Canvas(pdf_save_name)
+    canvas = Canvas(pdf_save_name, pagesize=LETTER)
+    canvas.setFont("Helvetica", 20)
     canvas.drawString(72, 72, job_name)
+    canvas.showPage()
     canvas.save()
     
 
