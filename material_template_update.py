@@ -222,22 +222,31 @@ def product_list_with_notes():
     If the product has notes, it adds that product to the list
     Then it writes the list of products with notes to a new file
     """
+    dir_path_lst = dir_path.split('\\')
+    job_name = dir_path_lst[-1]
+    
     for root, dirs, files in os.walk(dir_path):
+        for file in files:
 
-        dir_path_lst = dir_path.split('\\')
-        job_name = dir_path_lst[-1]
+            if file.endswith('.des'):
 
-        # for file in files:  
+                full_path = dir_path + '\\' + file
+                f = open(full_path, "rt")
+                content = f.readlines()
+                rm_start_idx = content[2].find('Name=') + 6
+                rm_end_idx = content[2].find('" RoomNosDirty=')
+                room_name = content[2][rm_start_idx:rm_end_idx]
 
-        #     full_path = dir_path + '\\' + file
-        #     f = open(full_path, "rt")
+                print(room_name)
+
+
 
 
             # f = open(full_path, "wt")
             # f.writelines(content)
             # f.close()
 
-        print(job_name)
+
 
 
 
