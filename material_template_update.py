@@ -239,4 +239,4 @@ def copy_mat_to_different_line_in_template(line_to_copy, line_to_replace, traili
 
 # update_multiple_lines_with_start_and_end_strings('Matching Banding', [15, 19], '[', ']', '05 - ', '.CabTmp')
 
-copy_mat_to_different_line_in_template(24, 23, " BSAW")
+# copy_mat_to_different_line_in_template(24, 23, " BSAW")
