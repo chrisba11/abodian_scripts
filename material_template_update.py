@@ -223,15 +223,21 @@ def product_list_with_notes():
     Then it writes the list of products with notes to a new file
     """
     for root, dirs, files in os.walk(dir_path):
-        for file in files:  
 
-            full_path = dir_path + '\\' + file
-            f = open(full_path, "rt")
+        dir_path_lst = dir_path.split('\\')
+        job_name = dir_path_lst[-1]
+
+        # for file in files:  
+
+        #     full_path = dir_path + '\\' + file
+        #     f = open(full_path, "rt")
 
 
             # f = open(full_path, "wt")
             # f.writelines(content)
             # f.close()
+
+        print(job_name)
 
 
 
@@ -248,4 +254,4 @@ def product_list_with_notes():
 
 # copy_mat_to_different_line_in_template(24, 23, " BSAW")
 
-print(dir_path)
+product_list_with_notes()
