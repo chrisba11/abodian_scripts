@@ -1,8 +1,0 @@
-2
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<MaterialTemplate Name="1 mm Mysterious SF247" Type="4" SymbolForLabels="A">
-  <MaterialReference PartType="EdgeBand" Mat="1mm Mysterious Velvet SF247 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand2" Mat="1mm Mysterious Velvet SF247 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Birch PF" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />
-</MaterialTemplate>

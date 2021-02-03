@@ -1,8 +1,0 @@
-2
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<MaterialTemplate Name="VIV 4th" Type="4" SymbolForLabels="VV">
-  <MaterialReference PartType="EdgeBand" Mat="1mm White W100 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand2" Mat="1mm Roble Aurora 98V FIN" MatThick="0" MatWall="1mm White Gloss 25931 ELG" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm White W100 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="1mm Roble Aurora 98V FIN" MatWallThick="0" />
-</MaterialTemplate>

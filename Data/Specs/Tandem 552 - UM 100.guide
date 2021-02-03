@@ -1,8 +1,0 @@
-Mozaik Guide Export
-7
-<?xml version="1.0" encoding="utf-16" standalone="yes"?>
-<Guide Name="Tandem 552 - UM 100" Price="0" SideCl="8" BotCl="14" TopCl="12.7" HoleDia="5" Hole1Inset="37" Hole2Inset="165" Hole3Inset="261" HoleCenterFromReference="23" HoleDepth="12.7" Image="Tandem.jpg" Comment="Blum Tandem Std Duty 100# Undermount Guides with BluMotion" SocketA_DI="0" SocketA_DU="0" SocketB_DI="0" SocketB_DU="0" SocketDia="0" SocketDepth="0" Hole4Inset="357" Hole5Inset="453" UseGuideLengths="True" Hole6Inset="517" HoleReferenceFromBottom="True">
-  <GuideLength PartNumber="552H3810B" Description="Tandem BluMotion" Length="381" Price="0" HolePattern="1,2,4" BoxDepthAdj="0" />
-  <GuideLength PartNumber="552H4570B" Description="Tandem BluMotion" Length="457.2" Price="0" HolePattern="1,3,5" BoxDepthAdj="0" />
-  <GuideLength PartNumber="552H5330B" Description="Tandem BluMotion" Length="533.4" Price="0" HolePattern="1,3,6" BoxDepthAdj="0" />
-</Guide>

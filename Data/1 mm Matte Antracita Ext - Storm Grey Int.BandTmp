@@ -1,8 +1,0 @@
-2
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<MaterialTemplate Name="1 mm Matte Antracita Ext - Storm Grey Int" Type="4" SymbolForLabels="1">
-  <MaterialReference PartType="EdgeBand" Mat="1mm Storm Gray S565 PAN" MatThick="0" MatWall="1 mm Storm" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand2" Mat="1mm Antracita Matte" MatThick="0" MatWall="1 mm Matte Antracita" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Storm Gray S565 PAN" MatThick="0" MatWall=".5 mm Storm" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="None EB4" MatWallThick="0" />
-</MaterialTemplate>

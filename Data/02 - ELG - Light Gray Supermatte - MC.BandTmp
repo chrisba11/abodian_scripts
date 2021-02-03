@@ -1,8 +1,0 @@
-2
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<MaterialTemplate Name="02 - ELG - Light Gray Supermatte - MC" Type="4" SymbolForLabels="ED">
-  <MaterialReference PartType="EdgeBand" Mat="0.5mm Summer Drops SM9054 TEK" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand2" Mat="1mm Light Gray Supermatte 25019 ELG" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Hardrock Maple WF275 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand4" Mat="Light Grey Supermatte LAMINATE 25019 ELG " MatThick="1" MatWall="" MatWallThick="0" />
-</MaterialTemplate>

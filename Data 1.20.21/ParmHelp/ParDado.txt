@@ -1,3 +1,0 @@
-ParDado
-
-Enter the dado depth for partitions into other parts.

@@ -1,8 +1,0 @@
-2
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<MaterialTemplate Name="02 - PRZ - Aria - SC" Type="4" SymbolForLabels="PD">
-  <MaterialReference PartType="EdgeBand" Mat="0.5mm Aria WF340 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand2" Mat="1mm Aria WF340 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Storm Gray S565 PAN" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />
-</MaterialTemplate>

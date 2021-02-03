@@ -1,8 +1,0 @@
-AddMitreAmt will increase the width of diagonal corner cabinet
-ends to allow the end to be mitred into the adjacent cabinet.
-
-If you want 12" ends on 24 x 24 diagonal corner cabinets
-set the parameter = No.
-
-If you want a deeper end on diagonal corner cabinets set 
-the parameter = Yes.
