@@ -4,7 +4,7 @@ import os
 # dir_path = os.path.dirname(os.path.realpath(__file__))
 
 # This is to ask for the directory path at the command prompt
-dir_path = input('What is the directory path?')
+dir_path = input('What is the directory path? ')
 
 
 def update_with_start_string(new_text, line_of_code, start_of_filename):
@@ -64,13 +64,6 @@ def update_with_start_and_end_strings(new_text, line_of_code, insertion_point, s
     """
     for root, dirs, files in os.walk(dir_path): 
         for file in files:  
-    
-            # opens a filename ending with end_of_filename parameter
-            # creates a list of all lines in the file
-            # replaces specified index in the list with the original text plus the text supplied added
-            # writes over file with new list content
-            # closes the file
-            # moves to next filename with matching string at start and end and repeats
 
             if file.startswith(start_of_filename):
                 if file.endswith(end_of_filename):
@@ -164,17 +157,11 @@ def edit_materials_2_params(filename, search_string, param1, value1, param2, val
 def update_multiple_lines_with_start_and_end_strings(new_text, lines_of_code_array, insertion_point_start, insertion_point_end, start_of_filename, end_of_filename):
     """
     Updates the specified line of the file with the new_text string
-    Applies only to files ending with the end_of_filename string specified
+    Applies only to files ending with the start_of_filename and
+    end_of_filename string specified
     """
     for root, dirs, files in os.walk(dir_path): 
         for file in files:  
-    
-            # opens a filename ending with end_of_filename parameter
-            # creates a list of all lines in the file
-            # replaces specified index in the list with the original text plus the text supplied added
-            # writes over file with new list content
-            # closes the file
-            # moves to next filename with matching string at start and end, then repeats
 
             if file.startswith(start_of_filename):
                 if file.endswith(end_of_filename):
