@@ -1,4 +1,5 @@
 import os
+import json
 
 # This is to get the directory that the program is currently running in
 # dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -224,8 +225,17 @@ def product_list_with_notes():
     """
     dir_path_lst = dir_path.split('\\')
     job_name = dir_path_lst[-1]
+
+    xml_codes = [
+        ['&quot;', '"'],
+        ['&#xD;&#xA;', '\n']
+    ]
+
+    prod_list = []
     
     for root, dirs, files in os.walk(dir_path):
+        curr = 0
+        
         for file in files:
 
             if file.endswith('.des'):
@@ -236,7 +246,8 @@ def product_list_with_notes():
                 rm_start_idx = content[2].find('Name=') + 6
                 rm_end_idx = content[2].find('" RoomNosDirty=')
                 room_name = content[2][rm_start_idx:rm_end_idx]
-
+                prod_list.append([room_name,[]])
+                                
                 for line in content:
                     if line.startswith('    <Product '):
                         note_start_idx = line.find('Notes=') + 6
@@ -247,15 +258,22 @@ def product_list_with_notes():
                             prod_start_idx = line.find('ProdName=') + 10
                             prod_end_idx = line.find('" IDTag=')
                             prod_name = line[prod_start_idx:prod_end_idx]
-                            note = line[note_start_idx:note_end_idx]
+                            note = line[note_start_idx + 1:note_end_idx]
+                            
+                            prod_list[curr][1].append([prod_name, note])
 
-                            print(room_name, '~', prod_name, '~', note)
+                curr += 1
+
+
+    print(json.dumps(prod_list, indent=4))
+
+                            
 
 
 
-            # f = open(full_path, "wt")
-            # f.writelines(content)
-            # f.close()
+    # f = open(new_filename, "wt")
+    # f.writelines(prod_list)
+    # f.close()
 
 
 
