@@ -226,9 +226,13 @@ def product_list_with_notes():
     dir_path_lst = dir_path.split('\\')
     job_name = dir_path_lst[-1]
 
-    xml_codes = [
+    xml_char_ents = [
         ['&quot;', '"'],
-        ['&#xD;&#xA;', '\n']
+        ['&#xD;&#xA;', '\n'],
+        ['&amp;', '&'],
+        ['&apos;', "'"],
+        ['&gt;', '>'],
+        ['&lt;', '<']
     ]
 
     prod_list = []
@@ -259,15 +263,18 @@ def product_list_with_notes():
                             prod_end_idx = line.find('" IDTag=')
                             prod_name = line[prod_start_idx:prod_end_idx]
                             note = line[note_start_idx + 1:note_end_idx]
+
+                            for char in xml_char_ents:
+                                note = note.replace(char[0], char[1])
                             
                             prod_list[curr][1].append([prod_name, note])
 
                 curr += 1
 
 
-    print(json.dumps(prod_list, indent=4))
+    # print(json.dumps(prod_list, indent=4))
 
-                            
+    print(prod_list[1])                        
 
 
 
