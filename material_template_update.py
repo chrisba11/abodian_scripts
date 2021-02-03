@@ -237,8 +237,19 @@ def product_list_with_notes():
                 rm_end_idx = content[2].find('" RoomNosDirty=')
                 room_name = content[2][rm_start_idx:rm_end_idx]
 
-                print(room_name)
+                for line in content:
+                    if line.startswith('    <Product '):
+                        note_start_idx = line.find('Notes=') + 6
+                        note_end_idx = line.find('" Price=')
+                        note_intro = line[note_start_idx:note_start_idx + 2]
 
+                        if note_intro != '""':
+                            prod_start_idx = line.find('ProdName=') + 10
+                            prod_end_idx = line.find('" IDTag=')
+                            prod_name = line[prod_start_idx:prod_end_idx]
+                            note = line[note_start_idx:note_end_idx]
+
+                            print(room_name, '~', prod_name, '~', note)
 
 
 
