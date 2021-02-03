@@ -215,6 +215,26 @@ def copy_mat_to_different_line_in_template(line_to_copy, line_to_replace, traili
             f.close()
 
 
+def product_list_with_notes():
+    """
+    Generates a file listing all of the products in the job that have special notes
+    Opens each of the .des files inside a job directory and looks at every product in the room
+    If the product has notes, it adds that product to the list
+    Then it writes the list of products with notes to a new file
+    """
+    for root, dirs, files in os.walk(dir_path):
+        for file in files:  
+
+            full_path = dir_path + '\\' + file
+            f = open(full_path, "rt")
+
+
+            # f = open(full_path, "wt")
+            # f.writelines(content)
+            # f.close()
+
+
+
 # replacement_text = '  <MaterialReference PartType="AdjustableShelf" Mat="CM Fog Grey 3/4 SF213 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n'
 # update_with_start_string(replacement_text, 10, '05 - Fog Grey 34')
 
@@ -227,3 +247,5 @@ def copy_mat_to_different_line_in_template(line_to_copy, line_to_replace, traili
 # update_multiple_lines_with_start_and_end_strings('Matching Banding', [15, 19], '[', ']', '05 - ', '.CabTmp')
 
 # copy_mat_to_different_line_in_template(24, 23, " BSAW")
+
+print(dir_path)
