@@ -1,5 +1,6 @@
 import os
-import json
+from reportlab.pdfgen.canvas import Canvas
+
 
 # This is to get the directory that the program is currently running in
 # dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -271,16 +272,15 @@ def product_list_with_notes():
 
                 curr += 1
 
-
+    # print statement to see clean list of lists (requires import json)
     # print(json.dumps(prod_list, indent=4))
 
-    print(prod_list[1])                        
-
-
-
-    # f = open(new_filename, "wt")
-    # f.writelines(prod_list)
-    # f.close()
+    pdf_name = job_name + '.pdf'
+    pdf_save_name = os.path.join(dir_path, pdf_name)
+    canvas = Canvas(pdf_save_name)
+    canvas.drawString(72, 72, job_name)
+    canvas.save()
+    
 
 
 
