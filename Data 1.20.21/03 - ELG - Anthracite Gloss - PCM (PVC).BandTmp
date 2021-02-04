@@ -1,8 +1,0 @@
-2
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<MaterialTemplate Name="03 - ELG - Anthracite Gloss - PCM (PVC)" Type="4" SymbolForLabels="EJ">
-  <MaterialReference PartType="EdgeBand" Mat="1mm Birch PVC" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand2" Mat="1mm Anthracite Gloss 22099 ELG" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="1mm Birch PVC" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />
-</MaterialTemplate>

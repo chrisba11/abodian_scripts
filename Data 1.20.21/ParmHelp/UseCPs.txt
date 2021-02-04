@@ -1,3 +1,0 @@
-The "UseCPs" parameter allows all "custom parameters" set 
-for the current construction library to be 
-enabled and disabled per job or per cabinet.
