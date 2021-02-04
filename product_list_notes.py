@@ -1,5 +1,7 @@
 import os
-from xlwt import Workbook
+import json
+from openpyxl import Workbook
+from operator import itemgetter
 
 
 # This is to ask for the directory path at the command prompt
@@ -25,10 +27,9 @@ def product_list_with_notes():
         ['&lt;', '<']
     ]
 
-    prod_list = []
+    prod_dict = {}
     
     for root, dirs, files in os.walk(dir_path):
-        curr = 0
         
         for file in files:
 
@@ -40,7 +41,8 @@ def product_list_with_notes():
                 rm_start_idx = content[2].find('Name=') + 6
                 rm_end_idx = content[2].find('" RoomNosDirty=')
                 room_name = content[2][rm_start_idx:rm_end_idx]
-                prod_list.append([room_name,[]])
+                room_num = int(file[4:file.find('.')])
+                prod_dict[room_num] = [room_name,[]]
                                 
                 for line in content:
                     if line.startswith('    <Product '):
@@ -57,32 +59,37 @@ def product_list_with_notes():
                             for char in xml_char_ents:
                                 note = note.replace(char[0], char[1])
                             
-                            prod_list[curr][1].append([prod_name, note])
+                            prod_dict[room_num][1].append([prod_name, note])
 
-                curr += 1
+
+
+
 
     # print statement to see clean list of lists (requires import json)
-    # print(json.dumps(prod_list, indent=4))
+    # print(json.dumps(prod_dict, indent=4))
 
     wb = Workbook()
-    sheet1 = wb.add_sheet('Sheet 1')
-    row = 0
-    col = 0
-    for room in prod_list:
-        if room[1] != []:
-            sheet1.write(row, 0, room[0])
+    sheet1 = wb.active
+    row = 1
+    col = 1
+
+    room_key = 0
+    for i in range(len(prod_dict)):
+        if prod_dict[room_key][1] != []:
+            sheet1.cell(row, col, prod_dict[room_key][0])
             row += 1
-            for prod in room[1]:
-                sheet1.write(row, col, prod[0])
+            for prod in prod_dict[room_key][1]:
+                sheet1.cell(row, col, prod[0])
                 col += 1
-                sheet1.write(row, col, prod[1])
+                sheet1.cell(row, col, prod[1])
                 col -= 1
                 row += 1
 
             row += 1
+        room_key += 1
 
     
-    save_name = job_name + '.xls'
+    save_name = job_name + '.xlsx'
     full_save_name = os.path.join(dir_path, save_name)
     wb.save(full_save_name)
 
