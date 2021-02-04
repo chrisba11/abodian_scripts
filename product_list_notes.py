@@ -1,7 +1,5 @@
 import os
-from reportlab.pdfgen.canvas import Canvas
-from reportlab.lib.units import inch, cm
-from reportlab.lib.pagesizes import LETTER
+from xlwt import Workbook
 
 
 # This is to ask for the directory path at the command prompt
@@ -66,14 +64,27 @@ def product_list_with_notes():
     # print statement to see clean list of lists (requires import json)
     # print(json.dumps(prod_list, indent=4))
 
-    pdf_name = job_name + '.pdf'
-    pdf_save_name = os.path.join(dir_path, pdf_name)
-    canvas = Canvas(pdf_save_name, pagesize=LETTER)
-    canvas.setFont("Helvetica", 20)
-    canvas.drawString(72, 72, job_name)
-    canvas.showPage()
-    canvas.save()
+    wb = Workbook()
+    sheet1 = wb.add_sheet('Sheet 1')
+    row = 0
+    col = 0
+    for room in prod_list:
+        if room[1] != []:
+            sheet1.write(row, 0, room[0])
+            row += 1
+            for prod in room[1]:
+                sheet1.write(row, col, prod[0])
+                col += 1
+                sheet1.write(row, col, prod[1])
+                col -= 1
+                row += 1
 
+            row += 1
+
+    
+    save_name = job_name + '.xls'
+    full_save_name = os.path.join(dir_path, save_name)
+    wb.save(full_save_name)
 
     
 product_list_with_notes()
