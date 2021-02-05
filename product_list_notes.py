@@ -1,5 +1,6 @@
 import os
-import openpyxl 
+import openpyxl
+from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Font
 
 
 # This is to ask for the directory path at the command prompt
@@ -75,11 +76,16 @@ def product_list_with_notes():
     for i in range(len(prod_dict)):
         if prod_dict[room_key][1] != []:
             sheet1.cell(row, col, prod_dict[room_key][0])
+            sheet1.cell(row, col).alignment = Alignment(wrapText=True)
+            sheet1.cell(row, col).font = Font(size=16, bold=True)
+
             row += 1
             for prod in prod_dict[room_key][1]:
                 sheet1.cell(row, col, prod[0])
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True)
                 col += 1
                 sheet1.cell(row, col, prod[1])
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True)
                 col -= 1
                 row += 1
 
@@ -87,7 +93,7 @@ def product_list_with_notes():
         room_key += 1
 
     sheet1.column_dimensions['A'].width = 40
-    sheet1.column_dimensions['B'].width = 100
+    sheet1.column_dimensions['B'].width = 60
 
     save_name = job_name + '.xlsx'
     full_save_name = os.path.join(dir_path, save_name)
@@ -96,5 +102,6 @@ def product_list_with_notes():
     except PermissionError:
         print("\nSAVE FAILED\nYou will need to close the open file before it can be saved.")
 
+    os.startfile(full_save_name)
     
 product_list_with_notes()
