@@ -1,6 +1,6 @@
 import os
-import openpyxl
-from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Font
+from openpyxl.workbook import Workbook
+from openpyxl.styles import Border, Side, Alignment, Font
 
 
 # This is to ask for the directory path at the command prompt
@@ -67,7 +67,7 @@ def product_list_with_notes():
     # print statement to see clean list of lists (requires import json)
     # print(json.dumps(prod_dict, indent=4))
 
-    wb = openpyxl.Workbook()
+    wb = Workbook()
     sheet1 = wb.active
     row = 1
     col = 1
