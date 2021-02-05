@@ -9,10 +9,14 @@ dir_path = input('What is the full directory path? ')
 
 def product_list_with_notes():
     """
-    Generates a file listing all of the products in the job that have special notes
-    Opens each of the .des files inside a job directory and looks at every product in the room
-    If the product has notes, it adds that product to the list
-    Then it writes the list of products with notes to a new file
+    Generates an Excel file listing all of the products in the job that have special notes.
+    The function opens each of the .des files inside a job directory and looks 
+        at every product in the room.
+    If the product has notes, it adds that product to a dictionary of products.
+    Then it writes data from the dictionary of products to an Excel file
+        inside the directory it was told to run in.
+    It formats the cells as it goes and sets the print area the content inserted.
+    Finally, it opens the Excel file so the user can print.
     """
     dir_path_lst = dir_path.split('\\')
     job_name = dir_path_lst[-1]
@@ -65,7 +69,6 @@ def product_list_with_notes():
                             else:
                                 full_prod_num = 'R' + str(room_num) + 'N' + prod_num
                                 
-
                             for char in xml_char_ents:
                                 note = note.replace(char[0], char[1])
                             
@@ -119,11 +122,13 @@ def product_list_with_notes():
                 sheet1.cell(row, col).font = Font(size=10)
                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                 col += 1
+
                 sheet1.cell(row, col, prod[1])
                 sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='center')
                 sheet1.cell(row, col).font = Font(size=10)
                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                 col += 1
+                
                 sheet1.cell(row, col, prod[2])
                 sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
                 sheet1.cell(row, col).font = Font(size=10)
