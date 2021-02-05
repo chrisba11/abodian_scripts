@@ -53,12 +53,23 @@ def product_list_with_notes():
                             prod_start_idx = line.find('ProdName=') + 10
                             prod_end_idx = line.find('" IDTag=')
                             prod_name = line[prod_start_idx:prod_end_idx]
+                            num_start_idx = line.find('CabNo=') + 7
+                            num_end_idx = line.find(' Numbered=')
+                            prod_num = line[num_start_idx:num_end_idx - 1]
+                            is_numbered_start_idx = num_end_idx + 11
+                            is_numbered = line[is_numbered_start_idx:is_numbered_start_idx + 1]
                             note = line[note_start_idx + 1:note_end_idx]
+
+                            if is_numbered == 'T':
+                                full_prod_num = 'R' + str(room_num) + 'C' + prod_num
+                            else:
+                                full_prod_num = 'R' + str(room_num) + 'N' + prod_num
+                                
 
                             for char in xml_char_ents:
                                 note = note.replace(char[0], char[1])
                             
-                            prod_dict[room_num][1].append([prod_name, note])
+                            prod_dict[room_num][1].append([prod_name, full_prod_num, note])
 
 
 
@@ -73,7 +84,7 @@ def product_list_with_notes():
     col = 1
     room_key = 0
 
-    sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
+    sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 2)
     sheet1.cell(row, col, job_name + ' - Special Notes')
     sheet1.cell(row, col).alignment = Alignment(vertical='top')
     sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
@@ -82,7 +93,7 @@ def product_list_with_notes():
 
     for i in range(len(prod_dict)):
         if prod_dict[room_key][1] != []:
-            sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
+            sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 2)
             sheet1.cell(row, col, prod_dict[room_key][0])
             sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='center')
             sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
@@ -94,11 +105,17 @@ def product_list_with_notes():
             sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
             col += 1
 
+            sheet1.cell(row, col, 'CabNo')
+            sheet1.cell(row, col).alignment = Alignment(horizontal='center')
+            sheet1.cell(row, col).font = Font(size=12, italic=True)
+            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+            col += 1
+
             sheet1.cell(row, col, 'Notes')
             sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=2.0)
             sheet1.cell(row, col).font = Font(size=12, italic=True)
             sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-            col -= 1
+            col -= 2
             row += 1
 
 
@@ -109,19 +126,25 @@ def product_list_with_notes():
                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                 col += 1
                 sheet1.cell(row, col, prod[1])
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='center')
+                sheet1.cell(row, col).font = Font(size=11)
+                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                col += 1
+                sheet1.cell(row, col, prod[2])
                 sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=2.0)
                 sheet1.cell(row, col).font = Font(size=11)
                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                col -= 1
+                col -= 2
                 row += 1
 
             row += 1
         room_key += 1
 
     sheet1.column_dimensions['A'].width = 25
-    sheet1.column_dimensions['B'].width = 58
+    sheet1.column_dimensions['B'].width = 8
+    sheet1.column_dimensions['C'].width = 50
     
-    print_area = 'A1:B' + str(row)
+    print_area = 'A1:C' + str(row)
     sheet1.print_area = print_area
     
     save_name = job_name + '.xlsx'
