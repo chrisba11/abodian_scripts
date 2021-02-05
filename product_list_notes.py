@@ -73,19 +73,27 @@ def product_list_with_notes():
     col = 1
     room_key = 0
 
+    sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
+    sheet1.cell(row, col, job_name + ' - Special Notes')
+    sheet1.cell(row, col).alignment = Alignment(vertical='top')
+    sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
+    sheet1.row_dimensions[1].height = 25
+    row += 1
+
     for i in range(len(prod_dict)):
         if prod_dict[room_key][1] != []:
             sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
             sheet1.cell(row, col, prod_dict[room_key][0])
             sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='center')
-            sheet1.cell(row, col).font = Font(size=16, bold=True, underline='single')
-
+            sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
             row += 1
+
             sheet1.cell(row, col, 'Product Name')
             sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=2.0)
             sheet1.cell(row, col).font = Font(size=12, italic=True)
             sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
             col += 1
+
             sheet1.cell(row, col, 'Notes')
             sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=2.0)
             sheet1.cell(row, col).font = Font(size=12, italic=True)
