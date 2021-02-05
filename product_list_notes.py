@@ -39,8 +39,8 @@ def product_list_with_notes():
                 content = f.readlines()
                 rm_start_idx = content[2].find('Name=') + 6
                 rm_end_idx = content[2].find('" RoomNosDirty=')
-                room_name = content[2][rm_start_idx:rm_end_idx]
                 room_num = int(file[4:file.find('.')])
+                room_name = content[2][rm_start_idx:rm_end_idx] + ' (Room' + str(room_num) + ')'
                 prod_dict[room_num] = [room_name,[]]
                                 
                 for line in content:
@@ -72,12 +72,6 @@ def product_list_with_notes():
                             prod_dict[room_num][1].append([prod_name, full_prod_num, note])
 
 
-
-
-
-    # print statement to see clean list of lists (requires import json)
-    # print(json.dumps(prod_dict, indent=4))
-
     wb = Workbook()
     sheet1 = wb.active
     row = 1
@@ -100,7 +94,7 @@ def product_list_with_notes():
             row += 1
 
             sheet1.cell(row, col, 'Product Name')
-            sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=2.0)
+            sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=1.0)
             sheet1.cell(row, col).font = Font(size=12, italic=True)
             sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
             col += 1
@@ -112,7 +106,7 @@ def product_list_with_notes():
             col += 1
 
             sheet1.cell(row, col, 'Notes')
-            sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=2.0)
+            sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=1.0)
             sheet1.cell(row, col).font = Font(size=12, italic=True)
             sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
             col -= 2
@@ -121,18 +115,18 @@ def product_list_with_notes():
 
             for prod in prod_dict[room_key][1]:
                 sheet1.cell(row, col, prod[0])
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=2.0)
-                sheet1.cell(row, col).font = Font(size=11)
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
+                sheet1.cell(row, col).font = Font(size=10)
                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                 col += 1
                 sheet1.cell(row, col, prod[1])
                 sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=11)
+                sheet1.cell(row, col).font = Font(size=10)
                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                 col += 1
                 sheet1.cell(row, col, prod[2])
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=2.0)
-                sheet1.cell(row, col).font = Font(size=11)
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
+                sheet1.cell(row, col).font = Font(size=10)
                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                 col -= 2
                 row += 1
