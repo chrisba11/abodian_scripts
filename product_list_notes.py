@@ -75,31 +75,35 @@ def product_list_with_notes():
 
     for i in range(len(prod_dict)):
         if prod_dict[room_key][1] != []:
-            sheet1.cell(row, col, prod_dict[room_key][0])
             sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
+            sheet1.cell(row, col, prod_dict[room_key][0])
             sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='center')
-            sheet1.cell(row, col).font = Font(size=16, bold=True)
+            sheet1.cell(row, col).font = Font(size=16, bold=True, underline='single')
 
             row += 1
             sheet1.cell(row, col, 'Product Name')
-            sheet1.cell(row, col).alignment = Alignment(horizontal='center')
+            sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=2.0)
             sheet1.cell(row, col).font = Font(size=12, italic=True)
+            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
             col += 1
             sheet1.cell(row, col, 'Notes')
-            sheet1.cell(row, col).alignment = Alignment(horizontal='center')
+            sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=2.0)
             sheet1.cell(row, col).font = Font(size=12, italic=True)
+            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
             col -= 1
             row += 1
 
 
             for prod in prod_dict[room_key][1]:
                 sheet1.cell(row, col, prod[0])
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top')
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=2.0)
                 sheet1.cell(row, col).font = Font(size=11)
+                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                 col += 1
                 sheet1.cell(row, col, prod[1])
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top')
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=2.0)
                 sheet1.cell(row, col).font = Font(size=11)
+                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                 col -= 1
                 row += 1
 
@@ -107,12 +111,10 @@ def product_list_with_notes():
         room_key += 1
 
     sheet1.column_dimensions['A'].width = 25
-    sheet1.column_dimensions['B'].width = 50
+    sheet1.column_dimensions['B'].width = 58
     
-    print_area = 'A1:C' + str(row)
+    print_area = 'A1:B' + str(row)
     sheet1.print_area = print_area
-
-    print(print_area)
     
     save_name = job_name + '.xlsx'
     full_save_name = os.path.join(dir_path, save_name)
