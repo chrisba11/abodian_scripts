@@ -1,7 +1,5 @@
 import os
-import json
-from openpyxl import Workbook
-from operator import itemgetter
+import openpyxl 
 
 
 # This is to ask for the directory path at the command prompt
@@ -68,12 +66,12 @@ def product_list_with_notes():
     # print statement to see clean list of lists (requires import json)
     # print(json.dumps(prod_dict, indent=4))
 
-    wb = Workbook()
+    wb = openpyxl.Workbook()
     sheet1 = wb.active
     row = 1
     col = 1
-
     room_key = 0
+
     for i in range(len(prod_dict)):
         if prod_dict[room_key][1] != []:
             sheet1.cell(row, col, prod_dict[room_key][0])
@@ -88,10 +86,15 @@ def product_list_with_notes():
             row += 1
         room_key += 1
 
-    
+    sheet1.column_dimensions['A'].width = 40
+    sheet1.column_dimensions['B'].width = 100
+
     save_name = job_name + '.xlsx'
     full_save_name = os.path.join(dir_path, save_name)
-    wb.save(full_save_name)
+    try:
+        wb.save(full_save_name)
+    except PermissionError:
+        print("\nSAVE FAILED\nYou will need to close the open file before it can be saved.")
 
     
 product_list_with_notes()
