@@ -183,37 +183,74 @@ def update_multiple_lines_with_start_and_end_strings(new_text, lines_of_code_arr
                     f.close()
 
 
-def copy_mat_to_different_line_in_template(line_to_copy, line_to_replace, trailing_text):
+def copy_mat_to_different_line_in_template(
+    start_of_filename, 
+    end_of_filename, 
+    line_to_copy, 
+    line_to_replace, 
+    trailing_text
+    ):
     """
     Copies everything after the part type from line_to_copy
     and replaces everything on line_to_replace after the part type
     with the copy of that material with trailing_text on the end of the material name
     """
     for root, dirs, files in os.walk(dir_path): 
+        for file in files:
+            if file.startswith(start_of_filename):
+                if file.endswith(end_of_filename):
+
+                    full_path = dir_path + '\\' + file
+                    f = open(full_path, "rt")
+
+                    content = f.readlines()
+                    copy_string = content[line_to_copy-1]
+
+                    part_idx1 = copy_string.find("=")
+                    part_idx2 = copy_string.find(" Mat")
+
+                    mat_idx2 = copy_string.find('" MatThick=')
+
+                    paste_string = copy_string[:part_idx1]
+                    paste_string += content[line_to_replace-1][part_idx1:part_idx2]
+                    paste_string += copy_string[part_idx2:mat_idx2]
+                    paste_string += trailing_text
+                    paste_string += copy_string[mat_idx2:]
+
+                    content[line_to_replace-1] = paste_string
+
+                    f = open(full_path, "wt")
+                    f.writelines(content)
+                    f.close()
+
+
+def copy_mat_template(
+    start_of_filename, 
+    end_of_filename, 
+    text_of_name_to_replace,
+    replacement_text
+    ):
+
+    """
+    Copies all files within a directory that have a name starting
+        with start_of_file and ending with end_of_filename.
+    Creates duplicate of each file with a filename that is a copy
+        of the original name, but with text_of_name_to_replace
+        swapped for replacement_text.
+    Has a limit of one replacement per filename.
+    """
+
+
+    for root, dirs, files in os.walk(dir_path): 
         for file in files:  
+            if file.startswith(start_of_filename):
+                if file.endswith(end_of_filename):
+                    full_path = dir_path + '\\' + file
+                    new_file = file.replace(text_of_name_to_replace, replacement_text, 1)
+                    new_full_path = dir_path + '\\' + new_file
+                    command_string = 'copy ' + '"' + full_path + '"' + ' ' + '"' + new_full_path + '"'
+                    os.system(command_string)
 
-            full_path = dir_path + '\\' + file
-            f = open(full_path, "rt")
-
-            content = f.readlines()
-            copy_string = content[line_to_copy-1]
-
-            part_idx1 = copy_string.find("=")
-            part_idx2 = copy_string.find(" Mat")
-
-            mat_idx2 = copy_string.find('" MatThick=')
-
-            paste_string = copy_string[:part_idx1]
-            paste_string += content[line_to_replace-1][part_idx1:part_idx2]
-            paste_string += copy_string[part_idx2:mat_idx2]
-            paste_string += trailing_text
-            paste_string += copy_string[mat_idx2:]
-
-            content[line_to_replace-1] = paste_string
-
-            f = open(full_path, "wt")
-            f.writelines(content)
-            f.close()
 
 
 
@@ -229,4 +266,6 @@ def copy_mat_to_different_line_in_template(line_to_copy, line_to_replace, traili
 
 # update_multiple_lines_with_start_and_end_strings('Matching Banding', [15, 19], '[', ']', '05 - ', '.CabTmp')
 
-# copy_mat_to_different_line_in_template(24, 23, " BSAW")
+# copy_mat_template('02 -', '.CabTmp', '02', '12')
+
+# copy_mat_to_different_line_in_template('12 -', '.CabTmp', 24, 23, "")
