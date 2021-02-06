@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="CM Fog Grey 5/8 SF213 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="CM Fog Grey 5/8 SF213 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Generic Door Material 3/4 BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Generic Door Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Generic Door Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Generic Door Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="CM Fog Grey 5/8 SF213 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
