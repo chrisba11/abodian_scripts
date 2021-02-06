@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="Storm Gray 3/4 S565 PAN [Anthracite SM Elegante Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="Storm Gray 3/4 S565 PAN [Anthracite SM Elegante Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Anthracite SM Elegante 3/4 22099 ELG [Matching Banding] BSAW" MatThick="18.25625" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Anthracite SM Elegante 3/4 22099 ELG [Matching Banding]" MatThick="18.25625" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Anthracite SM Elegante 3/4 22099 ELG [Matching Banding]" MatThick="18.25625" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Anthracite SM Elegante 3/4 22099 ELG [Matching Banding]" MatThick="18.25625" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="Storm Gray 3/4 S565 PAN [Anthracite SM Elegante Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />

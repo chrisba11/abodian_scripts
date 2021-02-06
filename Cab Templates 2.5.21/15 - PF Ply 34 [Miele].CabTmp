@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="CM Birch PF 3/4 [Miele Banding]" MatThick="17.80032" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="CM Birch PF 3/4 [Miele Banding]" MatThick="17.80032" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Miele 3/4 KMAH3033 KML [Matching Banding] BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Miele 3/4 KMAH3033 KML [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Miele 3/4 KMAH3033 KML [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Miele 3/4 KMAH3033 KML [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="CM Birch PF 3/4 [Miele Banding]" MatThick="17.80032" MatWall="" MatWallThick="0" />

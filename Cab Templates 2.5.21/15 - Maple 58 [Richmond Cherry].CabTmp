@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Richmond Cherry Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Richmond Cherry Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Richmond Cherry 3/4 W51 STV [Matching Banding] BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Richmond Cherry 3/4 W51 STV [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Richmond Cherry 3/4 W51 STV [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Richmond Cherry 3/4 W51 STV [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Richmond Cherry Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />

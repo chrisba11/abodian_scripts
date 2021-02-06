@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="Storm Gray 3/4 S565 PAN [Volcanic Grey HG Elegante Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="Storm Gray 3/4 S565 PAN [Volcanic Grey HG Elegante Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Volcanic Grey HG Elegante 3/4 25321 ELG [Matching Banding] BSAW" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Volcanic Grey HG Elegante 3/4 25321 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Volcanic Grey HG Elegante 3/4 25321 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Volcanic Grey HG Elegante 3/4 25321 ELG [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="Storm Gray 3/4 S565 PAN [Volcanic Grey HG Elegante Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />

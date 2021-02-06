@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="CM Birch PF 5/8 [Nizza Riviera Oak Banding]" MatThick="15.8" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="CM Birch PF 5/8 [Nizza Riviera Oak Banding]" MatThick="15.8" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Nizza Riviera Oak 3/4 K13 UNI [Matching Banding] BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Nizza Riviera Oak 3/4 K13 UNI [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Nizza Riviera Oak 3/4 K13 UNI [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Nizza Riviera Oak 3/4 K13 UNI [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="CM Birch PF 5/8 [Nizza Riviera Oak Banding]" MatThick="15.8" MatWall="" MatWallThick="0" />

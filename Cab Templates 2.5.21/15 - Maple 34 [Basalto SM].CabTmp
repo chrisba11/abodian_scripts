@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Basalto SM Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Basalto SM Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Basalto SM 3/4 Z38 ZNT [Matching Banding] BSAW" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Basalto SM 3/4 Z38 ZNT [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Basalto SM 3/4 Z38 ZNT [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Basalto SM 3/4 Z38 ZNT [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Basalto SM Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />

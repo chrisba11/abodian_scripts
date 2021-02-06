@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="CM White 5/8 W100 PRZ [Sea Fog HG Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="CM White 5/8 W100 PRZ [Sea Fog HG Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Basalto HG 3/4 638 BRL [Matching Banding] BSAW" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Basalto HG 3/4 638 BRL [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Basalto HG 3/4 638 BRL [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Basalto HG 3/4 638 BRL [Matching Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="CM White 5/8 W100 PRZ [Sea Fog HG Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />

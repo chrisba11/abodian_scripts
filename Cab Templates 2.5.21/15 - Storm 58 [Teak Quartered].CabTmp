@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="Storm Gray 5/8 S565 PAN [Teak Quartered Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="Storm Gray 5/8 S565 PAN [Teak Quartered Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Teak Quartered 3/4 UC4027 UC [Matching Banding] BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Teak Quartered 3/4 UC4027 UC [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Teak Quartered 3/4 UC4027 UC [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Teak Quartered 3/4 UC4027 UC [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="Storm Gray 5/8 S565 PAN [Teak Quartered Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />

@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="CM White 5/8 W100 PRZ [Anthracite SM Elegante Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="CM White 5/8 W100 PRZ [Anthracite SM Elegante Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Anthracite SM Elegante 3/4 22099 ELG [Matching Banding] BSAW" MatThick="18.25625" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Anthracite SM Elegante 3/4 22099 ELG [Matching Banding]" MatThick="18.25625" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Anthracite SM Elegante 3/4 22099 ELG [Matching Banding]" MatThick="18.25625" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Anthracite SM Elegante 3/4 22099 ELG [Matching Banding]" MatThick="18.25625" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="CM White 5/8 W100 PRZ [Anthracite SM Elegante Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />

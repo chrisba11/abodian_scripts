@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Platinum Wenge 3/4 UC3003 UC [Matching Banding] BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Platinum Wenge 3/4 UC3003 UC [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Platinum Wenge 3/4 UC3003 UC [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Platinum Wenge 3/4 UC3003 UC [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Classic Chocolate Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />

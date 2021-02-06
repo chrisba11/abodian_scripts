@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="CM Fog Grey 3/4 SF213 PRZ [Fossil Velvet Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="CM Fog Grey 3/4 SF213 PRZ [Fossil Velvet Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Fossil Velvet 3/4 SF233 PRZ [Matching Banding] BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Fossil Velvet 3/4 SF233 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Fossil Velvet 3/4 SF233 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Fossil Velvet 3/4 SF233 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="CM Fog Grey 3/4 SF213 PRZ [Fossil Velvet Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />

@@ -20,7 +20,7 @@
   <MaterialReference PartType="Stretcher" Mat="CM Fog Grey 3/4 SF213 PRZ [Oxford White Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Cleat" Mat="CM Fog Grey 3/4 SF213 PRZ [Oxford White Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="FinExterior" Mat="Oxford White 3/4 S411 PAN [Matching Banding] BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Oxford White 3/4 S411 PAN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInterior" Mat="Oxford White 3/4 S411 PAN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinInteriorBack" Mat="Oxford White 3/4 S411 PAN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinExterior" Mat="CM Fog Grey 3/4 SF213 PRZ [Oxford White Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
