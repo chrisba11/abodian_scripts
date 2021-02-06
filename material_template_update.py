@@ -266,6 +266,6 @@ def copy_mat_template(
 
 # update_multiple_lines_with_start_and_end_strings('Matching Banding', [15, 19], '[', ']', '05 - ', '.CabTmp')
 
-# copy_mat_template('05 -', '.CabTmp', '05', '15')
+copy_mat_template('02 -', '.CabTmp', '02', '12')
 
-copy_mat_to_different_line_in_template('15 -', '.CabTmp', 24, 23, "")
+# copy_mat_to_different_line_in_template('15 -', '.CabTmp', 24, 23, "")
