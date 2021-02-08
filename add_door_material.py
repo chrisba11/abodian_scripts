@@ -2,7 +2,7 @@ import os
 
 # This is to ask for the directory path at the command prompt
 
-def add_material():
+def add__door_material():
     """
 
     """
@@ -41,4 +41,4 @@ def add_material():
 
 
 
-add_material()
+add__door_material()
