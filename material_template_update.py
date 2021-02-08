@@ -256,7 +256,9 @@ def copy_mat_template(
 
 
 
-
+###############################################################################
+###### THESE ARE ALL MY FUNCTION CALLS USED TO PERFORM THE WORK REQUIRED ######
+###############################################################################
     
 # replacement_text = '  <MaterialReference PartType="AdjustableShelf" Mat="CM Fog Grey 3/4 SF213 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n'
 # update_with_start_string(replacement_text, 10, '05 - Fog Grey 34')
@@ -277,4 +279,4 @@ def copy_mat_template(
 
 # update_multiple_lines_with_start_and_end_strings('15 ', [3], '"05 ', '-', '15 - ', '.CabTmp')
 
-copy_mat_to_different_line_in_template('', '.CabTmp', 24, 6, "")
+# copy_mat_to_different_line_in_template('', '.CabTmp', 24, 6, "")
