@@ -266,6 +266,10 @@ def copy_mat_template(
 
 # update_multiple_lines_with_start_and_end_strings('Matching Banding', [15, 19], '[', ']', '05 - ', '.CabTmp')
 
-# copy_mat_template('02 -', '.CabTmp', '02', '12')
+# copy_mat_template('02 -', '.CabTmp', '02', '12') # TURNS OUT YOU ALSO NEED TO UPDATE LINE 3's NAME FOR IT TO READ IN MOZAIK
 
 # copy_mat_to_different_line_in_template('12 -', '.CabTmp', 24, 23, "")
+
+# update_multiple_lines_with_start_and_end_strings('12 ', [3], '"02 ', '-', '12 - ', '.CabTmp')
+
+# update_multiple_lines_with_start_and_end_strings('15 ', [3], '"05 ', '-', '15 - ', '.CabTmp')

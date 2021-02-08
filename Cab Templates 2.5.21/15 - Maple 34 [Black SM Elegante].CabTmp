@@ -1,6 +1,6 @@
 2
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<MaterialTemplate Name="05 - Maple 34 [Black SM Elegante]" Type="3" SymbolForLabels="">
+<MaterialTemplate Name="15 - Maple 34 [Black SM Elegante]" Type="3" SymbolForLabels="">
   <MaterialReference PartType="Top" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Black SM Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Bottom" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Black SM Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FEnd" Mat="CM Hardrock Maple 3/4 WF275 PRZ [Black SM Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />

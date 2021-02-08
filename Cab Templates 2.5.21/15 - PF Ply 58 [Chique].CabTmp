@@ -1,6 +1,6 @@
 2
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<MaterialTemplate Name="05 - PF Ply 58 [Chique]" Type="3" SymbolForLabels="">
+<MaterialTemplate Name="15 - PF Ply 58 [Chique]" Type="3" SymbolForLabels="">
   <MaterialReference PartType="Top" Mat="CM Birch PF 5/8 [Chique Banding]" MatThick="15.8" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Bottom" Mat="CM Birch PF 5/8 [Chique Banding]" MatThick="15.8" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FEnd" Mat="CM Birch PF 5/8 [Chique Banding]" MatThick="15.8" MatWall="" MatWallThick="0" />
