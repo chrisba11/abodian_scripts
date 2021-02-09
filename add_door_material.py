@@ -394,7 +394,8 @@ def add__door_material():
         updated_material_list.append(door_band)
     updated_material_list += curr_mat_list[curr_band_list_end_idx:]
 
-    f = open('Material_New.dat', "wt")
+    new_mat_path = parent_path + '\\New_Materials.dat'
+    f = open(new_mat_path, "wt")
     f.writelines(updated_material_list)
     f.close()
 
