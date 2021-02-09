@@ -97,7 +97,7 @@ def add__door_material():
     # folder_path = os.path.join(parent_path, folder_name)
     # os.mkdir(folder_path)
 
-    # creates lines for new door materials, one standard and one BSAW
+    # creates lines for new door materials, one CNC (standard) and one BSAW
     door_sheet_CNC = f'    <Material Name="{sheet_name} [Matching Banding]" '
 
     door_sheet_BSAW = f'    <Material Name="{sheet_name} [Matching Banding] BSAW" '
@@ -138,16 +138,76 @@ def add__door_material():
         f'Thick="15.8" ' \
         f'WTrim="6.35" ' \
         f'LTrim="6.35" ' \
-        f'HasGrain="{has_grain}" ' \
-        f'TwoSided="{two_sided}" ' \
+        f'HasGrain="True" ' \
+        f'TwoSided="True" ' \
         f'CostEach="0" ' \
         f'MarkupPercentage="0" ' \
         f'AddOnCost="0" ' \
         f'Speed="100" ' \
         f'ImageFile="" ' \
-        f'Comment="{sheet_comment}" ' \
-        f'WastePercentage="{waste_percent}" ' \
-        f'Optimize="{optmize}" ' \
+        f'Comment="" ' \
+        f'WastePercentage="20" ' \
+        f'Optimize="True" ' \
+        f'BandType="0" />\n'
+
+    birch_34 = \
+        f'    <Material Name="CM Birch PF 3/4 [{sheet_case_mat_name} Banding]" ' \
+        f'Quan="1" ' \
+        f'W="1231.9" ' \
+        f'L="2451.1" ' \
+        f'Thick="17.80032" ' \
+        f'WTrim="6.35" ' \
+        f'LTrim="6.35" ' \
+        f'HasGrain="True" ' \
+        f'TwoSided="True" ' \
+        f'CostEach="0" ' \
+        f'MarkupPercentage="0" ' \
+        f'AddOnCost="0" ' \
+        f'Speed="100" ' \
+        f'ImageFile="" ' \
+        f'Comment="" ' \
+        f'WastePercentage="20" ' \
+        f'Optimize="True" ' \
+        f'BandType="0" />\n'
+
+    for_grey_58 = \
+        f'    <Material Name="CM Birch PF 5/8 [{sheet_case_mat_name} Banding]" ' \
+        f'Quan="1" ' \
+        f'W="1243.012" ' \
+        f'L="2462.212" ' \
+        f'Thick="15.875" ' \
+        f'WTrim="6.35" ' \
+        f'LTrim="6.35" ' \
+        f'HasGrain="False" ' \
+        f'TwoSided="True" ' \
+        f'CostEach="0" ' \
+        f'MarkupPercentage="0" ' \
+        f'AddOnCost="0" ' \
+        f'Speed="100" ' \
+        f'ImageFile="" ' \
+        f'Comment="" ' \
+        f'WastePercentage="20" ' \
+        f'Optimize="True" ' \
+        f'BandType="0" />\n'
+
+    for_grey_34 = \
+        f'    <Material Name="CM Birch PF 3/4 [{sheet_case_mat_name} Banding]" ' \
+        f'Quan="1" ' \
+        f'W="1243.012" ' \
+        f'L="2462.212" ' \
+        f'Thick="19.05" ' \
+        f'WTrim="6.35" ' \
+        f'LTrim="6.35" ' \
+        f'HasGrain="False" ' \
+        f'TwoSided="True" ' \
+        f'CostEach="0" ' \
+        f'MarkupPercentage="0" ' \
+        f'AddOnCost="0" ' \
+        f'Speed="100" ' \
+        f'ImageFile="" ' \
+        f'Comment="" ' \
+        f'WastePercentage="20" ' \
+        f'Optimize="True" ' \
         f'BandType="0" />\n'
 
     updated_material_list = curr_mat_list[:curr_sheet_mat_end_idx]
