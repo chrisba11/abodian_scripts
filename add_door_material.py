@@ -54,40 +54,41 @@ def add__door_material():
 
 
     # user input sheet related variables
-    sheet_name = input('\nWhat do you want to name the sheet material? (ie - Aria 3/4 WF340 PRZ) ')
+    sheet_name = input('\nWhat do you want to name the sheet material? (ie - "Aria 3/4 WF340 PRZ") ')
     sheet_width = str(float(input('What is the sheet width in inches? (48.5 format) ')) * 25.4)
-    sheet_length = str(float(input('What is the sheet length in inches? (96.5 format) ')) *25.4)
+    sheet_length = str(float(input('What is the sheet length in inches? (96.5 format) ')) * 25.4)
     sheet_thick = str(float(input('What is the sheet thickness in inches? (0.75 format) ')) * 25.4)
     has_grain = input('Does the material have grain? (Y or N) ')
     has_grain = "True" if has_grain[0] == 'y' or has_grain[0] == 'Y' else "False"
     two_sided = input('Is this material 2-sided? (Y or N) ')
     two_sided = "True" if two_sided[0] == 'y' or two_sided[0] == 'Y' else "False"
-    waste_percent = input('What is the waste percentage? (20 = 20%) ')
-    optmize = input('Will this material be cut on the CNC? (Y or N) ')
-    optmize = "True" if optmize[0] == 'y' or optmize[0] == 'Y' else "False"
-    sheet_comment = input('What comment would you like to add to this material? ')
-    case_mat_band_name = input('What should the banding name on the case material be called? (ie - Pacaya Medina)(Exclude "Banding") ')
+    waste_percent = input('What is the waste percentage? (typing "20" equals 20 percent) ')
+    # optmize = input('Will this material be cut on the CNC? (Y or N) ')
+    # optmize = "True" if optmize[0] == 'y' or optmize[0] == 'Y' else "False"
+    optmize = "True"
+    sheet_comment = input('What comment would you like to add to this material? (leave blank for no comment) ')
+    case_mat_band_name = input('What should the banding name on the case material be called? (ie - "Pacaya Medina")(Exclude "Banding") ')
     band_temp_name = input('What should the banding template names include? (ie - "ELG - White Gloss") ')
-    cab_temp_name = input('What should the cabinet template names include? (ie - "White SM") ')
+    cab_temp_name = input('What should the cabinet template names include? (ie - "Roble Colorado") ')
 
     #banding related variables
     # case_band_exists = input('\nDoes the case banding already exist? (Y or N) ')
     # case_band_exists = 'True' if case_band_exists[0] == 'y' or case_band_exists[0] == 'Y' else 'False'
     case_band_exists = 'False'
-    case_band_name = input('\nWhat is the name of the case banding? (ie - 0.5mm Samba R63 UNI) ')
-    case_band_width = input('What is the width of the case banding in inches? (0.875 format) ')
-    case_band_length = input('What is the length of the case banding in feet? ')
+    case_band_name = input('\nWhat is the name of the case banding? (ie - "0.5mm Samba R63 UNI") ')
+    case_band_width = str(float(input('What is the width of the case banding in inches? (0.875 format) ')) * 25.4)
+    case_band_length = str(float(input('What is the length of the case banding in feet? ')) * 12 * 25.4)
     case_band_type = input('What is the case banding type? (0 = Roll, 1 = Strip) ')
-    case_band_comment = input('What comment would you like to add to this case banding? ')
+    case_band_comment = input('What comment would you like to add to this case banding? (leave blank for no comment) ')
 
     # door_band_exists = input('\nDoes the door banding already exist? (Y or N) ')
     # door_band_exists = 'True' if case_band_exists[0] == 'y' or case_band_exists[0] == 'Y' else 'False'
     door_band_exists = 'False'
-    door_band_name = input('\nWhat is the name of the door banding? (ie - 1mm Samba R63 UNI) ')
-    door_band_width = input('What is the width of the door banding in inches? (0.875 format) ')
-    door_band_length = input('What is the length of the door banding in feet? ')
+    door_band_name = input('\nWhat is the name of the door banding? (ie - "1mm Samba R63 UNI") ')
+    door_band_width = str(float(input('What is the width of the door banding in inches? (0.875 format) ')) * 25.4)
+    door_band_length = str(float(input('What is the length of the door banding in feet? ')) * 12 * 25.4)
     door_band_type = input('What is the door banding type? (0 = Roll, 1 = Strip) ')
-    door_band_comment = input('What comment would you like to add to this door banding? ')
+    door_band_comment = input('What comment would you like to add to this door banding? (leave blank for no comment) ')
 
 
     # creates folder where new material templates will be placed
