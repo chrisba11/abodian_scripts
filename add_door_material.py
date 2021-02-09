@@ -122,8 +122,8 @@ def add__door_material():
         f'Optimize="{optmize}" ' \
         f'BandType="0" />\n'
 
-    door_sheet_CNC = door_sheet_CNC + door_sheet_mid + door_sheet_mid + door_sheet_CNC_trim + door_sheet_end
-    door_sheet_BSAW = door_sheet_BSAW + door_sheet_mid + door_sheet_mid + door_sheet_BSAW_trim + door_sheet_end
+    door_sheet_CNC = door_sheet_CNC + door_sheet_mid + door_sheet_CNC_trim + door_sheet_end
+    door_sheet_BSAW = door_sheet_BSAW + door_sheet_mid + door_sheet_BSAW_trim + door_sheet_end
     
     # creates lines for each of the case materials with new material banding
     birch_58 = \
@@ -395,7 +395,7 @@ def add__door_material():
     
     updated_material_list += curr_mat_list[curr_band_list_end_idx:]
 
-    new_mat_path = folder_path + '\\New_Materials.dat'
+    new_mat_path = folder_path + '\\Materials.dat'
     f = open(new_mat_path, "wt")
     f.writelines(updated_material_list)
     f.close()
@@ -471,7 +471,7 @@ def add__door_material():
     fin_int_case_temp_12 = \
         f'2\n' \
         f'<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n' \
-        f'<MaterialTemplate Name="02 - {band_temp_name} .75" Type="3" SymbolForLabels="">\n' \
+        f'<MaterialTemplate Name="12 - {band_temp_name} .75" Type="3" SymbolForLabels="">\n' \
         f'  <MaterialReference PartType="Top" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="Bottom" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="FEnd" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
@@ -577,7 +577,7 @@ def add__door_material():
         cab_temp_15 = \
             f'2\n' \
             f'<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n' \
-            f'<MaterialTemplate Name="05 - {interior_mat[0]} [{cab_temp_name}]" Type="3" SymbolForLabels="">\n' \
+            f'<MaterialTemplate Name="15 - {interior_mat[0]} [{cab_temp_name}]" Type="3" SymbolForLabels="">\n' \
             f'  <MaterialReference PartType="Top" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="{interior_mat[2]}" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="Bottom" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="{interior_mat[2]}" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="FEnd" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
