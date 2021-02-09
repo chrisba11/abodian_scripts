@@ -24,7 +24,7 @@ def add__door_material():
 
 
     # test sheet variables
-    sheet_name = 'TEST MATERIAL 3/4 T24736'
+    sheet_name = 'POTATO PEEL 3/4 T24736'
     sheet_width = '1244.6'
     sheet_length = '2743.2'
     sheet_thick = '19.05'
@@ -33,7 +33,7 @@ def add__door_material():
     waste_percent = '20'
     optmize = 'True'
     sheet_comment = 'Nothing to see here'
-    sheet_case_mat_name = 'TEST MATERIAL'
+    sheet_case_mat_name = 'Potato Peel SUPERMATTE'
     band_temp_name = 'CMB - Potato Peel Supermatte'
     cab_temp_name = 'Potato Peel SM'
 
