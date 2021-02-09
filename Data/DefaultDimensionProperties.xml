@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<defaultDimension>
+  <version>0</version>
+  <Dimension Version="0" Anchor0X="1367.518" Anchor0Y="-3287.149" Anchor1X="1367.518" Anchor1Y="-1769.499" DimensionVectorX="1412.727" DimensionVectorY="0" IsFP="True" SpaceNumber="0">
+    <type>2</type>
+    <alignment>1</alignment>
+    <hasPigtails>True</hasPigtails>
+    <isRotated>False</isRotated>
+    <pen color="FF0000FF" width="0.6069283" />
+    <content />
+    <fontColor>FF0000FF</fontColor>
+    <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+  </Dimension>
+</defaultDimension>

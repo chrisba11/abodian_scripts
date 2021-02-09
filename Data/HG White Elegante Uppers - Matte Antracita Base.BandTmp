@@ -1,0 +1,8 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="HG White Elegante Uppers - Matte Antracita Base" Type="4" SymbolForLabels="1">
+  <MaterialReference PartType="EdgeBand" Mat="1mm Antracita Matte" MatThick="0" MatWall="1mm Brilliante Blanco" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand2" Mat="1mm Antracita Matte" MatThick="0" MatWall="1mm Brilliante Blanco" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="1mm Storm Gray S565 PAN" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

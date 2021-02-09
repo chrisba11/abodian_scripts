@@ -1,5 +1,4 @@
 import os
-from typing import Optional
 
 
 
@@ -35,6 +34,8 @@ def add__door_material():
     optmize = 'True'
     sheet_comment = 'Nothing to see here'
     sheet_case_mat_name = 'TEST MATERIAL'
+    band_temp_name = 'CMB - Potato Peel Supermatte'
+    cab_temp_name = 'Potato Peel SM'
 
     # test case band variables
     case_band_exists = 'False'
@@ -67,6 +68,8 @@ def add__door_material():
     # optmize = "True" if optmize[0] == 'y' or optmize[0] == 'Y' else "False"
     # sheet_comment = input('What comment would you like to add to this material? ')
     # sheet_case_mat_name = input('What should the banding name be on the case material? (Exclude "Banding") ')
+    # band_temp_name = input('What should the banding template names include? (ie - "ELG - White Gloss") ')
+    # cab_temp_name = input('What should the cabinet template names include? (ie - "White SM") ')
 
     # #banding related variables
     # case_band_exists = input('\nDoes the case banding already exist? (Y or N) ')
@@ -86,10 +89,10 @@ def add__door_material():
     # door_band_comment = input('What comment would you like to add to this door banding? ')
 
 
-    # # creates folder where new material templates will be placed
-    # folder_name = sheet_name.replace('/', '-')
-    # folder_path = os.path.join(parent_path, folder_name)
-    # os.mkdir(folder_path)
+    # creates folder where new material templates will be placed
+    folder_name = sheet_name.replace('/', '-')
+    folder_path = os.path.join(parent_path, folder_name)
+    os.mkdir(folder_path)
 
     # creates lines for new door materials, one CNC (standard) and one BSAW
     door_sheet_CNC = f'    <Material Name="{sheet_name} [Matching Banding]" '
@@ -389,24 +392,143 @@ def add__door_material():
 
     if door_band_exists == 'False':  
         updated_material_list.append(door_band)
+    
     updated_material_list += curr_mat_list[curr_band_list_end_idx:]
 
-    new_mat_path = parent_path + '\\New_Materials.dat'
+    new_mat_path = folder_path + '\\New_Materials.dat'
     f = open(new_mat_path, "wt")
     f.writelines(updated_material_list)
     f.close()
 
-    for case_mat in ['GC', 'MC', 'PC', 'SC', 'WC']:
+    for interior_band in [
+        ['GC', '0.5mm Fog Grey SF213 PRZ'],
+        ['MC', '0.5mm Hardrock Maple WF275 PRZ'],
+        ['PC', '0.5mm Birch PVC'],
+        ['SC', '0.5mm Storm Gray S565 PAN'],
+        ['WC', '0.5mm White W100 PRZ']
+        ]:
+
         band_temp = \
             f'2\n' \
             f'<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n' \
-            f'<MaterialTemplate Name="02 - EGG - Stone Grey Supermatte - {case_mat}" Type="4" SymbolForLabels="EA">\n' \
-            f'<MaterialReference PartType="EdgeBand" Mat="0.5mm Stone Grey Supermatte U727 EGG" MatThick="0" MatWall="" MatWallThick="0" />\n' \
-            f'<MaterialReference PartType="EdgeBand2" Mat="1mm Stone Grey Supermatte U727 EGG" MatThick="0" MatWall="" MatWallThick="0" />\n' \
-            f'<MaterialReference PartType="EdgeBand3" Mat="0.5mm Fog Grey SF213 PRZ" MatThick="0" MatWall="" MatWallThick="0" />\n' \
-            f'<MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+            f'<MaterialTemplate Name="02 - {band_temp_name} - {interior_band[0]}" Type="4" SymbolForLabels="{band_temp_name[0:2]}">\n' \
+            f'  <MaterialReference PartType="EdgeBand" Mat="{case_band_name}" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="EdgeBand2" Mat="{door_band_name}" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="EdgeBand3" Mat="{interior_band[1]}" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />\n' \
             f'</MaterialTemplate>'
 
+        band_temp_path = folder_path + f'\\02 - {band_temp_name} - {interior_band[0]}.BandTmp'
+
+        f = open(band_temp_path, "wt")
+        f.writelines(band_temp)
+        f.close()
+
+    fin_int_case_temp = \
+        f'2\n' \
+        f'<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n' \
+        f'<MaterialTemplate Name="02 - {band_temp_name} .75" Type="3" SymbolForLabels="">\n' \
+        f'  <MaterialReference PartType="Top" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Bottom" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="FEnd" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="UEnd" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="AppliedUE" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Shelf" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="AdjustableShelf" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="RolloutShelf" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="FixedShelf" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Partition" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Divider" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="UBack" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="FBack" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Frame" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="FramelessRail" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Nailer" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Stretcher" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Cleat" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="FinExterior" Mat="{sheet_name} [Matching Banding] BSAW" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="FinInterior" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="FinInteriorBack" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="UfinExterior" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="UfinInterior" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="FinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="UfinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="ToeSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Sleeper" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Metal" Mat="Mirror 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Special" Mat="" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="ClosetRod" Mat="" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+        f'</MaterialTemplate>'
+
+    fin_int_case_temp_path = folder_path + f'\\02 - {band_temp_name} .75.CabTmp'
+
+    f = open(fin_int_case_temp_path, "wt")
+    f.writelines(fin_int_case_temp)
+    f.close()
+
+
+    for interior_mat in [
+        ['Fog Grey 34', 'CM Fog Grey 3/4 SF213 PRZ'],
+        ['Fog Grey 58', 'CM Fog Grey 5/8 SF213 PRZ'],
+        ['Maple 34', '0.5mm Hardrock Maple WF275 PRZ'],
+        ['Maple 58', '0.5mm Hardrock Maple WF275 PRZ'],
+        ['PF Ply 34', '0.5mm Birch PVC'],
+        ['PF Ply 58', '0.5mm Birch PVC'],
+        ['Storm 34', '0.5mm Storm Gray S565 PAN'],
+        ['Storm 58', '0.5mm Storm Gray S565 PAN'],
+        ['White 34', '0.5mm White W100 PRZ']
+        ['White 58', '0.5mm White W100 PRZ']
+        ]:
+
+        cab_temp = \
+            f'2\n' \
+            f'<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n' \
+            f'<MaterialTemplate Name="05 - {interior_mat[0]} [{cab_temp_name}]" Type="3" SymbolForLabels="">\n' \
+            f'  <MaterialReference PartType="Top" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Bottom" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="FEnd" Mat="{sheet_name} [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="UEnd" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="AppliedUE" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Shelf" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="AdjustableShelf" Mat="{interior_mat[1]} [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="RolloutShelf" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="FixedShelf" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Partition" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Divider" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="UBack" Mat="{interior_mat[1]} [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="FBack" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Frame" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="FramelessRail" Mat="{sheet_name} [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Nailer" Mat="{interior_mat[1]} [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Stretcher" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Cleat" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="FinExterior" Mat="{sheet_name} [Matching Banding] BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="FinInterior" Mat="{sheet_name} [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="FinInteriorBack" Mat="{sheet_name} [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="UfinExterior" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="UfinInterior" Mat="{interior_mat[1]} [{cab_temp_name} Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="FinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="UfinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="ToeSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Sleeper" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Metal" Mat="Mirror 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Special" Mat="{sheet_name} [Matching Banding] BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="ClosetRod" Mat="" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+            f'</MaterialTemplate>'
+
+        cab_temp_path = folder_path + f'\\05 - {interior_mat[0]} [{cab_temp_name}].BandTmp'
+
+        f = open(cab_temp_path, "wt")
+        f.writelines(cab_temp)
+        f.close()
 
 
 

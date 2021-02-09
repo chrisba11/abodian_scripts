@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="3-4 Absolute Acajou" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Absolute Acajou 3/4 WY160 PAN  [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Absolute Acajou 3/4 WY160 PAN  [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Absolute Acajou 3/4 WY160 PAN  [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Absolute Acajou 3/4 WY160 PAN  [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Absolute Acajou 3/4 WY160 PAN  [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Absolute Acajou 3/4 WY160 PAN  [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Absolute Acajou 3/4 WY160 PAN  [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

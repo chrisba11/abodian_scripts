@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="1-4 MDF" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="MDF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="MDF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="MDF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="MDF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="MDF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="MDF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="MDF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

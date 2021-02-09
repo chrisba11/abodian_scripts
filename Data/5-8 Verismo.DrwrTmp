@@ -1,0 +1,15 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="5-8 Verismo" Type="2" SymbolForLabels="">
+  <MaterialReference PartType="DrawerSide" Mat="Verismo 5/8 WF202 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFront" Mat="Verismo 5/8 WF202 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBack" Mat="Verismo 5/8 WF202 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBottom" Mat="Verismo 5/8 WF202 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TraySide" Mat="Verismo 5/8 WF202 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFace" Mat="Verismo 5/8 WF202 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFront" Mat="Verismo 5/8 WF202 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBack" Mat="Verismo 5/8 WF202 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBottom" Mat="Verismo 5/8 WF202 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPartition" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerDivider" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

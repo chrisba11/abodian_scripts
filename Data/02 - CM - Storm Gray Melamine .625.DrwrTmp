@@ -1,0 +1,15 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - CM - Storm Gray Melamine .625" Type="2" SymbolForLabels="">
+  <MaterialReference PartType="DrawerSide" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFront" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBack" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBottom" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TraySide" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFront" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFace" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBack" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBottom" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPartition" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerDivider" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

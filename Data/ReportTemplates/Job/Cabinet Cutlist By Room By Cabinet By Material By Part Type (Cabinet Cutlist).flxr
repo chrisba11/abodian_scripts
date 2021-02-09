@@ -1,0 +1,993 @@
+<?xml version="1.0"?>
+<Reports>
+  <FormatVersion>1.0 1.0.0.0</FormatVersion>
+  <Report ref="1">
+    <Name>Cabinet Cutlist By Room By Cabinet By Material By Part Type (Cabinet Cutlist)</Name>
+    <DataSourceName>Main</DataSourceName>
+    <Layout>
+      <Width>10944</Width>
+      <Margin>720</Margin>
+      <MarginTop>720</MarginTop>
+      <MarginRight>576</MarginRight>
+      <MarginBottom>720</MarginBottom>
+      <Orientation>Portrait</Orientation>
+      <PaperSize>Letter</PaperSize>
+    </Layout>
+    <DataSources>
+      <DataSource>
+        <Name>Main</Name>
+        <DataProvider>OLEDB</DataProvider>
+        <ConnectionString>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Mozaik\Data\JobData.mdb</ConnectionString>
+        <RecordSource>select [CutlistTable].[Cab] as [CutlistTable_Cab], [CutlistTable].[Room] as [CutlistTable_Room], [CutlistTable].[Name] as [CutlistTable_Name], [CutlistTable].[Material] as [CutlistTable_Material], [CutlistTable].[W] as [CutlistTable_W], [CutlistTable].[L] as [CutlistTable_L], [CutlistTable].[quan] as [CutlistTable_quan], [RoomTable].[ID] as [RoomTable_ID], [RoomTable].[Room#] as [RoomTable_Room#], [CabinetTable].[ID] as [CabinetTable_ID], [CabinetTable].[Cab#] as [CabinetTable_Cab#]
+from ([CutlistTable] left outer join [RoomTable] on [CutlistTable].[Room] = [RoomTable].[ID]) left outer join [CabinetTable] on [CutlistTable].[Cab] = [CabinetTable].[ID]
+order by [RoomTable].[Room#], [CabinetTable].[Cab#], [CutlistTable].[Material], [CutlistTable].[W] desc, [CutlistTable].[L] desc, [CutlistTable].[Cab], [CutlistTable].[Material], [CutlistTable].[Name]</RecordSource>
+      </DataSource>
+      <DataSource>
+        <Name>Job</Name>
+        <DataProvider>OLEDB</DataProvider>
+        <ConnectionString>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Mozaik\Data\JobData.mdb</ConnectionString>
+        <RecordSource>select [JobTable].[JobName] as [JobTable_JobName], [JobTable].[Customer] as [JobTable_Customer], [JobTable].[ShopName] as [JobTable_ShopName] from [JobTable]</RecordSource>
+      </DataSource>
+    </DataSources>
+    <Groups>
+      <Group>
+        <Name>Room# Group</Name>
+        <GroupBy>[RoomTable_Room#]</GroupBy>
+        <Sort>Ascending</Sort>
+      </Group>
+      <Group>
+        <Name>Cab# Group</Name>
+        <GroupBy>[CabinetTable_Cab#]</GroupBy>
+        <Sort>Ascending</Sort>
+      </Group>
+      <Group>
+        <Name>Material Group</Name>
+        <GroupBy>[CutlistTable_Material]</GroupBy>
+        <Sort>Ascending</Sort>
+      </Group>
+      <Group>
+        <Name>Sort Group</Name>
+        <GroupBy>left([CutlistTable_Name],1)</GroupBy>
+        <Sort>Ascending</Sort>
+      </Group>
+      <Group>
+        <Name>W Group</Name>
+        <GroupBy>[CutlistTable_W]</GroupBy>
+        <Sort>Descending</Sort>
+      </Group>
+      <Group>
+        <Name>L Group</Name>
+        <GroupBy>[CutlistTable_L]</GroupBy>
+        <Sort>Descending</Sort>
+      </Group>
+      <Group>
+        <Name>Cab Group</Name>
+        <GroupBy>[CutlistTable_Cab]</GroupBy>
+        <Sort>Ascending</Sort>
+      </Group>
+    </Groups>
+    <Sections>
+      <Section>
+        <Name>Detail</Name>
+        <SubSections>
+          <SubSection>
+            <Name>DetailSection1</Name>
+            <Visible>false</Visible>
+            <Height>340</Height>
+          </SubSection>
+        </SubSections>
+        <Type>Detail</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>Header</Name>
+        <SubSections>
+          <SubSection>
+            <Name>ReportHeaderSection1</Name>
+            <Visible>false</Visible>
+            <Height>221</Height>
+          </SubSection>
+        </SubSections>
+        <Type>Header</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>Footer</Name>
+        <SubSections>
+          <SubSection>
+            <Name>ReportFooterSection1</Name>
+            <Visible>false</Visible>
+            <Height>230</Height>
+          </SubSection>
+        </SubSections>
+        <Type>Footer</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>PageHeader</Name>
+        <SubSections>
+          <SubSection>
+            <Name>PageHeaderSection1</Name>
+            <Height>1965</Height>
+          </SubSection>
+        </SubSections>
+        <Type>PageHeader</Type>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>PageFooter</Name>
+        <SubSections>
+          <SubSection>
+            <Name>PageFooterSection1</Name>
+            <Height>1006</Height>
+          </SubSection>
+        </SubSections>
+        <Type>PageFooter</Type>
+        <ForcePageBreak>After</ForcePageBreak>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupHeader0</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupHeaderSection9</Name>
+            <Visible>false</Visible>
+            <Height>221</Height>
+          </SubSection>
+        </SubSections>
+        <Type>GroupHeader1</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupFooter0</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupFooterSection8</Name>
+            <Visible>false</Visible>
+            <Height>220</Height>
+          </SubSection>
+        </SubSections>
+        <Type>GroupFooter1</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupHeader1</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupHeaderSection8</Name>
+            <Visible>false</Visible>
+            <Height>221</Height>
+          </SubSection>
+        </SubSections>
+        <Type>GroupHeader2</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupFooter1</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupFooterSection7</Name>
+            <Visible>false</Visible>
+            <Height>220</Height>
+          </SubSection>
+        </SubSections>
+        <Type>GroupFooter2</Type>
+        <ForcePageBreak>After</ForcePageBreak>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupHeader2</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupHeaderSection1</Name>
+            <Visible>false</Visible>
+            <Height>221</Height>
+          </SubSection>
+        </SubSections>
+        <Type>GroupHeader3</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupFooter2</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupFooterSection3</Name>
+            <Visible>false</Visible>
+            <Height>220</Height>
+          </SubSection>
+        </SubSections>
+        <Type>GroupFooter3</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupHeader3</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupHeaderSection7</Name>
+            <Visible>false</Visible>
+            <Height>221</Height>
+          </SubSection>
+        </SubSections>
+        <Type>GroupHeader4</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupFooter3</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupFooterSection1</Name>
+            <Visible>false</Visible>
+            <Height>220</Height>
+          </SubSection>
+        </SubSections>
+        <Type>GroupFooter4</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupHeader4</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupHeaderSection5</Name>
+            <Visible>false</Visible>
+            <Height>221</Height>
+          </SubSection>
+        </SubSections>
+        <Type>13</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupFooter4</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupFooterSection5</Name>
+            <Visible>false</Visible>
+            <Height>220</Height>
+          </SubSection>
+        </SubSections>
+        <Type>14</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupHeader5</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupHeaderSection6</Name>
+            <Visible>false</Visible>
+            <Height>236</Height>
+          </SubSection>
+          <SubSection>
+            <Name>GroupHeaderSection4</Name>
+            <Height>100</Height>
+          </SubSection>
+        </SubSections>
+        <Type>15</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupFooter5</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupFooterSection6</Name>
+            <Height>360</Height>
+          </SubSection>
+        </SubSections>
+        <Type>16</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupHeader6</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupHeaderSection2</Name>
+            <Visible>false</Visible>
+            <Height>221</Height>
+          </SubSection>
+        </SubSections>
+        <Type>17</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+      <Section>
+        <Name>GroupFooter6</Name>
+        <SubSections>
+          <SubSection>
+            <Name>GroupFooterSection2</Name>
+            <Visible>false</Visible>
+            <Height>256</Height>
+          </SubSection>
+        </SubSections>
+        <Type>18</Type>
+        <SplitBehavior>SplitIfNeeded</SplitBehavior>
+        <Repeat>true</Repeat>
+      </Section>
+    </Sections>
+    <Fields>
+      <ParagraphField>
+        <Name>Text10</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageHeader</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>1501</Top>
+        <Width>840</Width>
+        <Height>221</Height>
+        <Align>CenterTop</Align>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Content>
+          <ParagraphText>
+            <Font>
+              <Size>10</Size>
+              <Bold>true</Bold>
+            </Font>
+            <Text>
+              <Value sys="string">QTY</Value>
+            </Text>
+          </ParagraphText>
+        </Content>
+      </ParagraphField>
+      <ParagraphField>
+        <Name>Text7</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageHeader</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>2280</Left>
+        <Top>1492</Top>
+        <Width>1560</Width>
+        <Height>221</Height>
+        <Align>LeftTop</Align>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Content>
+          <ParagraphText>
+            <Font>
+              <Size>10</Size>
+              <Bold>true</Bold>
+            </Font>
+            <Text>
+              <Value sys="string">Length</Value>
+            </Text>
+          </ParagraphText>
+        </Content>
+      </ParagraphField>
+      <ParagraphField>
+        <Name>Text9</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageHeader</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>840</Left>
+        <Top>1495</Top>
+        <Width>1440</Width>
+        <Height>221</Height>
+        <Align>LeftTop</Align>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Content>
+          <ParagraphText>
+            <Font>
+              <Size>10</Size>
+              <Bold>true</Bold>
+            </Font>
+            <Text>
+              <Value sys="string">Width        X</Value>
+            </Text>
+          </ParagraphText>
+        </Content>
+      </ParagraphField>
+      <TextField>
+        <Name>PrintDate1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageHeader</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>9480</Left>
+        <Top>38</Top>
+        <Width>1382</Width>
+        <Height>238</Height>
+        <Align>RightTop</Align>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Text>
+          <Expression>Now()</Expression>
+        </Text>
+        <Format>M/d/yyyy</Format>
+      </TextField>
+      <ShapeField>
+        <Name>Box1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Background type="Solid">
+          <Color>FFC0C0C0</Color>
+        </Background>
+        <Section>PageHeader</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>1261</Top>
+        <Width>10920</Width>
+        <Height>599</Height>
+        <ZOrder>-1</ZOrder>
+        <Shape type="Rectangle" />
+        <Line>
+          <Width>30</Width>
+        </Line>
+      </ShapeField>
+      <TextField>
+        <Name>RoomCabinet1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageHeader</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>720</Top>
+        <Width>4680</Width>
+        <Height>480</Height>
+        <Font>
+          <Size>18</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Text>
+          <Expression>'Room ' &amp; ToText([RoomTable_Room#], 0) &amp; ' Cabinet ' &amp; [CabinetTable_Cab#]</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>Job1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageHeader</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>223</Top>
+        <Width>10920</Width>
+        <Height>480</Height>
+        <Align>CenterTop</Align>
+        <Font>
+          <Size>18</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Text>
+          <Expression>'Job: ' &amp; [JobTable_JobName] &amp; ', ' &amp; [JobTable_Customer]</Expression>
+        </Text>
+      </TextField>
+      <ParagraphField>
+        <Name>Text11</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageHeader</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>3835</Left>
+        <Top>1495</Top>
+        <Width>2165</Width>
+        <Height>221</Height>
+        <Align>LeftTop</Align>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Content>
+          <ParagraphText>
+            <Font>
+              <Size>10</Size>
+              <Bold>true</Bold>
+            </Font>
+            <Text>
+              <Value sys="string">Part Type</Value>
+            </Text>
+          </ParagraphText>
+        </Content>
+      </ParagraphField>
+      <ParagraphField>
+        <Name>Text14</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageHeader</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>6000</Left>
+        <Top>1495</Top>
+        <Width>2400</Width>
+        <Height>221</Height>
+        <Align>LeftTop</Align>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Content>
+          <ParagraphText>
+            <Font>
+              <Size>10</Size>
+              <Bold>true</Bold>
+            </Font>
+            <Text>
+              <Value sys="string">Room Cabinet (Qty)</Value>
+            </Text>
+          </ParagraphText>
+        </Content>
+      </ParagraphField>
+      <ParagraphField>
+        <Name>Text1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageHeader</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>8400</Left>
+        <Top>1495</Top>
+        <Width>2400</Width>
+        <Height>221</Height>
+        <Align>LeftTop</Align>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Content>
+          <ParagraphText>
+            <Font>
+              <Size>10</Size>
+              <Bold>true</Bold>
+            </Font>
+            <Text>
+              <Value sys="string">Material</Value>
+            </Text>
+          </ParagraphText>
+        </Content>
+      </ParagraphField>
+      <TextField>
+        <Name>ShopName1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageHeader</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>0</Top>
+        <Width>5520</Width>
+        <Height>238</Height>
+        <AutoHeight>CanGrow</AutoHeight>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Text>
+          <Expression>[JobTable_ShopName]</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>PageNofM1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageFooter</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>4320</Left>
+        <Top>720</Top>
+        <Width>6555</Width>
+        <Height>221</Height>
+        <Align>CenterTop</Align>
+        <Font>
+          <Size>10</Size>
+        </Font>
+        <Text>
+          <Expression>PageNofM</Expression>
+        </Text>
+      </TextField>
+      <ParagraphField>
+        <Name>Text3</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageFooter</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>705</Top>
+        <Width>7315</Width>
+        <Height>240</Height>
+        <Align>LeftTop</Align>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Content>
+          <ParagraphText>
+            <Font>
+              <Size>10</Size>
+              <Bold>true</Bold>
+            </Font>
+            <Text>
+              <Value sys="string">Cabinet Cutlist By Room By Cabinet By Material By Part Type</Value>
+            </Text>
+          </ParagraphText>
+        </Content>
+      </ParagraphField>
+      <ImageField>
+        <Name>Picture1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>PageFooter</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>9840</Left>
+        <Top>0</Top>
+        <Width>960</Width>
+        <Height>975</Height>
+        <PictureScale>Stretch</PictureScale>
+        <Picture>
+          <Image>Qk32MAAAAAAAADYAAAAoAAAAQAAAAEEAAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cnJyaWlpysrK////////wMDAa2pqZWRk////////////hoaGaWlpp6en////////9fX1wsLCa2pqcnJybW1to6Oj+Pj4////6+vrY2NjcnJycnJycnJycnJycnJyb29vh4eH////oaGhbW1taWhonJub9vb2////X19fp6en////////Y2NjaWlpysrK////Y2Nja2trsbGx////////////oqKibW1tbWxsqqur////l5eW////9vX1////////l5aWj46O2NfX////8/PzhYODl5aWk5KSqKen////////pKOjj46Ovr29////5+fngX9/jYyMkZCQkI+PkZCQkpGRgH9/7u7u+/v7p6amlJOTl5aWkI+PkI+PkI+PjYyMpaSk4eDgiomJkpGRwMDAr66ujo2NiYiIkpCQvr29////////ioiIj46O2NfX////ioiIkZCQxcTE////////29vbjo6OlZOTmpiY9fX1////xMTE+vn51tXV////////nZ2dlpWV2tra////xcXFmJeXm5ubmpqaqqmp////////qamplpWVwcHB////pKSkmZmZqKen0dDQ2tnZzs7OkpKSmpmZsLCw////3NzckpKSlpaW5uXl2djY19fX19fX1tbWtbW1mZmZkZCQ////////urq6mZmZmJiYwcHB////////kZCQlpWV2tra////kZCQmJeXzMzM////////sLCwlpaWjY2N5OPj////////////////////////////o6KinJub3dzc////l5aWoaCgr66vpaSkoJ+f0NDQ////rq2tnJubysrK19fXoJ+gnp2dw8PE////////////0dDQnZydmZiY1NTU////t7e3mZiYwsHB////////////////0M/PnZycl5aW////////xsbHnp2dnp2dxMXF////////l5aWnJub3dzc////l5aWoaGhqaiosrGxr66umpmauLe36urq////////////////////////////////pqaln5+e3d3d////mpqZn5+e6urqt7e2n5+exsbF////sbGwn5+ezs7Nzc3MoaGgoaGgyMjH////////////3t7en5+epKSirq6t////////sLCvnJybv8C+////////////3d3dnZ2cpKSjo6Oi6Ojox8fGoqKhoaGgyMjG////////m5uan5+e3d3d////m5uapqaloqKho6OhpKSjnp6d3t7e////////////////////////////////////p6emoaCg3t7d////nJybnp6d5eTjsrKxoaCfysrK////srKxoaCfzs7OysvLoqGgo6Kix8fI////////////4N/eoaCgpaWkra2s////////0NDQnZ2cnZyc3t7d////////6uvqsrKxoaGgoJ+fmpqZoaGgp6emo6Kix8fI////////nJyboaCg3t7d////nJybpaSkvby8p6empaSkr6+v7e3s////////////////////////////////////qqmpo6Oi4+Pj3d3coqGhurm5+fj45+bnoaCgtbW0+fn5t7a2o6OizM3M8/Pzrq6tpKSjzc3M////////////1NTUpaSko6Ki5eXl////////////zczMo6KhvLu6////////////+vn53dzc29ra397evby8p6empqWlysrJ////////n5+eo6Oi397e////n5+eo6Oi6Ofn6+vroaGgtbW09fX1////////////////////////////////////qquppKSj6Ojotra1oqOhx8fG////////mJiXo6Oi5ubnurq5pKSjy8vJ////tLSzpqalq6up6+vr/////f39qKinqamomJiW/////////////////v7/oqKhpqalrq6t////////z8/O/v7+////////0NDPpqalpqalysrI////////oKCfpKSj3t7f////oKCfpaWk09PS////mJiXpqalqqqq/v7+////////////////////////////////rKyrpqal4uPiuLi3r6+w////////////+Pj4nJyb4uPhurq5pqalysrL////wcHAr6+uqKinpKSjpaWko6OipqalqKin+fn5////29vam5uaoaGgo6OiqKinqKino6Sjr6+u////xcXFnp+dpKSjpaWkp6emp6impaWk0NDQ////////nZ6coqKh3t7d////oaGgp6emz9DQ////+fn5rKyrqqqpmZmY/Pz8+Pj4////////////////////////rK2srK2sp6empaal0NDQ////////////+fr5t7i3pKWkqquqqKiny8zK////////////0dLRvL28pKWkwcLBw8TD7+/v////////6enpwsPCxsfGxsfGxsfGxsfGxcbFz87P/f390dHRx8jHqquqo6Siuru6xsfG0NDQ////////////wMDAwsPC6unq////oaKhp6in0NHQ////////////3+Dfw8TDu7y71tfW////////////////////////rK2srK2srK2soqOh////////////////////4+TkpqelrK2sqKmnzMvK////////////////+vr62dnZ////////////////////////////////////////////////////////////////4eHh2NjX9fX1////////////////////////////////////oqOhqKin0dLQ////////////////////////////////////////////////////rKyqrKyqrKyqoqKg////////////////////4ODfpqakrKyqqKimysrJ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////tbWzuLi25ubl////o6Ohqamn0tLQ////////////////////////////////////////////////////srKwsrKwsrKwqqqo////////////////////4uLhra2rsrKwr6+tz8/O////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oKCdoqKg3t7d////o6KgqKim0tLP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////p6elubq46+vq////pqekq6yq09PR////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////4uPh+Pn5////////4eLh4+Tj8fHw/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////v79/f39/f39/f39/f39////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+/v75+Xk4+Li5OPj5eTj4+Li+vr69/f3/f39////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7u3t5OPj5+bk5uXm5+bm6Ofl5uXl5eXk7u7u8vHx////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9fT06eno6Ofm5eTk5uXk5+bl5uXm5+bl6Ofm5+fn5+fm5+Xm7e3t7ezs7u3t7Ovr/////////////////////////////////////////////////////////////////////v7+/f39/f39/v7+////////////////////////////////////////////////////////////////////////////////////////////////////////////4eDf4+Lh5eTj5uXj5eTl5eTk5+bm5uXm6Ofl6Obl5+jn5+jm6Ofn6Ofn6ejn6efo6eno6unp8vPz////////////////////////////////////////////////////8/Pz5eTj2djX2djX3tvc8/Pz9fX0/////////////////////////////////////////////////////////////////////////////////////////////fz84+Pi5OPi5eTi5OPk5eTk5uXj5eTk5+bk5+bm5uXm5+bl6Ofn5+jm6Ojn6Ofo6unn6ujn6+rq+Pj3lJSV5ubm////////////////////////////////////////////8vHx19bV29rZ3t3c3d3b3tzc3NrZ2tnY8/Hx0dDR////////////////////////////////8+jk59LK6dTN6dTN6dTN6dTN6NTM6dTN9+/t/////////////Pv75eTk4+Hg5OPj5OPi5eTj5OPj5eTk5uXj5uXl5+bl5+bm5uXl6Obm6Ofn5+fm6Ojn6ejo6unp6unpsLCvhYWF8vLy////////////////////////////////////////8e/w29jY3Nva3Nva3t3c3t3c3d3b3t3c5+XltrW1paOj////////////////////////+O/t27qu1K2ezZ6OzZ+PzZ+PzZ+PzZ+PzZ+PzaCQ17Gk27uv//79////5OPi4eDg4+Lh5OPi4+Lj5eTi5eTi5OPj5eTj5uXl5uXk5+bl5uXm6Ofl6Obm6Obn5+jm6ejo9PPzioqJdXV1dnZ2qamp////////////////////////////////////8fLx2NfW3Nra3dzb3Nva3Nva3t3c4N/e4uHguLe3n56enZycxcXF////////////7d7Y0qmb1K2e1Kud69bQ/////////////////////////v7+5MvB0qiZ06iY4uXn4uHg4+Lg4uHi5OPh4+Lh5eTj5eTj5eTi5OPk5uXj5eTl5+bk5+bk5uXm6Ofl5+bl6unp6ejo8vHxcHBwfn5+fn5+bGxs////////////////////////////////18vD2dPQ293d29zc3drb3drb3Nza4eDfz87NvLu7np2do6KioaCguLm59PDu3Lquy5yL6dTO////////////////////////////////////////////////7PHz4eTl4eDf4eDg4+Lh4+Lg4uHi4+Lh4+Lj5OPj5eTj5eTi5OPk5uXj5eTl5uXk5+bm5uXm6Ofn4+LhlZSUcXFxfn9/f39/fn5+bm5u////////////////////////////////7tjK272o3c3D3cu+3N/h3N3f4uLiyMfHoJ+eoqGhpaSkpKOjo6KinZ+gup6Tz5+N7+Db/v//////////8O/v////////////////////////////////8ujk3dXQ4eTm4uTl4uPi4+Lh4+Lg4+Lh4uHi5OPi4+Lj5OPj5eTi5OPj5eTk5uXk5eTl5+bl5+bm9PPzw8LBd3d3goKCgICAf4CAfn5+cHBw////////////////////////////////////7tvO3rqj4Lym3ca34ce2wbmzoqKjpaSkpqWlpKOjpaSkpKOjnZ2e19DO9+vn////////8fHw5+bl393d6efn6Ofn6Ofn6Ofm8/Lx/////////////fn4487C2b2w2r2w3s7G4+jr4+bn4+Lh4+Lh4+Lh5OPi4+Li5OPj5eTi5OPj5eTk5uXk5+bl+Pf2lpaWk5OTgYGBg4SEgoKCgYCAgH9/eHh4pqam////////////////////////////////9Ong3buk4MCr4L2p372m38W2rKqopaWkpaSlpqWlpKOjpaSknp2d29vb////////9PPz3dza3t3c397d4N3d397d397e397e4uHg4+Li29nZ////////59HF1q+d2LOh2LSi2bOk17Gh4+bm4+Li4+Lj5OPh5OPh4+Lj5eTj5eTi5OPk5eTk7ezslZWVf39/g4SEhISEhISEgoODg4KCgH9/fHx8jIyM////////////////////////////////8+bc3Lmi4MCr4L+r4L6r5cCpq6empaWlp6akpaSlpqWlpKOjoJ+fp6am+Pj4////7Ozs3dzc4N/e39/d4N7e4eDf4eDe4uHi4N/fqKengoGB////////6NHG17Gf2LSj2LSj2LOi2LOi1q2c28G34+Hh4+Xm5OXl5OXl5eTk5eTj5uXj8fDwp6amgICAhoaGh4eHhYWFhYWFhISEg4ODgoKCfX19jY2N////////////////////////////////+vXx5Mm3376o4MCr4L+r4sCqybWooqOlp6alpqWkpaSloqGhsbCw9/f39PT07Orr29rZ3t3d397e4N/e397d4d/f4eDf4+LhrayslpWVj46O////////6NHG2LKg2bWj2bWk2LWk2bSj2bOi17Ce28Gz3czE3crD3cm/4tzZ5+nr5eTjuLe2mpmZhoaGiIeHh4eHhoaGhYWFhISEhISEgoKCgYGBf39/x8bG////////////////////////////////69bH3rul37+q37+q4L6q6cOrn6SopqWlp6akpaSjpKOk3dzb6uzs3N/g3Nva393d397d3t7d397e4N/d4N/e7erqp6emmZiYnJubj46O////////5c3A17Ce2rak2ral2LSj2LWk2bSj2bOj17Kg17Gd16+f166d2Lmq4cS2mZyeg4ODiIiIiomJioiIiIiIhoaGhoaGhYWFhYWFg4ODgoKCe3t7rqys////////////////////////////////////5Me23r2n376p3r2n4b6q17uqoaOlpaSkoJ+e4eDf3t/f3ca63beh3eDh3d3c397d397d39/g4N/g5uXkqqupmpmZn56enJubkZCQ////////////3b6u2bSj2ral2LSj2LSj2LWk2bWk2bOi17Sj17Sh17Kj17Gg37WhgYWHjIyNioqKiomJi4qKiImJh4eHhoaGhYWFhoaGg4ODhISEfHx8sbGx/////////////////////////////////////////////Pn469bI4cGs5MCnzLSlpaao3Nra3t3c3N3d3c3D3ryn3rii3rij3Lih3LSd39nV3NfUrq2unZycoKCgoJ+fnp2dm5qaoJ+f////////48q+2LOh2rek2rWl2ral2LSj2bWk2bSj2bOj2bSj2LSi17Kj2rOi1LKhh4qMjIyMjIyMjIyMi4qKioiIiIiIh4eHh4eHhYWFhYWFfn5+sbGx////////////////////////////////////////////////////5dnR3su+0cW90tLT3t3c3drb3dvb3+Pl4sOx3ryn3ryp3Luo3Lyn37ijw6yhmp2foqGhoqGhoJ+fnp6enJqaqqmp////////////1KuY2bel2rWk2rWl2bWk2LSj2bWk2bSj2bOj2bOj17Oi2bSjza6ehImMjY2NjY2NjIyMjIqKiomJiomJh4eHh4eHhYWFhYWFfX19rq6u////////////////////////////////////////////////8eji2tvc2t7g3N3d3dzb29vZ3Nva4N3excTEr6ml4r6o3r2o3bup3byo3byn2rqnsqijoaKioqGhoqKioJ+fnp2doqGh8/Pz////////58/E2bOi2bak2rak2ral2bWk2LSj2bWk2bSj2bSk2LOi2LSi2LKirZ6Xi4yNjY2NjY2NjIyMi4uLiomJiYiIiImJhoaGhISEf39/29vb////////////////////////////////////////////////69bI3r2n4cKw3dPO29zc29zb3Nva4eDfu7i4m5+i5sGq3r2o3r2o3rup3Lyp4r6ouqykoaGipKOjo6KioqCgmpubxsTD////////////+/f117Cd2bem2rek2rWk2ral2LSj2LSj2bWk2bWk2bOk2bSj3LWivqeciYyNj4+PjY2Njo6Oi4uLjIyMi4mJiomJiIeHd3h4/////////////////////////////////////////////////////////v385Mez4L+p4b6m38W03tTO293eu7u8oaCgpaWlqaem5sGq3byo3r2p3rup4b2pt6ukoKGio6KipKOjn56emZiY4d/fra2t/f39////9O/s2LCc2ral2bem2rek2rak2ral2bWl2LSj2LWk2bSi2bOj27WjvKabioyOjo+Pj4+Pjo6OjIyMjIyMi4qKi4qKfHt70tLS////////////////////////////////////////////////////////////37+x4MCq4cCs4L+p4byk2s3EsqqmpaWlpqamqaem0ben4Lul3bum3ryp4L2pzLWnpqSjo6Ojn56esrGxxsXEv76+k5OTz8/O9/f23NnZ3MG02raj2ram2bel2rel2rWk2ral2bWj2bWk2LWk2bSj27SjzK6gmpSSj4+Qj4+Pj4+PjY2NjY2NjIyMg4KCoqGh/fz8////////////////////////////////////////////////////////////17Sp48Ss4MGr4cGs4MCr48Cpzbiso6SmqKenpKSkube24dnT38e+3rmi3ryo5b+pqaWioaGhsrGx5eTkw8LBnJubm5qaxcPD4uHf4eLi39HL2rOg27el2ral2bam2rak2rWl2rak2ral2LSj2LWk2bSj4Lelrp+Yjo+QkZCQj5CQjo6OjY2NhYWFoaGh/Pz8////////////////////////////////////////////////////////////////2ber1q+e4sKr4MCr4cGs4sCqyrapoqSmp6ampaWmvK6l4dXM3N/g3NjV3r+s4Lumx7mznJydv76+w8LBn56eoKCgtra35OPj4d/f4eHg4NnW3Lys2rWj2rWj2rWj2baj2rek2rWl2ral2LSj2LSj2LWk3relrZ+Yj5CRkpCQkJGRjo6OiIiImJiY////////////////////////////////////////////////////////////////////////2LWp2rqv+fPt3bqi4MCq4cGs58SswLKppqaopaWmvLKq48Cp37qk37ul37uo3c/H4ePk5ebmwcDAnp2do6OjrKai6MKv3tHJ3+Dg4eHi4eHi4eTl4eTn4uTk3szE2rem2bSi2rel2rel2rWk2ral2LSj3relrqCZkJGSk5KSk5KSiomJmJiY////////////////////////////////////////////////////////////////////////////1bCj2rit/v78793R4cGr4b6n5cCouq+opaanoqGhubm64sq9372m372q376p3bmi383B1sjAnZ2epKOjpKOjpqSj0LWl3bWg3cvA3s7F39XQ4eTl4ePk4eDg4uXl49fS5NHH3bak37mm37im27ak2bWk3belqp6Yj5GSlJOTjIuLp6am////////////////////////////////////////////////////////////////////////////////9u7s0aaX7+Db////+vLs2NDK3dPN2MK0paGezs3M0dHR3djV38Gt3r6p376q3r2p4Lyn1belnaKkpaSkpaSkoaKjuayl472o3Lik27aj3Lyq3cW53cGz4efq5efpxcbHsbO1rqKdr6OeqqCc2bal37el27ak0LChmpeWjYyMpqam/Pz8////////////////////////////////////////////////////////////////////////////////////zZ+O48nB////////3L6r2tze3dva19fW39zb3dva297f4MOw4L6p3r+p372q376q4b+qxrKmoqOkpqWlo6OjoKChyLKk37uo3buo27mn27ik27aj3Lyr372rsqafl5iZmpqbmpqbl5iZm5mZtqyp4bml4rikmZSSnJ2d////////////////////////////////////////////////////////////////////////////////////////////y5yL5cvD////////4b+p4ryj3szB3NbR29zc29vb39/fxMjM472k4L2o3r2o372q4b+qy7SooaOkpaSkoqGhxcfI5M/C3Lml3bqo3buo27mn3Lqn27il4Lqmtaihm5ucnp2dnZycnJubmpmZlZWWhoyPxrKpp6Ge////////////////////////////////////////////////////////////////////////////////////////////////38G34sa9////////9uzm37yk4cCp4r2k3NHI4NDG0s3JoaOl49HE3szC3sKv37ym4b+qybOnoaOkoqGhyMfG29zd072w3rqm3buo3bqo3Lqn27mo3Lmn4Lunsqehm52enp2dnp2dnJubm5qanJubwMDA7e7v//z8////////////////////////////////////////////////////////////////////////////////////////////////////6NPL8+nl////////7dvN4L6o4sKr4sCo5cKquq6mnqGk5c/B3NjW3NnX3sa54Lui1ruqrqurm5qa6OfmqKmqxbGm4L2p3bun3Lun3buo3Lqo27mn3bqo07Wmo6Ggnp+fn52dnZycl5aWwMDA////////////////////////////////////////////////////////////////////////////////////////////////////////////////69vU7NzV////////8+jf3ruj4cGs4sGr5MKr0sC2o6is6cKo4L+p3dPN293f3dvc4tHHtaef1tbWp6alo6OioaGi1rak3bql3Lum3Lqn3buo27mn27qm47unp6OhnZ+foJ6enJubjYuL////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8ubizqGR8ePe////////8uTa4L+n4MCp4sKt58Ssu7GpqKip5cOt4L2m4L2l4Lyk38i55uLfq6mppKOkoqGhzMvK4eTl39zd3r2r3Lql3Lmk3buo3buo27mn6L+om56goKCgmZmZ/f39////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////48nBx5OA////////////8eLX69fI3ruj372l6sKnoqWox7Sp4b6n37+q4MCr4L+p5b6lq6impKSkqKioz8/O397d3d7d3trZ3cvB3czA3Lag3Lij27il47yomJ2hoKCgo6Oj9vb2////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9u3q8OPe5c7G////////////////9Ojg9evk9uLVoaKk7uzq6dDA376p37+q38Cq4sCr07mqoKOluq+p39fR3uHj3d3c3d3c39/g3+Hj3tDI3tPO4MS25r2mwa6loKGilpWV9/j4////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////yZeG59DJ////////////////////////9vb3////69bI3ruk4L+q37+q38Cq6cOrnqKmvrCm5cGs376p3eLl3d/f3t3d39zd39/f4uPjvru7oqCf3ryqnqCinp2du7q6//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7+z6SU5tDI/////////////////////////////v//6dHB5Mi137ym3rym5sKqoKOmo6SmyrWo4b6o37mh38W23dnV3t3e39/f5OTjurq6oaChnqCipKOjo6KikI+P////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+fTy0qma5s/G7d7Y9ezq///////////////////////////+69bI7dvP58Wvn6CitLW32cW4372o376q37yo3rih3c3C39HJ2NHOsLCwo6KipaSkpKOjoJ+ft7a2////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9+/s8OLdypiH1a6h+PLw////////////////////////////////+fDq4eHh9ff579zP3rum3r+p3r6p376q3rum4Lymx7KnoKGipaSkpKOjpKOjnJub8/Pz////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9/Dt2rir0aaX0aaX////////////////////////////////////////6tbI3bij372p3r+p3r2p376q4L2ox7Omn6KkpqWlpaSkm5qa0tLS////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////0aeX1rCi0KWWzZ+OzZ+PzZ+PzZ+PzJ2M1rGj06qb8+ro6tXG48ay3r2m3r+p376q376q5sGqvq+no6OkoJ+fycjI////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8OLe48rB5c3E5c3E5c3E4se9////////////////////5Mm33Lih3Lqj3bmk47+qu6+no6SjoqGh4ODg/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Pn28uXd8+jg8ODX3racuqyklZaW6urp//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////36v7695eXl////////////////////////////////////////////////////////////////////////////////////////////////</Image>
+        </Picture>
+      </ImageField>
+      <TextField>
+        <Name>QuantityByCabinet1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>Detail</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>0</Top>
+        <Width>1920</Width>
+        <Height>220</Height>
+        <Font>
+          <Size>11</Size>
+        </Font>
+        <Text>
+          <Expression>If Sum ([CutlistTable_quan], [CutlistTable_Cab]) &gt; 0 Then 'R' &amp; ToText([RoomTable_Room#], 0) &amp; 'C' &amp; [CabinetTable_Cab#]  &amp; '(' +  ToText(Sum ([CutlistTable_quan], [CutlistTable_Cab]) ,0) &amp; ')'  
+Else 'R' &amp; ToText([RoomTable_Room#], 0) &amp; 'C' &amp; [CabinetTable_Cab#]
+
+//If Count ([CutlistTable_Cab], [CutlistTable_Cab]) &gt; 0 Then 'R' &amp; ToText([RoomTable_Room#], 0) &amp; 'C' &amp; ToText([CabinetTable_Cab#], 0)  &amp; '(' +  ToText(Count ([CutlistTable_Cab], [CutlistTable_Cab]) ,0) &amp; ')'  
+//Else 'R' &amp; ToText([RoomTable_Room#], 0) &amp; 'C' &amp; ToText([CabinetTable_Cab#], 0)</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>GroupNameRoom1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>GroupHeader1</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>0</Top>
+        <Width>2554</Width>
+        <Height>221</Height>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Text>
+          <Expression>[RoomTable_Room#]</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>GroupNameCab2</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>GroupHeader2</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>0</Top>
+        <Width>2554</Width>
+        <Height>221</Height>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Text>
+          <Expression>[CabinetTable_Cab#]</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>GroupNameMaterial1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>GroupHeader3</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>0</Top>
+        <Width>2554</Width>
+        <Height>221</Height>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Text>
+          <Expression>[CutlistTable_Material]</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>GroupNameSort1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>GroupHeader4</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>0</Top>
+        <Width>2554</Width>
+        <Height>221</Height>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Text>
+          <Expression>if [CutlistTable_Name] like 'Door*' then 'A' else
+if [CutlistTable_Name] like ['Drawer*', 'Drw*'] then 'B' else
+if [CutlistTable_Name] like '*Frame*' then 'C' else 'D'&amp;left([CutlistTable_Name],1)</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>GroupNameW1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>13</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>0</Top>
+        <Width>2554</Width>
+        <Height>221</Height>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Text>
+          <Expression>[CutlistTable_W]</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>QuantityReset1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>15</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>120</Left>
+        <Top>0</Top>
+        <Width>1860</Width>
+        <Height>200</Height>
+        <Font>
+          <Size>10</Size>
+        </Font>
+        <Text>
+          <Expression>WhilePrintingRecords;
+StringVar GetCabinet0;
+StringVar GetCabinet1;
+StringVar GetCabinet2;
+StringVar GetCabinet3;
+StringVar GetCabinet4;
+StringVar GetCabinet5;
+StringVar GetCabinet6;
+StringVar GetCabinet7;
+StringVar GetCabinet8;
+StringVar GetCabinet9;
+StringVar GetCabinet10;
+StringVar GetCabinet11;
+StringVar GetCabinet12;
+
+
+GetCabinet0 := '';
+GetCabinet1 := '';
+GetCabinet2 := '';
+GetCabinet3 := '';
+GetCabinet4 := '';
+GetCabinet5 := '';
+GetCabinet6 := '';
+GetCabinet7 := '';
+GetCabinet8 := '';
+GetCabinet9 := '';
+GetCabinet10 := '';
+GetCabinet11 := '';
+GetCabinet12 := '';
+
+
+</Expression>
+        </Text>
+      </TextField>
+      <ParagraphField>
+        <Name>Text12</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>16</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>6000</Left>
+        <Top>0</Top>
+        <Width>2400</Width>
+        <Height>312</Height>
+        <AutoHeight>CanGrow</AutoHeight>
+        <Align>LeftTop</Align>
+        <Font>
+          <Size>12</Size>
+        </Font>
+        <Content>
+          <ParagraphText>
+            <Font>
+              <Size>12</Size>
+            </Font>
+            <Text>
+              <Expression>WhilePrintingRecords;
+StringVar GetCabinet0;
+GetCabinet0</Expression>
+            </Text>
+          </ParagraphText>
+        </Content>
+      </ParagraphField>
+      <TextField>
+        <Name>WidthF1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>16</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>840</Left>
+        <Top>0</Top>
+        <Width>1440</Width>
+        <Height>360</Height>
+        <Align>LeftTop</Align>
+        <Font>
+          <Size>12</Size>
+        </Font>
+        <Text>
+          <Expression>NumberVar raw :={@Width};
+NumberVar wholeNumber := int(raw);
+NumberVar decInput := round (raw - Wholenumber , 4);
+NumberVar numerator :=1;
+NumberVar denominator :=1;
+NumberVar decimalFraction := numerator / denominator ;
+Do ((If decimalFraction &lt; decInput
+Then numerator := numerator + 1
+Else ( denominator := denominator + 1 ;
+numerator := truncate(decInput * denominator)))
+;decimalFraction := numerator / denominator )
+While decimalFraction &lt;&gt; decInput;
+
+
+(if wholenumber &gt; 0
+then totext(wholeNumber,0,"") + " "
+else "")
+&amp;
+(if numerator &gt; 0
+then totext(numerator,0 , "") &amp; "/" &amp; totext(denominator,0 , "")
+else "")</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>LengthF1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>16</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>2280</Left>
+        <Top>0</Top>
+        <Width>1560</Width>
+        <Height>360</Height>
+        <Align>LeftTop</Align>
+        <Font>
+          <Size>12</Size>
+        </Font>
+        <Text>
+          <Expression>NumberVar raw :={@Length};
+NumberVar wholeNumber := int(raw);
+NumberVar decInput := round (raw - Wholenumber , 4);
+NumberVar numerator :=1;
+NumberVar denominator :=1;
+NumberVar decimalFraction := numerator / denominator ;
+Do ((If decimalFraction &lt; decInput
+Then numerator := numerator + 1
+Else ( denominator := denominator + 1 ;
+numerator := truncate(decInput * denominator)))
+;decimalFraction := numerator / denominator )
+While decimalFraction &lt;&gt; decInput;
+
+
+(if wholenumber &gt; 0
+then totext(wholeNumber,0,"") + " "
+else "")
+&amp;
+(if numerator &gt; 0
+then totext(numerator,0 , "") &amp; "/" &amp; totext(denominator,0 , "")
+else "")</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>Name1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>16</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>3850</Left>
+        <Top>0</Top>
+        <Width>2150</Width>
+        <Height>360</Height>
+        <Font>
+          <Size>12</Size>
+        </Font>
+        <Text>
+          <Expression>[CutlistTable_Name]</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>Sumofquan1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>16</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>45</Left>
+        <Top>0</Top>
+        <Width>795</Width>
+        <Height>360</Height>
+        <Align>CenterTop</Align>
+        <Font>
+          <Size>12</Size>
+        </Font>
+        <Text>
+          <Expression>Sum([CutlistTable_quan])</Expression>
+        </Text>
+        <Format>#,##0;(#,##0)</Format>
+      </TextField>
+      <TextField>
+        <Name>Material1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>16</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>8460</Left>
+        <Top>0</Top>
+        <Width>2460</Width>
+        <Height>360</Height>
+        <Font>
+          <Size>12</Size>
+        </Font>
+        <Text>
+          <Expression>[CutlistTable_Material]</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>GroupNameCab1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>17</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>60</Left>
+        <Top>0</Top>
+        <Width>1200</Width>
+        <Height>221</Height>
+        <Font>
+          <Size>10</Size>
+          <Bold>true</Bold>
+        </Font>
+        <Text>
+          <Expression>[CutlistTable_Cab]</Expression>
+        </Text>
+      </TextField>
+      <TextField>
+        <Name>QuantityAdd1</Name>
+        <BordersSplitVertMode>Square</BordersSplitVertMode>
+        <Section>18</Section>
+        <SplitVertBehavior>KeepTogether</SplitVertBehavior>
+        <Left>0</Left>
+        <Top>15</Top>
+        <Width>1790</Width>
+        <Height>241</Height>
+        <AutoHeight>CanGrow</AutoHeight>
+        <Font>
+          <Size>10</Size>
+        </Font>
+        <Text>
+          <Expression>WhilePrintingRecords;
+StringVar GetCabinet0;
+StringVar GetCabinet1;
+StringVar GetCabinet2;
+StringVar GetCabinet3;
+StringVar GetCabinet4;
+StringVar GetCabinet5;
+StringVar GetCabinet6;
+StringVar GetCabinet7;
+StringVar GetCabinet8;
+StringVar GetCabinet9;
+StringVar GetCabinet10;
+StringVar GetCabinet11;
+StringVar GetCabinet12;
+
+IF Length(GetCabinet0) = 0 THEN GetCabinet0 := {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet0) &lt; 230 THEN  GetCabinet0 := GetCabinet0 &amp; ', ' &amp; {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet1) &lt; 230 THEN GetCabinet1 := GetCabinet1 &amp; ', ' &amp; {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet2) &lt; 230 THEN GetCabinet2 := GetCabinet2 &amp; ', ' &amp; {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet3) &lt; 230 THEN GetCabinet3 := GetCabinet3 &amp; ', ' &amp; {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet4) &lt; 230 THEN GetCabinet4 := GetCabinet4 &amp; ', ' &amp; {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet5) &lt; 230 THEN GetCabinet5 := GetCabinet5 &amp; ', ' &amp; {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet6) &lt; 230 THEN GetCabinet6 := GetCabinet6 &amp; ', ' &amp; {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet7) &lt; 230 THEN GetCabinet7 := GetCabinet7 &amp; ', ' &amp; {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet8) &lt; 230 THEN GetCabinet8 := GetCabinet8 &amp; ', ' &amp; {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet9) &lt; 230 THEN GetCabinet9 := GetCabinet9 &amp; ', ' &amp; {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet10) &lt; 230 THEN GetCabinet10 := GetCabinet10 &amp; ', ' &amp; {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet11) &lt; 230 THEN GetCabinet11 := GetCabinet11 &amp; ', ' &amp; {@PartQuan -Cab}
+ELSE IF  Length(GetCabinet12) &lt; 230 THEN GetCabinet12 := GetCabinet12 &amp; ', ' &amp; {@PartQuan -Cab}
+</Expression>
+        </Text>
+      </TextField>
+    </Fields>
+  </Report>
+</Reports>

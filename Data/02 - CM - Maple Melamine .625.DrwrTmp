@@ -1,0 +1,15 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - CM - Maple Melamine .625" Type="2" SymbolForLabels="">
+  <MaterialReference PartType="DrawerSide" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFront" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBack" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBottom" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TraySide" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFace" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFront" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBack" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBottom" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPartition" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerDivider" Mat="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" MatThick="16.10106" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

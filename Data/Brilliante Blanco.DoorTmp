@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="Brilliante Blanco" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Blanco HG Brilliante 3/4 619 BRL [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Blanco HG Brilliante 3/4 619 BRL [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Blanco HG Brilliante 3/4 619 BRL [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Blanco HG Brilliante 3/4 619 BRL [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Blanco HG Brilliante 3/4 619 BRL [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Blanco HG Brilliante 3/4 619 BRL [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Blanco HG Brilliante 3/4 619 BRL [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

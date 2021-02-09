@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - PRZ - Sienna Velvet" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Sienna Velvet 3/4 SF230 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Sienna Velvet 3/4 SF230 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Sienna Velvet 3/4 SF230 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Sienna Velvet 3/4 SF230 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Sienna Velvet 3/4 SF230 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Sienna Velvet 3/4 SF230 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Sienna Velvet 3/4 SF230 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

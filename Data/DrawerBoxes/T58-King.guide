@@ -1,0 +1,11 @@
+Mozaik Guide Export
+7
+<?xml version="1.0" encoding="utf-16" standalone="yes"?>
+<Guide Name="T58-King" Price="0" SideCl="5" BotCl="14.3" TopCl="6.35" HoleDia="5" Hole1Inset="37" Hole2Inset="69" Hole3Inset="165" HoleCenterFromReference="22.7" HoleDepth="1.5875" Image="Tandem.jpg" Comment="Undermount Richelieu" SocketA_DI="0" SocketA_DU="0" SocketB_DI="0" SocketB_DU="0" SocketDia="0" SocketDepth="0" Hole4Inset="261" Hole5Inset="357" UseGuideLengths="True" Hole6Inset="0" HoleReferenceFromBottom="True">
+  <GuideLength PartNumber="SC-08-300" Description="12" Length="290" Price="0" HolePattern="1,2,3,4" BoxDepthAdj="0" />
+  <GuideLength PartNumber="SC-08-350" Description="14" Length="340" Price="0" HolePattern="1,2,3,4" BoxDepthAdj="0" />
+  <GuideLength PartNumber="SC-08-400" Description="16" Length="390" Price="0" HolePattern="1,2,3,4" BoxDepthAdj="0" />
+  <GuideLength PartNumber="SC-08-450" Description="18" Length="440" Price="0" HolePattern="1,2,3,4" BoxDepthAdj="0" />
+  <GuideLength PartNumber="SC-08-500" Description="20" Length="490" Price="0" HolePattern="1,2,3,4,5" BoxDepthAdj="0" />
+  <GuideLength PartNumber="SC-08-550" Description="22" Length="540" Price="0" HolePattern="1,2,3,4,5" BoxDepthAdj="0" />
+</Guide>

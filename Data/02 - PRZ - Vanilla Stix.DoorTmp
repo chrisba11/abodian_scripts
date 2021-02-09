@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - PRZ - Vanilla Stix" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Vanilla Stix 3/4 WF294 PRZ [Matching Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Vanilla Stix 3/4 WF294 PRZ [Matching Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Vanilla Stix 3/4 WF294 PRZ [Matching Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Vanilla Stix 3/4 WF294 PRZ [Matching Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Vanilla Stix 3/4 WF294 PRZ [Matching Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Vanilla Stix 3/4 WF294 PRZ [Matching Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Vanilla Stix 3/4 WF294 PRZ [Matching Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

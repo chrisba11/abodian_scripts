@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="Fog Grey Uppers-Mysterious Lowers" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" MatThick="19.05" MatWall="Fog Grey 3/4 KMD772 KML" MatWallThick="19.05" />
+  <MaterialReference PartType="DoorPanel" Mat="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" MatThick="19.05" MatWall="Fog Grey 3/4 KMD772 KML" MatWallThick="19.05" />
+  <MaterialReference PartType="DoorFrame" Mat="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" MatThick="19.05" MatWall="Fog Grey 3/4 KMD772 KML" MatWallThick="19.05" />
+  <MaterialReference PartType="Drawer" Mat="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" MatThick="19.05" MatWall="Fog Grey 3/4 KMD772 KML" MatWallThick="19.05" />
+  <MaterialReference PartType="DrawerPanel" Mat="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" MatThick="19.05" MatWall="Fog Grey 3/4 KMD772 KML" MatWallThick="19.05" />
+  <MaterialReference PartType="DrawerFrame" Mat="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" MatThick="19.05" MatWall="Fog Grey 3/4 KMD772 KML" MatWallThick="19.05" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" MatThick="19.05" MatWall="Fog Grey 3/4 KMD772 KML" MatWallThick="19.05" />
+</MaterialTemplate>

@@ -1,0 +1,13 @@
+Mozaik Guide Export
+7
+<?xml version="1.0" encoding="utf-16" standalone="yes"?>
+<Guide Name="T58-Blum-Tandem" Price="0" SideCl="5" BotCl="14.8" TopCl="7" HoleDia="5" Hole1Inset="37" Hole2Inset="69" Hole3Inset="133" HoleCenterFromReference="22.2" HoleDepth="1.5875" Image="Tandem.jpg" Comment="Undermount Richelieu" SocketA_DI="0" SocketA_DU="0" SocketB_DI="0" SocketB_DU="0" SocketDia="0" SocketDepth="0" Hole4Inset="165" Hole5Inset="261" UseGuideLengths="True" Hole6Inset="275" HoleReferenceFromBottom="True">
+  <GuideLength PartNumber="560H2500B" Description="10" Length="240" Price="0" HolePattern="1,2,3" BoxDepthAdj="0" />
+  <GuideLength PartNumber="560H2700B" Description="11" Length="260" Price="0" HolePattern="1,2,3" BoxDepthAdj="0" />
+  <GuideLength PartNumber="560H3000B" Description="12" Length="290" Price="0" HolePattern="1,2,4" BoxDepthAdj="0" />
+  <GuideLength PartNumber="560H3500B" Description="14" Length="340" Price="0" HolePattern="1,2,4,5" BoxDepthAdj="0" />
+  <GuideLength PartNumber="560H4000B" Description="16" Length="390" Price="0" HolePattern="1,2,4,5" BoxDepthAdj="0" />
+  <GuideLength PartNumber="560H4500B" Description="18" Length="440" Price="0" HolePattern="1,2,4,5" BoxDepthAdj="0" />
+  <GuideLength PartNumber="560H5000B" Description="20" Length="490" Price="0" HolePattern="1,2,5,6" BoxDepthAdj="0" />
+  <GuideLength PartNumber="560H5500B" Description="22" Length="540" Price="0" HolePattern="1,2,5,6" BoxDepthAdj="0" />
+</Guide>

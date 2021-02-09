@@ -1,0 +1,173 @@
+1
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RemnantMaterials>
+  <RemnantMaterial Name="3/4 Mela">
+    <OptimizeRemnantLocation X="11.1125" Y="739.7125" Width="492.1745" Length="2439.9745" Name="3/4 Mela" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="1781.213" Y="11.1125" Width="717.4875" Length="669.874" Name="3/4 Mela" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="3/4 Mysterious SF247">
+    <OptimizeRemnantLocation X="695.9422" Y="38.1" Width="838.2" Length="1221.7578" Name="3/4 Mysterious SF247" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="9" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="3/4 Fog Grey KMD772">
+    <OptimizeRemnantLocation X="742.9" Y="19.05" Width="1204.9" Length="1700.25" Name="3/4 Fog Grey KMD772" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="38.1" Y="449.2618" Width="706.4382" Length="1625.6" Name="3/4 Fog Grey KMD772" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="5/8 Birch PF">
+    <OptimizeRemnantLocation X="19.05" Y="946.0999" Width="266.7501" Length="2413" Name="5/8 Birch PF" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="19.05" Y="857.2" Width="355.65" Length="2413" Name="5/8 Birch PF" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="19.05" Y="781" Width="431.85" Length="2413" Name="5/8 Birch PF" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="3" />
+    <OptimizeRemnantLocation X="19.05" Y="781" Width="431.85" Length="2413" Name="5/8 Birch PF" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="4" />
+    <OptimizeRemnantLocation X="19.05" Y="730.2" Width="482.65" Length="2413" Name="5/8 Birch PF" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="5" />
+    <OptimizeRemnantLocation X="628.5999" Y="19.05" Width="1193.8" Length="1803.4501" Name="5/8 Birch PF" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="6" />
+    <OptimizeRemnantLocation X="19.05" Y="552.4" Width="660.45" Length="590.4999" Name="5/8 Birch PF" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="7" />
+    <OptimizeRemnantLocation X="19.05" Y="342.85" Width="870" Length="2413" Name="5/8 Birch PF" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="8" />
+    <OptimizeRemnantLocation X="1451.25" Y="647.65" Width="565.2" Length="980.8" Name="5/8 Birch PF" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="9" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="3/4 Concrete Groovz">
+    <OptimizeRemnantLocation X="19.05" Y="679.5" Width="546.05" Length="2425.7" Name="3/4 Concrete Groovz" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="19.05" Y="679.5" Width="546.05" Length="2425.7" Name="3/4 Concrete Groovz" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="923.975" Y="19.05" Width="1206.5" Length="1520.775" Name="3/4 Concrete Groovz" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="3" />
+    <OptimizeRemnantLocation X="19.05" Y="657.275" Width="568.275" Length="885.875" Name="3/4 Concrete Groovz" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="4" />
+    <OptimizeRemnantLocation X="957.2499" Y="19.05" Width="507.9" Length="1449.4001" Name="3/4 Concrete Groovz" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="20.32" Y="709.345" Width="514.935" Length="2423.16" Name="3/4 Concrete Groovz" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="9" />
+    <OptimizeRemnantLocation X="20.32" Y="709.345" Width="514.935" Length="2423.16" Name="3/4 Concrete Groovz" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="10" />
+    <OptimizeRemnantLocation X="801.42" Y="112.1283" Width="1112.1517" Length="1642.06" Name="3/4 Concrete Groovz" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="12" />
+    <OptimizeRemnantLocation X="801.42" Y="20.32" Width="1203.96" Length="1642.06" Name="3/4 Concrete Groovz" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="13" />
+    <OptimizeRemnantLocation X="20.32" Y="666.42" Width="557.86" Length="760.78" Name="3/4 Concrete Groovz" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="14" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="3/4 Pewter Pine">
+    <OptimizeRemnantLocation X="1274.85" Y="812.8501" Width="387.2999" Length="1144.5" Name="3/4 Pewter Pine" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="19.05" Y="679.5" Width="520.65" Length="2400.3" Name="3/4 Pewter Pine" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="19.05" Y="679.5" Width="520.65" Length="2400.3" Name="3/4 Pewter Pine" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="3" />
+    <OptimizeRemnantLocation X="923.975" Y="19.05" Width="1181.1" Length="1495.375" Name="3/4 Pewter Pine" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="4" />
+    <OptimizeRemnantLocation X="19.05" Y="657.275" Width="542.875" Length="885.875" Name="3/4 Pewter Pine" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="5" />
+    <OptimizeRemnantLocation X="19.05" Y="679.5" Width="520.65" Length="2400.3" Name="3/4 Pewter Pine" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="923.975" Y="19.05" Width="1181.1" Length="1495.375" Name="3/4 Pewter Pine" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="19.05" Y="657.275" Width="542.875" Length="885.875" Name="3/4 Pewter Pine" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="3" />
+    <OptimizeRemnantLocation X="254" Y="38.1" Width="1104.9" Length="1203.3" Name="3/4 Pewter Pine" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="5" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="5/8 White Melamine W100">
+    <OptimizeRemnantLocation X="1320.214" Y="927.5" Width="277.4" Length="1103.886" Name="5/8 White Melamine W100" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="38.1" Y="710.4062" Width="494.4938" Length="1147.95" Name="5/8 White Melamine W100" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="4" />
+    <OptimizeRemnantLocation X="1260.637" Y="38.1" Width="1166.8" Length="1163.463" Name="5/8 White Melamine W100" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="38.1" Y="603.5" Width="601.4" Length="1184.437" Name="5/8 White Melamine W100" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="38.1" Y="765.425" Width="439.475" Length="2386" Name="5/8 White Melamine W100" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="3/4 White Melamine W100">
+    <OptimizeRemnantLocation X="0" Y="0" Width="419.1" Length="2425.7" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="419.1" Length="2425.7" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="393.7" Length="2387.6" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="393.7" Length="2387.6" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="381" Length="1765.3" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="533.4" Length="1612.9" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="571.5" Length="2387.6" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="584.2" Length="2025.65" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="584.2" Length="1828.8" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="419.1" Length="2413" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="419.1" Length="2387.6" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="533.4" Length="1771.65" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="609.6" Length="2387.6" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="406.4" Length="2387.6" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="439.42" Length="2387.6" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="551.18" Length="1263.65" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="0" Y="0" Width="419.1" Length="2413" Name="3/4 White Melamine W100" Comment="Standard White Case Material" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="20.32" Y="650.1538" Width="572.5262" Length="1616.598" Name="3/4 White Melamine W100" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="4" />
+    <OptimizeRemnantLocation X="20.32" Y="652.3822" Width="570.2978" Length="2421.56" Name="3/4 White Melamine W100" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="4" />
+    <OptimizeRemnantLocation X="652.187" Y="654.7629" Width="567.9171" Length="1789.693" Name="3/4 White Melamine W100" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="5" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="3/4 Veneer">
+    <OptimizeRemnantLocation X="38.1" Y="425.4" Width="768.4" Length="2374.9" Name="3/4 Veneer" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="2006.55" Y="19.05" Width="1193.8" Length="425.5" Name="3/4 Veneer" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="Matte White - Elegante">
+    <OptimizeRemnantLocation X="1371.8" Y="38.1" Width="1162" Length="1358.7" Name="Matte White - Elegante" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="38.1" Y="841.3" Width="358.8" Length="2692.4" Name="Matte White - Elegante" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="3" />
+    <OptimizeRemnantLocation X="1403.3" Y="120.7" Width="342.8" Length="1327.2" Name="Matte White - Elegante" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="4" />
+    <OptimizeRemnantLocation X="38.1" Y="727.125" Width="472.975" Length="2692.4" Name="Matte White - Elegante" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="38.1" Y="635.05" Width="565.05" Length="2692.4" Name="Matte White - Elegante" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="5" />
+    <OptimizeRemnantLocation X="1778.05" Y="38.1" Width="558.85" Length="952.45" Name="Matte White - Elegante" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="6" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="3/4 Fresno Glacial 16N">
+    <OptimizeRemnantLocation X="799.6801" Y="845.1801" Width="381.6399" Length="1646.3399" Name="3/4 Fresno Glacial 16N" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="17.78" Y="633.78" Width="593.04" Length="2428.24" Name="3/4 Fresno Glacial 16N" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="922.705" Y="17.78" Width="1209.04" Length="1523.315" Name="3/4 Fresno Glacial 16N" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="3" />
+    <OptimizeRemnantLocation X="17.78" Y="678.23" Width="548.59" Length="887.145" Name="3/4 Fresno Glacial 16N" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="4" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="3/4 Door Material" />
+  <RemnantMaterial Name="3/4 Verismo">
+    <OptimizeRemnantLocation X="38.1" Y="803.4" Width="403.1" Length="668.4" Name="3/4 Verismo" Comment="" Quan="1" LabelPrinted="True" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="38.1" Y="803.4" Width="403.1" Length="2387.6" Name="3/4 Verismo" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="20.32" Y="863.945" Width="360.335" Length="633.78" Name="3/4 Verismo" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="10" />
+    <OptimizeRemnantLocation X="674.42" Y="429.945" Width="794.335" Length="1160.78" Name="3/4 Verismo" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="9" />
+    <OptimizeRemnantLocation X="1855.52" Y="20.32" Width="1203.96" Length="587.96" Name="3/4 Verismo" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="8" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="5/8 Hard Rock Maple Melamine">
+    <OptimizeRemnantLocation X="872.9572" Y="20.32" Width="1178.56" Length="1545.1228" Name="5/8 Hard Rock Maple Melamine" Comment="" Quan="1" LabelPrinted="True" RemnantNumber="1" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="3/4 Elegante Super Matte White">
+    <OptimizeRemnantLocation X="979.3608" Y="514.3134" Width="684.5666" Length="1768.9192" Name="3/4 Elegante Super Matte White" Comment="" Quan="1" LabelPrinted="True" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="979.3608" Y="514.3134" Width="684.5666" Length="1768.9192" Name="3/4 Elegante Super Matte White" Comment="" Quan="1" LabelPrinted="True" RemnantNumber="1" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="3/4 Matte Antracita - Z11 Zenit">
+    <OptimizeRemnantLocation X="20.32" Y="369.5325" Width="788.8665" Length="1873.091" Name="3/4 Matte Antracita - Z11 Zenit" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="195.6974" Y="20.32" Width="748.3475" Length="1657.2326" Name="3/4 Matte Antracita - Z11 Zenit" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="3" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="5/8 Storm">
+    <OptimizeRemnantLocation X="583.8165" Y="20.32" Width="1163.479" Length="946.0575" Name="5/8 Storm" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="3/4 Elegante High Gloss White">
+    <OptimizeRemnantLocation X="20.32" Y="139.8929" Width="1084.3871" Length="2727.96" Name="3/4 Elegante High Gloss White" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="3/4 Storm">
+    <OptimizeRemnantLocation X="1456.72" Y="20.32" Width="1203.96" Length="986.76" Name="3/4 Storm" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="6" />
+    <OptimizeRemnantLocation X="20.32" Y="636.32" Width="587.96" Length="1416.08" Name="3/4 Storm" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="7" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="CM White 3/4 W100 PRZ">
+    <OptimizeRemnantLocation X="643.3276" Y="22.225" Width="1198.55" Length="1796.6474" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="22.225" Y="663.625" Width="557.15" Length="2417.75" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="11" />
+    <OptimizeRemnantLocation X="22.225" Y="663.625" Width="557.15" Length="2417.75" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="12" />
+    <OptimizeRemnantLocation X="22.225" Y="663.625" Width="557.15" Length="2417.75" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="13" />
+    <OptimizeRemnantLocation X="1276.375" Y="644.575" Width="576.2" Length="1163.6" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="14" />
+    <OptimizeRemnantLocation X="22.225" Y="650.925" Width="569.85" Length="2417.75" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="14" />
+    <OptimizeRemnantLocation X="676.325" Y="640.4866" Width="580.2884" Length="822.218" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="15" />
+    <OptimizeRemnantLocation X="676.325" Y="642.7982" Width="577.9768" Length="1763.65" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="15" />
+    <OptimizeRemnantLocation X="22.225" Y="647.6303" Width="573.1447" Length="2417.75" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="16" />
+    <OptimizeRemnantLocation X="1503.225" Y="22.225" Width="1198.55" Length="936.75" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="17" />
+    <OptimizeRemnantLocation X="22.225" Y="689.025" Width="531.75" Length="1458.775" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="18" />
+    <OptimizeRemnantLocation X="22.225" Y="690.9106" Width="529.8644" Length="2417.75" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="19" />
+    <OptimizeRemnantLocation X="22.225" Y="640.4866" Width="580.2884" Length="1546.796" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="20" />
+    <OptimizeRemnantLocation X="22.225" Y="799.8214" Width="420.9536" Length="2417.75" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="21" />
+    <OptimizeRemnantLocation X="22.225" Y="644.575" Width="576.2" Length="2417.75" Name="CM White 3/4 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="22" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="CM White 5/8 W100 PRZ">
+    <OptimizeRemnantLocation X="1291.27" Y="22.225" Width="1198.55" Length="1148.705" Name="CM White 5/8 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="22.225" Y="108.4045" Width="1112.3705" Length="2417.75" Name="CM White 5/8 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="4" />
+    <OptimizeRemnantLocation X="22.225" Y="196.2458" Width="1024.5292" Length="2417.75" Name="CM White 5/8 W100 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="4" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="Verismo 3/4 WF202 PRZ">
+    <OptimizeRemnantLocation X="1432.45" Y="22.225" Width="1200.15" Length="1009.125" Name="Verismo 3/4 WF202 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="1806.625" Y="22.225" Width="1200.15" Length="634.95" Name="Verismo 3/4 WF202 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="1806.625" Y="22.225" Width="1200.15" Length="634.95" Name="Verismo 3/4 WF202 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="2" />
+    <OptimizeRemnantLocation X="1806.625" Y="22.225" Width="1200.15" Length="634.95" Name="Verismo 3/4 WF202 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="3" />
+    <OptimizeRemnantLocation X="1805.025" Y="22.225" Width="1200.15" Length="636.55" Name="Verismo 3/4 WF202 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="4" />
+    <OptimizeRemnantLocation X="1805.025" Y="22.225" Width="1200.15" Length="636.55" Name="Verismo 3/4 WF202 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="5" />
+    <OptimizeRemnantLocation X="1768.525" Y="22.225" Width="1200.15" Length="673.05" Name="Verismo 3/4 WF202 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="6" />
+    <OptimizeRemnantLocation X="1768.525" Y="22.225" Width="1200.15" Length="673.05" Name="Verismo 3/4 WF202 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="7" />
+    <OptimizeRemnantLocation X="1768.525" Y="22.225" Width="1200.15" Length="673.05" Name="Verismo 3/4 WF202 PRZ" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="8" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="CM Birch PF 5/8">
+    <OptimizeRemnantLocation X="981.1" Y="22.225" Width="857.25" Length="1333.475" Name="CM Birch PF 5/8" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+    <OptimizeRemnantLocation X="1019.566" Y="22.225" Width="857.25" Length="1295.009" Name="CM Birch PF 5/8" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="1" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="Kash">
+    <OptimizeRemnantLocation X="651.8935" Y="287.3751" Width="934.9999" Length="1789.6815" Name="Kash" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="5" />
+    <OptimizeRemnantLocation X="22.225" Y="520.8209" Width="701.5541" Length="607.4435" Name="Kash" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="6" />
+    <OptimizeRemnantLocation X="638.175" Y="22.225" Width="882.65" Length="1117.6" Name="Kash" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="7" />
+  </RemnantMaterial>
+  <RemnantMaterial Name="Fresno Glacial 3/4 16N FIN">
+    <OptimizeRemnantLocation X="734.9937" Y="123.1027" Width="1086.5723" Length="723.7843" Name="Fresno Glacial 3/4 16N FIN" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="6" />
+    <OptimizeRemnantLocation X="22.225" Y="123.1028" Width="1086.5722" Length="1436.553" Name="Fresno Glacial 3/4 16N FIN" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="6" />
+    <OptimizeRemnantLocation X="22.225" Y="123.1028" Width="1086.5722" Length="2419.35" Name="Fresno Glacial 3/4 16N FIN" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="6" />
+    <OptimizeRemnantLocation X="517.3824" Y="22.225" Width="1022.35" Length="1873.3926" Name="Fresno Glacial 3/4 16N FIN" Comment="" Quan="1" LabelPrinted="False" RemnantNumber="7" />
+  </RemnantMaterial>
+</RemnantMaterials>

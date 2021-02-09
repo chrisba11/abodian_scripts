@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="3-4 Roble Aurora" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Roble Aurora 3/4 98V FIN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Roble Aurora 3/4 98V FIN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Roble Aurora 3/4 98V FIN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Roble Aurora 3/4 98V FIN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Roble Aurora 3/4 98V FIN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Roble Aurora 3/4 98V FIN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Roble Aurora 3/4 98V FIN [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+</MaterialTemplate>
