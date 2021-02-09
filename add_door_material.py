@@ -170,8 +170,8 @@ def add__door_material():
         f'Optimize="True" ' \
         f'BandType="0" />\n'
 
-    for_grey_58 = \
-        f'    <Material Name="CM Birch PF 5/8 [{sheet_case_mat_name} Banding]" ' \
+    fog_grey_58 = \
+        f'    <Material Name="CM Fog Grey 5/8 SF213 PRZ [{sheet_case_mat_name} Banding]" ' \
         f'Quan="1" ' \
         f'W="1243.012" ' \
         f'L="2462.212" ' \
@@ -190,8 +190,8 @@ def add__door_material():
         f'Optimize="True" ' \
         f'BandType="0" />\n'
 
-    for_grey_34 = \
-        f'    <Material Name="CM Birch PF 3/4 [{sheet_case_mat_name} Banding]" ' \
+    fog_grey_34 = \
+        f'    <Material Name="CM Fog Grey 3/4 SF213 PRZ [{sheet_case_mat_name} Banding]" ' \
         f'Quan="1" ' \
         f'W="1243.012" ' \
         f'L="2462.212" ' \
@@ -210,9 +210,139 @@ def add__door_material():
         f'Optimize="True" ' \
         f'BandType="0" />\n'
 
+    hardrock_58 = \
+        f'    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [{sheet_case_mat_name} Banding]" ' \
+        f'Quan="1" ' \
+        f'W="1244.6" ' \
+        f'L="2460.625" ' \
+        f'Thick="16.10106" ' \
+        f'WTrim="6.35" ' \
+        f'LTrim="6.35" ' \
+        f'HasGrain="True" ' \
+        f'TwoSided="True" ' \
+        f'CostEach="0" ' \
+        f'MarkupPercentage="0" ' \
+        f'AddOnCost="0" ' \
+        f'Speed="100" ' \
+        f'ImageFile="" ' \
+        f'Comment="" ' \
+        f'WastePercentage="20" ' \
+        f'Optimize="True" ' \
+        f'BandType="0" />\n'
+
+    hardrock_34 = \
+        f'    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [{sheet_case_mat_name} Banding]" ' \
+        f'Quan="1" ' \
+        f'W="1244.6" ' \
+        f'L="2460.625" ' \
+        f'Thick="19.19986" ' \
+        f'WTrim="6.35" ' \
+        f'LTrim="6.35" ' \
+        f'HasGrain="True" ' \
+        f'TwoSided="True" ' \
+        f'CostEach="0" ' \
+        f'MarkupPercentage="0" ' \
+        f'AddOnCost="0" ' \
+        f'Speed="100" ' \
+        f'ImageFile="" ' \
+        f'Comment="" ' \
+        f'WastePercentage="20" ' \
+        f'Optimize="True" ' \
+        f'BandType="0" />\n'
+
+    white_58 = \
+        f'    <Material Name="CM White 5/8 W100 PRZ [{sheet_case_mat_name} Banding]" ' \
+        f'Quan="1" ' \
+        f'W="1243.012" ' \
+        f'L="2462.212" ' \
+        f'Thick="16.10106" ' \
+        f'WTrim="6.35" ' \
+        f'LTrim="6.35" ' \
+        f'HasGrain="False" ' \
+        f'TwoSided="True" ' \
+        f'CostEach="0" ' \
+        f'MarkupPercentage="0" ' \
+        f'AddOnCost="0" ' \
+        f'Speed="100" ' \
+        f'ImageFile="" ' \
+        f'Comment="" ' \
+        f'WastePercentage="20" ' \
+        f'Optimize="True" ' \
+        f'BandType="0" />\n'
+
+    white_34 = \
+        f'    <Material Name="CM White 3/4 W100 PRZ [{sheet_case_mat_name} Banding]" ' \
+        f'Quan="1" ' \
+        f'W="1243.012" ' \
+        f'L="2462.212" ' \
+        f'Thick="19.19986" ' \
+        f'WTrim="6.35" ' \
+        f'LTrim="6.35" ' \
+        f'HasGrain="False" ' \
+        f'TwoSided="True" ' \
+        f'CostEach="0" ' \
+        f'MarkupPercentage="0" ' \
+        f'AddOnCost="0" ' \
+        f'Speed="100" ' \
+        f'ImageFile="" ' \
+        f'Comment="" ' \
+        f'WastePercentage="20" ' \
+        f'Optimize="True" ' \
+        f'BandType="0" />\n'
+
+    storm_58 = \
+        f'    <Material Name="Storm Gray 5/8 S565 PAN [{sheet_case_mat_name} Banding]" ' \
+        f'Quan="1" ' \
+        f'W="1244.6" ' \
+        f'L="2463.8" ' \
+        f'Thick="16.2" ' \
+        f'WTrim="6.35" ' \
+        f'LTrim="6.35" ' \
+        f'HasGrain="False" ' \
+        f'TwoSided="True" ' \
+        f'CostEach="0" ' \
+        f'MarkupPercentage="0" ' \
+        f'AddOnCost="0" ' \
+        f'Speed="100" ' \
+        f'ImageFile="" ' \
+        f'Comment="" ' \
+        f'WastePercentage="20" ' \
+        f'Optimize="True" ' \
+        f'BandType="0" />\n'
+
+    storm_34 = \
+        f'    <Material Name="Storm Gray 3/4 S565 PAN [{sheet_case_mat_name} Banding]" ' \
+        f'Quan="1" ' \
+        f'W="1244.6" ' \
+        f'L="2463.8" ' \
+        f'Thick="19.2" ' \
+        f'WTrim="6.35" ' \
+        f'LTrim="6.35" ' \
+        f'HasGrain="False" ' \
+        f'TwoSided="True" ' \
+        f'CostEach="0" ' \
+        f'MarkupPercentage="0" ' \
+        f'AddOnCost="0" ' \
+        f'Speed="100" ' \
+        f'ImageFile="" ' \
+        f'Comment="" ' \
+        f'WastePercentage="20" ' \
+        f'Optimize="True" ' \
+        f'BandType="0" />\n'
+
     updated_material_list = curr_mat_list[:curr_sheet_mat_end_idx]
     updated_material_list.append(door_sheet_CNC)
     updated_material_list.append(door_sheet_BSAW)
+    updated_material_list.append(birch_58)
+    updated_material_list.append(birch_34)
+    updated_material_list.append(fog_grey_58)
+    updated_material_list.append(fog_grey_34)
+    updated_material_list.append(hardrock_58)
+    updated_material_list.append(hardrock_34)
+    updated_material_list.append(white_58)
+    updated_material_list.append(white_34)
+    updated_material_list.append(storm_58)
+    updated_material_list.append(storm_34)
     updated_material_list += curr_mat_list[curr_sheet_mat_end_idx:curr_band_list_end_idx]
     # will add new bandings to banding list here
     updated_material_list += curr_mat_list[curr_band_list_end_idx:]
