@@ -400,6 +400,8 @@ def add__door_material():
     f.writelines(updated_material_list)
     f.close()
 
+
+    # creates all of the banding templates for each interior material
     for interior_band in [
         ['GC', '0.5mm Fog Grey SF213 PRZ'],
         ['MC', '0.5mm Hardrock Maple WF275 PRZ'],
@@ -424,6 +426,8 @@ def add__door_material():
         f.writelines(band_temp)
         f.close()
 
+
+    # creates the finished interior cabinet templates
     fin_int_case_temp_02 = \
         f'2\n' \
         f'<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n' \
@@ -516,6 +520,7 @@ def add__door_material():
     f.close()
 
 
+    # creates the standard cabinet templates
     for interior_mat in [
         ['Fog Grey 34', 'CM Fog Grey 3/4 SF213 PRZ', '19.05'],
         ['Fog Grey 58', 'CM Fog Grey 5/8 SF213 PRZ', '15.875'],
@@ -621,7 +626,25 @@ def add__door_material():
         f.close()
 
 
+    # creates the door template
+        door_temp = \
+            f'2\n' \
+            f'<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n' \
+            f'<MaterialTemplate Name="02 - {band_temp_name}" Type="1" SymbolForLabels="">\n' \
+            f'  <MaterialReference PartType="Door" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="DoorPanel" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="DoorFrame" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Drawer" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="DrawerPanel" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="DrawerFrame" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="PanelizedEnd" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
+            f'</MaterialTemplate>'
 
+        door_temp_path = folder_path + f'\\02 - {band_temp_name}.DoorTmp'
+
+        f = open(door_temp_path, "wt")
+        f.writelines(door_temp)
+        f.close()
 
 
 
