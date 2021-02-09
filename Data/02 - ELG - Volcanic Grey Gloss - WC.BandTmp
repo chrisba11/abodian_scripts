@@ -1,8 +1,0 @@
-2
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<MaterialTemplate Name="02 - ELG - Volcanic Grey Gloss - WC" Type="4" SymbolForLabels="EG">
-  <MaterialReference PartType="EdgeBand" Mat="0.5mm Willow Grey ST123 TEK" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand2" Mat="1mm Volcanic Grey Gloss 25321 ELG" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm White W100 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />
-</MaterialTemplate>

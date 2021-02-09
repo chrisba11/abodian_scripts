@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - CMB - Potato Salad" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Potato Salad 362 CMB [Matching Banding]" MatThick="19.558" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Potato Salad 362 CMB [Matching Banding]" MatThick="19.558" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Potato Salad 362 CMB [Matching Banding]" MatThick="19.558" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Potato Salad 362 CMB [Matching Banding]" MatThick="19.558" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Potato Salad 362 CMB [Matching Banding]" MatThick="19.558" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Potato Salad 362 CMB [Matching Banding]" MatThick="19.558" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Potato Salad 362 CMB [Matching Banding]" MatThick="19.558" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

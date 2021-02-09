@@ -1,8 +1,0 @@
-2
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<MaterialTemplate Name="02 - ELG - Volcanic Grey Supermatte - PC" Type="4" SymbolForLabels="EH">
-  <MaterialReference PartType="EdgeBand" Mat="0.5mm Willow Grey ST123 TEK" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand2" Mat="1mm Willow Grey ST123 TEK" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Birch PF" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand4" Mat="Volcanic Grey SM LAMINATE 25321 ELG" MatThick="1" MatWall="" MatWallThick="0" />
-</MaterialTemplate>
