@@ -33,6 +33,6 @@
   <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Metal" Mat="Mirror 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="Special" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Special" Mat="TEST MATERIAL 3/4 T24736 [Matching Banding] BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="ClosetRod" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
 </MaterialTemplate>
