@@ -22,70 +22,72 @@ def add__door_material():
     curr_band_list_end_idx = curr_mat_list.index('  </EdgeBandingMaterials>\n')
 
 
-    # test sheet variables
-    sheet_name = 'POTATO PEEL 3/4 T24736'
-    sheet_width = '1244.6'
-    sheet_length = '2743.2'
-    sheet_thick = '19.05'
-    has_grain = 'True'
-    two_sided = 'True'
-    waste_percent = '20'
-    optmize = 'True'
-    sheet_comment = 'Nothing to see here'
-    case_mat_band_name = 'Potato Peel SUPERMATTE'
-    band_temp_name = 'CMB - Potato Peel Supermatte'
-    cab_temp_name = 'Potato Peel SM'
+    # # test sheet variables
+    # sheet_name = 'POTATO PEEL 3/4 T24736'
+    # sheet_width = '1244.6'
+    # sheet_length = '2743.2'
+    # sheet_thick = '19.05'
+    # has_grain = 'True'
+    # two_sided = 'True'
+    # waste_percent = '20'
+    # optmize = 'True'
+    # sheet_comment = 'Nothing to see here'
+    # case_mat_band_name = 'Potato Peel SUPERMATTE'
+    # band_temp_name = 'CMB - Potato Peel Supermatte'
+    # cab_temp_name = 'Potato Peel SM'
 
-    # test case band variables
-    case_band_exists = 'False'
-    case_band_name = '0.5mm NEW CASE BANDING'
-    case_band_width = '22.225'
-    case_band_length = '91440.0'
-    case_band_type = '0'
-    case_band_comment = 'BANDING FOR CASE'
+    # # test case band variables
+    # case_band_exists = 'False'
+    # case_band_name = '0.5mm NEW CASE BANDING'
+    # case_band_width = '22.225'
+    # case_band_length = '91440.0'
+    # case_band_type = '0'
+    # case_band_comment = 'BANDING FOR CASE'
 
-    # test door band variables
-    door_band_exists = 'False'
-    door_band_name = '1mm NEW DOOR BANDING'
-    door_band_width = '22.225'
-    door_band_length = '91440.0'
-    door_band_type = '0'
-    door_band_comment = 'BANDING FOR DOOR'
+    # # test door band variables
+    # door_band_exists = 'False'
+    # door_band_name = '1mm NEW DOOR BANDING'
+    # door_band_width = '22.225'
+    # door_band_length = '91440.0'
+    # door_band_type = '0'
+    # door_band_comment = 'BANDING FOR DOOR'
 
 
-    # # user input sheet related variables
-    # sheet_name = input('What do you want to name the sheet material? ')
-    # sheet_width = str(float(input('What is the sheet width in inches? (48.5 format) ')) * 25.4)
-    # sheet_length = str(float(input('What is the sheet length in inches? (96.5 format) ')) *25.4)
-    # sheet_thick = str(float(input('What is the sheet thickness in inches? (0.75 format) ')) * 25.4)
-    # has_grain = input('Does the material have grain? (Y or N) ')
-    # has_grain = "True" if has_grain[0] == 'y' or has_grain[0] == 'Y' else "False"
-    # two_sided = input('Is this material 2-sided? (Y or N) ')
-    # two_sided = "True" if two_sided[0] == 'y' or two_sided[0] == 'Y' else "False"
-    # waste_percent = input('What is the waste percentage? (20 = 20%) ')
-    # optmize = input('Will this material be cut on the CNC? (Y or N) ')
-    # optmize = "True" if optmize[0] == 'y' or optmize[0] == 'Y' else "False"
-    # sheet_comment = input('What comment would you like to add to this material? ')
-    # case_mat_band_name = input('What should the banding name be on the case material? (Exclude "Banding") ')
-    # band_temp_name = input('What should the banding template names include? (ie - "ELG - White Gloss") ')
-    # cab_temp_name = input('What should the cabinet template names include? (ie - "White SM") ')
+    # user input sheet related variables
+    sheet_name = input('\nWhat do you want to name the sheet material? (ie - Aria 3/4 WF340 PRZ) ')
+    sheet_width = str(float(input('What is the sheet width in inches? (48.5 format) ')) * 25.4)
+    sheet_length = str(float(input('What is the sheet length in inches? (96.5 format) ')) *25.4)
+    sheet_thick = str(float(input('What is the sheet thickness in inches? (0.75 format) ')) * 25.4)
+    has_grain = input('Does the material have grain? (Y or N) ')
+    has_grain = "True" if has_grain[0] == 'y' or has_grain[0] == 'Y' else "False"
+    two_sided = input('Is this material 2-sided? (Y or N) ')
+    two_sided = "True" if two_sided[0] == 'y' or two_sided[0] == 'Y' else "False"
+    waste_percent = input('What is the waste percentage? (20 = 20%) ')
+    optmize = input('Will this material be cut on the CNC? (Y or N) ')
+    optmize = "True" if optmize[0] == 'y' or optmize[0] == 'Y' else "False"
+    sheet_comment = input('What comment would you like to add to this material? ')
+    case_mat_band_name = input('What should the banding name on the case material be called? (ie - Pacaya Medina)(Exclude "Banding") ')
+    band_temp_name = input('What should the banding template names include? (ie - "ELG - White Gloss") ')
+    cab_temp_name = input('What should the cabinet template names include? (ie - "White SM") ')
 
-    # #banding related variables
+    #banding related variables
     # case_band_exists = input('\nDoes the case banding already exist? (Y or N) ')
     # case_band_exists = 'True' if case_band_exists[0] == 'y' or case_band_exists[0] == 'Y' else 'False'
-    # case_band_name = input('What is the name of the case banding? ')
-    # case_band_width = input('What is the width of the case banding in inches? (0.875 format) ')
-    # case_band_length = input('What is the length of the case banding in feet? ')
-    # case_band_type = input('What is the case banding type? (0 = Roll, 1 = Strip) ')
-    # case_band_comment = input('What comment would you like to add to this case banding? ')
+    case_band_exists = 'False'
+    case_band_name = input('\nWhat is the name of the case banding? (ie - 0.5mm Samba R63 UNI) ')
+    case_band_width = input('What is the width of the case banding in inches? (0.875 format) ')
+    case_band_length = input('What is the length of the case banding in feet? ')
+    case_band_type = input('What is the case banding type? (0 = Roll, 1 = Strip) ')
+    case_band_comment = input('What comment would you like to add to this case banding? ')
 
     # door_band_exists = input('\nDoes the door banding already exist? (Y or N) ')
-    # door_band_name = input('What is the name of the door banding? ')
-    # door_band_width = input('What is the width of the door banding in inches? (0.875 format) ')
-    # door_band_length = input('What is the length of the door banding in feet? ')
-    # door_band_thick = input('What is the door banding thickness in millimeters? ')
-    # door_band_type = input('What is the door banding type? (0 = Roll, 1 = Strip) ')
-    # door_band_comment = input('What comment would you like to add to this door banding? ')
+    # door_band_exists = 'True' if case_band_exists[0] == 'y' or case_band_exists[0] == 'Y' else 'False'
+    door_band_exists = 'False'
+    door_band_name = input('\nWhat is the name of the door banding? (ie - 1mm Samba R63 UNI) ')
+    door_band_width = input('What is the width of the door banding in inches? (0.875 format) ')
+    door_band_length = input('What is the length of the door banding in feet? ')
+    door_band_type = input('What is the door banding type? (0 = Roll, 1 = Strip) ')
+    door_band_comment = input('What comment would you like to add to this door banding? ')
 
 
     # creates folder where new material templates will be placed

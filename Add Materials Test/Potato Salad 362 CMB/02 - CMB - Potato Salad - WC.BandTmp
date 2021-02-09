@@ -1,0 +1,8 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - CMB - Potato Salad - WC" Type="4" SymbolForLabels="CM">
+  <MaterialReference PartType="EdgeBand" Mat="Olivia Medina" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand2" Mat="1mm Potato Salad 362 CMB" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm White W100 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>
