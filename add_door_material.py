@@ -23,9 +23,6 @@ def add__door_material():
     curr_band_list_start_idx = curr_mat_list.index('  <EdgeBandingMaterials>\n') + 1
     curr_band_list_end_idx = curr_mat_list.index('  </EdgeBandingMaterials>\n')
 
-    # grabs only the banding materials
-    curr_band_list = curr_mat_list[curr_band_list_start_idx:curr_band_list_end_idx]
-
 
     # test sheet variables
     sheet_name = 'TEST MATERIAL 3/4 T24736'
@@ -398,6 +395,18 @@ def add__door_material():
     f = open(new_mat_path, "wt")
     f.writelines(updated_material_list)
     f.close()
+
+    for case_mat in ['GC', 'MC', 'PC', 'SC', 'WC']:
+        band_temp = \
+            f'2\n' \
+            f'<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n' \
+            f'<MaterialTemplate Name="02 - EGG - Stone Grey Supermatte - {case_mat}" Type="4" SymbolForLabels="EA">\n' \
+            f'<MaterialReference PartType="EdgeBand" Mat="0.5mm Stone Grey Supermatte U727 EGG" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+            f'<MaterialReference PartType="EdgeBand2" Mat="1mm Stone Grey Supermatte U727 EGG" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+            f'<MaterialReference PartType="EdgeBand3" Mat="0.5mm Fog Grey SF213 PRZ" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+            f'<MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />\n' \
+            f'</MaterialTemplate>'
+
 
 
 
