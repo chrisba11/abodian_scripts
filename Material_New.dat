@@ -950,6 +950,8 @@
     <Material Name="White Supermatte LAMINATE 25391 ELG" Quan="1" W="63.5" L="3048" Thick="1" WTrim="0" LTrim="0" HasGrain="False" TwoSided="False" CostEach="0" MarkupPercentage="0" AddOnCost="0" Speed="0" ImageFile="" Comment="" WastePercentage="10" Optimize="False" BandType="1" />
     <Material Name="White Velvet LAMINATE W300 PRZ" Quan="1" W="63.5" L="3048" Thick="1.00076" WTrim="0" LTrim="0" HasGrain="False" TwoSided="False" CostEach="0" MarkupPercentage="0" AddOnCost="0" Speed="0" ImageFile="" Comment="" WastePercentage="10" Optimize="False" BandType="1" />
     <Material Name="PAN Absolut Acajou WY160 LAMINATE" Quan="1" W="63.5" L="3048" Thick="1.00076" WTrim="0" LTrim="0" HasGrain="False" TwoSided="False" CostEach="0" MarkupPercentage="0" AddOnCost="0" Speed="0" ImageFile="" Comment="" WastePercentage="10" Optimize="False" BandType="1" />
+    <Material Name="0.5mm NEW CASE BANDING" Quan="1" W="22.225" L="91440.0" Thick="0" WTrim="0" LTrim="0" HasGrain="False" TwoSided="False" CostEach="0" MarkupPercentage="0" AddOnCost="0" Speed="0" ImageFile="" Comment="BANDING FOR CASE" WastePercentage="0" Optimize="False" BandType="0" />
+    <Material Name="1mm NEW DOOR BANDING" Quan="1" W="22.225" L="91440.0" Thick="0" WTrim="0" LTrim="0" HasGrain="False" TwoSided="False" CostEach="0" MarkupPercentage="0" AddOnCost="0" Speed="0" ImageFile="" Comment="BANDING FOR DOOR" WastePercentage="0" Optimize="False" BandType="0" />
   </EdgeBandingMaterials>
   <TopsMaterials>
     <Material Name="Gray Soapstone" Quan="1" W="1219.2" L="2438.4" Thick="19.05" WTrim="0" LTrim="0" HasGrain="True" TwoSided="True" CostEach="0" MarkupPercentage="0" AddOnCost="0" Speed="100" ImageFile="1D Gray Soapstone" Comment="" WastePercentage="20" Optimize="False" BandType="0" />

@@ -44,7 +44,6 @@ def add__door_material():
     case_band_name = '0.5mm NEW CASE BANDING'
     case_band_width = '22.225'
     case_band_length = '91440.0'
-    case_band_thick = '0.5'
     case_band_type = '0'
     case_band_comment = 'BANDING FOR CASE'
 
@@ -53,7 +52,6 @@ def add__door_material():
     door_band_name = '1mm NEW DOOR BANDING'
     door_band_width = '22.225'
     door_band_length = '91440.0'
-    door_band_thick = '1.0'
     door_band_type = '0'
     door_band_comment = 'BANDING FOR DOOR'
 
@@ -79,7 +77,6 @@ def add__door_material():
     # case_band_name = input('What is the name of the case banding? ')
     # case_band_width = input('What is the width of the case banding in inches? (0.875 format) ')
     # case_band_length = input('What is the length of the case banding in feet? ')
-    # case_band_thick = input('What is the case banding thickness in millimeters? ')
     # case_band_type = input('What is the case banding type? (0 = Roll, 1 = Strip) ')
     # case_band_comment = input('What comment would you like to add to this case banding? ')
 
@@ -128,7 +125,6 @@ def add__door_material():
     door_sheet_CNC = door_sheet_CNC + door_sheet_mid + door_sheet_mid + door_sheet_CNC_trim + door_sheet_end
     door_sheet_BSAW = door_sheet_BSAW + door_sheet_mid + door_sheet_mid + door_sheet_BSAW_trim + door_sheet_end
     
-
     # creates lines for each of the case materials with new material banding
     birch_58 = \
         f'    <Material Name="CM Birch PF 5/8 [{sheet_case_mat_name} Banding]" ' \
@@ -330,6 +326,51 @@ def add__door_material():
         f'Optimize="True" ' \
         f'BandType="0" />\n'
 
+
+    # creates banding materials if they don't already exist
+    if case_band_exists == 'False':
+        case_band = \
+            f'    <Material Name="{case_band_name}" ' \
+            f'Quan="1" ' \
+            f'W="{case_band_width}" ' \
+            f'L="{case_band_length}" ' \
+            f'Thick="0" ' \
+            f'WTrim="0" ' \
+            f'LTrim="0" ' \
+            f'HasGrain="False" ' \
+            f'TwoSided="False" ' \
+            f'CostEach="0" ' \
+            f'MarkupPercentage="0" ' \
+            f'AddOnCost="0" ' \
+            f'Speed="0" ' \
+            f'ImageFile="" ' \
+            f'Comment="{case_band_comment}" ' \
+            f'WastePercentage="0" ' \
+            f'Optimize="False" ' \
+            f'BandType="{case_band_type}" />\n'
+
+    if door_band_exists == 'False':    
+        door_band = \
+            f'    <Material Name="{door_band_name}" ' \
+            f'Quan="1" ' \
+            f'W="{door_band_width}" ' \
+            f'L="{door_band_length}" ' \
+            f'Thick="0" ' \
+            f'WTrim="0" ' \
+            f'LTrim="0" ' \
+            f'HasGrain="False" ' \
+            f'TwoSided="False" ' \
+            f'CostEach="0" ' \
+            f'MarkupPercentage="0" ' \
+            f'AddOnCost="0" ' \
+            f'Speed="0" ' \
+            f'ImageFile="" ' \
+            f'Comment="{door_band_comment}" ' \
+            f'WastePercentage="0" ' \
+            f'Optimize="False" ' \
+            f'BandType="{door_band_type}" />\n'
+    
+
     updated_material_list = curr_mat_list[:curr_sheet_mat_end_idx]
     updated_material_list.append(door_sheet_CNC)
     updated_material_list.append(door_sheet_BSAW)
@@ -344,12 +385,20 @@ def add__door_material():
     updated_material_list.append(storm_58)
     updated_material_list.append(storm_34)
     updated_material_list += curr_mat_list[curr_sheet_mat_end_idx:curr_band_list_end_idx]
-    # will add new bandings to banding list here
+    
+    # adds new banding materials to banding list if they don't already exist
+    if case_band_exists == 'False':
+        updated_material_list.append(case_band)
+
+    if door_band_exists == 'False':  
+        updated_material_list.append(door_band)
     updated_material_list += curr_mat_list[curr_band_list_end_idx:]
 
     f = open('Material_New.dat', "wt")
     f.writelines(updated_material_list)
     f.close()
+
+
 
 
 
