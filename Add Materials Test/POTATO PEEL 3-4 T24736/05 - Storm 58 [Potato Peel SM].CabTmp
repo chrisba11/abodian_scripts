@@ -1,6 +1,6 @@
 2
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<MaterialTemplate Name="05 - Storm 58 [Potato Peel SUPERMATTE]" Type="3" SymbolForLabels="">
+<MaterialTemplate Name="05 - Storm 58 [Potato Peel SM]" Type="3" SymbolForLabels="">
   <MaterialReference PartType="Top" Mat="Storm Gray 5/8 S565 PAN [Potato Peel SUPERMATTE Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Bottom" Mat="Storm Gray 5/8 S565 PAN [Potato Peel SUPERMATTE Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FEnd" Mat="POTATO PEEL 3/4 T24736 [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
