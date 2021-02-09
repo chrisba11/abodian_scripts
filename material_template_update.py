@@ -204,18 +204,21 @@ def copy_mat_to_different_line_in_template(
                     f = open(full_path, "rt")
 
                     content = f.readlines()
-                    copy_string = content[line_to_copy-1]
+                    copied_mat_string = content[line_to_copy-1]
+                    replaced_mat_string = content[line_to_replace-1]
 
-                    part_idx1 = copy_string.find("=")
-                    part_idx2 = copy_string.find(" Mat")
+                    copied_part_idx1 = copied_mat_string.find("=")
+                    copied_part_idx2 = copied_mat_string.find(" Mat")
 
-                    mat_idx2 = copy_string.find('" MatThick=')
+                    replaced_part_idx2 = replaced_mat_string.find(" Mat")
 
-                    paste_string = copy_string[:part_idx1]
-                    paste_string += content[line_to_replace-1][part_idx1:part_idx2]
-                    paste_string += copy_string[part_idx2:mat_idx2]
+                    mat_idx2 = copied_mat_string.find('" MatThick=')
+
+                    paste_string = copied_mat_string[:copied_part_idx1]
+                    paste_string += replaced_mat_string[copied_part_idx1:replaced_part_idx2]
+                    paste_string += copied_mat_string[copied_part_idx2:mat_idx2]
                     paste_string += trailing_text
-                    paste_string += copy_string[mat_idx2:]
+                    paste_string += copied_mat_string[mat_idx2:]
 
                     content[line_to_replace-1] = paste_string
 
@@ -253,7 +256,9 @@ def copy_mat_template(
 
 
 
-
+###############################################################################
+###### THESE ARE ALL MY FUNCTION CALLS USED TO PERFORM THE WORK REQUIRED ######
+###############################################################################
     
 # replacement_text = '  <MaterialReference PartType="AdjustableShelf" Mat="CM Fog Grey 3/4 SF213 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />\n'
 # update_with_start_string(replacement_text, 10, '05 - Fog Grey 34')
@@ -266,6 +271,12 @@ def copy_mat_template(
 
 # update_multiple_lines_with_start_and_end_strings('Matching Banding', [15, 19], '[', ']', '05 - ', '.CabTmp')
 
-# copy_mat_template('02 -', '.CabTmp', '02', '12')
+# copy_mat_template('02 -', '.CabTmp', '02', '12') # TURNS OUT YOU ALSO NEED TO UPDATE LINE 3's NAME FOR IT TO READ IN MOZAIK
 
 # copy_mat_to_different_line_in_template('12 -', '.CabTmp', 24, 23, "")
+
+# update_multiple_lines_with_start_and_end_strings('12 ', [3], '"02 ', '-', '12 - ', '.CabTmp')
+
+# update_multiple_lines_with_start_and_end_strings('15 ', [3], '"05 ', '-', '15 - ', '.CabTmp')
+
+# copy_mat_to_different_line_in_template('', '.CabTmp', 24, 6, "")
