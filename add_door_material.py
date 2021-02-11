@@ -3,12 +3,12 @@ import re
 
 
 
-def add__door_material():
+def add_door_material():
     """
 
     """
     # This is to ask for the directory path at the command prompt
-    parent_path = input('What is the path for the directory where the Materials.dat file is located? ')
+    parent_path = input('What is the path for the directory where the Materials.dat & New_Material.txt files are located? ')
 
     # generates path for location of Materials.dat file and opens the file
     mat1_file_path = parent_path + '\\Materials.dat'
@@ -31,16 +31,19 @@ def add__door_material():
 
     # pulls out only the relevant inputs for variables
     new_mat = [None]
-    for input in full_new_mat_file[9, 71, 3]:
-        if input == '' and full_new_mat_file.index(input) not in blank_okay_idx:
+    for i in range(10, 72, 3):
+        if full_new_mat_file[i] == '' and i not in blank_okay_idx:
             print('CHECK YOUR INPUT FOR BLANK LINES')
             print('\nOnly questions 8, 16, and 21 can be left blank.')
             return
-        new_mat.append(input)
+        new_mat.append(full_new_mat_file[i][:-1])
+
+    print(new_mat)
 
     # removes any special characters from user input
-    for input in new_mat:
-        input = re.sub('''[@%&*'"!?#~`<>\^\\\$\[\]\{\}\|\(\)]''', '', input)
+    for user_response in new_mat:
+        if user_response is not None and user_response != '':
+            user_response = re.sub("[@%&*'\"!?#~`<>\^\\\$\[\]\{\}\|\(\)]", '', user_response)
 
     # filling out variables with input read from New_Material.txt file
     sheet_name = new_mat[1]
@@ -643,4 +646,4 @@ def add__door_material():
 
 
 
-add__door_material()
+add_door_material()
