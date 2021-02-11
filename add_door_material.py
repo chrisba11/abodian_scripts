@@ -12,19 +12,17 @@ def add_door_material():
 
     # generates path for location of Materials.dat file and opens the file
     mat1_file_path = parent_path + '\\Materials.dat'
-    f = open(mat1_file_path, "rt")
+    with open(mat1_file_path, "rt") as f:
 
-    # grabs entire Materials.dat file contents
-    curr_mat_list = f.readlines()
-    f.close()
+        # grabs entire Materials.dat file contents
+        curr_mat_list = f.readlines()
 
     # generates path for location of New_Material.txt file and opens the file
     mat2_file_path = parent_path + '\\New_Material.txt'
-    f = open(mat2_file_path, "rt")
+    with open(mat2_file_path, "rt") as f:
 
-    # grabs entire New_Material.txt file contents
-    full_new_mat_file = f.readlines()
-    f.close()
+        # grabs entire New_Material.txt file contents
+        full_new_mat_file = f.readlines()
 
     # list of indices that are okay having blank strings
     blank_okay_idx = [31, 55, 70]
@@ -78,7 +76,6 @@ def add_door_material():
     door_band_length = str(round(float(new_mat[19]) * 12 * 25.4, 4))
     door_band_type = new_mat[20]
     door_band_comment = new_mat[21]
-
 
     # creates folder where new material templates will be placed
     folder_name = sheet_name.replace('/', '-')
@@ -393,9 +390,8 @@ def add_door_material():
     updated_material_list += curr_mat_list[curr_band_list_end_idx:]
 
     new_mat_path = folder_path + '\\Materials.dat'
-    f = open(new_mat_path, "wt")
-    f.writelines(updated_material_list)
-    f.close()
+    with open(new_mat_path, "wt") as f:
+        f.writelines(updated_material_list)
 
 
     # creates all of the banding templates for each interior material
@@ -419,9 +415,9 @@ def add_door_material():
 
         band_temp_path = folder_path + f'\\02 - {band_temp_name} - {interior_band[0]}.BandTmp'
 
-        f = open(band_temp_path, "wt")
-        f.writelines(band_temp)
-        f.close()
+        with open(band_temp_path, "wt") as f:
+            f.writelines(band_temp)
+
 
 
     # creates the finished interior cabinet templates
@@ -508,14 +504,11 @@ def add_door_material():
     fin_int_case_temp_path_02 = folder_path + f'\\02 - {band_temp_name} .75.CabTmp'
     fin_int_case_temp_path_12 = folder_path + f'\\12 - {band_temp_name} .75.CabTmp'
 
-    f = open(fin_int_case_temp_path_02, "wt")
-    f.writelines(fin_int_case_temp_02)
-    f.close()
+    with open(fin_int_case_temp_path_02, "wt") as f:
+        f.writelines(fin_int_case_temp_02)
 
-    f = open(fin_int_case_temp_path_12, "wt")
-    f.writelines(fin_int_case_temp_12)
-    f.close()
-
+    with open(fin_int_case_temp_path_12, "wt") as f:
+        f.writelines(fin_int_case_temp_12)
 
     # creates the standard cabinet templates
     for interior_mat in [
@@ -614,13 +607,11 @@ def add_door_material():
         cab_temp_path_05 = folder_path + f'\\05 - {interior_mat[0]} [{cab_temp_name}].CabTmp'
         cab_temp_path_15 = folder_path + f'\\15 - {interior_mat[0]} [{cab_temp_name}].CabTmp'
 
-        f = open(cab_temp_path_05, "wt")
-        f.writelines(cab_temp_05)
-        f.close()
+        with open(cab_temp_path_05, "wt") as f:
+            f.writelines(cab_temp_05)
 
-        f = open(cab_temp_path_15, "wt")
-        f.writelines(cab_temp_15)
-        f.close()
+        with open(cab_temp_path_15, "wt") as f:
+            f.writelines(cab_temp_15)
 
 
     # creates the door template
@@ -639,9 +630,8 @@ def add_door_material():
 
         door_temp_path = folder_path + f'\\02 - {band_temp_name}.DoorTmp'
 
-        f = open(door_temp_path, "wt")
-        f.writelines(door_temp)
-        f.close()
+        with open(door_temp_path, "wt") as f:
+            f.writelines(door_temp)
 
 
 
