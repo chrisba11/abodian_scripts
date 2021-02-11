@@ -3,12 +3,12 @@ import re
 
 
 
-def add__door_material():
+def add_door_material():
     """
 
     """
     # This is to ask for the directory path at the command prompt
-    parent_path = input('What is the path for the directory where the Materials.dat file is located? ')
+    parent_path = input('What is the path for the directory where the Materials.dat & New_Material.txt files are located? ')
 
     # generates path for location of Materials.dat file and opens the file
     mat1_file_path = parent_path + '\\Materials.dat'
@@ -26,51 +26,58 @@ def add__door_material():
     full_new_mat_file = f.readlines()
     f.close()
 
+    # list of indices that are okay having blank strings
+    blank_okay_idx = [31, 55, 70]
+
     # pulls out only the relevant inputs for variables
-    new_mat = []
-    for input in full_new_mat_file[9, 71, 3]:
-        new_mat.append(input)
+    # removes newline char at end of each line
+    new_mat = [None]
+    for i in range(10, 72, 3):
+        if full_new_mat_file[i][:-1] == '' and i not in blank_okay_idx:
+            print('\nCHECK YOUR INPUT FOR BLANK LINES')
+            print('\nOnly questions 8, 16, and 21 can be left blank.')
+            return
+        new_mat.append(full_new_mat_file[i][:-1])
 
     # removes any special characters from user input
-    for input in new_mat:
-        input = re.sub('''[@%&*'"!?#~`<>\^\\\$\[\]\{\}\|\(\)]''', '', input)
+    for i in range(len(new_mat)):
+        if new_mat[i] is not None and i != '':
+            new_mat[i] = re.sub("[@%&*'\"!?#~`<>\^\\\$\[\]\{\}\|\(\)]", '', new_mat[i])
 
     # filling out variables with input read from New_Material.txt file
-    sheet_name = input('\nWhat do you want to name the sheet material? (ie - "Aria 3/4 WF340 PRZ") ')
-    sheet_width = str(float(input('What is the sheet width in inches? (48.5 format) ')) * 25.4)
-    sheet_length = str(float(input('What is the sheet length in inches? (96.5 format) ')) * 25.4)
-    sheet_thick = str(float(input('What is the sheet thickness in inches? (0.75 format) ')) * 25.4)
-    has_grain = input('Does the material have grain? (Y or N) ')
+    sheet_name = new_mat[1]
+    sheet_width = str(round(float(new_mat[2]) * 25.4, 4))
+    sheet_length = str(round(float(new_mat[3]) * 25.4, 4))
+    sheet_thick = str(round(float(new_mat[4]) * 25.4, 4))
+    has_grain = new_mat[5]
     has_grain = "True" if has_grain[0] == 'y' or has_grain[0] == 'Y' else "False"
-    two_sided = input('Is this material 2-sided? (Y or N) ')
+    two_sided = new_mat[6]
     two_sided = "True" if two_sided[0] == 'y' or two_sided[0] == 'Y' else "False"
-    waste_percent = input('What is the waste percentage? (typing "20" equals 20 percent) ')
-    # optmize = input('Will this material be cut on the CNC? (Y or N) ')
-    # optmize = "True" if optmize[0] == 'y' or optmize[0] == 'Y' else "False"
+    waste_percent = new_mat[7]
     optmize = "True"
-    sheet_comment = input('What comment would you like to add to this material? (leave blank for no comment) ')
-    case_mat_band_name = input('What should the banding name on the case material be called? (ie - "Pacaya Medina")(Exclude "Banding") ')
-    band_temp_name = input('What should the banding template names include? (ie - "ELG - White Gloss") ')
-    cab_temp_name = input('What should the cabinet template names include? (ie - "Roble Colorado") ')
+    sheet_comment = new_mat[8]
+    case_mat_band_name = new_mat[9]
+    band_temp_name = new_mat[10]
+    cab_temp_name = new_mat[11]
 
     #banding related variables
-    # case_band_exists = input('\nDoes the case banding already exist? (Y or N) ')
+    # case_band_exists = 
     # case_band_exists = 'True' if case_band_exists[0] == 'y' or case_band_exists[0] == 'Y' else 'False'
     case_band_exists = 'False'
-    case_band_name = input('\nWhat is the name of the case banding? (ie - "0.5mm Samba R63 UNI") ')
-    case_band_width = str(float(input('What is the width of the case banding in inches? (0.875 format) ')) * 25.4)
-    case_band_length = str(float(input('What is the length of the case banding in feet? ')) * 12 * 25.4)
-    case_band_type = input('What is the case banding type? (0 = Roll, 1 = Strip) ')
-    case_band_comment = input('What comment would you like to add to this case banding? (leave blank for no comment) ')
+    case_band_name = new_mat[12]
+    case_band_width = str(round(float(new_mat[13]) * 25.4, 4))
+    case_band_length = str(round(float(new_mat[14]) * 12 * 25.4, 4))
+    case_band_type = new_mat[15]
+    case_band_comment = new_mat[16]
 
     # door_band_exists = input('\nDoes the door banding already exist? (Y or N) ')
     # door_band_exists = 'True' if case_band_exists[0] == 'y' or case_band_exists[0] == 'Y' else 'False'
     door_band_exists = 'False'
-    door_band_name = input('\nWhat is the name of the door banding? (ie - "1mm Samba R63 UNI") ')
-    door_band_width = str(float(input('What is the width of the door banding in inches? (0.875 format) ')) * 25.4)
-    door_band_length = str(float(input('What is the length of the door banding in feet? ')) * 12 * 25.4)
-    door_band_type = input('What is the door banding type? (0 = Roll, 1 = Strip) ')
-    door_band_comment = input('What comment would you like to add to this door banding? (leave blank for no comment) ')
+    door_band_name = new_mat[17]
+    door_band_width = str(round(float(new_mat[18]) * 25.4, 4))
+    door_band_length = str(round(float(new_mat[19]) * 12 * 25.4, 4))
+    door_band_type = new_mat[20]
+    door_band_comment = new_mat[21]
 
 
     # creates folder where new material templates will be placed
@@ -403,7 +410,7 @@ def add__door_material():
         band_temp = \
             f'2\n' \
             f'<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n' \
-            f'<MaterialTemplate Name="02 - {band_temp_name} - {interior_band[0]}" Type="4" SymbolForLabels="{band_temp_name[0:2]}">\n' \
+            f'<MaterialTemplate Name="02 - {band_temp_name} - {interior_band[0]}" Type="4" SymbolForLabels="{sheet_name[0:2].upper()}">\n' \
             f'  <MaterialReference PartType="EdgeBand" Mat="{case_band_name}" MatThick="0" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="EdgeBand2" Mat="{door_band_name}" MatThick="0" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="EdgeBand3" Mat="{interior_band[1]}" MatThick="0" MatWall="" MatWallThick="0" />\n' \
@@ -638,4 +645,4 @@ def add__door_material():
 
 
 
-add__door_material()
+add_door_material()

@@ -2,70 +2,70 @@
 ###                                                                            ###
 ###     Enter answers to questions below on the line beneath the question      ###
 ###              DO NOT USE THESE SPECIAL CHARACTERS IN ANSWERS                ###
-###               @ % & * ' " ! ? # ~ ` < > ^ \ $ [ ] { } | ( )                ###
+###              @ % & * ' " ! ? # ~ ` < > ^ \ $ [ ] { } | ( ) )               ###
 ###                                                                            ###
 ##################################################################################
 
 
 1. What do you want to name the sheet material? (ie - "Aria 3/4 WF340 PRZ")
-Salmon Pink SM 3/4 654987 CMB
+
 -------------------------------------------------------------------------------------------
 2. What is the sheet width in inches? ("48.5" format, number only)
-47
+
 -------------------------------------------------------------------------------------------
 3. What is the sheet length in inches? ("96.5" format, number only)
-95
+
 -------------------------------------------------------------------------------------------
 4. What is the sheet thickness in inches? ("0.75" format, number only)
-.745
+
 -------------------------------------------------------------------------------------------
 5. Does the material have grain? (Y or N)
-Y
+
 -------------------------------------------------------------------------------------------
 6. Is this material 2-sided? (Y or N)
-Y
+
 -------------------------------------------------------------------------------------------
 7. What is the waste percentage? (typing "20" equals 20 percent)
-21
+
 -------------------------------------------------------------------------------------------
 8. What comment would you like to add to this material? (leave blank for no comment)
 
 -------------------------------------------------------------------------------------------
 9. What should the banding name on the case material be called? (ie - "Pacaya Medina")(Exclude "Banding")
-Pickled Onions
+
 -------------------------------------------------------------------------------------------
 10. What should the banding template names include? (ie - "ELG - White Gloss")
-CMB - Salmon Matte
+
 -------------------------------------------------------------------------------------------
 11. What should the cabinet template names include? (ie - "Roble Colorado")
-Salmon Pink
+
 -------------------------------------------------------------------------------------------
 12. What is the name of the case banding? (ie - "0.5mm Samba R63 UNI")
-0.5mm Salmon 89737 CMB
+
 -------------------------------------------------------------------------------------------
 13. What is the width of the case banding in inches? ("0.875" format, number only)
-.9375
+
 -------------------------------------------------------------------------------------------
 14. What is the length of the case banding in feet? (number only)
-300
+
 -------------------------------------------------------------------------------------------
 15. What is the case banding type? (0 = Roll, 1 = Strip)
-1
+
 -------------------------------------------------------------------------------------------
 16. What comment would you like to add to this case banding? (leave blank for no comment)
 
 -------------------------------------------------------------------------------------------
 17. What is the name of the door banding? (ie - "0.5mm Samba R63 UNI")
-1mm Salmooon 32376 CMB
+
 -------------------------------------------------------------------------------------------
 18. What is the width of the door banding in inches? ("0.875" format, number only)
-.875
+
 -------------------------------------------------------------------------------------------
 19. What is the length of the door banding in feet? (number only)
-450
+
 -------------------------------------------------------------------------------------------
 20. What is the door banding type? (0 = Roll, 1 = Strip)
-0
+
 -------------------------------------------------------------------------------------------
 21. What comment would you like to add to this door banding? (leave blank for no comment)
 
