@@ -26,9 +26,16 @@ def add__door_material():
     full_new_mat_file = f.readlines()
     f.close()
 
+    # list of indices that are okay having blank strings
+    blank_okay_idx = [8, 16, 21]
+
     # pulls out only the relevant inputs for variables
     new_mat = [None]
     for input in full_new_mat_file[9, 71, 3]:
+        if input == '' and full_new_mat_file.index(input) not in blank_okay_idx:
+            print('CHECK YOUR INPUT FOR BLANK LINES')
+            print('\nOnly questions 8, 16, and 21 can be left blank.')
+            return
         new_mat.append(input)
 
     # removes any special characters from user input
