@@ -42,9 +42,7 @@ def add_door_material():
     # removes any special characters from user input
     for i in range(len(new_mat)):
         if new_mat[i] is not None and i != '':
-            print("new_mat[i] before sub: ", new_mat[i])
             new_mat[i] = re.sub("[@%&*'\"!?#~`<>\^\\\$\[\]\{\}\|\(\)]", '', new_mat[i])
-            print("user_reponse after sub: ", new_mat[i])
 
     # filling out variables with input read from New_Material.txt file
     sheet_name = new_mat[1]
@@ -412,7 +410,7 @@ def add_door_material():
         band_temp = \
             f'2\n' \
             f'<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n' \
-            f'<MaterialTemplate Name="02 - {band_temp_name} - {interior_band[0]}" Type="4" SymbolForLabels="{band_temp_name[0:2]}">\n' \
+            f'<MaterialTemplate Name="02 - {band_temp_name} - {interior_band[0]}" Type="4" SymbolForLabels="{sheet_name[0:2].upper()}">\n' \
             f'  <MaterialReference PartType="EdgeBand" Mat="{case_band_name}" MatThick="0" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="EdgeBand2" Mat="{door_band_name}" MatThick="0" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="EdgeBand3" Mat="{interior_band[1]}" MatThick="0" MatWall="" MatWallThick="0" />\n' \

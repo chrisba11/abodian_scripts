@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - NP - Oregon Pine" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Oregon Pine 3/4 LK84 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Oregon Pine 3/4 LK84 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Oregon Pine 3/4 LK84 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Oregon Pine 3/4 LK84 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Oregon Pine 3/4 LK84 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Oregon Pine 3/4 LK84 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Oregon Pine 3/4 LK84 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+</MaterialTemplate>
