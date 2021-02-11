@@ -1,0 +1,38 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="15 - Fog Grey 58 [White SM Elegante]" Type="3" SymbolForLabels="">
+  <MaterialReference PartType="Top" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Bottom" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FEnd" Mat="White SM Elegante 3/4 25391 ELG [White Velvet Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UEnd" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AppliedUE" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Shelf" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AdjustableShelf" Mat="CM Fog Grey 5/8 SF213 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="RolloutShelf" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FixedShelf" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Partition" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Divider" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UBack" Mat="CM Fog Grey 5/8 SF213 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FBack" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Frame" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FramelessRail" Mat="White SM Elegante 3/4 25391 ELG [White Velvet Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Nailer" Mat="CM Fog Grey 5/8 SF213 PRZ [Matching Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Stretcher" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Cleat" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="White SM Elegante 3/4 25391 ELG [White Velvet Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInterior" Mat="White SM Elegante 3/4 25391 ELG [White Velvet Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInteriorBack" Mat="White SM Elegante 3/4 25391 ELG [White Velvet Banding]" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinExterior" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinInterior" Mat="CM Fog Grey 5/8 SF213 PRZ [White Velvet Banding]" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ToeSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Sleeper" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Metal" Mat="Mirror 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Special" Mat="White SM Elegante 3/4 25391 ELG [White Velvet Banding] BSAW" MatThick="18.39976" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ClosetRod" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

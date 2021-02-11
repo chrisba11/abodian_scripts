@@ -1,4 +1,5 @@
 import os
+import re
 
 
 
@@ -9,51 +10,32 @@ def add__door_material():
     # This is to ask for the directory path at the command prompt
     parent_path = input('What is the path for the directory where the Materials.dat file is located? ')
 
-    mat_file_path = parent_path + '\\Materials.dat'
-    f = open(mat_file_path, "rt")
+    # generates path for location of Materials.dat file and opens the file
+    mat1_file_path = parent_path + '\\Materials.dat'
+    f = open(mat1_file_path, "rt")
 
-    # grabs entire material.dat file contents
+    # grabs entire Materials.dat file contents
     curr_mat_list = f.readlines()
+    f.close()
 
-    # get the end of the sheet materials list
-    curr_sheet_mat_end_idx = curr_mat_list.index('  </PanelStockMaterials>\n')
+    # generates path for location of New_Material.txt file and opens the file
+    mat2_file_path = parent_path + '\\New_Material.txt'
+    f = open(mat2_file_path, "rt")
 
-    # get the end of the banding material list
-    curr_band_list_end_idx = curr_mat_list.index('  </EdgeBandingMaterials>\n')
+    # grabs entire New_Material.txt file contents
+    full_new_mat_file = f.readlines()
+    f.close()
 
+    # pulls out only the relevant inputs for variables
+    new_mat = []
+    for input in full_new_mat_file[9, 71, 3]:
+        new_mat.append(input)
 
-    # # test sheet variables
-    # sheet_name = 'POTATO PEEL 3/4 T24736'
-    # sheet_width = '1244.6'
-    # sheet_length = '2743.2'
-    # sheet_thick = '19.05'
-    # has_grain = 'True'
-    # two_sided = 'True'
-    # waste_percent = '20'
-    # optmize = 'True'
-    # sheet_comment = 'Nothing to see here'
-    # case_mat_band_name = 'Potato Peel SUPERMATTE'
-    # band_temp_name = 'CMB - Potato Peel Supermatte'
-    # cab_temp_name = 'Potato Peel SM'
+    # removes any special characters from user input
+    for input in new_mat:
+        input = re.sub('''[@%&*'"!?#~`<>\^\\\$\[\]\{\}\|\(\)]''', '', input)
 
-    # # test case band variables
-    # case_band_exists = 'False'
-    # case_band_name = '0.5mm NEW CASE BANDING'
-    # case_band_width = '22.225'
-    # case_band_length = '91440.0'
-    # case_band_type = '0'
-    # case_band_comment = 'BANDING FOR CASE'
-
-    # # test door band variables
-    # door_band_exists = 'False'
-    # door_band_name = '1mm NEW DOOR BANDING'
-    # door_band_width = '22.225'
-    # door_band_length = '91440.0'
-    # door_band_type = '0'
-    # door_band_comment = 'BANDING FOR DOOR'
-
-
-    # user input sheet related variables
+    # filling out variables with input read from New_Material.txt file
     sheet_name = input('\nWhat do you want to name the sheet material? (ie - "Aria 3/4 WF340 PRZ") ')
     sheet_width = str(float(input('What is the sheet width in inches? (48.5 format) ')) * 25.4)
     sheet_length = str(float(input('What is the sheet length in inches? (96.5 format) ')) * 25.4)
@@ -372,6 +354,12 @@ def add__door_material():
             f'Optimize="False" ' \
             f'BandType="{door_band_type}" />\n'
     
+            
+    # get the end of the sheet materials list
+    curr_sheet_mat_end_idx = curr_mat_list.index('  </PanelStockMaterials>\n')
+
+    # get the end of the banding material list
+    curr_band_list_end_idx = curr_mat_list.index('  </EdgeBandingMaterials>\n')
 
     updated_material_list = curr_mat_list[:curr_sheet_mat_end_idx]
     updated_material_list.append(door_sheet_CNC)
