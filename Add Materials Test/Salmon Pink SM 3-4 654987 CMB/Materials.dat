@@ -993,7 +993,7 @@
     <Material Name="0.5mm Oregon Pine LK84 NP" Quan="1" W="21.996399999999998" L="182880.0" Thick="0" WTrim="0" LTrim="0" HasGrain="False" TwoSided="False" CostEach="0" MarkupPercentage="0" AddOnCost="0" Speed="0" ImageFile="" Comment="" WastePercentage="0" Optimize="False" BandType="0" />
     <Material Name="1mm Oregon Pine LK84 NP" Quan="1" W="21.996399999999998" L="137160.0" Thick="0" WTrim="0" LTrim="0" HasGrain="False" TwoSided="False" CostEach="0" MarkupPercentage="0" AddOnCost="0" Speed="0" ImageFile="" Comment="" WastePercentage="0" Optimize="False" BandType="0" />
     <Material Name="0.5mm Salmon 89737 CMB" Quan="1" W="23.8125" L="91440.0" Thick="0" WTrim="0" LTrim="0" HasGrain="False" TwoSided="False" CostEach="0" MarkupPercentage="0" AddOnCost="0" Speed="0" ImageFile="" Comment="" WastePercentage="0" Optimize="False" BandType="1" />
-    <Material Name="1mm Salmooon 32376 CMB" Quan="1" W="22.225" L="137160.0" Thick="0" WTrim="0" LTrim="0" HasGrain="False" TwoSided="False" CostEach="0" MarkupPercentage="0" AddOnCost="0" Speed="0" ImageFile="" Comment="" WastePercentage="0" Optimize="False" BandType="0" />
+    <Material Name="1mm Salmooon 32376 CMB" Quan="1" W="22.225" L="137160.0" Thick="0" WTrim="0" LTrim="0" HasGrain="False" TwoSided="False" CostEach="0" MarkupPercentage="0" AddOnCost="0" Speed="0" ImageFile="" Comment="-                         -" WastePercentage="0" Optimize="False" BandType="0" />
   </EdgeBandingMaterials>
   <TopsMaterials>
     <Material Name="Gray Soapstone" Quan="1" W="1219.2" L="2438.4" Thick="19.05" WTrim="0" LTrim="0" HasGrain="True" TwoSided="True" CostEach="0" MarkupPercentage="0" AddOnCost="0" Speed="100" ImageFile="1D Gray Soapstone" Comment="" WastePercentage="20" Optimize="False" BandType="0" />
