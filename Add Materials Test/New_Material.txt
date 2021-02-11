@@ -29,7 +29,7 @@ Y
 21
 -------------------------------------------------------------------------------------------
 8. What comment would you like to add to this material? (leave blank for no comment)
-Nothing to see here
+
 -------------------------------------------------------------------------------------------
 9. What should the banding name on the case material be called? (ie - "Pacaya Medina")(Exclude "Banding")
 Pickled Onions
@@ -50,7 +50,7 @@ Salmon Pink
 300
 -------------------------------------------------------------------------------------------
 15. What is the case banding type? (0 = Roll, 1 = Strip)
-0
+1
 -------------------------------------------------------------------------------------------
 16. What comment would you like to add to this case banding? (leave blank for no comment)
 
@@ -68,5 +68,5 @@ Salmon Pink
 0
 -------------------------------------------------------------------------------------------
 21. What comment would you like to add to this door banding? (leave blank for no comment)
-STUFF GOES HERE
+
 -------------------------------------------------------------------------------------------

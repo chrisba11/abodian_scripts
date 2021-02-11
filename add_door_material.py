@@ -27,18 +27,17 @@ def add_door_material():
     f.close()
 
     # list of indices that are okay having blank strings
-    blank_okay_idx = [8, 16, 21]
+    blank_okay_idx = [31, 55, 70]
 
     # pulls out only the relevant inputs for variables
+    # removes newline char at end of each line
     new_mat = [None]
     for i in range(10, 72, 3):
-        if full_new_mat_file[i] == '' and i not in blank_okay_idx:
-            print('CHECK YOUR INPUT FOR BLANK LINES')
+        if full_new_mat_file[i][:-1] == '' and i not in blank_okay_idx:
+            print('\nCHECK YOUR INPUT FOR BLANK LINES')
             print('\nOnly questions 8, 16, and 21 can be left blank.')
             return
         new_mat.append(full_new_mat_file[i][:-1])
-
-    print(new_mat)
 
     # removes any special characters from user input
     for user_response in new_mat:
@@ -47,9 +46,9 @@ def add_door_material():
 
     # filling out variables with input read from New_Material.txt file
     sheet_name = new_mat[1]
-    sheet_width = str(float(new_mat[2]) * 25.4)
-    sheet_length = str(float(new_mat[3]) * 25.4)
-    sheet_thick = str(float(new_mat[4]) * 25.4)
+    sheet_width = str(round(float(new_mat[2]) * 25.4, 4))
+    sheet_length = str(round(float(new_mat[3]) * 25.4, 4))
+    sheet_thick = str(round(float(new_mat[4]) * 25.4, 4))
     has_grain = new_mat[5]
     has_grain = "True" if has_grain[0] == 'y' or has_grain[0] == 'Y' else "False"
     two_sided = new_mat[6]
@@ -65,9 +64,9 @@ def add_door_material():
     # case_band_exists = 
     # case_band_exists = 'True' if case_band_exists[0] == 'y' or case_band_exists[0] == 'Y' else 'False'
     case_band_exists = 'False'
-    case_band_name = [12]
-    case_band_width = str(float(new_mat[13]) * 25.4)
-    case_band_length = str(float(new_mat[14]) * 12 * 25.4)
+    case_band_name = new_mat[12]
+    case_band_width = str(round(float(new_mat[13]) * 25.4, 4))
+    case_band_length = str(round(float(new_mat[14]) * 12 * 25.4, 4))
     case_band_type = new_mat[15]
     case_band_comment = new_mat[16]
 
@@ -75,8 +74,8 @@ def add_door_material():
     # door_band_exists = 'True' if case_band_exists[0] == 'y' or case_band_exists[0] == 'Y' else 'False'
     door_band_exists = 'False'
     door_band_name = new_mat[17]
-    door_band_width = str(float(new_mat[18]) * 25.4)
-    door_band_length = str(float(new_mat[19]) * 12 * 25.4)
+    door_band_width = str(round(float(new_mat[18]) * 25.4, 4))
+    door_band_length = str(round(float(new_mat[19]) * 12 * 25.4, 4))
     door_band_type = new_mat[20]
     door_band_comment = new_mat[21]
 
