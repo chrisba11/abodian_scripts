@@ -1,0 +1,8 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - PRZ - Diva - PC" Type="4" SymbolForLabels="DI">
+  <MaterialReference PartType="EdgeBand" Mat="0.5 Diva WM7219 TEK" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand2" Mat="1mm Diva WFM7219 TEK" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Birch PVC" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>
