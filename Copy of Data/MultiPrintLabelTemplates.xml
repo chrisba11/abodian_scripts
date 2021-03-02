@@ -3930,7 +3930,7 @@ Depth:</content>
               <type>RoomOrProductSchematic</type>
               <schematicType>FRONT_VIEW</schematicType>
             </labelPlaceholderTag>
-            <drawingTemplateName>Labels Wireframe</drawingTemplateName>
+            <drawingTemplateName>Production</drawingTemplateName>
           </labelPlaceholder>
           <rectangle>
             <edgePen color="FF000000" width="0.6496062" />

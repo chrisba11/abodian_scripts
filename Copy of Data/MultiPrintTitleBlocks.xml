@@ -4303,5 +4303,324 @@ Tuscaloosa, AL 35401
         </group>
       </objects>
     </titleBlock>
+    <titleBlock>
+      <title>GC Sales Title Block</title>
+      <width>4950</width>
+      <height>450</height>
+      <angle>0</angle>
+      <pen color="FF000000" width="1.181102" />
+      <titleBlockSections>
+        <titleBlockSection>
+          <pParent>0</pParent>
+          <pAChild>2</pAChild>
+          <pCChild>0</pCChild>
+          <parentABC>N</parentABC>
+          <split>N</split>
+          <x>0</x>
+          <y>0</y>
+          <dx>4950</dx>
+          <dy>450</dy>
+          <da>450</da>
+        </titleBlockSection>
+        <titleBlockSection>
+          <pParent>1</pParent>
+          <pAChild>3</pAChild>
+          <pCChild>0</pCChild>
+          <parentABC>A</parentABC>
+          <split>V</split>
+          <x>0</x>
+          <y>0</y>
+          <dx>4950</dx>
+          <dy>450</dy>
+          <da>4650</da>
+        </titleBlockSection>
+        <titleBlockSection>
+          <pParent>2</pParent>
+          <pAChild>4</pAChild>
+          <pCChild>6</pCChild>
+          <parentABC>A</parentABC>
+          <split>V</split>
+          <x>0</x>
+          <y>0</y>
+          <dx>4650</dx>
+          <dy>450</dy>
+          <da>4125</da>
+        </titleBlockSection>
+        <titleBlockSection>
+          <pParent>3</pParent>
+          <pAChild>5</pAChild>
+          <pCChild>0</pCChild>
+          <parentABC>A</parentABC>
+          <split>V</split>
+          <x>0</x>
+          <y>0</y>
+          <dx>4125</dx>
+          <dy>450</dy>
+          <da>2247</da>
+        </titleBlockSection>
+        <titleBlockSection>
+          <pParent>4</pParent>
+          <pAChild>0</pAChild>
+          <pCChild>8</pCChild>
+          <parentABC>A</parentABC>
+          <split>V</split>
+          <x>0</x>
+          <y>0</y>
+          <dx>2247</dx>
+          <dy>450</dy>
+          <da>1123</da>
+        </titleBlockSection>
+        <titleBlockSection>
+          <pParent>3</pParent>
+          <pAChild>7</pAChild>
+          <pCChild>0</pCChild>
+          <parentABC>C</parentABC>
+          <split>H</split>
+          <x>4125</x>
+          <y>0</y>
+          <dx>525</dx>
+          <dy>450</dy>
+          <da>294</da>
+        </titleBlockSection>
+        <titleBlockSection>
+          <pParent>6</pParent>
+          <pAChild>0</pAChild>
+          <pCChild>0</pCChild>
+          <parentABC>A</parentABC>
+          <split>H</split>
+          <x>4125</x>
+          <y>0</y>
+          <dx>525</dx>
+          <dy>294</dy>
+          <da>140</da>
+        </titleBlockSection>
+        <titleBlockSection>
+          <pParent>5</pParent>
+          <pAChild>0</pAChild>
+          <pCChild>0</pCChild>
+          <parentABC>C</parentABC>
+          <split>H</split>
+          <x>1123</x>
+          <y>0</y>
+          <dx>1124</dx>
+          <dy>450</dy>
+          <da>233</da>
+        </titleBlockSection>
+      </titleBlockSections>
+      <objects>
+        <group>
+          <transform m00="1.08706" m01="0" m10="0" m11="1.08706" offsetX="4.361343" offsetY="0.3982658" />
+          <children />
+        </group>
+        <text>
+          <size width="119.675" height="93.81264" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="4674.374" offsetY="125.963" />
+          <fontSettings FontFace="Calibri" FontSize="25" ScaleType="2" Bold="True" Italic="False" />
+          <fontColor>FF000000</fontColor>
+          <content>{PAGE_NUM}</content>
+          <alignment>1</alignment>
+          <lineAlignment>1</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <text>
+          <size width="1041.165" height="201.6438" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="1203.396" offsetY="242.6583" />
+          <fontSettings FontFace="Calibri" FontSize="20" ScaleType="2" Bold="True" Italic="True" />
+          <fontColor>FF000000</fontColor>
+          <content />
+          <alignment>0</alignment>
+          <lineAlignment>1</lineAlignment>
+          <textRotation>0</textRotation>
+          <variableTagType>25</variableTagType>
+          <variableTagCode />
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <text>
+          <size width="1042.177" height="213.5075" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="1198.596" offsetY="13.53677" />
+          <fontSettings FontFace="Calibri" FontSize="20" ScaleType="2" Bold="True" Italic="False" />
+          <fontColor>FF000000</fontColor>
+          <content />
+          <alignment>0</alignment>
+          <lineAlignment>1</lineAlignment>
+          <textRotation>0</textRotation>
+          <variableTagType>4</variableTagType>
+          <variableTagCode />
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <text>
+          <size width="383.6358" height="90.59664" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="4263.935" offsetY="341.2751" />
+          <fontSettings FontFace="Calibri" FontSize="12" ScaleType="2" Bold="True" Italic="False" />
+          <fontColor>FF000000</fontColor>
+          <content>{Shop_Name}</content>
+          <alignment>1</alignment>
+          <lineAlignment>1</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <text>
+          <size width="376.3757" height="89.46882" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="4270.065" offsetY="183.8078" />
+          <fontSettings FontFace="Calibri" FontSize="12" ScaleType="2" Bold="True" Italic="False" />
+          <fontColor>FF000000</fontColor>
+          <content>{CURRENT_DATE}</content>
+          <alignment>1</alignment>
+          <lineAlignment>1</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <text>
+          <size width="379.9564" height="92.7337" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="4267.613" offsetY="28.68126" />
+          <fontSettings FontFace="Calibri" FontSize="12" ScaleType="2" Bold="True" Italic="False" />
+          <fontColor>FF000000</fontColor>
+          <content>{PAGE_SCALE}</content>
+          <alignment>1</alignment>
+          <lineAlignment>1</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <text>
+          <size width="115.8153" height="42.14299" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="4134.218" offsetY="8.674683" />
+          <fontSettings FontFace="Arial" FontSize="7" ScaleType="2" Bold="False" Italic="True" />
+          <fontColor>FF808080</fontColor>
+          <content>Scale:</content>
+          <alignment>0</alignment>
+          <lineAlignment>0</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <text>
+          <size width="140.4673" height="46.07574" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="4134.545" offsetY="148.4381" />
+          <fontSettings FontFace="Arial" FontSize="7" ScaleType="2" Bold="False" Italic="True" />
+          <fontColor>FF808080</fontColor>
+          <content>Print Date:</content>
+          <alignment>0</alignment>
+          <lineAlignment>0</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <text>
+          <size width="169.1171" height="49.62946" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="4135.185" offsetY="303.9937" />
+          <fontSettings FontFace="Arial" FontSize="7" ScaleType="2" Bold="False" Italic="True" />
+          <fontColor>FF808080</fontColor>
+          <content>Drawn By:</content>
+          <alignment>0</alignment>
+          <lineAlignment>0</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <text>
+          <size width="107.9497" height="46.07574" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="4661.294" offsetY="7.833862" />
+          <fontSettings FontFace="Arial" FontSize="7" ScaleType="2" Bold="False" Italic="True" />
+          <fontColor>FF808080</fontColor>
+          <content>Page:</content>
+          <alignment>0</alignment>
+          <lineAlignment>0</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <text>
+          <size width="141.3935" height="47.45483" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="1139.845" offsetY="10.39491" />
+          <fontSettings FontFace="Arial" FontSize="7" ScaleType="2" Bold="False" Italic="True" />
+          <fontColor>FF808080</fontColor>
+          <content>Job:</content>
+          <alignment>0</alignment>
+          <lineAlignment>0</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <text>
+          <size width="225.6992" height="39.72036" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="1138.984" offsetY="244.2441" />
+          <fontSettings FontFace="Arial" FontSize="7" ScaleType="2" Bold="False" Italic="True" />
+          <fontColor>FF808080</fontColor>
+          <content>Drawing Title:</content>
+          <alignment>0</alignment>
+          <lineAlignment>0</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <group>
+          <transform m00="1.115543" m01="0" m10="0" m11="1.115543" offsetX="2.436121" offsetY="1.424288" />
+          <children />
+        </group>
+        <group>
+          <transform m00="0.6195831" m01="0" m10="0" m11="0.6195831" offsetX="39.31844" offsetY="111.8604" />
+          <children>
+            <image>
+              <fileTagFilename>MultiprintSymbolImages\abodian_h_color.jpg</fileTagFilename>
+              <fileTagFiletype>1</fileTagFiletype>
+              <fileTagLocation>1</fileTagLocation>
+              <size width="1700" height="357.5667" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="0" offsetY="0" />
+            </image>
+          </children>
+        </group>
+        <text>
+          <size width="1829.148" height="430.2127" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="2276.108" offsetY="16.04139" />
+          <fontSettings FontFace="Calibri" FontSize="20" ScaleType="2" Bold="True" Italic="False" />
+          <fontColor>FFFF0000</fontColor>
+          <content>Your initials here indicate approval for Abodian to manufacture all components as shown in these drawings. This includes the layout, style, materials, finishes, and dimensions.</content>
+          <alignment>0</alignment>
+          <lineAlignment>0</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="FF000000" width="1.181102" />
+        </text>
+        <line>
+          <pen color="FF000000" width="1.181102" />
+          <pt0 x="3841.316" y="414.2444" />
+          <pt1 x="4034.852" y="414.2444" />
+        </line>
+        <line>
+          <pen color="B2000000" width="0.5905511" />
+          <pt0 x="561.6571" y="-283.5627" />
+          <pt1 x="561.6571" y="-265.2315" />
+        </line>
+        <line>
+          <pen color="B2000000" width="0.5905511" />
+          <pt0 x="555.7516" y="-274.3971" />
+          <pt1 x="567.9342" y="-274.3971" />
+        </line>
+        <text>
+          <size width="119.675" height="93.81264" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="4799.009" offsetY="241.2328" />
+          <fontSettings FontFace="Calibri" FontSize="25" ScaleType="2" Bold="True" Italic="False" />
+          <fontColor>FF000000</fontColor>
+          <content>{PAGE_COUNT}</content>
+          <alignment>1</alignment>
+          <lineAlignment>1</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="0" width="0" />
+        </text>
+        <line>
+          <pen color="FF000000" width="3.543307" />
+          <pt0 x="4847.009" y="200.5226" />
+          <pt1 x="4740.976" y="256.5404" />
+        </line>
+      </objects>
+    </titleBlock>
   </titleBlocks>
 </titleBlockLibrary>

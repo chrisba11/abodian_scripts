@@ -1,11 +1,11 @@
 2
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <MaterialTemplate Name="Brilliante Blanco Uppers - Pewter Pine Base" Type="1" SymbolForLabels="">
-  <MaterialReference PartType="Door" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.05" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
-  <MaterialReference PartType="DoorPanel" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.05" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
-  <MaterialReference PartType="DoorFrame" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.05" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
-  <MaterialReference PartType="Drawer" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.05" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
-  <MaterialReference PartType="DrawerPanel" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.05" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
-  <MaterialReference PartType="DrawerFrame" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.05" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
-  <MaterialReference PartType="PanelizedEnd" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.05" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
+  <MaterialReference PartType="Door" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.2" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
+  <MaterialReference PartType="DoorPanel" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.2" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
+  <MaterialReference PartType="DoorFrame" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.2" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
+  <MaterialReference PartType="Drawer" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.2" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
+  <MaterialReference PartType="DrawerPanel" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.2" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
+  <MaterialReference PartType="DrawerFrame" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.2" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.2" MatWall="Blanco HG Brilliante 3/4 619 BRL" MatWallThick="19.05" />
 </MaterialTemplate>

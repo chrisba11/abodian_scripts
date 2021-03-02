@@ -4,5 +4,5 @@
   <MaterialReference PartType="EdgeBand" Mat="0.5mm White Velvet W300 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand2" Mat="1mm White Velvet W300 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand3" Mat="0.5mm Birch PF" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand4" Mat="White Velvet LAMINATE W300 PRZ" MatThick="1.00076" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand4" Mat="White Velvet LAMINATE W300 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
 </MaterialTemplate>

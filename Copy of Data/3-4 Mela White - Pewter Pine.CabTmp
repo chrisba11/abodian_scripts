@@ -27,7 +27,7 @@
   <MaterialReference PartType="UfinInterior" Mat="CM White 3/4 W100 PRZ [Matching Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FinSkin" Mat="CM White 3/4 W100 PRZ [Matching Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UfinSkin" Mat="CM White 3/4 W100 PRZ [Matching Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="ToeSkin" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ToeSkin" Mat="Pewter Pine 3/4 WF377 PRZ [Matching Banding]" MatThick="19.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Sleeper" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />

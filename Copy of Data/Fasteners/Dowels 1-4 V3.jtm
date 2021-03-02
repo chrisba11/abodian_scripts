@@ -1,6 +1,6 @@
-5
+6
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<JointFastenerTemplate Name="Dowels 1-4 V3" Type="0" Comment="" JointFastenerPrice="0.001785" DisplayInHardwareTab="True" AppliesToFinishedEnds="True" AppliesToUnfinishedEnds="True" AppliesToBaseCabs="True" AppliesToWallCabs="True" JointBreakDist="25.4">
+<JointFastenerTemplate Name="Dowels 1-4 V3" Type="0" Comment="" CostEach="0.001785" MarkupPercentage="0" AddOnCost="0" DisplayInHardwareTab="True" AppliesToFinishedEnds="True" AppliesToUnfinishedEnds="True" AppliesToBaseCabs="True" AppliesToWallCabs="True" JointBreakDist="25.4">
   <MaleFastener HBore="False" Depth="0" Dia="0" DI="0" HBOset="0" Dep_Eq="" DI_Eq="" MaleCtr="False" PathOffset="0" PathLength="0" ToolID="0" ExitFromEntryPoint="False" />
   <MaleFastener HBore="False" Depth="0" Dia="0" DI="0" HBOset="0" Dep_Eq="" DI_Eq="" MaleCtr="False" PathOffset="0" PathLength="0" ToolID="0" ExitFromEntryPoint="False" />
   <FemaleFastener HBore="False" Depth="12.70795" Dia="8" DI="-11.05" HBOset="0" Dep_Eq="" DI_Eq="-(Bottom.th)+8" MaleCtr="False" PathOffset="0" PathLength="0" ToolID="0" ExitFromEntryPoint="False" />
@@ -143,8 +143,8 @@
   <JointLocation JointType="Divider -&gt; Stretcher" DA="0" DA_Eq="" Fr="0" GTLen="304" MoveMaleToReverse="False" MoveFemaleToReverse="False" />
   <NoOpt JointType="Divider -&gt; Stretcher" Value="False" />
   <FlipSideThroughBore JointType="Divider -&gt; Stretcher" Value="False" />
-  <JointLocation JointType="Divider -&gt; Rear Stretcher" DA="26" DA_Eq="26" Fr="0" GTLen="0" MoveMaleToReverse="False" MoveFemaleToReverse="False" />
-  <JointLocation JointType="Divider -&gt; Rear Stretcher" DA="90" DA_Eq="0 | If StretcherW &lt; 100 Then Distance= 26+32 | If StretcherW &gt;= 100 Then Distance= 26+64 | If StretcherW &gt;= 138 Then Distance= 26+96" Fr="0" GTLen="99" MoveMaleToReverse="False" MoveFemaleToReverse="False" />
+  <JointLocation JointType="Divider -&gt; Rear Stretcher" DA="26" DA_Eq="26" Fr="1" GTLen="0" MoveMaleToReverse="False" MoveFemaleToReverse="False" />
+  <JointLocation JointType="Divider -&gt; Rear Stretcher" DA="90" DA_Eq="0 | If StretcherW &lt; 100 Then Distance= 26+32 | If StretcherW &gt;= 100 Then Distance= 26+64 | If StretcherW &gt;= 138 Then Distance= 26+96" Fr="1" GTLen="99" MoveMaleToReverse="False" MoveFemaleToReverse="False" />
   <JointLocation JointType="Divider -&gt; Rear Stretcher" DA="0" DA_Eq="" Fr="0" GTLen="203" MoveMaleToReverse="False" MoveFemaleToReverse="False" />
   <JointLocation JointType="Divider -&gt; Rear Stretcher" DA="0" DA_Eq="" Fr="0" GTLen="304" MoveMaleToReverse="False" MoveFemaleToReverse="False" />
   <NoOpt JointType="Divider -&gt; Rear Stretcher" Value="False" />

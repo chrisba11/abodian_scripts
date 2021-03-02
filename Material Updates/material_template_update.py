@@ -280,3 +280,6 @@ def copy_mat_template(
 # update_multiple_lines_with_start_and_end_strings('15 ', [3], '"05 ', '-', '15 - ', '.CabTmp')
 
 # copy_mat_to_different_line_in_template('', '.CabTmp', 24, 6, "")
+
+# copy_mat_to_different_line_in_template('05 -', '.CabTmp', 15, 14, "")
+# copy_mat_to_different_line_in_template('15 -', '.CabTmp', 15, 14, "")

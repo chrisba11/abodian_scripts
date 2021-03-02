@@ -25,7 +25,7 @@
       <LayerHidden LayerName="Open Section Labels" Hidden="False" />
       <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
       <LayerHidden LayerName="Molding Drawings" Hidden="True" />
-      <LayerHidden LayerName="Top Drawings" Hidden="True" />
+      <LayerHidden LayerName="Top Drawings" Hidden="False" />
       <LayerHidden LayerName="Plan - Depth" Hidden="False" />
       <LayerHidden LayerName="" Hidden="True" />
       <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
@@ -50,7 +50,7 @@
       <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
       <LayerHidden LayerName="Grid" Hidden="True" />
       <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
-      <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+      <LayerHidden LayerName="Countertop Cutouts" Hidden="False" />
       <LayerHidden LayerName="Moldings" Hidden="False" />
       <LayerHidden LayerName="Toe Skins" Hidden="True" />
       <LayerHidden LayerName="Base Cabinets" Hidden="False" />
@@ -73,6 +73,7 @@
       <LayerHidden LayerName="Interior" Hidden="False" />
       <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
       <LayerHidden LayerName="DrawerBox" Hidden="False" />
+      <LayerHidden LayerName="Appliances" Hidden="False" />
       <LayerFont LayerName="Elev Dimensions">
         <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
       </LayerFont>
@@ -245,14 +246,12 @@
       <LayerHidden LayerName="T Walls" Hidden="False" />
       <LayerHidden LayerName="Plan - Wall" Hidden="False" />
       <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
-      <LayerHidden LayerName="User Dimensions" Hidden="True" />
+      <LayerHidden LayerName="User Dimensions" Hidden="False" />
       <LayerHidden LayerName="Product Space Borders" Hidden="True" />
       <LayerHidden LayerName="Notes" Hidden="True" />
       <LayerHidden LayerName="Wall 1" Hidden="False" />
       <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
       <LayerHidden LayerName="Inserts" Hidden="False" />
-      <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
-      <LayerHidden LayerName="Plan - Base Cabs" Hidden="False" />
       <LayerFont LayerName="Elev Dimensions">
         <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
       </LayerFont>
@@ -333,7 +332,6 @@
       </LayerFont>
       <LayerColor LayerName="Wall Labels" Color="-8355712" />
       <LayerColor LayerName="Room Label" Color="-8355712" />
-      <LayerColor LayerName="Moldings" Color="-16777216" />
     </DrawingSettings>
   </DrawingTemplate>
   <DrawingTemplate Name="Production">

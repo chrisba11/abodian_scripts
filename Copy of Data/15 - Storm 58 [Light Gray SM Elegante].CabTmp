@@ -11,7 +11,7 @@
   <MaterialReference PartType="RolloutShelf" Mat="Storm Gray 5/8 S565 PAN [Light Gray SM Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FixedShelf" Mat="Storm Gray 5/8 S565 PAN [Light Gray SM Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Partition" Mat="Storm Gray 5/8 S565 PAN [Light Gray SM Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="Divider" Mat="Storm Gray 5/8 S565 PAN [Light Gray SM Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Divider" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UBack" Mat="Storm Gray 5/8 S565 PAN [Matching Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FBack" Mat="Storm Gray 5/8 S565 PAN [Light Gray SM Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Frame" Mat="Storm Gray 5/8 S565 PAN [Light Gray SM Banding]" MatThick="16.2" MatWall="" MatWallThick="0" />

@@ -7,7 +7,9 @@ PanelTemplate
       <OperationHole Diameter="12.7" Diameter_Eq=".5*tomm" ID="21" X="114.3" Y="520.55" Depth="19.19986" Hide="False" X_Eq="ToeH" Y_Eq="PartW-ToeR+(.25*tomm)" Depth_Eq="UEnd.th" Hide_Eq="" IsUserOp="False" IdTag="30201" Noneditable="False" Anchor="" FlipSideOp="False" />
     </LUE>
     <RUE Version="2">
-      <OperationHole Diameter="12.7" Diameter_Eq=".5*tomm" ID="22" X="114.3" Y="69.85" Depth="19.19986" Hide="False" X_Eq="ToeH" Y_Eq="ToeR-(.25*tomm)" Depth_Eq="UEnd.th" Hide_Eq="" IsUserOp="False" IdTag="30301" Noneditable="False" Anchor="" FlipSideOp="False" />
+      <OperationHole Diameter="12.7" Diameter_Eq=".5*tomm" ID="22" X="114.3" Y="69.85" Depth="16.10106" Hide="False" X_Eq="ToeH" Y_Eq="ToeR-(.25*tomm)" Depth_Eq="UEnd.th" Hide_Eq="" IsUserOp="False" IdTag="30301" Noneditable="False" Anchor="" FlipSideOp="False" />
+      <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="84.2" Depth="12.7" Hide="False" X_Eq="26" Y_Eq="ToeR+8" Depth_Eq="12.7" Hide_Eq="" IsUserOp="False" IdTag="30302" Noneditable="False" Anchor="" FlipSideOp="False" />
+      <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="90" Y="84.2" Depth="12.7" Hide="False" X_Eq="26+64" Y_Eq="ToeR+8" Depth_Eq="12.7" Hide_Eq="" IsUserOp="False" IdTag="30303" Noneditable="False" Anchor="" FlipSideOp="False" />
     </RUE>
   </BasePartFastener>
   <WallPartFastener />

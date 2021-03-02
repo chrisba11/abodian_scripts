@@ -11,7 +11,7 @@
   <MaterialReference PartType="RolloutShelf" Mat="CM White 3/4 W100 PRZ [Diva Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FixedShelf" Mat="CM White 3/4 W100 PRZ [Diva Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Partition" Mat="CM White 3/4 W100 PRZ [Diva Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="Divider" Mat="CM White 3/4 W100 PRZ [Diva Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Divider" Mat="CM White 3/4 W100 PRZ [Matching Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="UBack" Mat="CM White 3/4 W100 PRZ [Matching Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="FBack" Mat="CM White 3/4 W100 PRZ [Diva Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="Frame" Mat="CM White 3/4 W100 PRZ [Diva Banding]" MatThick="19.19986" MatWall="" MatWallThick="0" />
