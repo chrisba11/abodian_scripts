@@ -70,6 +70,7 @@ def product_list_with_notes():
                                 full_prod_num = 'R' + str(room_num) + 'N' + prod_num
                                 
                             for char in xml_char_ents:
+                                prod_name = prod_name.replace(char[0], char[1])
                                 note = note.replace(char[0], char[1])
                             
                             prod_dict[room_num][1].append([prod_name, full_prod_num, note])
