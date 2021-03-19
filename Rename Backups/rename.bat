@@ -1,1 +1,1 @@
-"C:\Users\Chris Ball\AppData\Local\Programs\Python\Python39\python.exe" "E:\Test Data\Rename Backups\rename.py"
+"C:\Users\Chris Ball\AppData\Local\Programs\Python\Python39\python.exe" "E:\Scripts\Rename Backups\rename.py"
