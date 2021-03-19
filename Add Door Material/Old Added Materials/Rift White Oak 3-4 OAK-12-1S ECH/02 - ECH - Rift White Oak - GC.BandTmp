@@ -1,0 +1,8 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - ECH - Rift White Oak - GC" Type="4" SymbolForLabels="RI">
+  <MaterialReference PartType="EdgeBand" Mat="0.5mm PVC Match for ECH Rift White Oak" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand2" Mat="0.5mm Rift White Oak OAK-12-1S ECH" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Fog Grey SF213 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>
