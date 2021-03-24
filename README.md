@@ -1,13 +1,14 @@
 # abodian_scripts
-Scripts for editing materials, material templates, etc. for Mozaik
+Various scripts for editing & creating files for Mozaik.
+(editing materials, editing material templates, adding new materials and creating new material templates with those materials, printing special reports, renaming backups, etc.)
 
-Mozaik is a 3D modeling software that generates drawings for our clients and part lists and CNC tooling code for us to machine all of our parts.
+Mozaik is a 3D modeling software that generates drawings for our clients and part lists and CNC machine code for our production team to machine all of our parts and build our products.
 
-The software has some limitations that we have needed to circumvent through writing our own scripts to update materials and material templates.
+Mozaik's software has some limitations that we have needed to circumvent through writing our own scripts.
 
-One of the scripts we needed was the ability to copy every door material in our system to create a duplicate material with the same name that had the text "BSAW" at the
-end of the name and some modifications to the trim dimensions for the edges of the material. This allowed us to assign this new material to every material template
-(roughly 700 of them) for specific parts we want sent to the Beam Saw instead of the Nested Router CNC. I was able to assign these new materials to each template using
+One of the scripts we needed was the ability to copy every door material in our system in order to create a duplicate material with the same name that had the text "BSAW" at the
+end of the name and some modifications to the trim dimensions for the edges of the material. This function allowed us to assign this new material to every material template
+(roughly 700 of them) for specific parts we want to send to the Beam Saw instead of our Nested Router CNC. I was able to assign these new materials to each template using
 another script. Both of these functions can be found in the material_template_update.py file.
 
 Another challenge we've been working to overcome is that the software does not have a report that lists all products that had special notes for the shop.
