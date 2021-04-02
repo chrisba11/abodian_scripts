@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - ECH - Quartered Walnut" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Quartered Walnut 3/4 WT-139S ECH [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Quartered Walnut 3/4 WT-139S ECH [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Quartered Walnut 3/4 WT-139S ECH [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Quartered Walnut 3/4 WT-139S ECH [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Quartered Walnut 3/4 WT-139S ECH [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Quartered Walnut 3/4 WT-139S ECH [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Quartered Walnut 3/4 WT-139S ECH [Matching Banding]" MatThick="19.05" MatWall="" MatWallThick="0" />
+</MaterialTemplate>
