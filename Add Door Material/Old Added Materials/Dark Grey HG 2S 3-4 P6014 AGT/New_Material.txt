@@ -1,0 +1,72 @@
+##################################################################################
+###                                                                            ###
+###     Enter answers to questions below on the line beneath the question      ###
+###              DO NOT USE THESE SPECIAL CHARACTERS IN ANSWERS                ###
+###               @ % & * ' " ! ? # ~ ` < > ^ \ $ [ ] { } | ( )                ###
+###                                                                            ###
+##################################################################################
+
+
+1. What do you want to name the sheet material? (ie - "Aria 3/4 WF340 PRZ")
+Dark Grey HG 2S 3/4 P6014 AGT
+-------------------------------------------------------------------------------------------
+2. What is the sheet width in inches? ("48.5" format, number only)
+48
+-------------------------------------------------------------------------------------------
+3. What is the sheet length in inches? ("96.5" format, number only)
+110
+-------------------------------------------------------------------------------------------
+4. What is the sheet thickness in inches? ("0.75" format, number only)
+.7087
+-------------------------------------------------------------------------------------------
+5. Does the material have grain? (Y or N)
+n
+-------------------------------------------------------------------------------------------
+6. Is this material 2-sided? (Y or N)
+y
+-------------------------------------------------------------------------------------------
+7. What is the waste percentage? (typing "20" equals 20 percent)
+20
+-------------------------------------------------------------------------------------------
+8. What comment would you like to add to this material? (leave blank for no comment)
+
+-------------------------------------------------------------------------------------------
+9. What should the banding name on the case material be called? (ie - "Pacaya Medina")(Exclude "Banding")
+Dark Grey Gloss
+-------------------------------------------------------------------------------------------
+10. What should the banding template names include? (ie - "ELG - White Gloss")
+AGT - Dark Grey Gloss
+-------------------------------------------------------------------------------------------
+11. What should the cabinet template names include? (ie - "Roble Colorado")
+Dark Grey Gloss AGT
+-------------------------------------------------------------------------------------------
+12. What is the name of the case banding? (ie - "0.5mm Samba R63 UNI")
+0.5mm PVC Match for Dark Grey Gloss P6014 AGT
+-------------------------------------------------------------------------------------------
+13. What is the width of the case banding in inches? ("0.875" format, number only)
+.9375
+-------------------------------------------------------------------------------------------
+14. What is the length of the case banding in feet? (number only)
+300
+-------------------------------------------------------------------------------------------
+15. What is the case banding type? (0 = Roll, 1 = Strip)
+0
+-------------------------------------------------------------------------------------------
+16. What comment would you like to add to this case banding? (leave blank for no comment)
+Swap for actual material or change name once we have info from Steve
+-------------------------------------------------------------------------------------------
+17. What is the name of the door banding? (ie - "1mm Samba R63 UNI")
+1mm Dark Grey Gloss P6014 AGT
+-------------------------------------------------------------------------------------------
+18. What is the width of the door banding in inches? ("0.875" format, number only)
+.875
+-------------------------------------------------------------------------------------------
+19. What is the length of the door banding in feet? (number only)
+300
+-------------------------------------------------------------------------------------------
+20. What is the door banding type? (0 = Roll, 1 = Strip)
+0
+-------------------------------------------------------------------------------------------
+21. What comment would you like to add to this door banding? (leave blank for no comment)
+
+-------------------------------------------------------------------------------------------
