@@ -22,15 +22,6 @@ def edgeband_report():
     dir_path_lst = dir_path.split('\\')
     job_name = dir_path_lst[-1]
 
-    xml_char_ents = [
-        ['&quot;', '"'],
-        ['&#xD;&#xA;', '\n'],
-        ['&amp;', '&'],
-        ['&apos;', "'"],
-        ['&gt;', '>'],
-        ['&lt;', '<']
-    ]
-
     temp_dict = {}
     
     for root, dirs, files in os.walk(dir_path):
@@ -42,111 +33,131 @@ def edgeband_report():
                 full_path = dir_path + '\\' + file
                 f = open(full_path, "rt")
                 content = f.readlines()
-                rm_start_idx = content[2].find('Name=') + 6
-                rm_end_idx = content[2].find('" RoomNosDirty=')
-                room_num = int(file[4:file.find('.')])
-                                
+                f.close()
+                room_num = file[4:file.find('.')]
+                mat_temp_start_idx = content[4].find('MatBandingTemplate=') + 20
+                mat_temp_end_idx = content[4].find('" CabBaseDoorTexture=')
+                room_mat_temp = content[4][mat_temp_start_idx:mat_temp_end_idx]
+
+                if room_mat_temp not in temp_dict:
+                    temp_dict[room_mat_temp] = {"Banding":[], "Cabinets": []}
+    
                 for line in content:
                     if line.startswith('    <Product '):
-                        note_start_idx = line.find('Notes=') + 6
-                        note_end_idx = line.find('" Price=')
-                        note_intro = line[note_start_idx:note_start_idx + 2]
+                        mat_or_start_idx = line.find('MatBandingOR=') + 14
+                        mat_or_end_idx = line.find('" LToeAdj=')
+                        mat_or_intro = line[mat_or_start_idx:mat_or_start_idx + 2]
 
-                        if note_intro != '""':
-                            prod_start_idx = line.find('ProdName=') + 10
-                            prod_end_idx = line.find('" IDTag=')
-                            prod_name = line[prod_start_idx:prod_end_idx]
-                            num_start_idx = line.find('CabNo=') + 7
-                            num_end_idx = line.find(' Numbered=')
-                            prod_num = line[num_start_idx:num_end_idx - 1]
-                            is_numbered_start_idx = num_end_idx + 11
-                            is_numbered = line[is_numbered_start_idx:is_numbered_start_idx + 1]
-                            note = line[note_start_idx + 1:note_end_idx]
+                        num_start_idx = line.find('CabNo=') + 7
+                        num_end_idx = line.find(' Numbered=')
+                        prod_num = line[num_start_idx:num_end_idx - 1]
+                        is_numbered_start_idx = num_end_idx + 11
+                        is_numbered = line[is_numbered_start_idx:is_numbered_start_idx + 1]
+                        mat_temp_or = line[mat_or_start_idx:mat_or_end_idx]
 
-                            if is_numbered == 'T':
-                                full_prod_num = 'R' + str(room_num) + 'C' + prod_num
-                            else:
-                                full_prod_num = 'R' + str(room_num) + 'N' + prod_num
-                                
-                            for char in xml_char_ents:
-                                prod_name = prod_name.replace(char[0], char[1])
-                                note = note.replace(char[0], char[1])
-                            
-                            temp_dict[room_num][1].append([prod_name, full_prod_num, note])
+                        if is_numbered == 'T':
+                            full_prod_num = 'R' + room_num + 'C' + prod_num
+                        else:
+                            full_prod_num = 'R' + room_num + 'N' + prod_num
+
+                        if mat_or_intro == '" ':
+                            temp_dict[room_mat_temp]["Cabinets"].append(full_prod_num)
+                        elif mat_temp_or in temp_dict:
+                            temp_dict[mat_temp_or]["Cabinets"].append(full_prod_num)
+                        else:
+                            temp_dict[mat_temp_or] = {"Banding": [], "Cabinets": [full_prod_num]}
+
+    if "None" in temp_dict:
+        temp_dict.pop("None")
+
+    data_path = '\\'.join(dir_path_lst[:-2])
+    data_path += '\\Data'
+
+    for template in temp_dict:
+
+        for root, dirs, files in os.walk(data_path):
+            
+            for file in files:
+
+                if file.startswith(template):
+
+                    full_path = data_path + '\\' + file
+                    f = open(full_path, "rt")
+                    content = f.readlines()
+                    f.close()
+
+                    band_num = 1
+
+                    for line in content[3:7]:
+                        mat_start_idx = line.find('Mat=') + 5
+                        mat_end_idx = line.find('" MatThick=')
+                        mat_name = line[mat_start_idx:mat_end_idx]
+                        temp_dict[template]["Banding"].append("EB" + str(band_num) +": " + mat_name)
+                        band_num += 1
+
+
+    temp_list = []
+
+    for template in temp_dict:
+        temp_list.append(template)
+
+    temp_list.sort()
 
 
     wb = Workbook()
     sheet1 = wb.active
     row = 1
     col = 1
-    room_key = 0
 
-    sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 2)
-    sheet1.cell(row, col, job_name + ' - Special Notes')
+    sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
+    sheet1.cell(row, col, job_name + ' - Edgebanding')
     sheet1.cell(row, col).alignment = Alignment(vertical='top')
     sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
-    sheet1.row_dimensions[1].height = 25
+    sheet1.row_dimensions[1].height = 40
     row += 1
 
-    for i in range(len(temp_dict)):
-        if temp_dict[room_key][1] != []:
-            sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 2)
-            sheet1.cell(row, col, temp_dict[room_key][0])
-            sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='center')
-            sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
+    for template in temp_list:
+        sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
+        sheet1.cell(row, col, template)
+        sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='left')
+        sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
+        row += 1
+
+
+        for banding in temp_dict[template]["Banding"][:2]:
+            sheet1.cell(row, col, banding)
+            sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
+            sheet1.cell(row, col).font = Font(size=11)
+            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
             row += 1
 
-            sheet1.cell(row, col, 'Product Name')
-            sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=1.0)
-            sheet1.cell(row, col).font = Font(size=12, italic=True)
-            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-            col += 1
+        col += 1
+        row -= 2
 
-            sheet1.cell(row, col, 'CabNo')
-            sheet1.cell(row, col).alignment = Alignment(horizontal='center')
-            sheet1.cell(row, col).font = Font(size=12, italic=True)
-            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-            col += 1
-
-            sheet1.cell(row, col, 'Notes')
-            sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=1.0)
-            sheet1.cell(row, col).font = Font(size=12, italic=True)
-            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-            col -= 2
+        for banding in temp_dict[template]["Banding"][2:]:
+            sheet1.cell(row, col, banding)
+            sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
+            sheet1.cell(row, col).font = Font(size=11)
+            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
             row += 1
 
+        col -= 1
 
-            for prod in temp_dict[room_key][1]:
-                sheet1.cell(row, col, prod[0])
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
-                sheet1.cell(row, col).font = Font(size=10)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                col += 1
+        sheet1.cell(row, col, ", ".join(temp_dict[template]["Cabinets"]))
+        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical="center", horizontal='left')
+        sheet1.cell(row, col).font = Font(size=10, color="0000FF")
+        sheet1.row_dimensions[row].height = 30 + (10 * (len(temp_dict[template]["Cabinets"])//12))
+        sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
 
-                sheet1.cell(row, col, prod[1])
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                col += 1
-                
-                sheet1.cell(row, col, prod[2])
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
-                sheet1.cell(row, col).font = Font(size=10)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                col -= 2
-                row += 1
+        row += 2
 
-            row += 1
-        room_key += 1
-
-    sheet1.column_dimensions['A'].width = 25
-    sheet1.column_dimensions['B'].width = 8
-    sheet1.column_dimensions['C'].width = 50
+    sheet1.column_dimensions['A'].width = 43
+    sheet1.column_dimensions['B'].width = 43
     
-    print_area = 'A1:C' + str(row)
+    print_area = 'A1:B' + str(row)
     sheet1.print_area = print_area
     
-    save_name = job_name + ' - Special Notes' + '.xlsx'
+    save_name = job_name + ' - Edgebanding' + '.xlsx'
     full_save_name = os.path.join(dir_path, save_name)
     try:
         wb.save(full_save_name)
