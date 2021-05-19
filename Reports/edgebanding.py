@@ -146,7 +146,7 @@ def edgeband_report():
         sheet1.cell(row, col, ", ".join(temp_dict[template]["Cabinets"]))
         sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical="center", horizontal='left')
         sheet1.cell(row, col).font = Font(size=10, color="0000FF")
-        sheet1.row_dimensions[row].height = 30 + (10 * (len(temp_dict[template]["Cabinets"])//13))
+        sheet1.row_dimensions[row].height = 30 + (10 * (len(temp_dict[template]["Cabinets"])//12))
         sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
 
         row += 2
