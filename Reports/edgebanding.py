@@ -88,6 +88,10 @@ def edgeband_report():
 
                     band_num = 1
 
+                    lbl_sym_start_idx = content[2].find('SymbolForLabels=') + 17
+                    label_symbol = '[ ' + content[2][lbl_sym_start_idx:lbl_sym_start_idx + 2] + ' ]'
+                    temp_dict[template]['Symbol'] = label_symbol
+
                     for line in content[3:7]:
                         mat_start_idx = line.find('Mat=') + 5
                         mat_end_idx = line.find('" MatThick=')
@@ -99,7 +103,7 @@ def edgeband_report():
     temp_list = []
 
     for template in temp_dict:
-        temp_list.append(template)
+        temp_list.append([temp_dict[template]['Symbol'], template])
 
     temp_list.sort()
 
@@ -118,13 +122,13 @@ def edgeband_report():
 
     for template in temp_list:
         sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
-        sheet1.cell(row, col, template)
+        sheet1.cell(row, col, template[0] + ' ' + template[1])
         sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='left')
         sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
         row += 1
 
 
-        for banding in temp_dict[template]["Banding"][:2]:
+        for banding in temp_dict[template[1]]["Banding"][:2]:
             sheet1.cell(row, col, banding)
             sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
             sheet1.cell(row, col).font = Font(size=11)
@@ -134,7 +138,7 @@ def edgeband_report():
         col += 1
         row -= 2
 
-        for banding in temp_dict[template]["Banding"][2:]:
+        for banding in temp_dict[template[1]]["Banding"][2:]:
             sheet1.cell(row, col, banding)
             sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
             sheet1.cell(row, col).font = Font(size=11)
@@ -143,10 +147,10 @@ def edgeband_report():
 
         col -= 1
 
-        sheet1.cell(row, col, ", ".join(temp_dict[template]["Cabinets"]))
+        sheet1.cell(row, col, ", ".join(temp_dict[template[1]]["Cabinets"]))
         sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical="center", horizontal='left')
         sheet1.cell(row, col).font = Font(size=10, color="0000FF")
-        sheet1.row_dimensions[row].height = 30 + (10 * (len(temp_dict[template]["Cabinets"])//12))
+        sheet1.row_dimensions[row].height = 30 + (10 * (len(temp_dict[template[1]]["Cabinets"])//12))
         sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
 
         row += 2
