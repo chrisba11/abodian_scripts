@@ -400,7 +400,7 @@ def add_door_material():
         ['MC', '0.5mm Hardrock Maple WF275 PRZ'],
         ['PC', '0.5mm Birch PVC'],
         ['SC', '0.5mm Storm Gray S565 PAN'],
-        ['WC', '0.5mm White W100 PRZ']
+        ['WC', '0.5mm White STN101 TEK']
         ]:
 
         band_temp = \
