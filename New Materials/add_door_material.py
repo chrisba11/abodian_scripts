@@ -39,8 +39,9 @@ def add_door_material():
 
     # removes any special characters from user input
     for i in range(len(new_mat)):
-        if new_mat[i] is not None and i != '':
+        if new_mat[i] is not None and new_mat[i] != '':
             new_mat[i] = re.sub("[@%&*'\"!?#~`<>\^\\\$\[\]\{\}\|\(\)]", '', new_mat[i])
+            new_mat[i] = new_mat[i].strip()
 
     # filling out variables with input read from New_Material.txt file
     sheet_name = new_mat[1]
