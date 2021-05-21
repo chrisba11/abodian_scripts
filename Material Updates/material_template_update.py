@@ -255,6 +255,47 @@ def copy_mat_template(
                     os.system(command_string)
 
 
+def band_label_symbol_update():
+    """
+    Runs through every banding template file in the folder
+    and updates the label symbol to match beginning of material name
+    """
+
+    for root, dirs, files in os.walk(dir_path):
+        for file in files:
+            if file.endswith('.BandTmp'):
+
+                    # read content from file
+                    full_path = dir_path + '\\' + file
+                    f = open(full_path, "rt")
+                    content = f.readlines()
+                    f.close()
+
+                    # get Material Template line with name & symbol
+                    line = content[2]
+
+                    # set start & end indices for grabbing name
+                    start_idx = line.find('Name=') + 6
+                    end_idx = line.find('" Type=')
+                    
+                    # grab material template name
+                    mat_name = line[start_idx:end_idx]
+                    # split material template name using '- ' to get actual color name
+                    mat_name_lst = mat_name.split('- ')
+                    # set new label symbol string to be first 2 letters of color name
+                    new_symb = mat_name_lst[2][:2].upper()
+
+                    # set start index for grabbing symbol location
+                    start_idx = line.find('SymbolForLabels=') + 17
+                    # change label symbol
+                    content[2] = line[:start_idx] + new_symb + line[start_idx + 2:]
+
+                    # write content to file
+                    f = open(full_path, "wt")
+                    f.writelines(content)
+                    f.close()
+
+
 
 ###############################################################################
 ###### THESE ARE ALL MY FUNCTION CALLS USED TO PERFORM THE WORK REQUIRED ######
@@ -283,3 +324,5 @@ def copy_mat_template(
 
 # copy_mat_to_different_line_in_template('05 -', '.CabTmp', 15, 14, "")
 # copy_mat_to_different_line_in_template('15 -', '.CabTmp', 15, 14, "")
+
+#band_label_symbol_update()
