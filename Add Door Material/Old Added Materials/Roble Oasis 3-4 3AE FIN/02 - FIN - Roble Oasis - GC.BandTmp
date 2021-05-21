@@ -1,0 +1,8 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - FIN - Roble Oasis - GC" Type="4" SymbolForLabels="RO">
+  <MaterialReference PartType="EdgeBand" Mat="0.5mm Roble Oasis 3AE FIN" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand2" Mat="1mm Roble Oasis 3AE FIN" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Fog Grey SF213 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>
