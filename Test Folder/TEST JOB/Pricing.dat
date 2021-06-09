@@ -1,0 +1,174 @@
+1
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PricingTemplateRuns>
+  <PricingTemplateRun Name="1. Prelim Material List (May 27, 21)" CreationDate="1622126624.312" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS" Units="0" IDTag="BUYOUT DOORS" SortTag="BUYOUT DOORS" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS 2" Units="0" IDTag="BUYOUT DOORS 2" SortTag="BUYOUT DOORS 2" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM White 5/8 W100 PRZ [Mysterious Velvet Banding]" Units="0" IDTag="CM White 5/8 W100 PRZ [Mysterious Velvet Banding]" SortTag="CM White 5/8 W100 PRZ [Mysterious Velvet Banding]" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding 2]" Units="0" IDTag="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding 2]" SortTag="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding 2]" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding]" Units="0" IDTag="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding]" SortTag="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding]" QTY="8" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM White 5/8 W100 PRZ [White STN101 Banding]" Units="0" IDTag="CM White 5/8 W100 PRZ [White STN101 Banding]" SortTag="CM White 5/8 W100 PRZ [White STN101 Banding]" QTY="14" Amount="25.5" Total="357.0" />
+        <PricingTemplateSubRow ItemName="Gray Soapstone" Units="0" IDTag="Gray Soapstone" SortTag="Gray Soapstone" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4" Units="0" IDTag="MDF 3/4" SortTag="MDF 3/4" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2]" Units="0" IDTag="MDF 3/4 [2]" SortTag="MDF 3/4 [2]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2] BSAW" Units="0" IDTag="MDF 3/4 [2] BSAW" SortTag="MDF 3/4 [2] BSAW" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 BSAW" Units="0" IDTag="MDF 3/4 BSAW" SortTag="MDF 3/4 BSAW" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" Units="0" IDTag="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" SortTag="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" QTY="3" Amount="89" Total="267" />
+        <PricingTemplateSubRow ItemName="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding] BSAW" Units="0" IDTag="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding] BSAW" SortTag="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding] BSAW" QTY="1" Amount="89" Total="89" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="2" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Mysterious Velvet SF247 PRZ" Units="6" IDTag="0.5mm Mysterious Velvet SF247 PRZ" SortTag="0.5mm Mysterious Velvet SF247 PRZ" QTY="103.66383209629008" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Paint Matched PVC" Units="6" IDTag="0.5mm Paint Matched PVC" SortTag="0.5mm Paint Matched PVC" QTY="125.086431628449940" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Paint Matched PVC 2" Units="6" IDTag="0.5mm Paint Matched PVC 2" SortTag="0.5mm Paint Matched PVC 2" QTY="125.44356719089618" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm White STN101 TEK" Units="6" IDTag="0.5mm White STN101 TEK" SortTag="0.5mm White STN101 TEK" QTY="242.599985117674428" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Mysterious Velvet SF247 PRZ" Units="6" IDTag="1mm Mysterious Velvet SF247 PRZ" SortTag="1mm Mysterious Velvet SF247 PRZ" QTY="200.075132264865566" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None EB2-Door" Units="6" IDTag="None EB2-Door" SortTag="None EB2-Door" QTY="250.571560784587718" Amount="0.07" Total="17.54" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Blum 110 / 3mm - 71B358180" Units="0" IDTag="Blum 110 / 3mm - 71B358180" SortTag="Blum 110 / 3mm - 71B358180" QTY="80" Amount="2.6" Total="208.0" />
+        <PricingTemplateSubRow ItemName="Blum 95 Blind / 0mm - 79B958180" Units="0" IDTag="Blum 95 Blind / 0mm - 79B958180" SortTag="Blum 95 Blind / 0mm - 79B958180" QTY="8" Amount="4.23" Total="33.84" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_500 (see Excel list of parts) - Slow Close" Units="0" IDTag="Optimiz-R 185_500 (see Excel list of parts) - Slow Close" SortTag="Optimiz-R 185_500 (see Excel list of parts) - Slow Close" QTY="12" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_550 (see Excel list of parts) - Slow Close" Units="0" IDTag="Optimiz-R 185_550 (see Excel list of parts) - Slow Close" SortTag="Optimiz-R 185_550 (see Excel list of parts) - Slow Close" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_500 (see Excel list of parts) - Slow Close" Units="0" IDTag="Optimiz-R 89_500 (see Excel list of parts) - Slow Close" SortTag="Optimiz-R 89_500 (see Excel list of parts) - Slow Close" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_550 (see Excel list of parts) - Slow Close" Units="0" IDTag="Optimiz-R 89_550 (see Excel list of parts) - Slow Close" SortTag="Optimiz-R 89_550 (see Excel list of parts) - Slow Close" QTY="2" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="68" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="118" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="288" Amount="0.001785" Total="0.51" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="128" Amount="0.001785" Total="0.23" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="544" Amount="0.001785" Total="0.97" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="80" Amount="0.001785" Total="0.14" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Leg Levelers (x4)" Units="0" IDTag="Leg Levelers (x4)" SortTag="Leg Levelers (x4)" QTY="20" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Leg Levelers (x6)" Units="0" IDTag="Leg Levelers (x6)" SortTag="Leg Levelers (x6)" QTY="2" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+    <ReportFilename Filename="1. Prelim Material List (May 27, 21)" />
+  </PricingTemplateRun>
+  <PricingTemplateRun Name="1. Material List (Jun 04, 21)" CreationDate="1622813810.605" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS" Units="0" IDTag="BUYOUT DOORS" SortTag="BUYOUT DOORS" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS 2" Units="0" IDTag="BUYOUT DOORS 2" SortTag="BUYOUT DOORS 2" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM White 5/8 W100 PRZ [Mysterious Velvet Banding]" Units="0" IDTag="CM White 5/8 W100 PRZ [Mysterious Velvet Banding]" SortTag="CM White 5/8 W100 PRZ [Mysterious Velvet Banding]" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding 2]" Units="0" IDTag="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding 2]" SortTag="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding 2]" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding]" Units="0" IDTag="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding]" SortTag="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding]" QTY="8" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM White 5/8 W100 PRZ [White STN101 Banding]" Units="0" IDTag="CM White 5/8 W100 PRZ [White STN101 Banding]" SortTag="CM White 5/8 W100 PRZ [White STN101 Banding]" QTY="14" Amount="25.5" Total="357.0" />
+        <PricingTemplateSubRow ItemName="Gray Soapstone" Units="0" IDTag="Gray Soapstone" SortTag="Gray Soapstone" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4" Units="0" IDTag="MDF 3/4" SortTag="MDF 3/4" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2]" Units="0" IDTag="MDF 3/4 [2]" SortTag="MDF 3/4 [2]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2] BSAW" Units="0" IDTag="MDF 3/4 [2] BSAW" SortTag="MDF 3/4 [2] BSAW" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 BSAW" Units="0" IDTag="MDF 3/4 BSAW" SortTag="MDF 3/4 BSAW" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" Units="0" IDTag="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" SortTag="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" QTY="3" Amount="89" Total="267" />
+        <PricingTemplateSubRow ItemName="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding] BSAW" Units="0" IDTag="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding] BSAW" SortTag="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding] BSAW" QTY="1" Amount="89" Total="89" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="2" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Mysterious Velvet SF247 PRZ" Units="6" IDTag="0.5mm Mysterious Velvet SF247 PRZ" SortTag="0.5mm Mysterious Velvet SF247 PRZ" QTY="103.66383509998875" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Paint Matched PVC" Units="6" IDTag="0.5mm Paint Matched PVC" SortTag="0.5mm Paint Matched PVC" QTY="125.086430827463660" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Paint Matched PVC 2" Units="6" IDTag="0.5mm Paint Matched PVC 2" SortTag="0.5mm Paint Matched PVC 2" QTY="122.29773153470246" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm White STN101 TEK" Units="6" IDTag="0.5mm White STN101 TEK" SortTag="0.5mm White STN101 TEK" QTY="247.638681967427328" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Mysterious Velvet SF247 PRZ" Units="6" IDTag="1mm Mysterious Velvet SF247 PRZ" SortTag="1mm Mysterious Velvet SF247 PRZ" QTY="235.950130252387420" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None EB2-Door" Units="6" IDTag="None EB2-Door" SortTag="None EB2-Door" QTY="266.201448415520912" Amount="0.07" Total="18.63" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Blum 110 / 3mm - 71B358180" Units="0" IDTag="Blum 110 / 3mm - 71B358180" SortTag="Blum 110 / 3mm - 71B358180" QTY="80" Amount="2.6" Total="208.0" />
+        <PricingTemplateSubRow ItemName="Blum 95 Blind / 0mm - 79B958180" Units="0" IDTag="Blum 95 Blind / 0mm - 79B958180" SortTag="Blum 95 Blind / 0mm - 79B958180" QTY="8" Amount="4.23" Total="33.84" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_500 (see Excel list of parts) - Slow Close" Units="0" IDTag="Optimiz-R 185_500 (see Excel list of parts) - Slow Close" SortTag="Optimiz-R 185_500 (see Excel list of parts) - Slow Close" QTY="12" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_550 (see Excel list of parts) - Slow Close" Units="0" IDTag="Optimiz-R 185_550 (see Excel list of parts) - Slow Close" SortTag="Optimiz-R 185_550 (see Excel list of parts) - Slow Close" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_500 (see Excel list of parts) - Slow Close" Units="0" IDTag="Optimiz-R 89_500 (see Excel list of parts) - Slow Close" SortTag="Optimiz-R 89_500 (see Excel list of parts) - Slow Close" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_550 (see Excel list of parts) - Slow Close" Units="0" IDTag="Optimiz-R 89_550 (see Excel list of parts) - Slow Close" SortTag="Optimiz-R 89_550 (see Excel list of parts) - Slow Close" QTY="2" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="68" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="118" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="288" Amount="0.001785" Total="0.51" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="128" Amount="0.001785" Total="0.23" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="544" Amount="0.001785" Total="0.97" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="80" Amount="0.001785" Total="0.14" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Leg Levelers (x4)" Units="0" IDTag="Leg Levelers (x4)" SortTag="Leg Levelers (x4)" QTY="20" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Leg Levelers (x6)" Units="0" IDTag="Leg Levelers (x6)" SortTag="Leg Levelers (x6)" QTY="2" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+  </PricingTemplateRun>
+  <PricingTemplateRun Name="1. Material List (Jun 07, 21)" CreationDate="1623058123.863" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS" Units="0" IDTag="BUYOUT DOORS" SortTag="BUYOUT DOORS" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS 2" Units="0" IDTag="BUYOUT DOORS 2" SortTag="BUYOUT DOORS 2" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM White 5/8 W100 PRZ [Mysterious Velvet Banding]" Units="0" IDTag="CM White 5/8 W100 PRZ [Mysterious Velvet Banding]" SortTag="CM White 5/8 W100 PRZ [Mysterious Velvet Banding]" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding 2]" Units="0" IDTag="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding 2]" SortTag="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding 2]" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding]" Units="0" IDTag="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding]" SortTag="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding]" QTY="7" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM White 5/8 W100 PRZ [White STN101 Banding]" Units="0" IDTag="CM White 5/8 W100 PRZ [White STN101 Banding]" SortTag="CM White 5/8 W100 PRZ [White STN101 Banding]" QTY="14" Amount="25.5" Total="357.0" />
+        <PricingTemplateSubRow ItemName="Gray Soapstone" Units="0" IDTag="Gray Soapstone" SortTag="Gray Soapstone" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4" Units="0" IDTag="MDF 3/4" SortTag="MDF 3/4" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2]" Units="0" IDTag="MDF 3/4 [2]" SortTag="MDF 3/4 [2]" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2] BSAW" Units="0" IDTag="MDF 3/4 [2] BSAW" SortTag="MDF 3/4 [2] BSAW" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 BSAW" Units="0" IDTag="MDF 3/4 BSAW" SortTag="MDF 3/4 BSAW" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" Units="0" IDTag="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" SortTag="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" QTY="3" Amount="89" Total="267" />
+        <PricingTemplateSubRow ItemName="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding] BSAW" Units="0" IDTag="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding] BSAW" SortTag="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding] BSAW" QTY="1" Amount="89" Total="89" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="2" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Mysterious Velvet SF247 PRZ" Units="6" IDTag="0.5mm Mysterious Velvet SF247 PRZ" SortTag="0.5mm Mysterious Velvet SF247 PRZ" QTY="103.66383509998875" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Paint Matched PVC" Units="6" IDTag="0.5mm Paint Matched PVC" SortTag="0.5mm Paint Matched PVC" QTY="106.675698988706660" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Paint Matched PVC 2" Units="6" IDTag="0.5mm Paint Matched PVC 2" SortTag="0.5mm Paint Matched PVC 2" QTY="140.87513100130966" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm White STN101 TEK" Units="6" IDTag="0.5mm White STN101 TEK" SortTag="0.5mm White STN101 TEK" QTY="248.555351117151588" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Mysterious Velvet SF247 PRZ" Units="6" IDTag="1mm Mysterious Velvet SF247 PRZ" SortTag="1mm Mysterious Velvet SF247 PRZ" QTY="235.950130252387420" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None EB2-Door" Units="6" IDTag="None EB2-Door" SortTag="None EB2-Door" QTY="266.384781925071232" Amount="0.07" Total="18.65" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Blum 110 / 3mm - 71B358180" Units="0" IDTag="Blum 110 / 3mm - 71B358180" SortTag="Blum 110 / 3mm - 71B358180" QTY="80" Amount="2.6" Total="208.0" />
+        <PricingTemplateSubRow ItemName="Blum 95 Blind / 0mm - 79B958180" Units="0" IDTag="Blum 95 Blind / 0mm - 79B958180" SortTag="Blum 95 Blind / 0mm - 79B958180" QTY="8" Amount="4.23" Total="33.84" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_500 (see Excel list of parts) - Slow Close" Units="0" IDTag="Optimiz-R 185_500 (see Excel list of parts) - Slow Close" SortTag="Optimiz-R 185_500 (see Excel list of parts) - Slow Close" QTY="12" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_550 (see Excel list of parts) - Slow Close" Units="0" IDTag="Optimiz-R 185_550 (see Excel list of parts) - Slow Close" SortTag="Optimiz-R 185_550 (see Excel list of parts) - Slow Close" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_500 (see Excel list of parts) - Slow Close" Units="0" IDTag="Optimiz-R 89_500 (see Excel list of parts) - Slow Close" SortTag="Optimiz-R 89_500 (see Excel list of parts) - Slow Close" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_550 (see Excel list of parts) - Slow Close" Units="0" IDTag="Optimiz-R 89_550 (see Excel list of parts) - Slow Close" SortTag="Optimiz-R 89_550 (see Excel list of parts) - Slow Close" QTY="2" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="68" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="118" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="288" Amount="0.001785" Total="0.51" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="128" Amount="0.001785" Total="0.23" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="544" Amount="0.001785" Total="0.97" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="80" Amount="0.001785" Total="0.14" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Leg Levelers (x4)" Units="0" IDTag="Leg Levelers (x4)" SortTag="Leg Levelers (x4)" QTY="20" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Leg Levelers (x6)" Units="0" IDTag="Leg Levelers (x6)" SortTag="Leg Levelers (x6)" QTY="2" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+    <ReportFilename Filename="1. Material List (Jun 07, 21)" />
+  </PricingTemplateRun>
+</PricingTemplateRuns>

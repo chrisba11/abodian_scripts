@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RunRecords>
+  <CNCOperatorExportRunRecord Timestamp="1623058534.39917" RunName="BSaw Patterns - 6.7.21">
+    <Material Name="MDF 3/4 [2] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="MDF 3/4 BSAW">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1623060123.90242" RunName="6.7.21">
+    <Material Name="CM White 5/8 W100 PRZ [Mysterious Velvet Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding 2]">
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+    </Material>
+    <Material Name="CM White 5/8 W100 PRZ [Paint-Matched PVC Banding]">
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+    </Material>
+    <Material Name="CM White 5/8 W100 PRZ [White STN101 Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+    </Material>
+    <Material Name="MDF 3/4">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 [2]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #2A" />
+    </Material>
+    <Material Name="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+</RunRecords>

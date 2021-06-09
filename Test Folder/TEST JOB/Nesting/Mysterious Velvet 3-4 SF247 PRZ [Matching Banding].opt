@@ -1,0 +1,631 @@
+4
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<OptimizeMaterial Name="Mysterious Velvet 3/4 SF247 PRZ [Matching Banding]" Thickness="19.05" Width="1244.6" Length="2463.8" HasGrain="False" WidthTrim="6.35" LengthTrim="6.35" FeedRate="100" Comment="" CustomerName="" Timestamp="1623060127.22647" OptParamSpeed="2" OptParamMachineName="" OptParamSeqByCabN="False" OptParamSeqFlipsideFirst="False" OptParamRemnantUsagePolicy="0" ToolsetName="Axon Standard" IsLegacy="False" BatchRevisionNumber="0">
+  <OptimizePart PartID="1" PartNumbers="1" Quan="1" Name=" Filler Face/Cleat" Width="142.9" Length="723.9" EdgeBand="MY-Custom*" Color="None" AssyNo="R2N1" Comment="Filler Face/Cleat" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="723.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="723.9" Y="142.9" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="142.9" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="697.9" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="569.9" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="134.9" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="134.9" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="569.9" Y="134.9" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="697.9" Y="134.9" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="2" PartNumbers="2" Quan="1" Name="Drawer" Width="428.6" Length="152.4" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R2C1" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="A" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="152.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="152.4" Y="428.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="428.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="35" X="36" Y="214.3" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4875599732" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5506" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4875599732" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5507" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4875604538" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5508" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4875604538" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5509" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="3" PartNumbers="3" Quan="1" Name="Drawer" Width="428.6" Length="280.9" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R2C1" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="C" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="280.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="280.9" Y="428.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="428.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="23" X="52.10106" Y="230.3" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="2" X="52.10106" Y="198.3" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50010" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="75.6000089555" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5516" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="75.6000089555" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5517" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="107.6000094361" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5518" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="107.6000094361" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5519" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="171.6000256561" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5520" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="171.6000256561" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5521" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="203.6000261367" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5522" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="203.6000261367" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5523" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="4" PartNumbers="4" Quan="1" Name="Drawer" Width="428.6" Length="281" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R2C1" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="B" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="281" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="281" Y="428.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="428.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="22" X="36" Y="214.3" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4874946697" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5530" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4874946697" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5531" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4874951503" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5532" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4874951503" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5533" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="155.4874655939" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5534" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="155.4874655939" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5535" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="187.4874660745" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5536" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="187.4874660745" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5537" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="5" PartNumbers="5" Quan="1" Name=" Sink Valance" Width="177.8" Length="602.7979" EdgeBand="MY-Custom*" Color="None" AssyNo="R2C2" Comment="Sink Valance" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="602.7979" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="2" X="602.7979" Y="177.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="3" X="0" Y="177.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="6" PartNumbers="6" Quan="1" Name="Door(L)" Width="314.3125" Length="720.7" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R2C2" Comment="Cabinet Door" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="720.7" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="720.7" Y="314.3125" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="314.3125" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="101.6" Y="290.4613" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8000" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="492.1" Y="290.4613" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8006" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="7" PartNumbers="7" Quan="1" Name="Door(R)" Width="314.3125" Length="720.7" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R2C2" Comment="Cabinet Door" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="720.7" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="720.7" Y="314.3125" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="314.3125" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="101.6" Y="23.85124" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8000" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="492.1" Y="23.85124" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8006" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="8" PartNumbers="8" Quan="1" Name="Drawer" Width="428.6" Length="152.4" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R2C3" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="A" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="152.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="152.4" Y="428.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="428.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="35" X="36" Y="214.3" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4875599732" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5506" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4875599732" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5507" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4875604538" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5508" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4875604538" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5509" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="9" PartNumbers="9" Quan="1" Name="Drawer" Width="428.6" Length="280.9" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R2C3" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="C" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="280.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="280.9" Y="428.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="428.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="23" X="52.10106" Y="230.3" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="2" X="52.10106" Y="198.3" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50010" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="75.6000089555" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5516" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="75.6000089555" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5517" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="107.6000094361" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5518" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="107.6000094361" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5519" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="171.6000256561" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5520" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="171.6000256561" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5521" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="203.6000261367" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5522" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="203.6000261367" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5523" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="10" PartNumbers="10" Quan="1" Name="Drawer" Width="428.6" Length="281" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R2C3" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="B" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="281" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="281" Y="428.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="428.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="22" X="36" Y="214.3" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4874946697" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5530" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4874946697" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5531" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4874951503" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5532" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4874951503" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5533" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="155.4874655939" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5534" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="155.4874655939" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5535" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="187.4874660745" Y="399.600011366" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5536" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="187.4874660745" Y="28.9999939746" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5537" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="11" PartNumbers="11" Quan="1" Name=" Filler Face/Cleat" Width="152.425" Length="723.9" EdgeBand="MY-Custom*" Color="None" AssyNo="R3N1" Comment="Filler Face/Cleat" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="723.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="723.9" Y="152.425" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="152.425" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="697.9" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="569.9" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="144.425" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="144.425" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="569.9" Y="144.425" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="697.9" Y="144.425" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="12" PartNumbers="12" Quan="1" Name=" Filler Face/Cleat" Width="152.425" Length="723.9" EdgeBand="MY-Custom*" Color="None" AssyNo="R3N2" Comment="Filler Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="723.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="723.9" Y="152.425" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="152.425" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="697.9" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="569.9" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="119.025" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="119.025" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="569.9" Y="119.025" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="697.9" Y="119.025" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="13" PartNumbers="13" Quan="1" Name=" Sink Valance" Width="177.8" Length="526.5979" EdgeBand="MY-Custom*" Color="None" AssyNo="R3C1" Comment="Sink Valance" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="526.5979" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="2" X="526.5979" Y="177.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="3" X="0" Y="177.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="14" PartNumbers="14" Quan="1" Name="Door(L)" Width="555.6" Length="720.7" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R3C1" Comment="Cabinet Door" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="720.7" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="720.7" Y="555.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="555.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="101.6" Y="531.7487" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8000" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="492.1" Y="531.7487" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8006" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="15" PartNumbers="15" Quan="1" Name=" Sink Valance" Width="177.8" Length="526.5979" EdgeBand="MY-Custom*" Color="None" AssyNo="R3C3" Comment="Sink Valance" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="526.5979" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="2" X="526.5979" Y="177.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="3" X="0" Y="177.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="16" PartNumbers="16" Quan="1" Name="Door(R)" Width="555.6" Length="720.7" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R3C3" Comment="Cabinet Door" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="720.7" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="720.7" Y="555.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="555.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="101.6" Y="23.85124" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8000" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="492.1" Y="23.85124" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8006" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="17" PartNumbers="17" Quan="1" Name="Drawer" Width="479.4" Length="152.4" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R3C2" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="A" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="152.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="152.4" Y="479.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="479.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="35" X="36" Y="239.7" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4875599732" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5506" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4875599732" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5507" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4875604538" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5508" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4875604538" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5509" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="18" PartNumbers="18" Quan="1" Name="Drawer" Width="479.4" Length="280.9" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R3C2" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="C" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="280.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="280.9" Y="479.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="479.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="23" X="52.10106" Y="255.7" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="2" X="52.10106" Y="223.7" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50010" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="75.6000089555" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5516" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="75.6000089555" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5517" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="107.6000094361" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5518" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="107.6000094361" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5519" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="171.6000256561" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5520" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="171.6000256561" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5521" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="203.6000261367" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5522" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="203.6000261367" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5523" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="19" PartNumbers="19" Quan="1" Name="Drawer" Width="479.4" Length="281" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R3C2" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="B" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="281" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="281" Y="479.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="479.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="22" X="36" Y="239.7" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4874946697" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5530" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4874946697" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5531" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4874951503" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5532" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4874951503" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5533" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="155.4874655939" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5534" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="155.4874655939" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5535" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="187.4874660745" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5536" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="187.4874660745" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5537" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="20" PartNumbers="20" Quan="1" Name="Drawer" Width="454" Length="152.4" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R5C1" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="A" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="152.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="152.4" Y="454" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="454" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="35" X="36" Y="227" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4875599732" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5506" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4875599732" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5507" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4875604538" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5508" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4875604538" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5509" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="21" PartNumbers="21" Quan="1" Name="Drawer" Width="454" Length="280.9" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R5C1" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="C" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="280.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="280.9" Y="454" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="454" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="23" X="52.10106" Y="243" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="2" X="52.10106" Y="211" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50010" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="75.6000089555" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5516" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="75.6000089555" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5517" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="107.6000094361" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5518" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="107.6000094361" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5519" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="171.6000256561" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5520" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="171.6000256561" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5521" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="203.6000261367" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5522" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="203.6000261367" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5523" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="22" PartNumbers="22" Quan="1" Name="Drawer" Width="454" Length="281" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R5C1" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="B" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="281" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="281" Y="454" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="454" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="22" X="36" Y="227" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4874946697" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5530" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4874946697" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5531" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4874951503" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5532" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4874951503" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5533" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="155.4874655939" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5534" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="155.4874655939" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5535" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="187.4874660745" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5536" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="187.4874660745" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5537" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="23" PartNumbers="23" Quan="1" Name=" Sink Valance" Width="177.8" Length="577.3979" EdgeBand="MY-Custom*" Color="None" AssyNo="R5C2" Comment="Sink Valance" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="577.3979" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="2" X="577.3979" Y="177.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="3" X="0" Y="177.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="24" PartNumbers="24" Quan="1" Name="Door(L)" Width="301.6125" Length="720.7" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R5C2" Comment="Cabinet Door" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="720.7" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="720.7" Y="301.6125" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="301.6125" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="101.6" Y="277.7613" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8000" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="492.1" Y="277.7613" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8006" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="25" PartNumbers="25" Quan="1" Name="Door(R)" Width="301.6125" Length="720.7" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R5C2" Comment="Cabinet Door" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="720.7" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="720.7" Y="301.6125" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="301.6125" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="101.6" Y="23.85124" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8000" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="492.1" Y="23.85124" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8006" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="26" PartNumbers="26" Quan="1" Name="Drawer" Width="454" Length="152.4" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R5C3" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="A" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="152.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="152.4" Y="454" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="454" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="35" X="36" Y="227" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4875599732" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5506" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4875599732" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5507" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4875604538" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5508" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4875604538" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5509" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="27" PartNumbers="27" Quan="1" Name="Drawer" Width="454" Length="280.9" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R5C3" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="C" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="280.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="280.9" Y="454" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="454" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="23" X="52.10106" Y="243" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="2" X="52.10106" Y="211" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50010" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="75.6000089555" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5516" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="75.6000089555" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5517" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="107.6000094361" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5518" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="107.6000094361" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5519" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="171.6000256561" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5520" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="171.6000256561" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5521" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="203.6000261367" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5522" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="203.6000261367" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5523" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="28" PartNumbers="28" Quan="1" Name="Drawer" Width="454" Length="281" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R5C3" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="B" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="281" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="281" Y="454" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="454" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="22" X="36" Y="227" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4874946697" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5530" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4874946697" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5531" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4874951503" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5532" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4874951503" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5533" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="155.4874655939" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5534" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="155.4874655939" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5535" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="187.4874660745" Y="425.0000052625" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5536" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="187.4874660745" Y="28.9999935931" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5537" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="29" PartNumbers="29" Quan="1" Name=" Filler Face/Cleat" Width="142.9" Length="723.9" EdgeBand="MY-Custom*" Color="None" AssyNo="R5N2" Comment="Filler Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="723.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="723.9" Y="142.9" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="142.9" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="697.9" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="569.9" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="109.4998" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="109.4998" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="569.9" Y="109.4998" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="697.9" Y="109.4998" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="30" PartNumbers="30" Quan="1" Name=" Filler Face/Cleat" Width="149.25" Length="723.9" EdgeBand="MY-Custom*" Color="None" AssyNo="R6N1" Comment="Filler Face/Cleat" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="723.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="723.9" Y="149.25" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="149.25" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="697.9" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="569.9" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="141.25" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="141.25" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="569.9" Y="141.25" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="697.9" Y="141.25" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="31" PartNumbers="31" Quan="1" Name=" Filler Face/Cleat" Width="149.25" Length="723.9" EdgeBand="MY-Custom*" Color="None" AssyNo="R6N2" Comment="Filler Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="723.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="723.9" Y="149.25" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="149.25" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="697.9" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="569.9" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="115.85" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="115.85" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="569.9" Y="115.85" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="697.9" Y="115.85" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="32" PartNumbers="32" Quan="1" Name=" Sink Valance" Width="177.8" Length="526.5979" EdgeBand="MY-Custom*" Color="None" AssyNo="R6C1" Comment="Sink Valance" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="526.5979" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="2" X="526.5979" Y="177.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="3" X="0" Y="177.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="33" PartNumbers="33" Quan="1" Name="Door(L)" Width="555.6" Length="720.7" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R6C1" Comment="Cabinet Door" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="720.7" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="720.7" Y="555.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="555.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="101.6" Y="531.7487" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8000" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="492.1" Y="531.7487" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8006" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="34" PartNumbers="34" Quan="1" Name=" Sink Valance" Width="177.8" Length="526.5979" EdgeBand="MY-Custom*" Color="None" AssyNo="R6C3" Comment="Sink Valance" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="526.5979" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="2" X="526.5979" Y="177.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="3" X="0" Y="177.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="35" PartNumbers="35" Quan="1" Name="Door(R)" Width="555.6" Length="720.7" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R6C3" Comment="Cabinet Door" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="720.7" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="720.7" Y="555.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="555.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="101.6" Y="23.85124" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8000" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="492.1" Y="23.85124" Depth="1.5875" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="8006" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="36" PartNumbers="36" Quan="1" Name="Drawer" Width="479.4" Length="152.4" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R6C2" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="A" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="152.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="152.4" Y="479.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="479.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="35" X="36" Y="239.7" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4875599732" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5506" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4875599732" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5507" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4875604538" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5508" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4875604538" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5509" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="37" PartNumbers="37" Quan="1" Name="Drawer" Width="479.4" Length="280.9" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R6C2" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="C" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="280.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="280.9" Y="479.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="479.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="23" X="52.10106" Y="255.7" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="5" Diameter_Eq="" ID="2" X="52.10106" Y="223.7" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50010" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="75.6000089555" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5516" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="75.6000089555" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5517" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="107.6000094361" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5518" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="107.6000094361" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5519" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="171.6000256561" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5520" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="171.6000256561" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5521" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="203.6000261367" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5522" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="203.6000261367" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5523" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="38" PartNumbers="38" Quan="1" Name="Drawer" Width="479.4" Length="281" EdgeBand="MY-2,2,2,2" Color="None" AssyNo="R6C2" Comment="Drawer Face" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - Mysterious Velvet - WC" OpeningLetter="B" TextureName="02 - PRZ - Mysterious">
+    <Shape Version="2" Name="" Type="0" RadiusX="152.4" RadiusY="508" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="281" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="0" X="281" Y="479.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="0" Y="479.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="22" X="36" Y="239.7" Depth="2" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4874946697" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5530" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="59.4874946697" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5531" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4874951503" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5532" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="91.4874951503" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5533" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="155.4874655939" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5534" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="155.4874655939" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5535" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="187.4874660745" Y="450.399999159" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5536" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="10" Diameter_Eq="" ID="1" X="187.4874660745" Y="28.9999932116" Depth="12" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="5537" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizeSheet Width="1244.6" Length="2463.8" Rotation="0" Quan="1" Flipped="False" HasBeenCut="False" ExportedToCNCOperator="True" PatternNumber="1" PatternNumberSuffix="">
+    <OptimizePartLocation PartID="19" PartNumber="19" X="6.4" Y="6.4" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="38" PartNumber="38" X="308" Y="6.4" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="12" PartNumber="12" X="6.4" Y="506.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="30" PartNumber="30" X="179.4" Y="506.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="18" PartNumber="18" X="609.6" Y="6.4" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="31" PartNumber="31" X="349.2" Y="506.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="1" PartNumber="1" X="519" Y="506.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="29" PartNumber="29" X="682.4" Y="506.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="17" PartNumber="17" X="911" Y="6.4" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="14" PartNumber="14" X="846" Y="506.4" Rotation="90" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="36" PartNumber="36" X="1084" Y="6.4" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="24" PartNumber="24" X="1257" Y="6.4" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="11" PartNumber="11" X="1257" Y="328.6" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="6" PartNumber="6" X="1422.2" Y="506.4" Rotation="90" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="25" PartNumber="25" X="1757" Y="506.4" Rotation="90" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="28" PartNumber="28" X="1998.4" Y="6.4" Rotation="90" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="20" PartNumber="20" X="2001.6" Y="328.6" Rotation="90" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="5" PartNumber="5" X="2079.2" Y="506.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="23" PartNumber="23" X="2277.6" Y="506.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+  </OptimizeSheet>
+  <OptimizeSheet Width="1244.6" Length="2463.8" Rotation="0" Quan="1" Flipped="False" HasBeenCut="False" ExportedToCNCOperator="True" PatternNumber="2" PatternNumberSuffix="">
+    <OptimizePartLocation PartID="16" PartNumber="16" X="6.4" Y="6.4" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="22" PartNumber="22" X="6.4" Y="582.6" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="21" PartNumber="21" X="308" Y="582.6" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="33" PartNumber="33" X="747.6" Y="6.4" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="27" PartNumber="27" X="609.4" Y="582.6" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="13" PartNumber="13" X="6.4" Y="1057.2" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="4" PartNumber="4" X="911" Y="582.6" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="15" PartNumber="15" X="553.6" Y="1057.2" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="10" PartNumber="10" X="1212.6" Y="582.6" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="35" PartNumber="35" X="1489" Y="6.4" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="34" PartNumber="34" X="1100.8" Y="1057.2" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="37" PartNumber="37" X="1514.2" Y="582.6" Rotation="90" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="8" PartNumber="8" X="1514.2" Y="884" Rotation="90" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="32" PartNumber="32" X="1648" Y="1057.2" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="9" PartNumber="9" X="2014.2" Y="582.6" Rotation="90" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="2" PartNumber="2" X="1963.4" Y="884" Rotation="90" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="26" PartNumber="26" X="2230.2" Y="6.4" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+  </OptimizeSheet>
+  <OptimizeSheet Width="1244.6" Length="2463.8" Rotation="0" Quan="1" Flipped="False" HasBeenCut="False" ExportedToCNCOperator="True" PatternNumber="3" PatternNumberSuffix="">
+    <OptimizePartLocation PartID="7" PartNumber="7" X="6.4" Y="6.4" Rotation="90" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="3" PartNumber="3" X="6.4" Y="747.6" Rotation="0" Flipped="True" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+  </OptimizeSheet>
+  <RoomInfo Number="0" Name="Order Entry" WallCabString="" BaseCabString="R0N1,R0N2,R0N3,R0N4" CabNames="R0N1,(3) Sheets of White Mel Cover Caps - RH1|R0N2,(46) Leg Leveler Posts - RH1|R0N3,(3) Sheets of White Mel Cover Caps - RH2|R0N4,(46) Leg Leveler Posts - RH2" />
+  <RoomInfo Number="1" Name="RH 1 Kitchen Lv 1" WallCabString="R1N2,R1C5,R1C7,R1C6,R1N3,R1C8,R1N4,R1C9,R1N5,R1C12" BaseCabString="R1C1,R1N1,R1C2,R1C3,R1C4,R1C10,R1N10,R1N11,R1N12,R1C11,R1N15,R1N13,R1N6,R1N7,R1N9,R1N14,R1N8" CabNames="R1C1,Base 2 Door|R1N1,Base Filler - L|R1C2,Base 3 Drawer|R1C3,Base Sink|R1C4,Base Blind 1 Door - R - 1 AS|R1N2,Wall Filler - L|R1C5,Wall 2 Door - 2 AS|R1C7,Wall 2 Door - 2 AS|R1C6,Wall Micro Hood 19.5H|R1N3,Wall End Panel .75|R1C8,Wall 2 Door - 2 AS|R1N4,Wall End Panel .75|R1C9,Wall 1 Door - 2 AS|R1N5,Wall Filler - R|R1C12,Wall Blind 1 Door - L - 2 AS|R1C10,Base 1 Door|R1N10,Base Filler - L|R1N11,Tall End Panel .75|R1N12,Tall Filler - R - Full Depth|R1C11,Wall Fridge 20H - 1 AS|R1N15,Fridge Valance|R1N13,Light Valance|R1N6,Light Valance|R1N7,Light Valance|R1N9,Toeboard|R1N14,Toeboard|R1N8,Toeboard" />
+  <RoomInfo Number="2" Name="RH 1 Bathroom Lv 2" WallCabString="" BaseCabString="R2N1,R2C1,R2C2,R2C3,R2N2,R2N3" CabNames="R2N1,Vanity Filler - L|R2C1,Vanity 3 Drawer - A|R2C2,Vanity Sink - 2 Door|R2C3,Vanity 3 Drawer - A|R2N2,Vanity End Panel .75|R2N3,Toeboard" />
+  <RoomInfo Number="3" Name="RH 1 Master Lv 3" WallCabString="" BaseCabString="R3N1,R3N2,R3C1,R3C3,R3C2,R3N3" CabNames="R3N1,Vanity Filler - L|R3N2,Vanity Filler - R|R3C1,Vanity Sink - 1 Door|R3C3,Vanity Sink - 1 Door|R3C2,Vanity 3 Drawer - A|R3N3,Toeboard" />
+  <RoomInfo Number="4" Name="RH 2 Kitchen Lv 1 " WallCabString="R4C10,R4C12,R4C11,R4N10,R4C9,R4N9,R4N11,R4C8,R4N8,R4C3" BaseCabString="R4C5,R4C7,R4C6,R4N13,R4N12,R4N15,R4N14,R4C4,R4N7,R4N3,R4C2,R4N2,R4N1,R4C1,R4N4,R4N6,R4N5" CabNames="R4C5,Base Sink|R4C7,Base 2 Door|R4C6,Base 3 Drawer|R4N13,Toeboard|R4N12,Toeboard|R4C10,Wall 2 Door - 2 AS|R4C12,Wall 2 Door - 2 AS|R4C11,Wall Micro Hood 19.5H|R4N15,Light Valance|R4N10,Wall End Panel .75|R4C9,Wall 2 Door - 2 AS|R4N14,Light Valance|R4N9,Wall End Panel .75|R4N11,Wall Filler - R|R4C8,Wall 1 Door - 2 AS|R4N8,Wall Filler - L|R4C4,Base Blind 1 Door - L - 1 AS|R4N7,Base Filler - R|R4N3,Base Filler - R|R4C2,Base 1 Door|R4N2,Tall End Panel .75|R4N1,Tall Filler - L - Full Depth|R4C1,Wall Fridge 20H - 1 AS|R4N4,Fridge Valance|R4C3,Wall Blind 1 Door - R - 2 AS|R4N6,Toeboard|R4N5,Light Valance" />
+  <RoomInfo Number="5" Name="RH 2 Bathroom Lv 2 " WallCabString="" BaseCabString="R5C1,R5C2,R5C3,R5N1,R5N3,R5N2" CabNames="R5C1,Vanity 3 Drawer - A|R5C2,Vanity Sink - 2 Door|R5C3,Vanity 3 Drawer - A|R5N1,Vanity End Panel .75|R5N3,Toeboard|R5N2,Vanity Filler - R" />
+  <RoomInfo Number="6" Name="RH 2 Master Lv 3 " WallCabString="" BaseCabString="R6N1,R6N2,R6C1,R6C3,R6C2,R6N3" CabNames="R6N1,Vanity Filler - L|R6N2,Vanity Filler - R|R6C1,Vanity Sink - 1 Door|R6C3,Vanity Sink - 1 Door|R6C2,Vanity 3 Drawer - A|R6N3,Toeboard" />
+</OptimizeMaterial>

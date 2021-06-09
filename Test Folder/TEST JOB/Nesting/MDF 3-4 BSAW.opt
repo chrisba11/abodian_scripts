@@ -1,0 +1,67 @@
+4
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<OptimizeMaterial Name="MDF 3/4 BSAW" Thickness="19.05" Width="1244.6" Length="2463.8" HasGrain="False" WidthTrim="12" LengthTrim="12" FeedRate="100" Comment="" CustomerName="" Timestamp="1623060127.20951" OptParamSpeed="2" OptParamMachineName="Panel Saw" OptParamSeqByCabN="False" OptParamSeqFlipsideFirst="False" OptParamRemnantUsagePolicy="0" ToolsetName="Axon Standard" IsLegacy="False" BatchRevisionNumber="0">
+  <OptimizePart PartID="1" PartNumbers="1" Quan="1" Name=" Toeboard" Width="139.7" Length="2413" EdgeBand="None" Color="None" AssyNo="R1N9" Comment="Toeboard" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - WC" TextureName="02 - ELG - Light Gray">
+    <Shape Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+      <ShapePoint ID="1" X="2413" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="2" X="2413" Y="139.7" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Back" />
+      <ShapePoint ID="3" X="0" Y="139.7" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="2" PartNumbers="2" Quan="1" Name=" Toeboard" Width="139.7" Length="2413" EdgeBand="None" Color="None" AssyNo="R1N14" Comment="Toeboard" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - WC" TextureName="02 - ELG - Light Gray">
+    <Shape Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+      <ShapePoint ID="1" X="2413" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="2" X="2413" Y="139.7" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Back" />
+      <ShapePoint ID="3" X="0" Y="139.7" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="3" PartNumbers="3" Quan="1" Name=" Toeboard" Width="139.7" Length="2413" EdgeBand="None" Color="None" AssyNo="R1N8" Comment="Toeboard" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - WC" TextureName="02 - ELG - Light Gray">
+    <Shape Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+      <ShapePoint ID="1" X="2413" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="2" X="2413" Y="139.7" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Back" />
+      <ShapePoint ID="3" X="0" Y="139.7" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="4" PartNumbers="4" Quan="1" Name=" Toeboard" Width="139.7" Length="2413" EdgeBand="None" Color="None" AssyNo="R4N13" Comment="Toeboard" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - WC" TextureName="02 - ELG - Light Gray">
+    <Shape Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+      <ShapePoint ID="1" X="2413" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="2" X="2413" Y="139.7" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Back" />
+      <ShapePoint ID="3" X="0" Y="139.7" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="5" PartNumbers="5" Quan="1" Name=" Toeboard" Width="139.7" Length="2413" EdgeBand="None" Color="None" AssyNo="R4N12" Comment="Toeboard" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - WC" TextureName="02 - ELG - Light Gray">
+    <Shape Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+      <ShapePoint ID="1" X="2413" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="2" X="2413" Y="139.7" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Back" />
+      <ShapePoint ID="3" X="0" Y="139.7" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="6" PartNumbers="6" Quan="1" Name=" Toeboard" Width="139.7" Length="2413" EdgeBand="None" Color="None" AssyNo="R4N6" Comment="Toeboard" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - WC" TextureName="02 - ELG - Light Gray">
+    <Shape Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+      <ShapePoint ID="1" X="2413" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="2" X="2413" Y="139.7" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Back" />
+      <ShapePoint ID="3" X="0" Y="139.7" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+    </Shape>
+  </OptimizePart>
+  <OptimizeSheet Width="1244.6" Length="2463.8" Rotation="0" Quan="1" Flipped="False" HasBeenCut="False" ExportedToCNCOperator="True" PatternNumber="1" PatternNumberSuffix="">
+    <OptimizePartLocation PartID="1" PartNumber="1" X="12" Y="378.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="2" PartNumber="2" X="12" Y="521.3" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="3" PartNumber="3" X="12" Y="664.2" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="4" PartNumber="4" X="12" Y="807.1" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="5" PartNumber="5" X="12" Y="950" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="6" PartNumber="6" X="12" Y="1092.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+  </OptimizeSheet>
+  <RoomInfo Number="0" Name="Order Entry" WallCabString="" BaseCabString="R0N1,R0N2,R0N3,R0N4" CabNames="R0N1,(3) Sheets of White Mel Cover Caps - RH1|R0N2,(46) Leg Leveler Posts - RH1|R0N3,(3) Sheets of White Mel Cover Caps - RH2|R0N4,(46) Leg Leveler Posts - RH2" />
+  <RoomInfo Number="1" Name="RH 1 Kitchen Lv 1" WallCabString="R1N2,R1C5,R1C7,R1C6,R1N3,R1C8,R1N4,R1C9,R1N5,R1C12" BaseCabString="R1C1,R1N1,R1C2,R1C3,R1C4,R1C10,R1N10,R1N11,R1N12,R1C11,R1N15,R1N13,R1N6,R1N7,R1N9,R1N14,R1N8" CabNames="R1C1,Base 2 Door|R1N1,Base Filler - L|R1C2,Base 3 Drawer|R1C3,Base Sink|R1C4,Base Blind 1 Door - R - 1 AS|R1N2,Wall Filler - L|R1C5,Wall 2 Door - 2 AS|R1C7,Wall 2 Door - 2 AS|R1C6,Wall Micro Hood 19.5H|R1N3,Wall End Panel .75|R1C8,Wall 2 Door - 2 AS|R1N4,Wall End Panel .75|R1C9,Wall 1 Door - 2 AS|R1N5,Wall Filler - R|R1C12,Wall Blind 1 Door - L - 2 AS|R1C10,Base 1 Door|R1N10,Base Filler - L|R1N11,Tall End Panel .75|R1N12,Tall Filler - R - Full Depth|R1C11,Wall Fridge 20H - 1 AS|R1N15,Fridge Valance|R1N13,Light Valance|R1N6,Light Valance|R1N7,Light Valance|R1N9,Toeboard|R1N14,Toeboard|R1N8,Toeboard" />
+  <RoomInfo Number="2" Name="RH 1 Bathroom Lv 2" WallCabString="" BaseCabString="R2N1,R2C1,R2C2,R2C3,R2N2,R2N3" CabNames="R2N1,Vanity Filler - L|R2C1,Vanity 3 Drawer - A|R2C2,Vanity Sink - 2 Door|R2C3,Vanity 3 Drawer - A|R2N2,Vanity End Panel .75|R2N3,Toeboard" />
+  <RoomInfo Number="3" Name="RH 1 Master Lv 3" WallCabString="" BaseCabString="R3N1,R3N2,R3C1,R3C3,R3C2,R3N3" CabNames="R3N1,Vanity Filler - L|R3N2,Vanity Filler - R|R3C1,Vanity Sink - 1 Door|R3C3,Vanity Sink - 1 Door|R3C2,Vanity 3 Drawer - A|R3N3,Toeboard" />
+  <RoomInfo Number="4" Name="RH 2 Kitchen Lv 1 " WallCabString="R4C10,R4C12,R4C11,R4N10,R4C9,R4N9,R4N11,R4C8,R4N8,R4C3" BaseCabString="R4C5,R4C7,R4C6,R4N13,R4N12,R4N15,R4N14,R4C4,R4N7,R4N3,R4C2,R4N2,R4N1,R4C1,R4N4,R4N6,R4N5" CabNames="R4C5,Base Sink|R4C7,Base 2 Door|R4C6,Base 3 Drawer|R4N13,Toeboard|R4N12,Toeboard|R4C10,Wall 2 Door - 2 AS|R4C12,Wall 2 Door - 2 AS|R4C11,Wall Micro Hood 19.5H|R4N15,Light Valance|R4N10,Wall End Panel .75|R4C9,Wall 2 Door - 2 AS|R4N14,Light Valance|R4N9,Wall End Panel .75|R4N11,Wall Filler - R|R4C8,Wall 1 Door - 2 AS|R4N8,Wall Filler - L|R4C4,Base Blind 1 Door - L - 1 AS|R4N7,Base Filler - R|R4N3,Base Filler - R|R4C2,Base 1 Door|R4N2,Tall End Panel .75|R4N1,Tall Filler - L - Full Depth|R4C1,Wall Fridge 20H - 1 AS|R4N4,Fridge Valance|R4C3,Wall Blind 1 Door - R - 2 AS|R4N6,Toeboard|R4N5,Light Valance" />
+  <RoomInfo Number="5" Name="RH 2 Bathroom Lv 2 " WallCabString="" BaseCabString="R5C1,R5C2,R5C3,R5N1,R5N3,R5N2" CabNames="R5C1,Vanity 3 Drawer - A|R5C2,Vanity Sink - 2 Door|R5C3,Vanity 3 Drawer - A|R5N1,Vanity End Panel .75|R5N3,Toeboard|R5N2,Vanity Filler - R" />
+  <RoomInfo Number="6" Name="RH 2 Master Lv 3 " WallCabString="" BaseCabString="R6N1,R6N2,R6C1,R6C3,R6C2,R6N3" CabNames="R6N1,Vanity Filler - L|R6N2,Vanity Filler - R|R6C1,Vanity Sink - 1 Door|R6C3,Vanity Sink - 1 Door|R6C2,Vanity 3 Drawer - A|R6N3,Toeboard" />
+</OptimizeMaterial>
