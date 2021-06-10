@@ -1,6 +1,7 @@
 import os
 from openpyxl.workbook import Workbook
 from openpyxl.styles import Border, Side, Alignment, Font
+from openpyxl.worksheet.pagebreak import Break
 
 
 # This is to ask for the directory path at the command prompt
@@ -31,48 +32,48 @@ def door_list_report():
     # temp_dict = {
     #     "02 - PAN - Oxford White": {
     #         "Slab Door - VG": [
-    #             ["Door(L)", 1, 555.6, 720.7, "R3C1"],
-    #             ["Door(L)", 1, 555.6, 720.7, "R3C3"],
-    #             ["Door(L)", 1, 555.6, 720.7, "R6C1"],
-    #             ["Door(L)", 1, 555.6, 720.7, "R6C3"],
+    #             ["Door(L)", 555.6, 720.7, "R3C1"],
+    #             ["Door(L)", 555.6, 720.7, "R3C3"],
+    #             ["Door(L)", 555.6, 720.7, "R6C1"],
+    #             ["Door(L)", 555.6, 720.7, "R6C3"],
     #         ],
     #         "Slab Dw - VG": [
-    #             ["Door(L)", 1, 479.4, 281, "R3C2"],
-    #             ["Door(L)", 1, 479.4, 281, "R6C2"],
-    #             ["Door(L)", 1, 479.4, 280.9, "R3C2"],
-    #             ["Door(L)", 1, 479.4, 280.9, "R6C2"],
+    #             ["Door(L)", 479.4, 281, "R3C2"],
+    #             ["Door(L)", 479.4, 281, "R6C2"],
+    #             ["Door(L)", 479.4, 280.9, "R3C2"],
+    #             ["Door(L)", 479.4, 280.9, "R6C2"],
     #         ]
     #     },
     #     "02 - 5pc Painted - In House MDF (2)": {
     #         "Shaker Door": [
-    #             ["Door(L)", 1, 454, 771.5, "R1C3"],
-    #             ["Door(R)", 1, 454, 771.5, "R1C3"],
-    #             ["Door(L)", 1, 454, 771.5, "R4C5"],
-    #             ["Door(R)", 1, 454, 771.5, "R4C5"]
+    #             ["Door(L)", 454, 771.5, "R1C3"],
+    #             ["Door(R)", 454, 771.5, "R1C3"],
+    #             ["Door(L)", 454, 771.5, "R4C5"],
+    #             ["Door(R)", 454, 771.5, "R4C5"]
     #         ],
     #         "Shaker DF Top": [
-    #             ["Drawer", 1, 936.6, 152.4, "R1C2"],
-    #             ["Drawer", 1, 936.6, 152.4, "R4C6"],
+    #             ["Drawer", 936.6, 152.4, "R1C2"],
+    #             ["Drawer", 936.6, 152.4, "R4C6"],
     #         ],
     #         "Shaker DF Mid/Bot": [
-    #             ["Drawer", 1, 936.6, 306.4, "R1C2"],
-    #             ["Drawer", 1, 936.6, 306.3, "R1C2"],
-    #             ["Drawer", 1, 936.6, 306.4, "R4C6"],
-    #             ["Drawer", 1, 936.6, 306.3, "R4C6"],
+    #             ["Drawer", 936.6, 306.4, "R1C2"],
+    #             ["Drawer", 936.6, 306.3, "R1C2"],
+    #             ["Drawer", 936.6, 306.4, "R4C6"],
+    #             ["Drawer", 936.6, 306.3, "R4C6"],
     #         ]
     #     },
     #     "02 - PAN - Absolute Acajou": {
     #         "Slab Door - VG": [
-    #             ["Door(L)", 1, 555.6, 720.7, "R3C1"],
-    #             ["Door(L)", 1, 555.6, 720.7, "R3C3"],
-    #             ["Door(L)", 1, 555.6, 720.7, "R6C1"],
-    #             ["Door(L)", 1, 555.6, 720.7, "R6C3"],
+    #             ["Door(L)", 555.6, 720.7, "R3C1"],
+    #             ["Door(L)", 555.6, 720.7, "R3C3"],
+    #             ["Door(L)", 555.6, 720.7, "R6C1"],
+    #             ["Door(L)", 555.6, 720.7, "R6C3"],
     #         ],
     #         "Slab Dw - VG": [
-    #             ["Door(L)", 1, 479.4, 281, "R3C2"],
-    #             ["Door(L)", 1, 479.4, 281, "R6C2"],
-    #             ["Door(L)", 1, 479.4, 280.9, "R3C2"],
-    #             ["Door(L)", 1, 479.4, 280.9, "R6C2"],
+    #             ["Door(L)", 479.4, 281, "R3C2"],
+    #             ["Door(L)", 479.4, 281, "R6C2"],
+    #             ["Door(L)", 479.4, 280.9, "R3C2"],
+    #             ["Door(L)", 479.4, 280.9, "R6C2"],
     #         ]
     #     }
     # }
@@ -100,10 +101,15 @@ def door_list_report():
                 # declaring variables that are used in multiple scopes
                 full_prod_num = ''
                 door_mat_or = ''
-                door_or = ''
-                drw_top_or = ''
-                drw_mid_or = ''
-                drw_bot_or = ''
+                # door_or = ''
+                # drw_top_or = ''
+                # drw_mid_or = ''
+                # drw_bot_or = ''
+                door_style = ''
+                report_name = ''
+                width = 0
+                height = 0
+
     
                 for line in content:
                     if line.startswith('    <Product '):
@@ -122,73 +128,100 @@ def door_list_report():
                         mat_or_start_idx = line.find('MatDoorOR=') + 11
                         mat_or_end_idx = line.find('" MatDrawerOR=')
                         door_mat_or = line[mat_or_start_idx:mat_or_end_idx]
+                        # # door style
+                        # mat_or_start_idx = line.find('DoorOR=') + 8
+                        # mat_or_end_idx = line.find('" TopDrwOR=')
+                        # door_or = line[mat_or_start_idx:mat_or_end_idx]
+                        # # top drawer front style
+                        # mat_or_start_idx = mat_or_end_idx + 12
+                        # mat_or_end_idx = line.find('" MidDrwOR=')
+                        # drw_top_or = line[mat_or_start_idx:mat_or_end_idx]
+                        # # middle drawer front style
+                        # mat_or_start_idx = mat_or_end_idx + 12
+                        # mat_or_end_idx = line.find('" BotDrwOR=')
+                        # drw_mid_or = line[mat_or_start_idx:mat_or_end_idx]
+                        # # bottom drawer front style
+                        # mat_or_start_idx = mat_or_end_idx + 12
+                        # mat_or_end_idx = line.find('" DrwPullOR=')
+                        # drw_bot_or = line[mat_or_start_idx:mat_or_end_idx]
+
+
+                    if line.startswith('        <ProductDoor '):
                         # door style
-                        mat_or_start_idx = line.find('DoorOR=') + 8
-                        mat_or_end_idx = line.find('" TopDrwOR=')
-                        door_or = line[mat_or_start_idx:mat_or_end_idx]
-                        # top drawer front style
-                        mat_or_start_idx = mat_or_end_idx + 12
-                        mat_or_end_idx = line.find('" MidDrwOR=')
-                        drw_top_or = line[mat_or_start_idx:mat_or_end_idx]
-                        # middle drawer front style
-                        mat_or_start_idx = mat_or_end_idx + 12
-                        mat_or_end_idx = line.find('" BotDrwOR=')
-                        drw_mid_or = line[mat_or_start_idx:mat_or_end_idx]
-                        # bottom drawer front style
-                        mat_or_start_idx = mat_or_end_idx + 12
-                        mat_or_end_idx = line.find('" DrwPullOR=')
-                        drw_bot_or = line[mat_or_start_idx:mat_or_end_idx]
+                        start_idx = line.find('DoorStyle=') + 11
+                        end_idx = line.find('" W=')
+                        door_style = line[start_idx:end_idx]
+                        # width
+                        start_idx = end_idx + 5
+                        end_idx = line.find('" H=')
+                        width = float(line[start_idx:end_idx])
+                        # height
+                        start_idx = end_idx + 5
+                        end_idx = line.find('" Oversize=')
+                        height = float(line[start_idx:end_idx])
 
+                    if line.startswith('          <DrawerFront '):
+                        # door style
+                        start_idx = line.find('DoorStyle=') + 11
+                        end_idx = line.find('" W=')
+                        door_style = line[start_idx:end_idx]
+                        # width
+                        start_idx = end_idx + 5
+                        end_idx = line.find('" H=')
+                        width = float(line[start_idx:end_idx])
+                        # height
+                        start_idx = end_idx + 5
+                        end_idx = line.find('" Oversize=')
+                        height = float(line[start_idx:end_idx])
+                        
+                    if line.startswith('          <DoorProdPart ') or line.startswith('            <DoorProdPart '):
+                        start_idx = line.find('ReportName=') + 12
+                        end_idx = line.find('" UsageType=')
+                        report_name = line[start_idx:end_idx]
 
-                    if line.startswith('        <ProductDoor'):
-
-
-                        if door_mat_or[:2] == '" ':
-                            temp_dict[room_mat_temp]["Cabinets"].append(full_prod_num)
+                        # append to dict
+                        if door_mat_or == '':
+                            if door_style in temp_dict[room_mat_temp]:
+                                temp_dict[room_mat_temp][door_style].append(
+                                    [report_name, width, height, full_prod_num]
+                                )
+                            else:
+                                temp_dict[room_mat_temp][door_style] = [
+                                    [report_name, width, height, full_prod_num]
+                                ]
                         elif door_mat_or in temp_dict:
-                            temp_dict[door_mat_or]["Cabinets"].append(full_prod_num)
+                            if door_style in temp_dict[door_mat_or]:
+                                temp_dict[door_mat_or][door_style].append(
+                                    [report_name, width, height, full_prod_num]
+                                    )
+                            else:
+                                temp_dict[door_mat_or][door_style] = [
+                                    [report_name, width, height, full_prod_num]
+                                ]
                         else:
-                            temp_dict[door_mat_or] = {"Banding": [], "Cabinets": [full_prod_num]}
-
-    if "None" in temp_dict:
-        temp_dict.pop("None")
-
-    data_path = '\\'.join(dir_path_lst[:-2])
-    data_path += '\\Data'
-
+                            temp_dict[door_mat_or] = {
+                                door_style: [
+                                    [report_name, width, height, full_prod_num]
+                                ]
+                            }
+    
     for template in temp_dict:
+        for door_style in temp_dict[template]:
+            temp_dict[template][door_style].sort(key=lambda x: x[3])
+            temp_dict[template][door_style].reverse()
+            temp_dict[template][door_style].sort(key=lambda x: x[2])
+            temp_dict[template][door_style].sort(key=lambda x: x[1])
+            temp_dict[template][door_style].reverse()
 
-        for root, dirs, files in os.walk(data_path):
-            
-            for file in files:
-
-                if file.startswith(template):
-
-                    full_path = data_path + '\\' + file
-                    f = open(full_path, "rt")
-                    content = f.readlines()
-                    f.close()
-
-                    band_num = 1
-
-                    lbl_sym_start_idx = content[2].find('SymbolForLabels=') + 17
-                    label_symbol = '[ ' + content[2][lbl_sym_start_idx:lbl_sym_start_idx + 2] + ' ]'
-                    temp_dict[template]['Symbol'] = label_symbol
-
-                    for line in content[3:7]:
-                        mat_start_idx = line.find('Mat=') + 5
-                        mat_end_idx = line.find('" MatThick=')
-                        mat_name = line[mat_start_idx:mat_end_idx]
-                        temp_dict[template]["Banding"].append("EB" + str(band_num) +": " + mat_name)
-                        band_num += 1
-
-
-    temp_list = []
-
-    for template in temp_dict:
-        temp_list.append([temp_dict[template]['Symbol'], template])
-
-    temp_list.sort()
+    # print('--------')        
+    # for template in temp_dict:
+    #     if temp_dict[template]:
+    #         print('Template Name:', template)
+    #         for door_style in temp_dict[template]:
+    #             print('   Door Style:', door_style)
+    #             for door in temp_dict[template][door_style]:
+    #                 print('     ', door[0] + ',', str(door[1]) + ',', str(door[2]) + ',', door[3])
+    # print('--------')
 
 
     wb = Workbook()
@@ -196,55 +229,76 @@ def door_list_report():
     row = 1
     col = 1
 
-    sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
-    sheet1.cell(row, col, job_name + ' - Edgebanding')
-    sheet1.cell(row, col).alignment = Alignment(vertical='top')
-    sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
-    sheet1.row_dimensions[1].height = 40
-    row += 1
+    for template in temp_dict:
+        if temp_dict[template]:
 
-    for template in temp_list:
-        sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
-        sheet1.cell(row, col, template[0] + ' ' + template[1])
-        sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='left')
-        sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
-        row += 1
-
-
-        for banding in temp_dict[template[1]]["Banding"][:2]:
-            sheet1.cell(row, col, banding)
-            sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
-            sheet1.cell(row, col).font = Font(size=11)
-            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+            sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 3)
+            sheet1.cell(row, col, job_name + ' - Door List')
+            sheet1.cell(row, col).alignment = Alignment(vertical='top')
+            sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
+            sheet1.row_dimensions[row].height = 40
             row += 1
 
-        col += 1
-        row -= 2
-
-        for banding in temp_dict[template[1]]["Banding"][2:]:
-            sheet1.cell(row, col, banding)
-            sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
-            sheet1.cell(row, col).font = Font(size=11)
-            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+            sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 3)
+            sheet1.cell(row, col, template)
+            sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='left')
+            sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
             row += 1
 
-        col -= 1
 
-        sheet1.cell(row, col, ", ".join(temp_dict[template[1]]["Cabinets"]))
-        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical="center", horizontal='left')
-        sheet1.cell(row, col).font = Font(size=10, color="0000FF")
-        sheet1.row_dimensions[row].height = 30 + (10 * (len(temp_dict[template[1]]["Cabinets"])//12))
-        sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 1)
+            for door_style in temp_dict[template]:
+                sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 3)
+                sheet1.cell(row, col, door_style)
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
+                sheet1.cell(row, col).font = Font(size=12)
+                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                sheet1.cell(row, col + 1).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                sheet1.cell(row, col + 2).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                sheet1.cell(row, col + 3).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                row += 1
 
-        row += 2
 
-    sheet1.column_dimensions['A'].width = 43
-    sheet1.column_dimensions['B'].width = 43
+                for door in temp_dict[template][door_style]:
+                    sheet1.cell(row, col, door[0])
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=4.0)
+                    sheet1.cell(row, col).font = Font(size=11)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                    col += 1
+                    sheet1.cell(row, col, door[1])
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=4.0)
+                    sheet1.cell(row, col).font = Font(size=11)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                    col += 1
+                    sheet1.cell(row, col, door[2])
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=4.0)
+                    sheet1.cell(row, col).font = Font(size=11)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                    col += 1
+                    sheet1.cell(row, col, door[3])
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=4.0)
+                    sheet1.cell(row, col).font = Font(size=11)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                    col -= 3
+                    row += 1
+        
+            page_break = Break(id=row)
+            sheet1.row_breaks.append(page_break)
+            row += 1
+
+
+    sheet1.column_dimensions['A'].width = 20
+    sheet1.column_dimensions['B'].width = 20
+    sheet1.column_dimensions['C'].width = 20
+    sheet1.column_dimensions['D'].width = 20
+
+    sheet1.oddFooter.right.text = "Page &[Page] of &N"
+    sheet1.oddFooter.right.size = 9
+    sheet1.oddFooter.right.color = "000000"
     
-    print_area = 'A1:B' + str(row)
+    print_area = 'A1:D' + str(row - 1)
     sheet1.print_area = print_area
     
-    save_name = job_name + ' - Edgebanding' + '.xlsx'
+    save_name = job_name + ' - Door List' + '.xlsx'
     full_save_name = os.path.join(dir_path, save_name)
     try:
         wb.save(full_save_name)
