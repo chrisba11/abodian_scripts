@@ -99,12 +99,8 @@ def door_list_report():
                     temp_dict[room_mat_temp] = {}
 
                 # declaring variables that are used in multiple scopes
-                full_prod_num = ''
+                numbered = ''
                 door_mat_or = ''
-                # door_or = ''
-                # drw_top_or = ''
-                # drw_mid_or = ''
-                # drw_bot_or = ''
                 door_style = ''
                 report_name = ''
                 width = 0
@@ -120,30 +116,15 @@ def door_list_report():
                         is_numbered_start_idx = num_end_idx + 11
                         is_numbered = line[is_numbered_start_idx:is_numbered_start_idx + 1]
                         if is_numbered == 'T':
-                            full_prod_num = 'R' + room_num + 'C' + prod_num
+                            numbered = 'C'
                         else:
-                            full_prod_num = 'R' + room_num + 'N' + prod_num
+                            numbered = 'N'
                         # product material overrides
                         # door mat
                         mat_or_start_idx = line.find('MatDoorOR=') + 11
                         mat_or_end_idx = line.find('" MatDrawerOR=')
                         door_mat_or = line[mat_or_start_idx:mat_or_end_idx]
-                        # # door style
-                        # mat_or_start_idx = line.find('DoorOR=') + 8
-                        # mat_or_end_idx = line.find('" TopDrwOR=')
-                        # door_or = line[mat_or_start_idx:mat_or_end_idx]
-                        # # top drawer front style
-                        # mat_or_start_idx = mat_or_end_idx + 12
-                        # mat_or_end_idx = line.find('" MidDrwOR=')
-                        # drw_top_or = line[mat_or_start_idx:mat_or_end_idx]
-                        # # middle drawer front style
-                        # mat_or_start_idx = mat_or_end_idx + 12
-                        # mat_or_end_idx = line.find('" BotDrwOR=')
-                        # drw_mid_or = line[mat_or_start_idx:mat_or_end_idx]
-                        # # bottom drawer front style
-                        # mat_or_start_idx = mat_or_end_idx + 12
-                        # mat_or_end_idx = line.find('" DrwPullOR=')
-                        # drw_bot_or = line[mat_or_start_idx:mat_or_end_idx]
+
 
 
                     if line.startswith('        <ProductDoor '):
@@ -183,31 +164,32 @@ def door_list_report():
                         if door_mat_or == '':
                             if door_style in temp_dict[room_mat_temp]:
                                 temp_dict[room_mat_temp][door_style].append(
-                                    [report_name, width, height, full_prod_num]
+                                    [report_name, width, height, room_num, numbered, prod_num]
                                 )
                             else:
                                 temp_dict[room_mat_temp][door_style] = [
-                                    [report_name, width, height, full_prod_num]
+                                    [report_name, width, height, room_num, numbered, prod_num]
                                 ]
                         elif door_mat_or in temp_dict:
                             if door_style in temp_dict[door_mat_or]:
                                 temp_dict[door_mat_or][door_style].append(
-                                    [report_name, width, height, full_prod_num]
+                                    [report_name, width, height, room_num, numbered, prod_num]
                                     )
                             else:
                                 temp_dict[door_mat_or][door_style] = [
-                                    [report_name, width, height, full_prod_num]
+                                    [report_name, width, height, room_num, numbered, prod_num]
                                 ]
                         else:
                             temp_dict[door_mat_or] = {
                                 door_style: [
-                                    [report_name, width, height, full_prod_num]
+                                    [report_name, width, height, room_num, numbered, prod_num]
                                 ]
                             }
     
     for template in temp_dict:
         for door_style in temp_dict[template]:
-            temp_dict[template][door_style].sort(key=lambda x: x[3])
+            temp_dict[template][door_style].sort(key=lambda x: int(x[5]))
+            temp_dict[template][door_style].sort(key=lambda x: int(x[3]))
             temp_dict[template][door_style].reverse()
             temp_dict[template][door_style].sort(key=lambda x: x[2])
             temp_dict[template][door_style].sort(key=lambda x: x[1])
@@ -250,7 +232,7 @@ def door_list_report():
                 sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 3)
                 sheet1.cell(row, col, door_style)
                 sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
-                sheet1.cell(row, col).font = Font(size=12)
+                sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                 sheet1.cell(row, col + 1).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                 sheet1.cell(row, col + 2).border = Border(bottom=Side(style='thin', color='D4D4D4'))
@@ -264,18 +246,18 @@ def door_list_report():
                     sheet1.cell(row, col).font = Font(size=11)
                     sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                     col += 1
-                    sheet1.cell(row, col, door[1])
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=4.0)
+                    sheet1.cell(row, col, round(door[1],1))
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=1.0)
                     sheet1.cell(row, col).font = Font(size=11)
                     sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                     col += 1
-                    sheet1.cell(row, col, door[2])
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=4.0)
+                    sheet1.cell(row, col, round(door[2],1))
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=1.0)
                     sheet1.cell(row, col).font = Font(size=11)
                     sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                     col += 1
-                    sheet1.cell(row, col, door[3])
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=4.0)
+                    sheet1.cell(row, col, 'R' + door[3] + door[4] + door[5])
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=1.0)
                     sheet1.cell(row, col).font = Font(size=11)
                     sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                     col -= 3
@@ -287,9 +269,9 @@ def door_list_report():
 
 
     sheet1.column_dimensions['A'].width = 20
-    sheet1.column_dimensions['B'].width = 20
-    sheet1.column_dimensions['C'].width = 20
-    sheet1.column_dimensions['D'].width = 20
+    sheet1.column_dimensions['B'].width = 10
+    sheet1.column_dimensions['C'].width = 10
+    sheet1.column_dimensions['D'].width = 40
 
     sheet1.oddFooter.right.text = "Page &[Page] of &N"
     sheet1.oddFooter.right.size = 9
