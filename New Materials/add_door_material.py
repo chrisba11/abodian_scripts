@@ -155,45 +155,45 @@ def add_door_material():
         f'Optimize="True" ' \
         f'BandType="0" />\n'
 
-    fog_grey_58 = \
-        f'    <Material Name="CM Fog Grey 5/8 SF213 PRZ [{case_mat_band_name} Banding]" ' \
-        f'Quan="1" ' \
-        f'W="1243.012" ' \
-        f'L="2462.212" ' \
-        f'Thick="15.875" ' \
-        f'WTrim="6.35" ' \
-        f'LTrim="6.35" ' \
-        f'HasGrain="False" ' \
-        f'TwoSided="True" ' \
-        f'CostEach="0" ' \
-        f'MarkupPercentage="0" ' \
-        f'AddOnCost="0" ' \
-        f'Speed="100" ' \
-        f'ImageFile="" ' \
-        f'Comment="" ' \
-        f'WastePercentage="20" ' \
-        f'Optimize="True" ' \
-        f'BandType="0" />\n'
+    # fog_grey_58 = \
+    #     f'    <Material Name="CM Fog Grey 5/8 SF213 PRZ [{case_mat_band_name} Banding]" ' \
+    #     f'Quan="1" ' \
+    #     f'W="1243.012" ' \
+    #     f'L="2462.212" ' \
+    #     f'Thick="15.875" ' \
+    #     f'WTrim="6.35" ' \
+    #     f'LTrim="6.35" ' \
+    #     f'HasGrain="False" ' \
+    #     f'TwoSided="True" ' \
+    #     f'CostEach="0" ' \
+    #     f'MarkupPercentage="0" ' \
+    #     f'AddOnCost="0" ' \
+    #     f'Speed="100" ' \
+    #     f'ImageFile="" ' \
+    #     f'Comment="" ' \
+    #     f'WastePercentage="20" ' \
+    #     f'Optimize="True" ' \
+    #     f'BandType="0" />\n'
 
-    fog_grey_34 = \
-        f'    <Material Name="CM Fog Grey 3/4 SF213 PRZ [{case_mat_band_name} Banding]" ' \
-        f'Quan="1" ' \
-        f'W="1243.012" ' \
-        f'L="2462.212" ' \
-        f'Thick="19.05" ' \
-        f'WTrim="6.35" ' \
-        f'LTrim="6.35" ' \
-        f'HasGrain="False" ' \
-        f'TwoSided="True" ' \
-        f'CostEach="0" ' \
-        f'MarkupPercentage="0" ' \
-        f'AddOnCost="0" ' \
-        f'Speed="100" ' \
-        f'ImageFile="" ' \
-        f'Comment="" ' \
-        f'WastePercentage="20" ' \
-        f'Optimize="True" ' \
-        f'BandType="0" />\n'
+    # fog_grey_34 = \
+    #     f'    <Material Name="CM Fog Grey 3/4 SF213 PRZ [{case_mat_band_name} Banding]" ' \
+    #     f'Quan="1" ' \
+    #     f'W="1243.012" ' \
+    #     f'L="2462.212" ' \
+    #     f'Thick="19.05" ' \
+    #     f'WTrim="6.35" ' \
+    #     f'LTrim="6.35" ' \
+    #     f'HasGrain="False" ' \
+    #     f'TwoSided="True" ' \
+    #     f'CostEach="0" ' \
+    #     f'MarkupPercentage="0" ' \
+    #     f'AddOnCost="0" ' \
+    #     f'Speed="100" ' \
+    #     f'ImageFile="" ' \
+    #     f'Comment="" ' \
+    #     f'WastePercentage="20" ' \
+    #     f'Optimize="True" ' \
+    #     f'BandType="0" />\n'
 
     hardrock_58 = \
         f'    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [{case_mat_band_name} Banding]" ' \
@@ -371,8 +371,8 @@ def add_door_material():
     updated_material_list.append(door_sheet_BSAW)
     updated_material_list.append(birch_58)
     updated_material_list.append(birch_34)
-    updated_material_list.append(fog_grey_58)
-    updated_material_list.append(fog_grey_34)
+    # updated_material_list.append(fog_grey_58)
+    # updated_material_list.append(fog_grey_34)
     updated_material_list.append(hardrock_58)
     updated_material_list.append(hardrock_34)
     updated_material_list.append(white_58)
@@ -513,8 +513,8 @@ def add_door_material():
 
     # creates the standard cabinet templates
     for interior_mat in [
-        ['Fog Grey 34', 'CM Fog Grey 3/4 SF213 PRZ', '19.05'],
-        ['Fog Grey 58', 'CM Fog Grey 5/8 SF213 PRZ', '15.875'],
+        # ['Fog Grey 34', 'CM Fog Grey 3/4 SF213 PRZ', '19.05'],
+        # ['Fog Grey 58', 'CM Fog Grey 5/8 SF213 PRZ', '15.875'],
         ['Maple 34', 'CM Hardrock Maple 3/4 WF275 PRZ', '19.19986'],
         ['Maple 58', 'CM Hardrock Maple 5/8 WF275 PRZ', '16.10106'],
         ['PF Ply 34', 'CM Birch PF 3/4', '17.80032'],
