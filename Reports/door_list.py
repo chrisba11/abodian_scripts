@@ -28,14 +28,14 @@ def door_list_report():
 
     temp_dict = {}
 
-    # temp_dict sample
+    # temp_dict sample (need to finish updating to separated prod nums)
     # temp_dict = {
     #     "02 - PAN - Oxford White": {
     #         "Slab Door - VG": [
-    #             ["Door(L)", 555.6, 720.7, "R3C1"],
-    #             ["Door(L)", 555.6, 720.7, "R3C3"],
-    #             ["Door(L)", 555.6, 720.7, "R6C1"],
-    #             ["Door(L)", 555.6, 720.7, "R6C3"],
+    #             ["Door(L)", 555.6, 720.7, 3, "C", 1],
+    #             ["Door(L)", 555.6, 720.7, 3, "C", 3],
+    #             ["Door(L)", 555.6, 720.7, 6, "C", 1],
+    #             ["Door(L)", 555.6, 720.7, 6, "C", 3],
     #         ],
     #         "Slab Dw - VG": [
     #             ["Door(L)", 479.4, 281, "R3C2"],
@@ -210,7 +210,8 @@ def door_list_report():
     sheet1 = wb.active
     row = 1
     col = 1
-
+    
+    
     for template in temp_dict:
         if temp_dict[template]:
 
@@ -226,19 +227,31 @@ def door_list_report():
             sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='left')
             sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
             row += 1
-
+            page_total = 0
 
             for door_style in temp_dict[template]:
-                sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 3)
                 sheet1.cell(row, col, door_style)
                 sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
                 sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                sheet1.cell(row, col + 1).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                sheet1.cell(row, col + 2).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                sheet1.cell(row, col + 3).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                col += 1
+                sheet1.cell(row, col, "W")
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', indent=1.0)
+                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)                
+                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                col += 1
+                sheet1.cell(row, col, "H")
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', indent=1.0)
+                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)                
+                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                col += 1
+                sheet1.cell(row, col, "Cab #")
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', indent=1.0)
+                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)                
+                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
                 row += 1
-
+                col -= 3
+                qty = 0
 
                 for door in temp_dict[template][door_style]:
                     sheet1.cell(row, col, door[0])
@@ -262,16 +275,32 @@ def door_list_report():
                     sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                     col -= 3
                     row += 1
-        
+                    qty += 1
+
+                row -= 1
+                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                sheet1.cell(row, col + 1).border = Border(bottom=Side(style='thin', color='000000'))
+                sheet1.cell(row, col + 2).border = Border(bottom=Side(style='thin', color='000000'))
+                sheet1.cell(row, col + 3).border = Border(bottom=Side(style='thin', color='000000'))
+                row += 1
+                sheet1.cell(row, col, "(" + str(qty) + ")")
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=5.0)
+                sheet1.cell(row, col).font = Font(size=10, italic=True)
+                page_total += qty
+                row += 2
+
+            sheet1.cell(row, col, "Material Qty: " + str(page_total))
+            sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=2.0)
+            sheet1.cell(row, col).font = Font(size=11, italic=True, bold=True)
             page_break = Break(id=row)
             sheet1.row_breaks.append(page_break)
             row += 1
 
 
-    sheet1.column_dimensions['A'].width = 20
+    sheet1.column_dimensions['A'].width = 30
     sheet1.column_dimensions['B'].width = 10
-    sheet1.column_dimensions['C'].width = 10
-    sheet1.column_dimensions['D'].width = 40
+    sheet1.column_dimensions['C'].width = 20
+    sheet1.column_dimensions['D'].width = 28
 
     sheet1.oddFooter.right.text = "Page &[Page] of &N"
     sheet1.oddFooter.right.size = 9
