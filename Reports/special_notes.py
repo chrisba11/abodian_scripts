@@ -157,3 +157,5 @@ def product_list_with_notes():
     os.startfile(full_save_name)
     
 product_list_with_notes()
+
+input("Press Enter to Close")
