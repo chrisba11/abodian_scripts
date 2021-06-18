@@ -171,3 +171,5 @@ def edgeband_report():
     os.startfile(full_save_name)
     
 edgeband_report()
+
+input("Press Enter to Close")
