@@ -3,6 +3,6 @@
 <MaterialTemplate Name="1 mm Basalto Matte - MC" Type="4" SymbolForLabels="A">
   <MaterialReference PartType="EdgeBand" Mat="1mm Basalto Matte Z38 ZNT" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand2" Mat="1mm Basalto Matte Z38 ZNT" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Hardrock Maple WF275 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Apple Spice 4274 DOL" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />
 </MaterialTemplate>

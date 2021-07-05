@@ -3,6 +3,6 @@
 <MaterialTemplate Name="02 - FIN - Roble Oasis - MC" Type="4" SymbolForLabels="OA">
   <MaterialReference PartType="EdgeBand" Mat="0.5mm Artic Groovz WFR7327 TEK" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand2" Mat="1mm Roble Oasis 3AE FIN" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Hardrock Maple WF275 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Apple Spice 4274 DOL" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand4" Mat="Roble Oasis LAMINATE 3AE FIN" MatThick="0" MatWall="" MatWallThick="0" />
 </MaterialTemplate>

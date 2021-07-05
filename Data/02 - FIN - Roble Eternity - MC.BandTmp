@@ -3,6 +3,6 @@
 <MaterialTemplate Name="02 - FIN - Roble Eternity - MC" Type="4" SymbolForLabels="RO">
   <MaterialReference PartType="EdgeBand" Mat="0.5mm Latitude East Alto WFR6874 TEK" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand2" Mat="1mm Roble Eternity 4AE FIN" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Hardrock Maple WF275 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Apple Spice 4274 DOL" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand4" Mat="None EB4" MatThick="0" MatWall="" MatWallThick="0" />
 </MaterialTemplate>

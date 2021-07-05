@@ -3,6 +3,6 @@
 <MaterialTemplate Name="02 - KML - Miele - MC" Type="4" SymbolForLabels="MI">
   <MaterialReference PartType="EdgeBand" Mat="0.5mm Miele KMAH3033 KML" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand2" Mat="1mm Miele KMAH3033 KML" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Hardrock Maple WF275 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Apple Spice 4274 DOL" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand4" Mat="Miele LAMINATE KMAH3033 KML" MatThick="0" MatWall="" MatWallThick="0" />
 </MaterialTemplate>

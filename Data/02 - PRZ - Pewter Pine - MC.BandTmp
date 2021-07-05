@@ -3,6 +3,6 @@
 <MaterialTemplate Name="02 - PRZ - Pewter Pine - MC" Type="4" SymbolForLabels="PE">
   <MaterialReference PartType="EdgeBand" Mat="0.5mm Pewter Pine WFR7013 TEK" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand2" Mat="1mm Pewter Pine WFR7013 TEK" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Hardrock Maple WF275 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Apple Spice 4274 DOL" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand4" Mat="Pewter Pine LAMINATE WF377 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
 </MaterialTemplate>

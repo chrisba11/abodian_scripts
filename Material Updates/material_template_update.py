@@ -24,11 +24,12 @@ def update_with_start_string(new_text, line_of_code, start_of_filename):
             # moves to next filename with matching string at beginning and repeats
 
             if file.startswith(start_of_filename):
-                f = open(file, "rt")
+                full_path = dir_path + '\\' + file
+                f = open(full_path, "rt")
                 content = f.readlines()
                 content[line_of_code - 1] = new_text
 
-                f = open(file, "wt")
+                f = open(full_path, "wt")
                 f.writelines(content)
                 f.close()
 
@@ -49,11 +50,12 @@ def update_with_end_string(new_text, line_of_code, end_of_filename):
             # moves to next filename with matching string at end and repeats
 
             if file.endswith(end_of_filename):
-                f = open(file, "rt")
+                full_path = dir_path + '\\' + file
+                f = open(full_path, "rt")
                 content = f.readlines()
                 content[line_of_code - 1] = new_text
 
-                f = open(file, "wt")
+                f = open(full_path, "wt")
                 f.writelines(content)
                 f.close()
 
@@ -326,3 +328,6 @@ def band_label_symbol_update():
 # copy_mat_to_different_line_in_template('15 -', '.CabTmp', 15, 14, "")
 
 #band_label_symbol_update()
+
+replacement_text = '  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Apple Spice 4274 DOL" MatThick="0" MatWall="" MatWallThick="0" />\n'
+update_with_end_string(replacement_text, 6, "MC.BandTmp")

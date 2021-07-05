@@ -3,6 +3,6 @@
 <MaterialTemplate Name="02 - UC - Silver Elm - MC" Type="4" SymbolForLabels="SI">
   <MaterialReference PartType="EdgeBand" Mat="0.5mm Cannes K15 Riviera Oak Wal3611" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand2" Mat="0.5mm Silver Elm UC3006 UC" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Hardrock Maple WF275 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Apple Spice 4274 DOL" MatThick="0" MatWall="" MatWallThick="0" />
   <MaterialReference PartType="EdgeBand4" Mat="Silver Elm VENEER UC3006 UC" MatThick="0" MatWall="" MatWallThick="0" />
 </MaterialTemplate>
