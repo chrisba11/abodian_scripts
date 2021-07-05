@@ -1,0 +1,5 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="ARB - Willow Grey S341 .75" Type="5" SymbolForLabels="">
+  <MaterialReference PartType="CounterTop" Mat="Gray Soapstone" MatThick="19.05" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

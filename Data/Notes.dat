@@ -1,0 +1,25 @@
+1
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Notes>
+  <NoteEntry Name="ADA Cabinet">
+    <Note AnchorX="3280.417" AnchorY="-883.1254" OffsetX="0" OffsetY="0" Text="ADA Cabinet" FontSize="38.1" FixedFontSize="False" BackColor="-1" FontColor="-16777216" Minimized="False" ShowBorder="False" IsFP="True" SpaceNumber="0" ShowWhenPrinted="True" ItemIdTag="" FontFace="Arial" />
+  </NoteEntry>
+  <NoteEntry Name="Corner Cabinet">
+    <Note AnchorX="236.5586" AnchorY="495.3559" OffsetX="0" OffsetY="0" Text="Corner base cabinet sits 1/2&quot;&#xD;&#xA;from both walls in the corner&#xD;&#xA;" FontSize="38.1" FixedFontSize="False" BackColor="-16711681" FontColor="-16777216" Minimized="False" ShowBorder="False" IsFP="False" SpaceNumber="0" ShowWhenPrinted="True" ItemIdTag="92" FontFace="Arial" />
+  </NoteEntry>
+  <NoteEntry Name="Verify Mat Templates">
+    <Note AnchorX="597.9923" AnchorY="570.3339" OffsetX="0" OffsetY="0" Text="VERIFY MATERIAL TEMPLATES FOR EVERY PRODUCT!!!" FontSize="76.2" FixedFontSize="False" BackColor="-16711681" FontColor="-16777216" Minimized="False" ShowBorder="False" IsFP="False" SpaceNumber="0" ShowWhenPrinted="True" ItemIdTag="40" FontFace="Arial" />
+  </NoteEntry>
+  <NoteEntry Name="25&quot; Range Opening">
+    <Note AnchorX="-654.1682" AnchorY="81.23428" OffsetX="0" OffsetY="0" Text="RANGE SPECS CALL OUT 25&quot; OPENING" FontSize="12" FixedFontSize="True" BackColor="-16711681" FontColor="-16777216" Minimized="False" ShowBorder="False" IsFP="True" SpaceNumber="0" ShowWhenPrinted="True" ItemIdTag="" FontFace="Arial" />
+  </NoteEntry>
+  <NoteEntry Name="LED STRIPS">
+    <Note AnchorX="784.4284" AnchorY="298.6592" OffsetX="0" OffsetY="0" Text="LED STRIP LIGHTS @ BELOW &#xD;&#xA;EACH OPEN SHELVES" FontSize="7" FixedFontSize="True" BackColor="-1" FontColor="-65536" Minimized="False" ShowBorder="False" IsFP="False" SpaceNumber="0" ShowWhenPrinted="True" ItemIdTag="3132" FontFace="Arial" />
+  </NoteEntry>
+  <NoteEntry Name="FROSTY GLASS">
+    <Note AnchorX="305.8441" AnchorY="159.5441" OffsetX="0" OffsetY="0" Text="FROSTY&#xD;&#xA;GLASS" FontSize="7.5" FixedFontSize="True" BackColor="-1" FontColor="-65536" Minimized="False" ShowBorder="True" IsFP="False" SpaceNumber="0" ShowWhenPrinted="True" ItemIdTag="279" FontFace="Arial" />
+  </NoteEntry>
+  <DefaultNote>
+    <Note AnchorX="1477.234" AnchorY="1617.958" OffsetX="0" OffsetY="0" Text="puck light" FontSize="8" FixedFontSize="True" BackColor="-1" FontColor="-65536" Minimized="False" ShowBorder="True" IsFP="False" SpaceNumber="0" ShowWhenPrinted="True" ItemIdTag="" FontFace="Arial" />
+  </DefaultNote>
+</Notes>

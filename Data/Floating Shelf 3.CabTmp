@@ -1,0 +1,38 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="Floating Shelf 3" Type="3" SymbolForLabels="">
+  <MaterialReference PartType="Top" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Bottom" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FEnd" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UEnd" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AppliedUE" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Shelf" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AdjustableShelf" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="RolloutShelf" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FixedShelf" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Partition" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Divider" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UBack" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FBack" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Frame" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FramelessRail" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Nailer" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Stretcher" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Cleat" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Toe" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="3/4 MDF BSAW" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInterior" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInteriorBack" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinExterior" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinInterior" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinSkin" Mat="Generic Case Material 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinSkin" Mat="Generic Case Material 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ToeSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Sleeper" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Metal" Mat="Mirror 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Special" Mat="Floating Shelf 3" MatThick="76.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ClosetRod" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

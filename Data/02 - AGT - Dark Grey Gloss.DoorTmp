@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - AGT - Dark Grey Gloss" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Dark Grey HG 2S 3/4 P6014 AGT [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Dark Grey HG 2S 3/4 P6014 AGT [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Dark Grey HG 2S 3/4 P6014 AGT [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Dark Grey HG 2S 3/4 P6014 AGT [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Dark Grey HG 2S 3/4 P6014 AGT [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Dark Grey HG 2S 3/4 P6014 AGT [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Dark Grey HG 2S 3/4 P6014 AGT [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

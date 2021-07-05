@@ -1,0 +1,8 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - PAN - Storm Gray - PC" Type="4" SymbolForLabels="ST">
+  <MaterialReference PartType="EdgeBand" Mat="0.5mm Storm Gray S565 PAN" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand2" Mat="1mm Storm Gray S565 PAN" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Birch PF" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand4" Mat="Storm Gray LAMINATE S565 PAN" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

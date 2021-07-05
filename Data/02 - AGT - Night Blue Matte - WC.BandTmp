@@ -1,0 +1,8 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - AGT - Night Blue Matte - WC" Type="4" SymbolForLabels="NI">
+  <MaterialReference PartType="EdgeBand" Mat="0.5mm Mysterious Velvet SF247 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand2" Mat="1mm Night Blue Matte P3003 AGT" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm White STN101 TEK" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand4" Mat="Mysterious LAMINATE SF247 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

@@ -1,0 +1,15 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="TBD" Type="2" SymbolForLabels="">
+  <MaterialReference PartType="DrawerSide" Mat="Generic Door Material 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFront" Mat="Generic Door Material 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBack" Mat="Generic Door Material 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBottom" Mat="Generic Door Material 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TraySide" Mat="Generic Door Material 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFace" Mat="Generic Door Material 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFront" Mat="Generic Door Material 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBack" Mat="Generic Door Material 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBottom" Mat="Generic Door Material 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPartition" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerDivider" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

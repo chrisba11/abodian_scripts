@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - NP - Nero" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Nero 3/4 U129 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Nero 3/4 U129 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Nero 3/4 U129 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Nero 3/4 U129 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Nero 3/4 U129 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Nero 3/4 U129 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Nero 3/4 U129 NP [Matching Banding]" MatThick="18.9992" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

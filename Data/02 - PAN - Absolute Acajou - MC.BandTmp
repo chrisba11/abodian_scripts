@@ -1,0 +1,8 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - PAN - Absolute Acajou - MC" Type="4" SymbolForLabels="AB">
+  <MaterialReference PartType="EdgeBand" Mat="0.5mm Absolute Acajou WY160 PAN" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand2" Mat="1mm Absolute Acajou WY160 PAN" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Hardrock Maple WF275 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand4" Mat="Absolute Acajou LAMINATE WY160 PAN" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

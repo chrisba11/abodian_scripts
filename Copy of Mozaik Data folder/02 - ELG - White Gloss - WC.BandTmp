@@ -1,8 +1,0 @@
-2
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<MaterialTemplate Name="02 - ELG - White Gloss - WC" Type="4" SymbolForLabels="EE">
-  <MaterialReference PartType="EdgeBand" Mat="0.5mm White Velvet W300 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand2" Mat="1mm White Gloss 25931 ELG" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand3" Mat="0.5mm White W100 PRZ" MatThick="0" MatWall="" MatWallThick="0" />
-  <MaterialReference PartType="EdgeBand4" Mat="White Gloss LAMINATE 25931 ELG" MatThick="0" MatWall="" MatWallThick="0" />
-</MaterialTemplate>

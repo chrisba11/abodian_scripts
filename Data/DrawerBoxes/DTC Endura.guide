@@ -1,0 +1,32 @@
+Mozaik Guide Export
+9
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Guide Name="DTC Endura" CostEach="0" MarkupPercentage="0" AddOnCost="0" SideCl="0" BotCl="28" TopCl="8" HoleDia="0" Hole1Inset="0" Hole2Inset="0" Hole3Inset="0" HoleCenterFromReference="0" HoleDepth="0" Image="" Comment="" SocketA_DI="0" SocketA_DU="0" SocketB_DI="0" SocketB_DU="0" SocketDia="0" SocketDepth="0" Hole4Inset="0" Hole5Inset="0" UseGuideLengths="False" Hole6Inset="0" HoleReferenceFromBottom="False" GuideType="2" UseDrawerSpacers="False" UseTraySpacers="False" SpacerTopHoleUp="0" SpacerTopHoleIn="0" SpacerBottomHoleDown="0" SpacerBottomHoleIn="0" SpacerDiameter="0" SpacerDepth="0" SpacerCostEach="0" SpacerMarkupPercentage="0" SpacerAddOnCost="0" BackClearance="15">
+  <MetalDrawerGuideConfiguration Use="True" PartNumber="500-88" Description="" Cost="22" Markup="40" AddOn="0" MinutesToAssemble="10" InsideOpeningWidthMinusForBack="40" InsideOpeningWidthMinusForBottom="19" BoxHeight="79" BoxDepth="471" ApplyBanding="True" BottomIntoBack="False" BottomWidthGrain="False" MetalBack="False" IsTray="True" HasTrayFace="False" TrayFaceTopAdj="0" TrayFaceBottomAdj="0" TrayFaceLeftAdj="0" TrayFaceRightAdj="0" InsideOpeningWidthMinusForFront="0" InsideOpeningWidthMinusForFace="0" TrayFrontHeight="0" TrayInset="0">
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="37" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="69" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="165" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="261" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="293" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <FrontBoreOp Side="2" Reference="1" Elevation="51" ElevationEq="" Inset="13.5" InsetEq="" Depth="12" Diameter="10" PartsToBore="2" />
+    <FrontBoreOp Side="2" Reference="1" Elevation="83" ElevationEq="" Inset="13.5" InsetEq="" Depth="12" Diameter="10" PartsToBore="2" />
+  </MetalDrawerGuideConfiguration>
+  <MetalDrawerGuideConfiguration Use="True" PartNumber="500-172" Description="" Cost="22" Markup="40" AddOn="0" MinutesToAssemble="10" InsideOpeningWidthMinusForBack="40" InsideOpeningWidthMinusForBottom="19" BoxHeight="164" BoxDepth="471" ApplyBanding="True" BottomIntoBack="False" BottomWidthGrain="False" MetalBack="False" IsTray="True" HasTrayFace="False" TrayFaceTopAdj="0" TrayFaceBottomAdj="0" TrayFaceLeftAdj="0" TrayFaceRightAdj="0" InsideOpeningWidthMinusForFront="0" InsideOpeningWidthMinusForFace="0" TrayFrontHeight="0" TrayInset="0">
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="37" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="69" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="165" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="261" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="293" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <FrontBoreOp Side="2" Reference="1" Elevation="51" ElevationEq="" Inset="13.5" InsetEq="" Depth="12" Diameter="10" PartsToBore="2" />
+    <FrontBoreOp Side="2" Reference="1" Elevation="83" ElevationEq="" Inset="13.5" InsetEq="" Depth="12" Diameter="10" PartsToBore="2" />
+  </MetalDrawerGuideConfiguration>
+  <MetalDrawerGuideConfiguration Use="True" PartNumber="500-126" Description="" Cost="22" Markup="40" AddOn="0" MinutesToAssemble="10" InsideOpeningWidthMinusForBack="40" InsideOpeningWidthMinusForBottom="19" BoxHeight="117" BoxDepth="471" ApplyBanding="True" BottomIntoBack="False" BottomWidthGrain="False" MetalBack="False" IsTray="True" HasTrayFace="False" TrayFaceTopAdj="0" TrayFaceBottomAdj="0" TrayFaceLeftAdj="0" TrayFaceRightAdj="0" InsideOpeningWidthMinusForFront="0" InsideOpeningWidthMinusForFace="0" TrayFrontHeight="0" TrayInset="0">
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="37" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="69" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="165" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <SideBoreOp Side="2" Reference="1" Elevation="38" ElevationEq="" Inset="261" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <SideBoreOp Side="2" Reference="1" Elevation="37" ElevationEq="" Inset="293" InsetEq="" Depth="12" Diameter="5" PartsToBore="2" />
+    <FrontBoreOp Side="2" Reference="1" Elevation="51" ElevationEq="" Inset="13.5" InsetEq="" Depth="12" Diameter="10" PartsToBore="2" />
+    <FrontBoreOp Side="2" Reference="1" Elevation="83" ElevationEq="" Inset="13.5" InsetEq="" Depth="12" Diameter="10" PartsToBore="2" />
+  </MetalDrawerGuideConfiguration>
+</Guide>

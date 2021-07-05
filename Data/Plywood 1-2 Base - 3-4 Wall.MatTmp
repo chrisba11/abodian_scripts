@@ -1,0 +1,52 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="Plywood 1-2 Base - 3-4 Wall" Type="0" SymbolForLabels="">
+  <MaterialReference PartType="Top" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="3/4 Plywood" MatWallThick="19.05" />
+  <MaterialReference PartType="Bottom" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="3/4 Plywood" MatWallThick="19.05" />
+  <MaterialReference PartType="FEnd" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="3/4 Plywood" MatWallThick="19.05" />
+  <MaterialReference PartType="UEnd" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="3/4 Plywood" MatWallThick="19.05" />
+  <MaterialReference PartType="AppliedUE" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="3/4 Plywood" MatWallThick="19.05" />
+  <MaterialReference PartType="Shelf" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="3/4 Plywood" MatWallThick="19.05" />
+  <MaterialReference PartType="AdjustableShelf" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="3/4 Plywood" MatWallThick="19.05" />
+  <MaterialReference PartType="RolloutShelf" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="3/4 Plywood" MatWallThick="19.05" />
+  <MaterialReference PartType="FixedShelf" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="3/4 Plywood" MatWallThick="19.05" />
+  <MaterialReference PartType="Partition" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="3/4 Plywood" MatWallThick="19.05" />
+  <MaterialReference PartType="Divider" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="3/4 Plywood" MatWallThick="19.05" />
+  <MaterialReference PartType="UBack" Mat="CM Birch PF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FBack" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Frame" Mat="Generic Lumber" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FramelessRail" Mat="Generic Lumber" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Nailer" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Stretcher" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Cleat" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Toe" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Door" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="CM Birch PF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Generic Lumber" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="CM Birch PF 3/4 [Matching Banding]" MatThick="18.8" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="CM Birch PF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Generic Lumber" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerSide" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFront" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBack" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBottom" Mat="CM Birch PF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TraySide" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFace" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFront" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBack" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBottom" Mat="CM Birch PF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPartition" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerDivider" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="CounterTop" Mat="3/4 MDF" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInterior" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInteriorBack" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinExterior" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinInterior" Mat="CM Birch PF 1/2" MatThick="11.7" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinSkin" Mat="CM Birch PF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinSkin" Mat="CM Birch PF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ToeSkin" Mat="CM Birch PF 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Plastic" Mat="1/8 Plastic" MatThick="3.175" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Generic Lumber" MatThick="19.05" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

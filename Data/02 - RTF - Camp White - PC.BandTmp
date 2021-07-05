@@ -1,0 +1,8 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - RTF - Camp White - PC" Type="4" SymbolForLabels="CA">
+  <MaterialReference PartType="EdgeBand" Mat="0.5mm White STN101 TEK" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand2" Mat="None EB2-Door" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Birch PVC" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand4" Mat="Camp White LOOSE FOIL" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

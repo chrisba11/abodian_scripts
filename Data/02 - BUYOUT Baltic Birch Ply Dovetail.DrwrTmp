@@ -1,0 +1,15 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - BUYOUT Baltic Birch Ply Dovetail" Type="2" SymbolForLabels="">
+  <MaterialReference PartType="DrawerSide" Mat="BUYOUT DRAWERS Baltic Birch Dovetail" MatThick="15" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFront" Mat="BUYOUT DRAWERS Baltic Birch Dovetail" MatThick="15" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBack" Mat="BUYOUT DRAWERS Baltic Birch Dovetail" MatThick="15" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBottom" Mat="BUYOUT DRAWERS Baltic Birch Dovetail" MatThick="15" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TraySide" Mat="BUYOUT DRAWERS Baltic Birch Dovetail" MatThick="15" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFront" Mat="BUYOUT DRAWERS Baltic Birch Dovetail" MatThick="15" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFace" Mat="BUYOUT DRAWERS Baltic Birch Dovetail" MatThick="15" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBack" Mat="BUYOUT DRAWERS Baltic Birch Dovetail" MatThick="15" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBottom" Mat="BUYOUT DRAWERS Baltic Birch Dovetail" MatThick="15" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPartition" Mat="BUYOUT DRAWERS Baltic Birch Dovetail" MatThick="15" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerDivider" Mat="BUYOUT DRAWERS Baltic Birch Dovetail" MatThick="15" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

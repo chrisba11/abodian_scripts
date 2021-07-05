@@ -1,0 +1,15 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="5-8 Do Not Cut" Type="2" SymbolForLabels="">
+  <MaterialReference PartType="DrawerSide" Mat="Do Not Cut 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFront" Mat="Do Not Cut 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBack" Mat="Do Not Cut 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBottom" Mat="Do Not Cut 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TraySide" Mat="Do Not Cut 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFront" Mat="Do Not Cut 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFace" Mat="Do Not Cut 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBack" Mat="Do Not Cut 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBottom" Mat="Do Not Cut 5/8" MatThick="15.875" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPartition" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerDivider" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

@@ -1,0 +1,57 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="3-4 Melamine" Type="0" SymbolForLabels="">
+  <MaterialReference PartType="Top" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Bottom" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FEnd" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UEnd" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AppliedUE" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Shelf" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AdjustableShelf" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="RolloutShelf" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FixedShelf" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Partition" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Divider" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UBack" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FBack" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Frame" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FramelessRail" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Nailer" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Stretcher" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Cleat" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Toe" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Door" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerSide" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFront" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBack" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerBottom" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TraySide" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFace" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayFront" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBack" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="TrayBottom" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPartition" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerDivider" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="CounterTop" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInterior" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInteriorBack" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinExterior" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinInterior" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinSkin" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinSkin" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ToeSkin" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Sleeper" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Metal" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Special" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ClosetRod" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Generic Case Material 3/4" MatThick="19.05" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

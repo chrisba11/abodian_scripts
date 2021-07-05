@@ -1,0 +1,5 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="Bamboo Countertop 1-1-2" Type="5" SymbolForLabels="">
+  <MaterialReference PartType="CounterTop" Mat="Bamboo Countertop 1-1/2&quot;" MatThick="38.1" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

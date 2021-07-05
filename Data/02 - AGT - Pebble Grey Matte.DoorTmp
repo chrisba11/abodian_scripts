@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - AGT - Pebble Grey Matte" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="Pebble Grey Matte 3/4 P399 AGT [Matching Banding]" MatThick="17.9984" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="Pebble Grey Matte 3/4 P399 AGT [Matching Banding]" MatThick="17.9984" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="Pebble Grey Matte 3/4 P399 AGT [Matching Banding]" MatThick="17.9984" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="Pebble Grey Matte 3/4 P399 AGT [Matching Banding]" MatThick="17.9984" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="Pebble Grey Matte 3/4 P399 AGT [Matching Banding]" MatThick="17.9984" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="Pebble Grey Matte 3/4 P399 AGT [Matching Banding]" MatThick="17.9984" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="Pebble Grey Matte 3/4 P399 AGT [Matching Banding]" MatThick="17.9984" MatWall="" MatWallThick="0" />
+</MaterialTemplate>
