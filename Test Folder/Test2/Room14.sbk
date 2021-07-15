@@ -1,0 +1,115 @@
+12
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Room UniqueID="14681" RoomType="0" Name="bath" RoomNosDirty="True" IdTagCount="10" Quan="1" FloorDirty="0">
+  <RoomParms H_Walls="2743.2" H_Soffit="457.2" H_BaseCab="889" H_WallCab="914.4" H_FridgeCab="457.2" H_RangeCab="609.6" H_VanityCab="838.2" D_Wall="304.8" D_Base="609.6" D_Tall="609.6" Cl_Fridge="0" Cl_Window="0" Cl_Door="0" Cl_Range="0" CT_Thick="19.05" CT_FrOLay="38.1" CT_FEOlay="19.05" CT_Splash="0" CT_Face="19.05" CT_SplashThick="0" CT_DefaultSinkOverlay="25.4" CT_DefaultSinkSetback="25.4" CT_DefaultSinkRadius="76.2" M_CeilOffset="0" M_CrownOffset="0" M_LightRailOffset="0" M_ElevChairRail="812.8" M_ElevCustom="1066.8" SinkCabW="914.9724" WallThickness="114.3" StartingCabNo="0" AutoToeSkin="True" LockCabNos="False" />
+  <RoomSet Version="6" PricingColumns="" SourceTemplateID="4" NonColumnBaseDoor="Slab Door - VG" NonColumnWallDoor="Slab Door - VG" NonColumnTopDrawer="Slab Dw - VG" NonColumnMidDrawer="Slab Dw - VG" NonColumnBotDrawer="Slab Dw - VG" DrawerBox="Dowel Undermount V3" DrawerGuide="U58-Rich" DrawerGuideSlowCloseOn="False" DrawerGuideSpacerState="1" DrawerFrontFastener="Dowel" ROTray="Dowel Undermount V3 RO" ROTrayGuide="U58-Rich-RO" ROTrayGuideSlowCloseOn="False" ROTrayGuideSpacerState="1" ROTrayFrontFastener="Dowel" ROShelfGuide="U58-Rich" DrwPulls="Rich BP10748140 - 8in" BasePulls="Rich BP10746140 - 6in" WallPulls="Rich BP10746140 - 6in" BaseHinges="Blum 110 / 0mm - 71B358180" WallHinges="Blum 110 / 0mm - 71B358180" ClosetRod="Mozaik Default" ShelfPins="" AutofillLib="Axon V3" MatTemplate="Plywood 3-4 Template" MatDoorTemplate="02 - PAN - Absolute Acajou" MatDrawerTemplate="02 - CM - Maple Melamine .625" MatCabTemplate="05 - Maple 34 [Volcanic Grey SM Elegante]" MatTopsTemplate="" MatBandingTemplate="02 - ELG - Light Gray Supermatte - MC" CabBaseDoorTexture="02 - PAN - Absolute Acajou" CabDwrFaceTexture="02 - PAN - Absolute Acajou" CabWallDoorTexture="02 - ELG - White" CabExtTexture="02 - PAN - Absolute Acajou" CabIntTexture="02 - PAN - Storm Gray" BandTexture="02 - PAN - Absolute Acajou" WallTexture="1C pale white" FloorTexture="Wood Dark" TopsTexture="1C Marble white" ApplTexture="1 Stainless" MoldTexture="1 Paint White Dove" RoomDoorLibName="Standard" EndDoorW="Slab Door - VG" EndDoorB="Slab Door - VG" EndDoorT="Slab Door - VG" BackDoor="Slab Door - VG" DefaultUseSplitMatTemps="True">
+    <NonColumnBaseDoorSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </NonColumnBaseDoorSettings>
+    <NonColumnWallDoorSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </NonColumnWallDoorSettings>
+    <NonColumnTopDrawerSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </NonColumnTopDrawerSettings>
+    <NonColumnMidDrawerSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </NonColumnMidDrawerSettings>
+    <NonColumnBotDrawerSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </NonColumnBotDrawerSettings>
+    <EndDoorWSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </EndDoorWSettings>
+    <EndDoorBSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </EndDoorBSettings>
+    <EndDoorTSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </EndDoorTSettings>
+    <BackDoorSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </BackDoorSettings>
+  </RoomSet>
+  <Walls>
+    <Wall IDTag="1" Len="609.6001" Height="2743.2" PosX="-914.3999" PosY="3048" Ang="90" Invisible="False" SUDirty="True" Bulge="0" WallNumber="1" Thickness="114.3" HasLeftEndCap="False" HasRightEndCap="False" HasBackSpace="False" HasLeftSpace="False" HasRightSpace="False" LeftSpaceLength="1333.5" RightSpaceLength="1333.5" ShapeType="0" CathedralHeight="0">
+      <LabelDimensionOverrideMap />
+    </Wall>
+    <Wall IDTag="2" Len="2438.4" Height="2743.2" PosX="-914.3999" PosY="3657.6" Ang="0" Invisible="False" SUDirty="True" Bulge="0" WallNumber="2" Thickness="114.3" HasLeftEndCap="False" HasRightEndCap="False" HasBackSpace="False" HasLeftSpace="False" HasRightSpace="False" LeftSpaceLength="1333.5" RightSpaceLength="1333.5" ShapeType="0" CathedralHeight="0">
+      <LabelDimensionOverrideMap />
+    </Wall>
+    <Wall IDTag="3" Len="1524" Height="2743.2" PosX="1524" PosY="3657.6" Ang="270" Invisible="False" SUDirty="True" Bulge="0" WallNumber="3" Thickness="114.3" HasLeftEndCap="False" HasRightEndCap="False" HasBackSpace="False" HasLeftSpace="False" HasRightSpace="False" LeftSpaceLength="1333.5" RightSpaceLength="1333.5" ShapeType="0" CathedralHeight="0">
+      <LabelDimensionOverrideMap />
+    </Wall>
+  </Walls>
+  <WallJoints>
+    <WallJoint Wall1="1" Wall2="2" IsInterior="False" Wall1Corner="1" Wall2Corner="0" Wall2Along="0" Wall2Front="False" MiterBack="True" />
+    <WallJoint Wall1="2" Wall2="3" IsInterior="False" Wall1Corner="1" Wall2Corner="0" Wall2Along="0" Wall2Front="False" MiterBack="True" />
+  </WallJoints>
+  <Appls>
+    <Appl Name="Abodian Tub - Right" IDTag="9" Type="2" SubType="0" Wall="2_1" Width="762" Height="482.6" Depth="1524" X="1676.4" Elev="0" Rot="0" Outset="0" SUDirty="True" SketchUpFile="Abodian Tub - Right.skp" SourceLib="Plumbing &amp; Electrical V8" SnapTo="0" NonGraphic="False" HasCutout="True" CutoutOverlay="25.4" CutoutSetback="25.4" CutoutRadius="76.2" CutoutTop="0" CutoutPID="-1" Price="0" Upcharge="0">
+      <LabelDimensionOverrideMap />
+    </Appl>
+  </Appls>
+  <Fixts />
+  <Products />
+  <Tops />
+  <Moldings />
+  <ToeSkins />
+  <Notes />
+  <Dimensions />
+</Room>

@@ -329,5 +329,5 @@ def band_label_symbol_update():
 
 #band_label_symbol_update()
 
-replacement_text = '  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Apple Spice 4274 DOL" MatThick="0" MatWall="" MatWallThick="0" />\n'
-update_with_end_string(replacement_text, 6, "MC.BandTmp")
+# replacement_text = '  <MaterialReference PartType="EdgeBand3" Mat="0.5mm Apple Spice 4274 DOL" MatThick="0" MatWall="" MatWallThick="0" />\n'
+# update_with_end_string(replacement_text, 6, "MC.BandTmp")
