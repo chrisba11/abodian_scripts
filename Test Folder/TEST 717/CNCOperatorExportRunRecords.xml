@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RunRecords>
+  <CNCOperatorExportRunRecord Timestamp="1617873294.371" RunName="BSaw Labels - 4.8.21">
+    <Material Name="Absolute Acajou 3/4 WY160 PAN [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+    </Material>
+    <Material Name="Roble Azabache 3/4 75V FIN [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="White Matte 1S 3/4 P734 AGT [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1617874609.787" RunName="Units 1,3 - 4.8.21">
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+    </Material>
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [Trytoo Savatre Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+    </Material>
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [White Matte P734 AGT Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="Roble Azabache 3/4 75V FIN [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="White Matte 1S 3/4 P734 AGT [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1617875013.946" RunName="Units 2,4 - 4.8.21">
+    <Material Name="Absolute Acajou 3/4 WY160 PAN [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [Absolute Acajou Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+    </Material>
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+    </Material>
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [White Matte P734 AGT Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="White Matte 1S 3/4 P734 AGT [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1617875438.02765" RunName="SFR - 4.8.21">
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [Trytoo Savatre Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+    </Material>
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [White Matte P734 AGT Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="Roble Azabache 3/4 75V FIN [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="White Matte 1S 3/4 P734 AGT [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+</RunRecords>

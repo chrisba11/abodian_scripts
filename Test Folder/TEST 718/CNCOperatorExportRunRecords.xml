@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RunRecords>
+  <CNCOperatorExportRunRecord Timestamp="1607442894.834" RunName="Units 1,4 - 12.8.20">
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [Trytoo Savatre Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+      <Pattern Name="Pattern #15" />
+      <Pattern Name="Pattern #16" />
+    </Material>
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [White Velvet Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+    </Material>
+    <Material Name="Roble Azabache 3/4 75V FIN [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+    </Material>
+    <Material Name="White SM Elegante 3/4 25391 ELG [White Velvet Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1607443591.50594" RunName="Units 2,3 - 12.8.20">
+    <Material Name="Absolute Acajou 3/4 WY160 PAN [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+    </Material>
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [Absolute Acajou Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+    </Material>
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [White Velvet Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="White SM Elegante 3/4 25391 ELG [White Velvet Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+</RunRecords>

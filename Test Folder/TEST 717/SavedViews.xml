@@ -1,0 +1,789 @@
+1
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SavedViewEntries>
+  <SavedViewEntry RoomIndex="2">
+    <SavedView Name="kitchen">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="2">
+        <CameraPos MousePanTranslation_X="-32.06" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="12.68" MouseYaw="0.6871557" MousePitch="0.0111051" MouseDistance="239.4869" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="4">
+    <SavedView Name="kitchen">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="4">
+        <CameraPos MousePanTranslation_X="-32.06" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="11.555" MouseYaw="0.4471558" MousePitch="-0.003894868" MouseDistance="240.4077" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="3">
+    <SavedView Name="kitchen">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="3">
+        <CameraPos MousePanTranslation_X="-32.06" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="12.68" MouseYaw="0.4621559" MousePitch="-0.003894894" MouseDistance="239.4869" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="1">
+    <SavedView Name="kitchen1">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="1">
+        <CameraPos MousePanTranslation_X="27.295" MousePanTranslation_Y="-59.9875" MousePanTranslation_Z="1.959999" MouseYaw="0.5371559" MousePitch="-0.003894866" MouseDistance="266.0485" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="1">
+    <SavedView Name="kit2">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="1">
+        <CameraPos MousePanTranslation_X="56.78685" MousePanTranslation_Y="-55.23435" MousePanTranslation_Z="40.41816" MouseYaw="-0.8428439" MousePitch="0.01110513" MouseDistance="199.8862" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="True" />
+          <LayerHidden LayerName="Wall 5" Hidden="True" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="5">
+    <SavedView Name="bath2">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="5">
+        <CameraPos MousePanTranslation_X="11.42281" MousePanTranslation_Y="-53.11136" MousePanTranslation_Z="21.3981" MouseYaw="0.2371559" MousePitch="-0.01889483" MouseDistance="223.8221" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="6">
+    <SavedView Name="bath2">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="6">
+        <CameraPos MousePanTranslation_X="50.53" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="-3.45" MouseYaw="0.1921557" MousePitch="-0.01889479" MouseDistance="221.7617" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="9">
+    <SavedView Name="bath3">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="9">
+        <CameraPos MousePanTranslation_X="18.98" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="22.625" MouseYaw="-0.0778441" MousePitch="0.01110514" MouseDistance="231.9826" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="10">
+    <SavedView Name="bath3">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="10">
+        <CameraPos MousePanTranslation_X="14.88" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="-4.409999" MouseYaw="-0.002844074" MousePitch="0.01110512" MouseDistance="221.4748" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="11">
+    <SavedView Name="bath3">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="11">
+        <CameraPos MousePanTranslation_X="14.88" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="-4.409999" MouseYaw="-0.002844109" MousePitch="-0.003894818" MouseDistance="221.4748" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="12">
+    <SavedView Name="bath3">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="12">
+        <CameraPos MousePanTranslation_X="3.5" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="3.91" MouseYaw="0.04215586" MousePitch="-0.00389473" MouseDistance="208.7486" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="7">
+    <SavedView Name="bath2">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="7">
+        <CameraPos MousePanTranslation_X="50.53" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="-3.45" MouseYaw="0.1321559" MousePitch="-0.01889486" MouseDistance="221.7617" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="8">
+    <SavedView Name="bath2">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="8">
+        <CameraPos MousePanTranslation_X="50.53" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="-3.45" MouseYaw="0.08715586" MousePitch="0.02610515" MouseDistance="221.7617" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="13">
+    <SavedView Name="bath1">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="13">
+        <CameraPos MousePanTranslation_X="51.96" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="1.59" MouseYaw="0.07215574" MousePitch="0.0561052" MouseDistance="203.858" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="14">
+    <SavedView Name="kitchen1">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="14">
+        <CameraPos MousePanTranslation_X="39.025" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="23.82" MouseYaw="1.347155" MousePitch="0.01110512" MouseDistance="243.4547" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="14">
+    <SavedView Name="kitchen2">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="14">
+        <CameraPos MousePanTranslation_X="41.58411" MousePanTranslation_Y="-49.99298" MousePanTranslation_Z="24.19086" MouseYaw="-0.2578447" MousePitch="-0.07889482" MouseDistance="182.9111" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+  <SavedViewEntry RoomIndex="15">
+    <SavedView Name="bath3">
+      <RendererState ViewMode="5" LightParameter="0.8" ShadowParameter="1" RenderMode="3" ShowFilledSketchupModels="True" UseAntialiasing="True" ShowOutlines="True" Initialized="True" TargetIDTag="15">
+        <CameraPos MousePanTranslation_X="18.28" MousePanTranslation_Y="-53.9875" MousePanTranslation_Z="-10.33" MouseYaw="0.0271558" MousePitch="-0.03389487" MouseDistance="226.7237" />
+        <DrawingSettings Version="5" SourceTemplate="User Defaults" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="0" ElevationDrawMode="0" OrthoViewDrawMode="1" FaceInteriorDrawMode="0" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="2" FPDimFirstRowPadding="2" FPDimLineStyle="1" FPWallLabelsInWall="False" ElevDimOffsetSmall="True" ElevDimPadding="2" ElevDimFirstRowPadding="2" ElevDimLineStyle="1" ElevDimType="0" WallLabelRoomNumber="False" WallLabelRoomName="False" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+          <LayerHidden LayerName="Appliance Drawings" Hidden="True" />
+          <LayerHidden LayerName="Wall Fixture Drawings" Hidden="True" />
+          <LayerHidden LayerName="Non-numbered" Hidden="True" />
+          <LayerHidden LayerName="Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Opening Labels" Hidden="True" />
+          <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Frame Size Labels" Hidden="True" />
+          <LayerHidden LayerName="Open Section Labels" Hidden="True" />
+          <LayerHidden LayerName="Corner Cab Drawings" Hidden="True" />
+          <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+          <LayerHidden LayerName="Top Drawings" Hidden="True" />
+          <LayerHidden LayerName="Plan - Depth" Hidden="True" />
+          <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+          <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+          <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label" Hidden="True" />
+          <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+          <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+          <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+          <LayerHidden LayerName="Room Operations" Hidden="True" />
+          <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+          <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+          <LayerHidden LayerName="Floor" Hidden="True" />
+          <LayerHidden LayerName="Walls" Hidden="False" />
+          <LayerHidden LayerName="Cabinets" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Doors" Hidden="False" />
+          <LayerHidden LayerName="Cabinet Hardware" Hidden="False" />
+          <LayerHidden LayerName="Appliances" Hidden="False" />
+          <LayerHidden LayerName="Windows" Hidden="False" />
+          <LayerHidden LayerName="Toe Skins" Hidden="False" />
+          <LayerHidden LayerName="Wall 1" Hidden="False" />
+          <LayerHidden LayerName="Wall 2" Hidden="False" />
+          <LayerHidden LayerName="Wall 3" Hidden="False" />
+          <LayerHidden LayerName="Wall 4" Hidden="False" />
+          <LayerHidden LayerName="Wall 5" Hidden="False" />
+        </DrawingSettings>
+      </RendererState>
+    </SavedView>
+  </SavedViewEntry>
+</SavedViewEntries>
