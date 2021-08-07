@@ -103,3 +103,5 @@ def swap_hinges():
             
 
 swap_hinges()
+
+input("Press Enter to Close")

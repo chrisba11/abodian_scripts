@@ -60,3 +60,5 @@ def swap_string():
           
 
 swap_string()
+
+input("Press Enter to Close")

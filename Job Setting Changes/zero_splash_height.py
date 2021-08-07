@@ -25,3 +25,5 @@ def zero_spash_height():
                 f.close()
 
 zero_spash_height()
+
+input("Press Enter to Close")
