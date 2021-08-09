@@ -397,7 +397,7 @@ def add_door_material():
 
     # creates all of the banding templates for each interior material
     for interior_band in [
-        ['GC', '0.5mm Fog Grey SF213 PRZ'],
+        # ['GC', '0.5mm Fog Grey SF213 PRZ'],
         ['MC', '0.5mm Hardrock Maple WF275 PRZ'],
         ['PC', '0.5mm Birch PVC'],
         ['SC', '0.5mm Storm Gray S565 PAN'],
