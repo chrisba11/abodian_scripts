@@ -637,3 +637,5 @@ def add_door_material():
 
 
 add_door_material()
+
+input("Press Enter to Close")
