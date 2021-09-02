@@ -444,7 +444,7 @@ def add_door_material():
         f'  <MaterialReference PartType="Nailer" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="Stretcher" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="Cleat" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
-        f'  <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Toe" Mat="Raw Toe Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="FinExterior" Mat="{sheet_name} [Matching Banding] BSAW" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="FinInterior" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="FinInteriorBack" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
@@ -454,7 +454,7 @@ def add_door_material():
         f'  <MaterialReference PartType="UfinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="ToeSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />\n' \
-        f'  <MaterialReference PartType="Sleeper" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Sleeper" Mat="Raw Toe Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="Metal" Mat="Mirror 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />\n' \
@@ -484,7 +484,7 @@ def add_door_material():
         f'  <MaterialReference PartType="Nailer" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="Stretcher" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="Cleat" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
-        f'  <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Toe" Mat="Raw Toe Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="FinExterior" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="FinInterior" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="FinInteriorBack" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
@@ -494,7 +494,7 @@ def add_door_material():
         f'  <MaterialReference PartType="UfinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="ToeSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />\n' \
-        f'  <MaterialReference PartType="Sleeper" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
+        f'  <MaterialReference PartType="Sleeper" Mat="Raw Toe Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />\n' \
         f'  <MaterialReference PartType="Metal" Mat="Mirror 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />\n' \
@@ -547,7 +547,7 @@ def add_door_material():
             f'  <MaterialReference PartType="Nailer" Mat="{interior_mat[1]} [{interior_mat[3]} Banding]" MatThick="{interior_mat[2]}" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="Stretcher" Mat="{interior_mat[1]} [{case_mat_band_name} Banding]" MatThick="{interior_mat[2]}" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="Cleat" Mat="{interior_mat[1]} [{case_mat_band_name} Banding]" MatThick="{interior_mat[2]}" MatWall="" MatWallThick="0" />\n' \
-            f'  <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Toe" Mat="Raw Toe Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="FinExterior" Mat="{sheet_name} [Matching Banding] BSAW" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="FinInterior" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="FinInteriorBack" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
@@ -557,7 +557,7 @@ def add_door_material():
             f'  <MaterialReference PartType="UfinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="ToeSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />\n' \
-            f'  <MaterialReference PartType="Sleeper" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Sleeper" Mat="Raw Toe Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="Metal" Mat="Mirror 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />\n' \
@@ -587,7 +587,7 @@ def add_door_material():
             f'  <MaterialReference PartType="Nailer" Mat="{interior_mat[1]} [{interior_mat[3]} Banding]" MatThick="{interior_mat[2]}" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="Stretcher" Mat="{interior_mat[1]} [{case_mat_band_name} Banding]" MatThick="{interior_mat[2]}" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="Cleat" Mat="{interior_mat[1]} [{case_mat_band_name} Banding]" MatThick="{interior_mat[2]}" MatWall="" MatWallThick="0" />\n' \
-            f'  <MaterialReference PartType="Toe" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Toe" Mat="Raw Toe Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="FinExterior" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="FinInterior" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="FinInteriorBack" Mat="{sheet_name} [Matching Banding]" MatThick="{sheet_thick}" MatWall="" MatWallThick="0" />\n' \
@@ -597,7 +597,7 @@ def add_door_material():
             f'  <MaterialReference PartType="UfinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="ToeSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />\n' \
-            f'  <MaterialReference PartType="Sleeper" Mat="Ladderbox Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
+            f'  <MaterialReference PartType="Sleeper" Mat="Raw Toe Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />\n' \
             f'  <MaterialReference PartType="Metal" Mat="Mirror 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />\n' \
