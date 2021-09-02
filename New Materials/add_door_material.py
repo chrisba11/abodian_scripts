@@ -9,7 +9,7 @@ def add_door_material():
     """
     # This is to ask for the directory path at the command prompt
     parent_path = input('What is the path for the directory where the Materials.dat & New_Material.txt files are located? ')
-
+    print('\n---\n')
     # generates path for location of Materials.dat file and opens the file
     mat1_file_path = parent_path + '\\Materials.dat'
     with open(mat1_file_path, "rt") as f:
@@ -25,7 +25,7 @@ def add_door_material():
         full_new_mat_file = f.readlines()
 
     # list of indices that are okay having blank strings
-    blank_okay_idx = [31, 55, 70]
+    blank_okay_idx = [31, 46, 49, 52, 55, 61, 64, 67, 70]
 
     # pulls out only the relevant inputs for variables
     # removes newline char at end of each line
@@ -33,7 +33,7 @@ def add_door_material():
     for i in range(10, 72, 3):
         if full_new_mat_file[i][:-1] == '' and i not in blank_okay_idx:
             print('\nCHECK YOUR INPUT FOR BLANK LINES')
-            print('\nOnly questions 8, 16, and 21 can be left blank.')
+            print('\nOnly questions 8, 16, and 21 can be left blank.\n')
             return
         new_mat.append(full_new_mat_file[i][:-1])
 
@@ -42,6 +42,17 @@ def add_door_material():
         if new_mat[i] is not None and new_mat[i] != '':
             new_mat[i] = re.sub("[@%&*'\"!?#~`<>\^\\\$\[\]\{\}\|\(\)]", '', new_mat[i])
             new_mat[i] = new_mat[i].strip()
+
+    interior_materials = [
+        ['Maple 34', 'CM Hardrock Maple 3/4 WF275 PRZ', '19.19986', 'Matching'],
+        ['Maple 58', 'CM Hardrock Maple 5/8 WF275 PRZ', '16.10106', 'Matching'],
+        ['PF Ply 34', 'CM Birch PF 3/4', '17.80032', 'Matching'],
+        ['PF Ply 58', 'CM Birch PF 5/8', '15.8', 'Matching'],
+        ['Storm 34', 'Storm Gray 3/4 S565 PAN', '19.2', 'Matching'],
+        ['Storm 58', 'Storm Gray 5/8 S565 PAN', '16.2', 'Matching'],
+        ['White 34', 'CM White 3/4 W100 PRZ', '19.19986', 'White STN101'],
+        ['White 58', 'CM White 5/8 W100 PRZ', '16.10106', 'White STN101']
+        ]
 
     # filling out variables with input read from New_Material.txt file
     sheet_name = new_mat[1]
@@ -59,24 +70,109 @@ def add_door_material():
     band_temp_name = new_mat[10]
     cab_temp_name = new_mat[11]
 
-    #banding related variables
-    # case_band_exists = 
-    # case_band_exists = 'True' if case_band_exists[0] == 'y' or case_band_exists[0] == 'Y' else 'False'
-    case_band_exists = 'False'
+    case_band_exists = False
+    door_band_exists = False
+    band_flag = False
     case_band_name = new_mat[12]
-    case_band_width = str(round(float(new_mat[13]) * 25.4, 4))
-    case_band_length = str(round(float(new_mat[14]) * 12 * 25.4, 4))
-    case_band_type = new_mat[15]
-    case_band_comment = new_mat[16]
-
-    # door_band_exists = input('\nDoes the door banding already exist? (Y or N) ')
-    # door_band_exists = 'True' if case_band_exists[0] == 'y' or case_band_exists[0] == 'Y' else 'False'
-    door_band_exists = 'False'
     door_band_name = new_mat[17]
-    door_band_width = str(round(float(new_mat[18]) * 25.4, 4))
-    door_band_length = str(round(float(new_mat[19]) * 12 * 25.4, 4))
-    door_band_type = new_mat[20]
-    door_band_comment = new_mat[21]
+
+    hardrock_58_exists = False
+    hardrock_34_exists = False
+    birch_58_exists = False
+    birch_34_exists = False
+    storm_58_exists = False
+    storm_34_exists = False
+    white_58_exists = False
+    white_34_exists = False
+    panel_flag = False
+    hardrock_58_name = f'{interior_materials[1][1]} [{case_mat_band_name} Banding]'
+    hardrock_34_name = f'{interior_materials[0][1]} [{case_mat_band_name} Banding]'
+    birch_58_name = f'{interior_materials[3][1]} [{case_mat_band_name} Banding]'
+    birch_34_name = f'{interior_materials[2][1]} [{case_mat_band_name} Banding]'
+    storm_58_name = f'{interior_materials[5][1]} [{case_mat_band_name} Banding]'
+    storm_34_name = f'{interior_materials[4][1]} [{case_mat_band_name} Banding]'
+    white_58_name = f'{interior_materials[7][1]} [{case_mat_band_name} Banding]'
+    white_34_name = f'{interior_materials[6][1]} [{case_mat_band_name} Banding]'
+    
+    for line in curr_mat_list:
+        if line == '  <PanelStockMaterials>\n':
+            panel_flag = True
+        if panel_flag == True:
+            start_idx = line.find('Name=') + 6
+            end_idx = line.find('" Quan=')
+            line_name = line[start_idx:end_idx]
+            if line_name == hardrock_58_name:
+                hardrock_58_exists = True
+                print('Hardrock 5/8 case material exists - Using Existing Material')
+                hardrock_58 = line
+            if line_name == hardrock_34_name:
+                hardrock_34_exists = True
+                print('Hardrock 3/4 case material exists - Using Existing Material')
+                hardrock_34 = line
+            if line_name == birch_58_name:
+                birch_58_exists = True
+                print('PF Ply 5/8 case material exists - Using Existing Material')
+                birch_58 = line
+            if line_name == birch_34_name:
+                birch_34_exists = True
+                print('PF Ply 3/4 case material exists - Using Existing Material')
+                birch_34 = line
+            if line_name == storm_58_name:
+                storm_58_exists = True
+                print('Storm 5/8 case material exists - Using Existing Material')
+                storm_58 = line
+            if line_name == storm_34_name:
+                storm_34_exists = True
+                print('Storm 3/4 case material exists - Using Existing Material')
+                storm_34 = line
+            if line_name == white_58_name:
+                white_58_exists = True
+                print('White 5/8 case material exists - Using Existing Material')
+                white_58 = line
+            if line_name == white_34_name:
+                white_34_exists = True
+                print('White 3/4 case material exists - Using Existing Material')
+                white_34 = line
+        if line == '  </PanelStockMaterials>\n':
+            panel_flag = False
+        if line == '  <EdgeBandingMaterials>\n':
+            band_flag = True
+        if band_flag == True:
+            start_idx = line.find('Name=') + 6
+            end_idx = line.find('" Quan=')
+            line_name = line[start_idx:end_idx]
+            if line_name == case_band_name:
+                case_band_exists = True
+                print('Case banding exists - Using Existing Material')
+                case_band = line
+            if line_name == door_band_name:
+                door_band_exists = True
+                print('Door banding exists - Using Existing Material')
+                door_band = line
+        if case_band_exists == True and door_band_exists == True:
+            break
+        if line == '  </EdgeBandingMaterials>\n':
+            break
+    
+    if case_band_exists == False:
+        if new_mat[13] == '' or new_mat[14] == '' or new_mat[15] == '':
+            print('\nCHECK YOUR INPUT FOR BLANK LINES')
+            print('\nNew case banding materials must have width, length, and type.\n')
+            return
+        case_band_width = str(round(float(new_mat[13]) * 25.4, 4))
+        case_band_length = str(round(float(new_mat[14]) * 12 * 25.4, 4))
+        case_band_type = new_mat[15]
+        case_band_comment = new_mat[16]
+
+    if door_band_exists == False:
+        if new_mat[18] == '' or new_mat[19] == '' or new_mat[20] == '':
+            print('\nCHECK YOUR INPUT FOR BLANK LINES')
+            print('\nNew door banding materials must have width, length, and type.\n')
+            return
+        door_band_width = str(round(float(new_mat[18]) * 25.4, 4))
+        door_band_length = str(round(float(new_mat[19]) * 12 * 25.4, 4))
+        door_band_type = new_mat[20]
+        door_band_comment = new_mat[21]
 
     # creates folder where new material templates will be placed
     folder_name = sheet_name.replace('/', '-')
@@ -115,209 +211,177 @@ def add_door_material():
     door_sheet_BSAW = door_sheet_BSAW + door_sheet_mid + door_sheet_BSAW_trim + door_sheet_end
     
     # creates lines for each of the case materials with new material banding
-    birch_58 = \
-        f'    <Material Name="CM Birch PF 5/8 [{case_mat_band_name} Banding]" ' \
-        f'Quan="1" ' \
-        f'W="1231.9" ' \
-        f'L="2451.1" ' \
-        f'Thick="15.8" ' \
-        f'WTrim="6.35" ' \
-        f'LTrim="6.35" ' \
-        f'HasGrain="True" ' \
-        f'TwoSided="True" ' \
-        f'CostEach="0" ' \
-        f'MarkupPercentage="0" ' \
-        f'AddOnCost="0" ' \
-        f'Speed="100" ' \
-        f'ImageFile="" ' \
-        f'Comment="" ' \
-        f'WastePercentage="20" ' \
-        f'Optimize="True" ' \
-        f'BandType="0" />\n'
+    if birch_58_exists == False:
+        birch_58 = \
+            f'    <Material Name="{birch_58_name}" ' \
+            f'Quan="1" ' \
+            f'W="1231.9" ' \
+            f'L="2451.1" ' \
+            f'Thick="15.8" ' \
+            f'WTrim="6.35" ' \
+            f'LTrim="6.35" ' \
+            f'HasGrain="True" ' \
+            f'TwoSided="True" ' \
+            f'CostEach="0" ' \
+            f'MarkupPercentage="0" ' \
+            f'AddOnCost="0" ' \
+            f'Speed="100" ' \
+            f'ImageFile="" ' \
+            f'Comment="" ' \
+            f'WastePercentage="20" ' \
+            f'Optimize="True" ' \
+            f'BandType="0" />\n'
 
-    birch_34 = \
-        f'    <Material Name="CM Birch PF 3/4 [{case_mat_band_name} Banding]" ' \
-        f'Quan="1" ' \
-        f'W="1231.9" ' \
-        f'L="2451.1" ' \
-        f'Thick="17.80032" ' \
-        f'WTrim="6.35" ' \
-        f'LTrim="6.35" ' \
-        f'HasGrain="True" ' \
-        f'TwoSided="True" ' \
-        f'CostEach="0" ' \
-        f'MarkupPercentage="0" ' \
-        f'AddOnCost="0" ' \
-        f'Speed="100" ' \
-        f'ImageFile="" ' \
-        f'Comment="" ' \
-        f'WastePercentage="20" ' \
-        f'Optimize="True" ' \
-        f'BandType="0" />\n'
+    if birch_34_exists == False:
+        birch_34 = \
+            f'    <Material Name="{birch_34_name}" ' \
+            f'Quan="1" ' \
+            f'W="1231.9" ' \
+            f'L="2451.1" ' \
+            f'Thick="17.80032" ' \
+            f'WTrim="6.35" ' \
+            f'LTrim="6.35" ' \
+            f'HasGrain="True" ' \
+            f'TwoSided="True" ' \
+            f'CostEach="0" ' \
+            f'MarkupPercentage="0" ' \
+            f'AddOnCost="0" ' \
+            f'Speed="100" ' \
+            f'ImageFile="" ' \
+            f'Comment="" ' \
+            f'WastePercentage="20" ' \
+            f'Optimize="True" ' \
+            f'BandType="0" />\n'
 
-    # fog_grey_58 = \
-    #     f'    <Material Name="CM Fog Grey 5/8 SF213 PRZ [{case_mat_band_name} Banding]" ' \
-    #     f'Quan="1" ' \
-    #     f'W="1243.012" ' \
-    #     f'L="2462.212" ' \
-    #     f'Thick="15.875" ' \
-    #     f'WTrim="6.35" ' \
-    #     f'LTrim="6.35" ' \
-    #     f'HasGrain="False" ' \
-    #     f'TwoSided="True" ' \
-    #     f'CostEach="0" ' \
-    #     f'MarkupPercentage="0" ' \
-    #     f'AddOnCost="0" ' \
-    #     f'Speed="100" ' \
-    #     f'ImageFile="" ' \
-    #     f'Comment="" ' \
-    #     f'WastePercentage="20" ' \
-    #     f'Optimize="True" ' \
-    #     f'BandType="0" />\n'
+    if hardrock_58_exists == False:
+        hardrock_58 = \
+            f'    <Material Name="{hardrock_58_name}" ' \
+            f'Quan="1" ' \
+            f'W="1244.6" ' \
+            f'L="2460.625" ' \
+            f'Thick="16.10106" ' \
+            f'WTrim="6.35" ' \
+            f'LTrim="6.35" ' \
+            f'HasGrain="True" ' \
+            f'TwoSided="True" ' \
+            f'CostEach="0" ' \
+            f'MarkupPercentage="0" ' \
+            f'AddOnCost="0" ' \
+            f'Speed="100" ' \
+            f'ImageFile="" ' \
+            f'Comment="" ' \
+            f'WastePercentage="20" ' \
+            f'Optimize="True" ' \
+            f'BandType="0" />\n'
 
-    # fog_grey_34 = \
-    #     f'    <Material Name="CM Fog Grey 3/4 SF213 PRZ [{case_mat_band_name} Banding]" ' \
-    #     f'Quan="1" ' \
-    #     f'W="1243.012" ' \
-    #     f'L="2462.212" ' \
-    #     f'Thick="19.05" ' \
-    #     f'WTrim="6.35" ' \
-    #     f'LTrim="6.35" ' \
-    #     f'HasGrain="False" ' \
-    #     f'TwoSided="True" ' \
-    #     f'CostEach="0" ' \
-    #     f'MarkupPercentage="0" ' \
-    #     f'AddOnCost="0" ' \
-    #     f'Speed="100" ' \
-    #     f'ImageFile="" ' \
-    #     f'Comment="" ' \
-    #     f'WastePercentage="20" ' \
-    #     f'Optimize="True" ' \
-    #     f'BandType="0" />\n'
+    if hardrock_34_exists == False:
+        hardrock_34 = \
+            f'    <Material Name="{hardrock_34_name}" ' \
+            f'Quan="1" ' \
+            f'W="1244.6" ' \
+            f'L="2460.625" ' \
+            f'Thick="19.19986" ' \
+            f'WTrim="6.35" ' \
+            f'LTrim="6.35" ' \
+            f'HasGrain="True" ' \
+            f'TwoSided="True" ' \
+            f'CostEach="0" ' \
+            f'MarkupPercentage="0" ' \
+            f'AddOnCost="0" ' \
+            f'Speed="100" ' \
+            f'ImageFile="" ' \
+            f'Comment="" ' \
+            f'WastePercentage="20" ' \
+            f'Optimize="True" ' \
+            f'BandType="0" />\n'
 
-    hardrock_58 = \
-        f'    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [{case_mat_band_name} Banding]" ' \
-        f'Quan="1" ' \
-        f'W="1244.6" ' \
-        f'L="2460.625" ' \
-        f'Thick="16.10106" ' \
-        f'WTrim="6.35" ' \
-        f'LTrim="6.35" ' \
-        f'HasGrain="True" ' \
-        f'TwoSided="True" ' \
-        f'CostEach="0" ' \
-        f'MarkupPercentage="0" ' \
-        f'AddOnCost="0" ' \
-        f'Speed="100" ' \
-        f'ImageFile="" ' \
-        f'Comment="" ' \
-        f'WastePercentage="20" ' \
-        f'Optimize="True" ' \
-        f'BandType="0" />\n'
+    if white_58_exists == False:
+        white_58 = \
+            f'    <Material Name="{white_58_name}" ' \
+            f'Quan="1" ' \
+            f'W="1243.012" ' \
+            f'L="2462.212" ' \
+            f'Thick="16.10106" ' \
+            f'WTrim="6.35" ' \
+            f'LTrim="6.35" ' \
+            f'HasGrain="False" ' \
+            f'TwoSided="True" ' \
+            f'CostEach="0" ' \
+            f'MarkupPercentage="0" ' \
+            f'AddOnCost="0" ' \
+            f'Speed="100" ' \
+            f'ImageFile="" ' \
+            f'Comment="" ' \
+            f'WastePercentage="20" ' \
+            f'Optimize="True" ' \
+            f'BandType="0" />\n'
 
-    hardrock_34 = \
-        f'    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [{case_mat_band_name} Banding]" ' \
-        f'Quan="1" ' \
-        f'W="1244.6" ' \
-        f'L="2460.625" ' \
-        f'Thick="19.19986" ' \
-        f'WTrim="6.35" ' \
-        f'LTrim="6.35" ' \
-        f'HasGrain="True" ' \
-        f'TwoSided="True" ' \
-        f'CostEach="0" ' \
-        f'MarkupPercentage="0" ' \
-        f'AddOnCost="0" ' \
-        f'Speed="100" ' \
-        f'ImageFile="" ' \
-        f'Comment="" ' \
-        f'WastePercentage="20" ' \
-        f'Optimize="True" ' \
-        f'BandType="0" />\n'
+    if white_34_exists == False:
+        white_34 = \
+            f'    <Material Name="{white_34_name}" ' \
+            f'Quan="1" ' \
+            f'W="1243.012" ' \
+            f'L="2462.212" ' \
+            f'Thick="19.19986" ' \
+            f'WTrim="6.35" ' \
+            f'LTrim="6.35" ' \
+            f'HasGrain="False" ' \
+            f'TwoSided="True" ' \
+            f'CostEach="0" ' \
+            f'MarkupPercentage="0" ' \
+            f'AddOnCost="0" ' \
+            f'Speed="100" ' \
+            f'ImageFile="" ' \
+            f'Comment="" ' \
+            f'WastePercentage="20" ' \
+            f'Optimize="True" ' \
+            f'BandType="0" />\n'
 
-    white_58 = \
-        f'    <Material Name="CM White 5/8 W100 PRZ [{case_mat_band_name} Banding]" ' \
-        f'Quan="1" ' \
-        f'W="1243.012" ' \
-        f'L="2462.212" ' \
-        f'Thick="16.10106" ' \
-        f'WTrim="6.35" ' \
-        f'LTrim="6.35" ' \
-        f'HasGrain="False" ' \
-        f'TwoSided="True" ' \
-        f'CostEach="0" ' \
-        f'MarkupPercentage="0" ' \
-        f'AddOnCost="0" ' \
-        f'Speed="100" ' \
-        f'ImageFile="" ' \
-        f'Comment="" ' \
-        f'WastePercentage="20" ' \
-        f'Optimize="True" ' \
-        f'BandType="0" />\n'
+    if storm_58_exists == False:
+        storm_58 = \
+            f'    <Material Name="{storm_58_name}" ' \
+            f'Quan="1" ' \
+            f'W="1244.6" ' \
+            f'L="2463.8" ' \
+            f'Thick="16.2" ' \
+            f'WTrim="6.35" ' \
+            f'LTrim="6.35" ' \
+            f'HasGrain="False" ' \
+            f'TwoSided="True" ' \
+            f'CostEach="0" ' \
+            f'MarkupPercentage="0" ' \
+            f'AddOnCost="0" ' \
+            f'Speed="100" ' \
+            f'ImageFile="" ' \
+            f'Comment="" ' \
+            f'WastePercentage="20" ' \
+            f'Optimize="True" ' \
+            f'BandType="0" />\n'
 
-    white_34 = \
-        f'    <Material Name="CM White 3/4 W100 PRZ [{case_mat_band_name} Banding]" ' \
-        f'Quan="1" ' \
-        f'W="1243.012" ' \
-        f'L="2462.212" ' \
-        f'Thick="19.19986" ' \
-        f'WTrim="6.35" ' \
-        f'LTrim="6.35" ' \
-        f'HasGrain="False" ' \
-        f'TwoSided="True" ' \
-        f'CostEach="0" ' \
-        f'MarkupPercentage="0" ' \
-        f'AddOnCost="0" ' \
-        f'Speed="100" ' \
-        f'ImageFile="" ' \
-        f'Comment="" ' \
-        f'WastePercentage="20" ' \
-        f'Optimize="True" ' \
-        f'BandType="0" />\n'
-
-    storm_58 = \
-        f'    <Material Name="Storm Gray 5/8 S565 PAN [{case_mat_band_name} Banding]" ' \
-        f'Quan="1" ' \
-        f'W="1244.6" ' \
-        f'L="2463.8" ' \
-        f'Thick="16.2" ' \
-        f'WTrim="6.35" ' \
-        f'LTrim="6.35" ' \
-        f'HasGrain="False" ' \
-        f'TwoSided="True" ' \
-        f'CostEach="0" ' \
-        f'MarkupPercentage="0" ' \
-        f'AddOnCost="0" ' \
-        f'Speed="100" ' \
-        f'ImageFile="" ' \
-        f'Comment="" ' \
-        f'WastePercentage="20" ' \
-        f'Optimize="True" ' \
-        f'BandType="0" />\n'
-
-    storm_34 = \
-        f'    <Material Name="Storm Gray 3/4 S565 PAN [{case_mat_band_name} Banding]" ' \
-        f'Quan="1" ' \
-        f'W="1244.6" ' \
-        f'L="2463.8" ' \
-        f'Thick="19.2" ' \
-        f'WTrim="6.35" ' \
-        f'LTrim="6.35" ' \
-        f'HasGrain="False" ' \
-        f'TwoSided="True" ' \
-        f'CostEach="0" ' \
-        f'MarkupPercentage="0" ' \
-        f'AddOnCost="0" ' \
-        f'Speed="100" ' \
-        f'ImageFile="" ' \
-        f'Comment="" ' \
-        f'WastePercentage="20" ' \
-        f'Optimize="True" ' \
-        f'BandType="0" />\n'
+    if storm_34_exists == False:
+        storm_34 = \
+            f'    <Material Name="{storm_34_name}" ' \
+            f'Quan="1" ' \
+            f'W="1244.6" ' \
+            f'L="2463.8" ' \
+            f'Thick="19.2" ' \
+            f'WTrim="6.35" ' \
+            f'LTrim="6.35" ' \
+            f'HasGrain="False" ' \
+            f'TwoSided="True" ' \
+            f'CostEach="0" ' \
+            f'MarkupPercentage="0" ' \
+            f'AddOnCost="0" ' \
+            f'Speed="100" ' \
+            f'ImageFile="" ' \
+            f'Comment="" ' \
+            f'WastePercentage="20" ' \
+            f'Optimize="True" ' \
+            f'BandType="0" />\n'
 
 
     # creates banding materials if they don't already exist
-    if case_band_exists == 'False':
+    if case_band_exists == False:
         case_band = \
             f'    <Material Name="{case_band_name}" ' \
             f'Quan="1" ' \
@@ -338,7 +402,7 @@ def add_door_material():
             f'Optimize="False" ' \
             f'BandType="{case_band_type}" />\n'
 
-    if door_band_exists == 'False':    
+    if door_band_exists == False:    
         door_band = \
             f'    <Material Name="{door_band_name}" ' \
             f'Quan="1" ' \
@@ -369,23 +433,29 @@ def add_door_material():
     updated_material_list = curr_mat_list[:curr_sheet_mat_end_idx]
     updated_material_list.append(door_sheet_CNC)
     updated_material_list.append(door_sheet_BSAW)
-    updated_material_list.append(birch_58)
-    updated_material_list.append(birch_34)
-    # updated_material_list.append(fog_grey_58)
-    # updated_material_list.append(fog_grey_34)
-    updated_material_list.append(hardrock_58)
-    updated_material_list.append(hardrock_34)
-    updated_material_list.append(white_58)
-    updated_material_list.append(white_34)
-    updated_material_list.append(storm_58)
-    updated_material_list.append(storm_34)
+    if birch_58_exists == False:
+        updated_material_list.append(birch_58)
+    if birch_34_exists == False:
+        updated_material_list.append(birch_34)
+    if hardrock_58_exists == False:
+        updated_material_list.append(hardrock_58)
+    if hardrock_34_exists == False:
+        updated_material_list.append(hardrock_34)
+    if white_58_exists == False:
+        updated_material_list.append(white_58)
+    if white_34_exists == False:
+        updated_material_list.append(white_34)
+    if storm_58_exists == False:
+        updated_material_list.append(storm_58)
+    if storm_34_exists == False:
+        updated_material_list.append(storm_34)
     updated_material_list += curr_mat_list[curr_sheet_mat_end_idx:curr_band_list_end_idx]
     
     # adds new banding materials to banding list if they don't already exist
-    if case_band_exists == 'False':
+    if case_band_exists == False:
         updated_material_list.append(case_band)
 
-    if door_band_exists == 'False':  
+    if door_band_exists == False:  
         updated_material_list.append(door_band)
     
     updated_material_list += curr_mat_list[curr_band_list_end_idx:]
@@ -397,7 +467,6 @@ def add_door_material():
 
     # creates all of the banding templates for each interior material
     for interior_band in [
-        # ['GC', '0.5mm Fog Grey SF213 PRZ'],
         ['MC', '0.5mm Apple Spice 4274 DOL'],
         ['PC', '0.5mm Birch PVC'],
         ['SC', '0.5mm Storm Gray S565 PAN'],
@@ -512,18 +581,7 @@ def add_door_material():
         f.writelines(fin_int_case_temp_12)
 
     # creates the standard cabinet templates
-    for interior_mat in [
-        # ['Fog Grey 34', 'CM Fog Grey 3/4 SF213 PRZ', '19.05', 'Matching'],
-        # ['Fog Grey 58', 'CM Fog Grey 5/8 SF213 PRZ', '15.875', 'Matching'],
-        ['Maple 34', 'CM Hardrock Maple 3/4 WF275 PRZ', '19.19986', 'Matching'],
-        ['Maple 58', 'CM Hardrock Maple 5/8 WF275 PRZ', '16.10106', 'Matching'],
-        ['PF Ply 34', 'CM Birch PF 3/4', '17.80032', 'Matching'],
-        ['PF Ply 58', 'CM Birch PF 5/8', '15.8', 'Matching'],
-        ['Storm 34', 'Storm Gray 3/4 S565 PAN', '19.2', 'Matching'],
-        ['Storm 58', 'Storm Gray 5/8 S565 PAN', '16.2', 'Matching'],
-        ['White 34', 'CM White 3/4 W100 PRZ', '19.19986', 'White STN101'],
-        ['White 58', 'CM White 5/8 W100 PRZ', '16.10106', 'White STN101']
-        ]:
+    for interior_mat in interior_materials:
 
         cab_temp_05 = \
             f'2\n' \
@@ -633,6 +691,8 @@ def add_door_material():
 
         with open(door_temp_path, "wt") as f:
             f.writelines(door_temp)
+
+    print('\n---------------------------------------------\nNew Materials & Templates Added Successfully!\n---------------------------------------------\n')
 
 
 
