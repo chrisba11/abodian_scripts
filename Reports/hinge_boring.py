@@ -8,75 +8,90 @@ from openpyxl.worksheet.pagebreak import Break
 dir_path = input('What is the full directory path for the job? ')
 
 
-def door_list_report():
+def hinge_boring_report():
     """
-    Generates an Excel file listing the doors separated by door style and 
-        grouped by door material used for a specified job.
-    The function opens each of the .des files inside a job directory and looks 
-        at every product in the room.
-    If the product has a door material template that isn't in the dict,
-        it adds that door material template to the dictionary of mat temps.
-    If the product has a door style that isn't in the dict for that mat temp,
-        it adds that door style to a dictionary of styles in that mat temp.
-    Then it writes data from the dictionary of styles/mat temps to an Excel file
-        inside the directory it was told to run in.
-    It formats the cells as it goes and sets the print area the content inserted.
-    Finally, it opens the Excel file so the user can print.
+
     """
     dir_path_lst = dir_path.split('\\')
     job_name = dir_path_lst[-1]
 
-    temp_dict = {}
+    product_dict = {}
 
-    # temp_dict sample (need to finish updating to separated prod nums)
-    # temp_dict = {
-    #     "02 - PAN - Oxford White": {
-    #         "Slab Door - VG": [
-    #             ["Door(L)", 555.6, 720.7, 3, "C", 1],
-    #             ["Door(L)", 555.6, 720.7, 3, "C", 3],
-    #             ["Door(L)", 555.6, 720.7, 6, "C", 1],
-    #             ["Door(L)", 555.6, 720.7, 6, "C", 3],
-    #         ],
-    #         "Slab Dw - VG": [
-    #             ["Door(L)", 479.4, 281, "R3C2"],
-    #             ["Door(L)", 479.4, 281, "R6C2"],
-    #             ["Door(L)", 479.4, 280.9, "R3C2"],
-    #             ["Door(L)", 479.4, 280.9, "R6C2"],
-    #         ]
+    # product_dict sample
+    # product_dict = {
+    #     "Room1": {
+    #         "MatDoorTemplate": "02 - 5pc Painted - In House MDF (1)",
+    #         "Products": {
+    #             "C4": {
+    #                 "UniqueID": "3101352",
+    #                 "Name": "Base Sink",
+    #                 "MatOR": None,
+    #                 "Doors": [
+    #                     {
+    #                         "DoorStyle": "Shaker Door",
+    #                         "Name": "Door(L)",
+    #                         "ReportName": "Door(L)",
+    #                         "Comment": "Cabinet Door",
+    #                         "Quan": 1,
+    #                         "W": 454.0125,
+    #                         "H": 771.5,
+    #                         "HingeCenterLines": [101.6, 542.9],
+    #                         "HingeEdge": "Left",
+    #                         "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
+    #                         "Horizontal": False,
+    #                     },
+    #                     {
+    #                         "DoorStyle": "Shaker Door",
+    #                         "Name": "Door(R)",
+    #                         "ReportName": "Door(R)",
+    #                         "Comment": "Cabinet Door",
+    #                         "Quan": 1,
+    #                         "W": 454.0125,
+    #                         "H": 771.5,
+    #                         "HingeCenterLines": [101.6, 542.9],
+    #                         "HingeEdge": "Right",
+    #                         "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
+    #                         "Horizontal": False,
+    #                     },
+    #                 ]
+    #             },
+    #             "C6": {
+    #                 "UniqueID": "3101389",
+    #                 "Name": "Base Corner Left - Susan (L)",
+    #                 "MatOR": None,
+    #                 "Doors": [
+    #                     {
+    #                         "DoorStyle": "Shaker Door",
+    #                         "Name": "Door(L)",
+    #                         "ReportName": "Door(L)",
+    #                         "Comment": "Cabinet Door",
+    #                         "Quan": 1,
+    #                         "W": 454.0125,
+    #                         "H": 771.5,
+    #                         "HingeCenterLines": [101.6, 542.9],
+    #                         "HingeEdge": "Left",
+    #                         "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
+    #                         "Horizontal": False,
+    #                     },
+    #                     {
+    #                         "DoorStyle": "Shaker Door",
+    #                         "Name": "Door(L)",
+    #                         "ReportName": "Door(L)",
+    #                         "Comment": "Cabinet Door",
+    #                         "Quan": 1,
+    #                         "W": 454.0125,
+    #                         "H": 771.5,
+    #                         "HingeCenterLines": [101.6, 542.9],
+    #                         "HingeEdge": "Right",
+    #                         "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
+    #                         "Horizontal": False,
+    #                     },
+    #                 ]
+    #             },
+    #         },
     #     },
-    #     "02 - 5pc Painted - In House MDF (2)": {
-    #         "Shaker Door": [
-    #             ["Door(L)", 454, 771.5, "R1C3"],
-    #             ["Door(R)", 454, 771.5, "R1C3"],
-    #             ["Door(L)", 454, 771.5, "R4C5"],
-    #             ["Door(R)", 454, 771.5, "R4C5"]
-    #         ],
-    #         "Shaker DF Top": [
-    #             ["Drawer", 936.6, 152.4, "R1C2"],
-    #             ["Drawer", 936.6, 152.4, "R4C6"],
-    #         ],
-    #         "Shaker DF Mid/Bot": [
-    #             ["Drawer", 936.6, 306.4, "R1C2"],
-    #             ["Drawer", 936.6, 306.3, "R1C2"],
-    #             ["Drawer", 936.6, 306.4, "R4C6"],
-    #             ["Drawer", 936.6, 306.3, "R4C6"],
-    #         ]
-    #     },
-    #     "02 - PAN - Absolute Acajou": {
-    #         "Slab Door - VG": [
-    #             ["Door(L)", 555.6, 720.7, "R3C1"],
-    #             ["Door(L)", 555.6, 720.7, "R3C3"],
-    #             ["Door(L)", 555.6, 720.7, "R6C1"],
-    #             ["Door(L)", 555.6, 720.7, "R6C3"],
-    #         ],
-    #         "Slab Dw - VG": [
-    #             ["Door(L)", 479.4, 281, "R3C2"],
-    #             ["Door(L)", 479.4, 281, "R6C2"],
-    #             ["Door(L)", 479.4, 280.9, "R3C2"],
-    #             ["Door(L)", 479.4, 280.9, "R6C2"],
-    #         ]
-    #     }
     # }
+
     
     for root, dirs, files in os.walk(dir_path):
         
@@ -101,7 +116,8 @@ def door_list_report():
                 # declaring variables that are used in multiple scopes
                 numbered = ''
                 door_mat_or = ''
-                door_style = ''
+                door_style_base = ''
+                door_style_wall = ''
                 report_name = ''
                 width = 0
                 height = 0
@@ -318,4 +334,4 @@ def door_list_report():
 
     os.startfile(full_save_name)
     
-door_list_report()
+hinge_boring_report()
