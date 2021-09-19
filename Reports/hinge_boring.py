@@ -17,80 +17,80 @@ def hinge_boring_report():
 
     product_dict = {}
 
-    # product_dict sample
-    # product_dict = {
-    #     "Room1": {
-    #         "MatDoorTemplate": "02 - 5pc Painted - In House MDF (1)",
-    #         "Products": {
-    #             "C4": {
-    #                 "UniqueID": "3101352",
-    #                 "Name": "Base Sink",
-    #                 "MatOR": None,
-    #                 "Doors": [
-    #                     {
-    #                         "DoorStyle": "Shaker Door",
-    #                         "Name": "Door(L)",
-    #                         "ReportName": "Door(L)",
-    #                         "Comment": "Cabinet Door",
-    #                         "Quan": 1,
-    #                         "W": 454.0125,
-    #                         "H": 771.5,
-    #                         "HingeCenterLines": [101.6, 542.9],
-    #                         "HingeEdge": "Left",
-    #                         "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
-    #                         "Horizontal": False,
-    #                     },
-    #                     {
-    #                         "DoorStyle": "Shaker Door",
-    #                         "Name": "Door(R)",
-    #                         "ReportName": "Door(R)",
-    #                         "Comment": "Cabinet Door",
-    #                         "Quan": 1,
-    #                         "W": 454.0125,
-    #                         "H": 771.5,
-    #                         "HingeCenterLines": [101.6, 542.9],
-    #                         "HingeEdge": "Right",
-    #                         "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
-    #                         "Horizontal": False,
-    #                     },
-    #                 ]
-    #             },
-    #             "C6": {
-    #                 "UniqueID": "3101389",
-    #                 "Name": "Base Corner Left - Susan (L)",
-    #                 "MatOR": None,
-    #                 "Doors": [
-    #                     {
-    #                         "DoorStyle": "Shaker Door",
-    #                         "Name": "Door(L)",
-    #                         "ReportName": "Door(L)",
-    #                         "Comment": "Cabinet Door",
-    #                         "Quan": 1,
-    #                         "W": 454.0125,
-    #                         "H": 771.5,
-    #                         "HingeCenterLines": [101.6, 542.9],
-    #                         "HingeEdge": "Left",
-    #                         "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
-    #                         "Horizontal": False,
-    #                     },
-    #                     {
-    #                         "DoorStyle": "Shaker Door",
-    #                         "Name": "Door(L)",
-    #                         "ReportName": "Door(L)",
-    #                         "Comment": "Cabinet Door",
-    #                         "Quan": 1,
-    #                         "W": 454.0125,
-    #                         "H": 771.5,
-    #                         "HingeCenterLines": [101.6, 542.9],
-    #                         "HingeEdge": "Right",
-    #                         "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
-    #                         "Horizontal": False,
-    #                     },
-    #                 ]
-    #             },
-    #         },
-    #     },
-    # }
+# #    product_dict sample
+#     product_dict = {
+#         "Room1": {
+#             "MatDoorTemplate": "02 - 5pc Painted - In House MDF (1)",
+#             "Products": {
+#                 "C4": {
+#                     "UniqueID": "3101352",
+#                     "Name": "Base Sink",
+#                     "MatOR": None,
+#                     "Doors": [
+#                         {
+#                             "DoorStyle": "Shaker Door",
+#                             "Name": "Door(L)",
+#                             "ReportName": "Door(L)",
+#                             "Comment": "Cabinet Door",
+#                             "Quan": 1,
+#                             "W": 454.0125,
+#                             "H": 771.5,
+#                             "HingeCenterLines": [101.6, 542.9],
+#                             "HingeEdge": "Left",
+#                             "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
+#                             "Horizontal": False,
+#                         },
+#                         {
+#                             "DoorStyle": "Shaker Door",
+#                             "Name": "Door(R)",
+#                             "ReportName": "Door(R)",
+#                             "Comment": "Cabinet Door",
+#                             "Quan": 1,
+#                             "W": 454.0125,
+#                             "H": 771.5,
+#                             "HingeCenterLines": [101.6, 542.9],
+#                             "HingeEdge": "Right",
+#                             "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
+#                             "Horizontal": False,
+#                         },
+#                     ]
+#                 },
+#                 "C6": {
+#                     "UniqueID": "3101389",
+#                     "Name": "Base Corner Left - Susan (L)",
+#                     "MatOR": None,
+#                     "Doors": [
+#                         {
+#                             "DoorStyle": "Shaker Door",
+#                             "Name": "Door(L)",
+#                             "ReportName": "Door(L)",
+#                             "Comment": "Cabinet Door",
+#                             "Quan": 1,
+#                             "W": 454.0125,
+#                             "H": 771.5,
+#                             "HingeCenterLines": [101.6, 542.9],
+#                             "HingeEdge": "Left",
+#                             "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
+#                             "Horizontal": False,
+#                         },
+#                         {
+#                             "DoorStyle": "Shaker Door",
+#                             "Name": "Door(L)",
+#                             "ReportName": "Door(L)",
+#                             "Comment": "Cabinet Door",
+#                             "Quan": 1,
+#                             "W": 454.0125,
+#                             "H": 771.5,
+#                             "HingeCenterLines": [101.6, 542.9],
+#                             "HingeEdge": "Right",
+#                             "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
+#                             "Horizontal": False,
+#                         },
+#                     ]
+#                 },
+#             },
+#         },
+#     }
 
     
     for root, dirs, files in os.walk(dir_path):
@@ -108,99 +108,129 @@ def hinge_boring_report():
                 room_num = file[4:file.find('.')]
                 mat_temp_start_idx = content[4].find('MatDoorTemplate=') + 17
                 mat_temp_end_idx = content[4].find('" MatDrawerTemplate=')
-                room_mat_temp = content[4][mat_temp_start_idx:mat_temp_end_idx]
+                room_mat_door_template = content[4][mat_temp_start_idx:mat_temp_end_idx]
 
-                if room_mat_temp not in temp_dict:
-                    temp_dict[room_mat_temp] = {}
+                # add room to product list dictionary
+                product_dict[room_num] = {
+                    "MatDoorTemplate": room_mat_door_template,
+                    "Products": []
+                }
+
+                # set products var to current room's products list
+                products = product_dict[room_num]["Products"]
 
                 # declaring variables that are used in multiple scopes
-                numbered = ''
-                door_mat_or = ''
-                door_style_base = ''
-                door_style_wall = ''
-                report_name = ''
-                width = 0
-                height = 0
+                doors = None
 
-    
                 for line in content:
                     if line.startswith('    <Product '):
                         # product number
-                        num_start_idx = line.find('CabNo=') + 7
-                        num_end_idx = line.find(' Numbered=')
-                        prod_num = line[num_start_idx:num_end_idx - 1]
-                        is_numbered_start_idx = num_end_idx + 11
-                        is_numbered = line[is_numbered_start_idx:is_numbered_start_idx + 1]
-                        if is_numbered == 'T':
-                            numbered = 'C'
-                        else:
-                            numbered = 'N'
-                        # product material overrides
-                        # door mat
-                        mat_or_start_idx = line.find('MatDoorOR=') + 11
-                        mat_or_end_idx = line.find('" MatDrawerOR=')
-                        door_mat_or = line[mat_or_start_idx:mat_or_end_idx]
+                        start_idx = line.find('CabNo=') + 7
+                        end_idx = line.find('" Numbered=')
+                        prod_num = line[start_idx:end_idx]
+                        
+                        # product number prefix
+                        start_idx = end_idx + 12
+                        num_prefix = 'C' if line[start_idx:start_idx + 1] == 'T' else 'N'
+                        
+                        # unique id
+                        start_idx = line.find('UniqueID=') + 10
+                        end_idx = line.find('" OrderID=')
+                        unique_id = line[start_idx:end_idx]
 
+                        # product name
+                        start_idx = line.find('ProdName=') + 10
+                        end_idx = line.find('" IDTag=')
+                        prod_name = line[start_idx:end_idx]
+
+                        # door material override
+                        start_idx = line.find('MatDoorOR=') + 11
+                        end_idx = line.find('" MatDrawerOR=')
+                        door_mat_or = line[start_idx:end_idx] if line[start_idx:end_idx] != '' else None
+
+                        # add product to room's product list
+                        products[num_prefix + prod_num] = {
+                            "UniqueID": unique_id,
+                            "Name": prod_name,
+                            "MatOR": door_mat_or,
+                            "Doors": []
+                        }
+
+                        # set doors var to current product's door list
+                        doors = products[num_prefix + prod_num]["Doors"]
 
 
                     if line.startswith('        <ProductDoor '):
+                        door = {}
+
                         # door style
                         start_idx = line.find('DoorStyle=') + 11
                         end_idx = line.find('" W=')
                         door_style = line[start_idx:end_idx]
+
                         # width
                         start_idx = end_idx + 5
                         end_idx = line.find('" H=')
                         width = float(line[start_idx:end_idx])
+                        
                         # height
                         start_idx = end_idx + 5
                         end_idx = line.find('" Oversize=')
                         height = float(line[start_idx:end_idx])
 
-                    if line.startswith('          <DrawerFront '):
-                        # door style
-                        start_idx = line.find('DoorStyle=') + 11
-                        end_idx = line.find('" W=')
-                        door_style = line[start_idx:end_idx]
-                        # width
-                        start_idx = end_idx + 5
-                        end_idx = line.find('" H=')
-                        width = float(line[start_idx:end_idx])
-                        # height
-                        start_idx = end_idx + 5
-                        end_idx = line.find('" Oversize=')
-                        height = float(line[start_idx:end_idx])
-                        
+                        # hinge center lines
+                        start_idx = line.find('HingeCenterLines=') + 18
+                        end_idx = line.find('" HingeEdge=')
+                        hinge_centers = line[start_idx:end_idx].split('#')
+                        hinge_centers = [float(i) for i in hinge_centers]
+
+                        # hinge edge
+                        start_idx = end_idx + 13
+                        end_idx = line.find('" HingeType=')
+                        hinge_edge = line[start_idx:end_idx]
+
+                        # hinge type
+                        start_idx = end_idx + 13
+                        end_idx = line.find('" IsDrawerFront=')
+                        hinge_type = line[start_idx:end_idx]
+
+                        # horizontal grain?
+                        start_idx = line.find('IsHorizGrain=') + 14
+                        end_idx = line.find('" DoorType=')
+                        horizontal = line[start_idx:end_idx]
+                        horizontal = True if horizontal == 'True' else False
+
+
+                        # add to door dict
+                        door["DoorStyle"] = door_style
+                        door["W"] = width
+                        door["H"] = height
+                        door["HingeCenterLines"] = hinge_centers
+                        door["HingeEdge"] = hinge_edge
+                        door["HingeType"] = hinge_type
+                        door["IsHorizGrain"] = horizontal
+
+
+
                     if line.startswith('          <DoorProdPart ') or line.startswith('            <DoorProdPart '):
+                        # door name
+                        start_idx = line.find('Name=') + 6
+                        end_idx = line.find('" ReportName=')
+                        door_name = line[start_idx:end_idx]
+                        
+                        # report name
                         start_idx = line.find('ReportName=') + 12
                         end_idx = line.find('" UsageType=')
                         report_name = line[start_idx:end_idx]
 
-                        # append to dict
-                        if door_mat_or == '':
-                            if door_style in temp_dict[room_mat_temp]:
-                                temp_dict[room_mat_temp][door_style].append(
-                                    [report_name, width, height, room_num, numbered, prod_num]
-                                )
-                            else:
-                                temp_dict[room_mat_temp][door_style] = [
-                                    [report_name, width, height, room_num, numbered, prod_num]
-                                ]
-                        elif door_mat_or in temp_dict:
-                            if door_style in temp_dict[door_mat_or]:
-                                temp_dict[door_mat_or][door_style].append(
-                                    [report_name, width, height, room_num, numbered, prod_num]
-                                    )
-                            else:
-                                temp_dict[door_mat_or][door_style] = [
-                                    [report_name, width, height, room_num, numbered, prod_num]
-                                ]
-                        else:
-                            temp_dict[door_mat_or] = {
-                                door_style: [
-                                    [report_name, width, height, room_num, numbered, prod_num]
-                                ]
-                            }
+                        # comment
+
+                        # quantity
+
+                        # 
+
+                    
+
     
     for template in temp_dict:
         for door_style in temp_dict[template]:
