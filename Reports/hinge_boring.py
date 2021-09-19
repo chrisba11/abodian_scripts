@@ -288,9 +288,14 @@ def hinge_boring_report():
                 hinge_centers = _door["HingeCenterLines"]
                 num_hinges = len(hinge_centers)
                 bot_hinge_center = round(hinge_centers[0],1) if num_hinges > 0 else None
-                top_hinge_center = round(_door["H"] - hinge_centers[-1],1) if num_hinges > 1 else None
                 bot_mid_hinge_center = round(hinge_centers[1],1) if num_hinges > 2 else None
-                top_mid_hinge_center = round(_door["H"] - hinge_centers[-2],1) if num_hinges > 3 else None
+                if _door["HingeEdge"] == 'Left' or _door["HingeEdge"] == 'Right':
+                    top_hinge_center = round(_door["H"] - hinge_centers[-1],1) if num_hinges > 1 else None
+                    top_mid_hinge_center = round(_door["H"] - hinge_centers[-2],1) if num_hinges > 3 else None
+                else:
+                    top_hinge_center = round(_door["W"] - hinge_centers[-1],1) if num_hinges > 1 else None
+                    top_mid_hinge_center = round(_door["W"] - hinge_centers[-2],1) if num_hinges > 3 else None
+
 
                 # is the hinging standard or not
                 std_not = "S"
