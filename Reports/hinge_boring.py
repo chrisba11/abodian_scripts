@@ -1,4 +1,5 @@
 import os
+import pprint
 from openpyxl.workbook import Workbook
 from openpyxl.styles import Border, Side, Alignment, Font
 from openpyxl.worksheet.pagebreak import Break
@@ -113,7 +114,7 @@ def hinge_boring_report():
                 # add room to product list dictionary
                 product_dict[room_num] = {
                     "MatDoorTemplate": room_mat_door_template,
-                    "Products": []
+                    "Products": {}
                 }
 
                 # set products var to current room's products list
@@ -121,6 +122,7 @@ def hinge_boring_report():
 
                 # declaring variables that are used in multiple scopes
                 doors = None
+                door = None
 
                 for line in content:
                     if line.startswith('    <Product '):
@@ -182,7 +184,7 @@ def hinge_boring_report():
                         start_idx = line.find('HingeCenterLines=') + 18
                         end_idx = line.find('" HingeEdge=')
                         hinge_centers = line[start_idx:end_idx].split('#')
-                        hinge_centers = [float(i) for i in hinge_centers]
+                        hinge_centers = [float(i) for i in hinge_centers if i != '']
 
                         # hinge edge
                         start_idx = end_idx + 13
@@ -200,7 +202,6 @@ def hinge_boring_report():
                         horizontal = line[start_idx:end_idx]
                         horizontal = True if horizontal == 'True' else False
 
-
                         # add to door dict
                         door["DoorStyle"] = door_style
                         door["W"] = width
@@ -211,35 +212,50 @@ def hinge_boring_report():
                         door["IsHorizGrain"] = horizontal
 
 
-
-                    if line.startswith('          <DoorProdPart ') or line.startswith('            <DoorProdPart '):
+                    if line.startswith('          <DoorProdPart '):
                         # door name
                         start_idx = line.find('Name=') + 6
                         end_idx = line.find('" ReportName=')
                         door_name = line[start_idx:end_idx]
                         
                         # report name
-                        start_idx = line.find('ReportName=') + 12
+                        start_idx = end_idx + 14
                         end_idx = line.find('" UsageType=')
                         report_name = line[start_idx:end_idx]
 
                         # comment
+                        start_idx = line.find('Comment=') + 9
+                        end_idx = line.find('" CommentLocked=')
+                        comment = line[start_idx:end_idx]
 
                         # quantity
+                        start_idx = line.find('Quan=') + 6
+                        end_idx = line.find('" W=')
+                        quantity = line[start_idx:end_idx]
 
-                        # 
+                        # add to door dict
+                        door["Name"] = door_name
+                        door["ReportName"] = report_name
+                        door["Comment"] = comment
+                        door["Quan"] = quantity
+
+
+                    if line.startswith('        </ProductDoor>'):
+                        doors.append(door)
+
+
 
                     
 
     
-    for template in temp_dict:
-        for door_style in temp_dict[template]:
-            temp_dict[template][door_style].sort(key=lambda x: int(x[5]))
-            temp_dict[template][door_style].sort(key=lambda x: int(x[3]))
-            temp_dict[template][door_style].reverse()
-            temp_dict[template][door_style].sort(key=lambda x: x[2])
-            temp_dict[template][door_style].sort(key=lambda x: x[1])
-            temp_dict[template][door_style].reverse()
+    # for template in temp_dict:
+    #     for door_style in temp_dict[template]:
+    #         temp_dict[template][door_style].sort(key=lambda x: int(x[5]))
+    #         temp_dict[template][door_style].sort(key=lambda x: int(x[3]))
+    #         temp_dict[template][door_style].reverse()
+    #         temp_dict[template][door_style].sort(key=lambda x: x[2])
+    #         temp_dict[template][door_style].sort(key=lambda x: x[1])
+    #         temp_dict[template][door_style].reverse()
 
     # print('--------')        
     # for template in temp_dict:
@@ -252,116 +268,118 @@ def hinge_boring_report():
     # print('--------')
 
 
-    wb = Workbook()
-    sheet1 = wb.active
-    row = 1
-    col = 1
+    # wb = Workbook()
+    # sheet1 = wb.active
+    # row = 1
+    # col = 1
     
     
-    for template in temp_dict:
-        if temp_dict[template]:
+    # for template in temp_dict:
+    #     if temp_dict[template]:
 
-            sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 3)
-            sheet1.cell(row, col, job_name + ' - Door List')
-            sheet1.cell(row, col).alignment = Alignment(vertical='top')
-            sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
-            sheet1.row_dimensions[row].height = 40
-            row += 1
+    #         sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 3)
+    #         sheet1.cell(row, col, job_name + ' - Door List')
+    #         sheet1.cell(row, col).alignment = Alignment(vertical='top')
+    #         sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
+    #         sheet1.row_dimensions[row].height = 40
+    #         row += 1
 
-            sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 3)
-            sheet1.cell(row, col, template)
-            sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='left')
-            sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
-            row += 1
-            page_total = 0
+    #         sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 3)
+    #         sheet1.cell(row, col, template)
+    #         sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='left')
+    #         sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
+    #         row += 1
+    #         page_total = 0
 
-            for door_style in temp_dict[template]:
-                sheet1.cell(row, col, door_style)
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
-                sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                col += 1
-                sheet1.cell(row, col, "W")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', indent=1.0)
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)                
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                col += 1
-                sheet1.cell(row, col, "H")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', indent=1.0)
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)                
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                col += 1
-                sheet1.cell(row, col, "Cab #")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', indent=1.0)
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)                
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                row += 1
-                col -= 3
-                qty = 0
+    #         for door_style in temp_dict[template]:
+    #             sheet1.cell(row, col, door_style)
+    #             sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
+    #             sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
+    #             sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+    #             col += 1
+    #             sheet1.cell(row, col, "W")
+    #             sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', indent=1.0)
+    #             sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)                
+    #             sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+    #             col += 1
+    #             sheet1.cell(row, col, "H")
+    #             sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', indent=1.0)
+    #             sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)                
+    #             sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+    #             col += 1
+    #             sheet1.cell(row, col, "Cab #")
+    #             sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', indent=1.0)
+    #             sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)                
+    #             sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+    #             row += 1
+    #             col -= 3
+    #             qty = 0
 
-                for door in temp_dict[template][door_style]:
-                    sheet1.cell(row, col, door[0])
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=4.0)
-                    sheet1.cell(row, col).font = Font(size=11)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    sheet1.cell(row, col, round(door[1],1))
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=1.0)
-                    sheet1.cell(row, col).font = Font(size=11)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    sheet1.cell(row, col, round(door[2],1))
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=1.0)
-                    sheet1.cell(row, col).font = Font(size=11)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    sheet1.cell(row, col, 'R' + door[3] + door[4] + door[5])
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=1.0)
-                    sheet1.cell(row, col).font = Font(size=11)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col -= 3
-                    row += 1
-                    qty += 1
+    #             for door in temp_dict[template][door_style]:
+    #                 sheet1.cell(row, col, door[0])
+    #                 sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=4.0)
+    #                 sheet1.cell(row, col).font = Font(size=11)
+    #                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+    #                 col += 1
+    #                 sheet1.cell(row, col, round(door[1],1))
+    #                 sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=1.0)
+    #                 sheet1.cell(row, col).font = Font(size=11)
+    #                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+    #                 col += 1
+    #                 sheet1.cell(row, col, round(door[2],1))
+    #                 sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=1.0)
+    #                 sheet1.cell(row, col).font = Font(size=11)
+    #                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+    #                 col += 1
+    #                 sheet1.cell(row, col, 'R' + door[3] + door[4] + door[5])
+    #                 sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=1.0)
+    #                 sheet1.cell(row, col).font = Font(size=11)
+    #                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+    #                 col -= 3
+    #                 row += 1
+    #                 qty += 1
 
-                row -= 1
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 1).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 2).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 3).border = Border(bottom=Side(style='thin', color='000000'))
-                row += 1
-                sheet1.cell(row, col, "(" + str(qty) + ")")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=5.0)
-                sheet1.cell(row, col).font = Font(size=10, italic=True)
-                page_total += qty
-                row += 2
+    #             row -= 1
+    #             sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+    #             sheet1.cell(row, col + 1).border = Border(bottom=Side(style='thin', color='000000'))
+    #             sheet1.cell(row, col + 2).border = Border(bottom=Side(style='thin', color='000000'))
+    #             sheet1.cell(row, col + 3).border = Border(bottom=Side(style='thin', color='000000'))
+    #             row += 1
+    #             sheet1.cell(row, col, "(" + str(qty) + ")")
+    #             sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=5.0)
+    #             sheet1.cell(row, col).font = Font(size=10, italic=True)
+    #             page_total += qty
+    #             row += 2
 
-            sheet1.cell(row, col, "Material Qty: " + str(page_total))
-            sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=2.0)
-            sheet1.cell(row, col).font = Font(size=11, italic=True, bold=True)
-            page_break = Break(id=row)
-            sheet1.row_breaks.append(page_break)
-            row += 1
+    #         sheet1.cell(row, col, "Material Qty: " + str(page_total))
+    #         sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left', indent=2.0)
+    #         sheet1.cell(row, col).font = Font(size=11, italic=True, bold=True)
+    #         page_break = Break(id=row)
+    #         sheet1.row_breaks.append(page_break)
+    #         row += 1
 
 
-    sheet1.column_dimensions['A'].width = 30
-    sheet1.column_dimensions['B'].width = 10
-    sheet1.column_dimensions['C'].width = 20
-    sheet1.column_dimensions['D'].width = 28
+    # sheet1.column_dimensions['A'].width = 30
+    # sheet1.column_dimensions['B'].width = 10
+    # sheet1.column_dimensions['C'].width = 20
+    # sheet1.column_dimensions['D'].width = 28
 
-    sheet1.oddFooter.right.text = "Page &[Page] of &N"
-    sheet1.oddFooter.right.size = 9
-    sheet1.oddFooter.right.color = "000000"
+    # sheet1.oddFooter.right.text = "Page &[Page] of &N"
+    # sheet1.oddFooter.right.size = 9
+    # sheet1.oddFooter.right.color = "000000"
     
-    print_area = 'A1:D' + str(row - 1)
-    sheet1.print_area = print_area
+    # print_area = 'A1:D' + str(row - 1)
+    # sheet1.print_area = print_area
     
-    save_name = job_name + ' - Door List' + '.xlsx'
-    full_save_name = os.path.join(dir_path, save_name)
-    try:
-        wb.save(full_save_name)
-    except PermissionError:
-        print("\nSAVE FAILED\nYou will need to close the open file before it can be saved.")
+    # save_name = job_name + ' - Door List' + '.xlsx'
+    # full_save_name = os.path.join(dir_path, save_name)
+    # try:
+    #     wb.save(full_save_name)
+    # except PermissionError:
+    #     print("\nSAVE FAILED\nYou will need to close the open file before it can be saved.")
 
-    os.startfile(full_save_name)
+    # os.startfile(full_save_name)
+
+    pprint.pprint(product_dict)
     
 hinge_boring_report()
