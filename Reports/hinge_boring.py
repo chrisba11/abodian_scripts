@@ -237,7 +237,7 @@ def hinge_boring_report():
                         door["Name"] = door_name
                         door["ReportName"] = report_name
                         door["Comment"] = comment
-                        door["Quan"] = quantity
+                        door["Quan"] = int(quantity)
 
 
                     if line.startswith('        </ProductDoor>'):
@@ -307,17 +307,20 @@ def hinge_boring_report():
                     bot_hinge_center,
                     bot_mid_hinge_center,
                     top_mid_hinge_center,
-                    top_hinge_center,
-                    [cab_num]
+                    top_hinge_center
                 ]
 
+                # if door with matching details does not exist in the list, add it
+                # if a matching door does exist, add the cabinet number to the list of cab numbers
+                # and increment the corresponding quantity in the quantity list
                 if door_details not in door_list[0]:
                     door_list[0].append(door_details)
-                    door_list[1].append(_door["Quan"])
+                    door_list[1].append([_door["Quan"],[cab_num]])
                 else:
                     idx = door_list[0].index(door_details)
-                    door_list[0][idx][-1].append(cab_num)
-                    door_list[1][idx] += _door["Quan"]
+                    door_list[1][idx][0] += _door["Quan"]
+                    door_list[1][idx][1].append(cab_num)
+
 
                 
 
