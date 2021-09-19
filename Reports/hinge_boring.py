@@ -244,6 +244,83 @@ def hinge_boring_report():
                         doors.append(door)
 
 
+    sorted_product_dict = {}
+
+    std_hinge_dist = 101.6
+
+    for _room in product_dict:
+        __room = product_dict[_room]
+        mat = __room["MatDoorTemplate"]
+        
+        # if material does not exist in sorted product list, add it
+        if mat not in sorted_product_dict:
+            sorted_product_dict[mat] = {}
+
+        for _product in __room["Products"]:
+            __product = __room["Products"][_product]
+            cab_num = 'R' + _room + _product
+
+            # if product has material override
+            if __product["MatOR"] != None:
+                mat = __product["MatOR"]
+
+                # if material does not exist in sorted product list, add it
+                if mat not in sorted_product_dict:
+                    sorted_product_dict[mat] = {}
+            
+            for _door in __product["Doors"]:
+                mat_dict = sorted_product_dict[mat]
+                door_style = _door["DoorStyle"]
+                hinge_type = _door["HingeType"]
+
+                # if door style is not in material dict, add it
+                if door_style not in mat_dict:
+                    mat_dict[door_style] = {}
+
+                # if hinge type is not in door style dict, add it
+                if hinge_type not in mat_dict[door_style]:
+                    mat_dict[door_style][hinge_type] = [[],[]]
+                
+                # simplify access to door list for this door's hinge type
+                door_list = mat_dict[door_style][hinge_type]
+
+                # assign true hinge centers from top/bottom of door for up to 4 hinges
+                hinge_centers = _door["HingeCenterLines"]
+                num_hinges = len(hinge_centers)
+                bot_hinge_center = round(hinge_centers[0],1) if num_hinges > 0 else None
+                top_hinge_center = round(_door["H"] - hinge_centers[-1],1) if num_hinges > 1 else None
+                bot_mid_hinge_center = round(hinge_centers[1],1) if num_hinges > 2 else None
+                top_mid_hinge_center = round(_door["H"] - hinge_centers[-2],1) if num_hinges > 3 else None
+
+                # is the hinging standard or not
+                std_not = "S"
+                if bot_hinge_center != std_hinge_dist or top_hinge_center != std_hinge_dist:
+                    std_not = "N"
+                
+                door_details = [
+                    _door["Name"],
+                    _door["Comment"],
+                    _door["W"],
+                    _door["H"],
+                    std_not,
+                    _door["HingeEdge"],
+                    bot_hinge_center,
+                    bot_mid_hinge_center,
+                    top_mid_hinge_center,
+                    top_hinge_center,
+                    [cab_num]
+                ]
+
+                if door_details not in door_list[0]:
+                    door_list[0].append(door_details)
+                    door_list[1].append(_door["Quan"])
+                else:
+                    idx = door_list[0].index(door_details)
+                    door_list[0][idx][-1].append(cab_num)
+                    door_list[1][idx] += _door["Quan"]
+
+                
+
 
                     
 
@@ -381,5 +458,8 @@ def hinge_boring_report():
     # os.startfile(full_save_name)
 
     pprint.pprint(product_dict)
+    print()
+    pprint.pprint(sorted_product_dict)
+    
     
 hinge_boring_report()
