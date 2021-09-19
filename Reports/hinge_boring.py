@@ -7,6 +7,7 @@ from openpyxl.worksheet.pagebreak import Break
 
 # This is to ask for the directory path at the command prompt
 dir_path = input('What is the full directory path for the job? ')
+rooms_in_report = input('Which rooms should be included in this report? List the room integers only, separated by commas and no spaces. Include "0" if you want Order Entry included. If all rooms, type "all". ').lower()
 
 
 def hinge_boring_report():
@@ -39,7 +40,7 @@ def hinge_boring_report():
 #                             "HingeCenterLines": [101.6, 542.9],
 #                             "HingeEdge": "Left",
 #                             "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
-#                             "Horizontal": False,
+#                             "IsHorizGrain": False,
 #                         },
 #                         {
 #                             "DoorStyle": "Shaker Door",
@@ -52,7 +53,7 @@ def hinge_boring_report():
 #                             "HingeCenterLines": [101.6, 542.9],
 #                             "HingeEdge": "Right",
 #                             "HingeType": "DTC C-80 110 / 2mm - 105-C80A675NF",
-#                             "Horizontal": False,
+#                             "IsHorizGrain": False,
 #                         },
 #                     ]
 #                 },
@@ -107,6 +108,9 @@ def hinge_boring_report():
 
                 # room settings
                 room_num = file[4:file.find('.')]
+                # only record rooms requested for this report
+                if room_num not in rooms_in_report and 'all' not in rooms_in_report:
+                    continue
                 mat_temp_start_idx = content[4].find('MatDoorTemplate=') + 17
                 mat_temp_end_idx = content[4].find('" MatDrawerTemplate=')
                 room_mat_door_template = content[4][mat_temp_start_idx:mat_temp_end_idx]
@@ -326,21 +330,32 @@ def hinge_boring_report():
                     door_list[1][idx][0] += _door["Quan"]
                     door_list[1][idx][1].append(cab_num)
 
+    # materials = []
+    # door_styles = []
+    # hinge_types = []
 
-                
+    # for _material in sorted_product_dict:
+    #     __material = sorted_product_dict[_material]
+        
+    #     for _style in __material["DoorStyle"]:
+    #         __product = __room["Products"][_product]
+
+    #         for _door in __product["Doors"]:
+    #             mat_dict = sorted_product_dict[mat]
+
 
 
                     
 
     
-    # for template in temp_dict:
-    #     for door_style in temp_dict[template]:
-    #         temp_dict[template][door_style].sort(key=lambda x: int(x[5]))
-    #         temp_dict[template][door_style].sort(key=lambda x: int(x[3]))
-    #         temp_dict[template][door_style].reverse()
-    #         temp_dict[template][door_style].sort(key=lambda x: x[2])
-    #         temp_dict[template][door_style].sort(key=lambda x: x[1])
-    #         temp_dict[template][door_style].reverse()
+    # for template in sorted_product_dict:
+    #     for door_style in sorted_product_dict[template]:
+    #         sorted_product_dict[template][door_style].sort(key=lambda x: int(x[5]))
+    #         sorted_product_dict[template][door_style].sort(key=lambda x: int(x[3]))
+    #         sorted_product_dict[template][door_style].reverse()
+    #         sorted_product_dict[template][door_style].sort(key=lambda x: x[2])
+    #         sorted_product_dict[template][door_style].sort(key=lambda x: x[1])
+    #         sorted_product_dict[template][door_style].reverse()
 
     # print('--------')        
     # for template in temp_dict:
@@ -466,8 +481,8 @@ def hinge_boring_report():
     # os.startfile(full_save_name)
 
     pprint.pprint(product_dict)
-    print()
-    pprint.pprint(sorted_product_dict)
+    # print()
+    # pprint.pprint(sorted_product_dict)
     
     
 hinge_boring_report()
