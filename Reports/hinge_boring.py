@@ -654,3 +654,6 @@ def hinge_boring_report():
 
     
 hinge_boring_report()
+
+
+input("Press Enter to Close")
