@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RunRecords>
+  <CNCOperatorExportRunRecord Timestamp="1629394680.96" RunName="BSaw Labels - 8.19.21">
+    <Material Name="MDF 3/4 BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1629395245.891" RunName="SRF1, ADU1 - 8.19.21">
+    <Material Name="CM Birch PF 5/8 [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+      <Pattern Name="Pattern #15" />
+      <Pattern Name="Pattern #16" />
+      <Pattern Name="Pattern #17" />
+    </Material>
+    <Material Name="CM Birch PF 5/8 [Paint-Matched PVC Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+      <Pattern Name="Pattern #15" />
+      <Pattern Name="Pattern #16" />
+      <Pattern Name="Pattern #17" />
+      <Pattern Name="Pattern #18" />
+      <Pattern Name="Pattern #19" />
+      <Pattern Name="Pattern #20" />
+      <Pattern Name="Pattern #21" />
+      <Pattern Name="Pattern #22" />
+    </Material>
+    <Material Name="MDF 3/4">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1629395838.05687" RunName="SFR2, ADU2 - 8.19.21">
+    <Material Name="CM Birch PF 5/8 [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+      <Pattern Name="Pattern #15" />
+      <Pattern Name="Pattern #16" />
+      <Pattern Name="Pattern #17" />
+    </Material>
+    <Material Name="CM Birch PF 5/8 [Paint-Matched PVC Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+      <Pattern Name="Pattern #15" />
+      <Pattern Name="Pattern #16" />
+      <Pattern Name="Pattern #17" />
+      <Pattern Name="Pattern #18" />
+      <Pattern Name="Pattern #19" />
+      <Pattern Name="Pattern #20" />
+      <Pattern Name="Pattern #21" />
+      <Pattern Name="Pattern #22" />
+    </Material>
+    <Material Name="MDF 3/4">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+</RunRecords>

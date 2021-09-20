@@ -1,0 +1,967 @@
+4
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<OptimizeMaterial Name="Raw Toe Material 5/8" Thickness="16.2" Width="1219.2" Length="2438.4" HasGrain="False" WidthTrim="11.99896" LengthTrim="11.99896" FeedRate="100" Comment="" CustomerName="" Timestamp="1629394749.58556" OptParamSpeed="2" OptParamMachineName="Panel Saw" OptParamSeqByCabN="False" OptParamSeqFlipsideFirst="False" OptParamRemnantUsagePolicy="0" ToolsetName="Axon Standard" IsLegacy="False" BatchRevisionNumber="0">
+  <OptimizePart PartID="1" PartNumbers="1" Quan="1" Name="Back Toe" Width="114.3" Length="882.8" EdgeBand="None" Color="None" AssyNo="R1C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="882.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="882.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="2" PartNumbers="2" Quan="1" Name="Front Toe" Width="114.3" Length="882.8" EdgeBand="None" Color="None" AssyNo="R1C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="882.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="882.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="3" PartNumbers="3" Quan="1" Name="Back Toe" Width="114.3" Length="330.35" EdgeBand="None" Color="None" AssyNo="R1C5" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="330.35" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="330.35" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="4" PartNumbers="4" Quan="1" Name="Front Toe" Width="114.3" Length="330.35" EdgeBand="None" Color="None" AssyNo="R1C5" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="330.35" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="330.35" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="5" PartNumbers="5" Quan="1" Name="Back Toe" Width="114.3" Length="654.2" EdgeBand="None" Color="None" AssyNo="R1C6" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="654.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="654.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="6" PartNumbers="6" Quan="1" Name="Front Toe" Width="114.3" Length="654.2" EdgeBand="None" Color="None" AssyNo="R1C6" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="654.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="654.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="7" PartNumbers="7" Quan="1" Name="Back Toe" Width="114.3" Length="425.6" EdgeBand="None" Color="None" AssyNo="R1C11" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="425.6" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="425.6" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="8" PartNumbers="8" Quan="1" Name="Front Toe" Width="114.3" Length="425.6" EdgeBand="None" Color="None" AssyNo="R1C11" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="425.6" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="425.6" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="9" PartNumbers="9" Quan="1" Name="Back Toe" Width="114.3" Length="578" EdgeBand="None" Color="None" AssyNo="R1C12" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="578" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="578" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="10" PartNumbers="10" Quan="1" Name="Front Toe" Width="114.3" Length="578" EdgeBand="None" Color="None" AssyNo="R1C12" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="578" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="578" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="11" PartNumbers="11" Quan="1" Name="Left Stretcher" Width="101.6" Length="501" EdgeBand="None" Color="None" AssyNo="R1N7" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="12" PartNumbers="12" Quan="1" Name="Right Stretcher" Width="101.6" Length="501" EdgeBand="None" Color="None" AssyNo="R1N7" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="13" PartNumbers="13" Quan="1" Name="Sleeper" Width="114.3" Length="501" EdgeBand="None" Color="None" AssyNo="R1N7" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="501" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="14" PartNumbers="14" Quan="1" Name="Sleeper" Width="114.3" Length="501" EdgeBand="None" Color="None" AssyNo="R1N7" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="501" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="15" PartNumbers="15" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R1N7" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="16" PartNumbers="16" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R1N7" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="17" PartNumbers="17" Quan="1" Name="Back Toe" Width="114.3" Length="805.8" EdgeBand="None" Color="None" AssyNo="R1N7" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="805.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="805.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="18" PartNumbers="18" Quan="1" Name="Front Toe" Width="114.3" Length="838.2" EdgeBand="None" Color="None" AssyNo="R1N7" Comment="Front Toe" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="838.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="838.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="19" PartNumbers="19" Quan="1" Name="Left Stretcher" Width="101.6" Length="501" EdgeBand="None" Color="None" AssyNo="R1N13" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="20" PartNumbers="20" Quan="1" Name="Right Stretcher" Width="101.6" Length="501" EdgeBand="None" Color="None" AssyNo="R1N13" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="21" PartNumbers="21" Quan="1" Name="Back Toe" Width="114.3" Length="272.4" EdgeBand="None" Color="None" AssyNo="R1N13" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="272.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="272.4" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="22" PartNumbers="22" Quan="1" Name="Front Toe" Width="114.3" Length="304.8" EdgeBand="None" Color="None" AssyNo="R1N13" Comment="Front Toe" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="304.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="304.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="23" PartNumbers="23" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R1N13" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="24" PartNumbers="24" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R1N13" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="25" PartNumbers="25" Quan="1" Name="Back Toe" Width="114.3" Length="1035.2" EdgeBand="None" Color="None" AssyNo="R2C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="1035.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="1035.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="26" PartNumbers="26" Quan="1" Name="Front Toe" Width="114.3" Length="1035.2" EdgeBand="None" Color="None" AssyNo="R2C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="1035.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="1035.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="27" PartNumbers="27" Quan="1" Name="Back Toe" Width="114.3" Length="578" EdgeBand="None" Color="None" AssyNo="R6C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="578" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="578" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="28" PartNumbers="28" Quan="1" Name="Front Toe" Width="114.3" Length="578" EdgeBand="None" Color="None" AssyNo="R6C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="578" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="578" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="29" PartNumbers="29" Quan="1" Name="Back Toe" Width="114.3" Length="425.6" EdgeBand="None" Color="None" AssyNo="R6C2" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="425.6" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="425.6" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="30" PartNumbers="30" Quan="1" Name="Front Toe" Width="114.3" Length="425.6" EdgeBand="None" Color="None" AssyNo="R6C2" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="425.6" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="425.6" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="31" PartNumbers="31" Quan="1" Name="Back Toe" Width="114.3" Length="654.2" EdgeBand="None" Color="None" AssyNo="R6C4" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="654.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="654.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="32" PartNumbers="32" Quan="1" Name="Front Toe" Width="114.3" Length="654.2" EdgeBand="None" Color="None" AssyNo="R6C4" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="654.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="654.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="33" PartNumbers="33" Quan="1" Name="Back Toe" Width="114.3" Length="330.3502" EdgeBand="None" Color="None" AssyNo="R6C5" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="330.3502" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="330.3502" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="34" PartNumbers="34" Quan="1" Name="Front Toe" Width="114.3" Length="330.3502" EdgeBand="None" Color="None" AssyNo="R6C5" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="330.3502" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="330.3502" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="35" PartNumbers="35" Quan="1" Name="Back Toe" Width="114.3" Length="882.8" EdgeBand="None" Color="None" AssyNo="R6C10" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="882.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="882.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="36" PartNumbers="36" Quan="1" Name="Front Toe" Width="114.3" Length="882.8" EdgeBand="None" Color="None" AssyNo="R6C10" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="882.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="882.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="37" PartNumbers="37" Quan="1" Name="Left Stretcher" Width="101.6" Length="501" EdgeBand="0-1,0,0,0" Color="None" AssyNo="R6N11" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="38" PartNumbers="38" Quan="1" Name="Right Stretcher" Width="101.6" Length="501" EdgeBand="0-1,0,0,0" Color="None" AssyNo="R6N11" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="39" PartNumbers="39" Quan="1" Name="Sleeper" Width="114.3" Length="501" EdgeBand="None" Color="None" AssyNo="R6N11" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="501" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="40" PartNumbers="40" Quan="1" Name="Sleeper" Width="114.3" Length="501" EdgeBand="None" Color="None" AssyNo="R6N11" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="501" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="41" PartNumbers="41" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R6N11" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="42" PartNumbers="42" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R6N11" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="43" PartNumbers="43" Quan="1" Name="Back Toe" Width="114.3" Length="805.8" EdgeBand="None" Color="None" AssyNo="R6N11" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="805.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="805.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="44" PartNumbers="44" Quan="1" Name="Front Toe" Width="114.3" Length="838.2" EdgeBand="None" Color="None" AssyNo="R6N11" Comment="Front Toe" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="838.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="838.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="45" PartNumbers="45" Quan="1" Name="Left Stretcher" Width="101.6" Length="501" EdgeBand="0-1,0,0,0" Color="None" AssyNo="R6N16" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="46" PartNumbers="46" Quan="1" Name="Right Stretcher" Width="101.6" Length="501" EdgeBand="0-1,0,0,0" Color="None" AssyNo="R6N16" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="47" PartNumbers="47" Quan="1" Name="Back Toe" Width="114.3" Length="272.4" EdgeBand="None" Color="None" AssyNo="R6N16" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="272.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="272.4" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="48" PartNumbers="48" Quan="1" Name="Front Toe" Width="114.3" Length="304.8" EdgeBand="None" Color="None" AssyNo="R6N16" Comment="Front Toe" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="304.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="304.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="49" PartNumbers="49" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R6N16" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="50" PartNumbers="50" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R6N16" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="51" PartNumbers="51" Quan="1" Name="Back Toe" Width="114.3" Length="1035.2" EdgeBand="None" Color="None" AssyNo="R7C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="1035.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="1035.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="52" PartNumbers="52" Quan="1" Name="Front Toe" Width="114.3" Length="1035.2" EdgeBand="None" Color="None" AssyNo="R7C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="1035.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="1035.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="53" PartNumbers="53" Quan="1" Name="Back Toe" Width="114.3" Length="882.8" EdgeBand="None" Color="None" AssyNo="R11C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="882.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="882.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="54" PartNumbers="54" Quan="1" Name="Front Toe" Width="114.3" Length="882.8" EdgeBand="None" Color="None" AssyNo="R11C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="882.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="882.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="55" PartNumbers="55" Quan="1" Name="Back Toe" Width="114.3" Length="330.35" EdgeBand="None" Color="None" AssyNo="R11C7" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="330.35" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="330.35" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="56" PartNumbers="56" Quan="1" Name="Front Toe" Width="114.3" Length="330.35" EdgeBand="None" Color="None" AssyNo="R11C7" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="330.35" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="330.35" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="57" PartNumbers="57" Quan="1" Name="Back Toe" Width="114.3" Length="654.2" EdgeBand="None" Color="None" AssyNo="R11C8" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="654.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="654.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="58" PartNumbers="58" Quan="1" Name="Front Toe" Width="114.3" Length="654.2" EdgeBand="None" Color="None" AssyNo="R11C8" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="654.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="654.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="59" PartNumbers="59" Quan="1" Name="Back Toe" Width="114.3" Length="425.6" EdgeBand="None" Color="None" AssyNo="R11C13" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="425.6" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="425.6" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="60" PartNumbers="60" Quan="1" Name="Front Toe" Width="114.3" Length="425.6" EdgeBand="None" Color="None" AssyNo="R11C13" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="425.6" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="425.6" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="61" PartNumbers="61" Quan="1" Name="Back Toe" Width="114.3" Length="578" EdgeBand="None" Color="None" AssyNo="R11C14" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="578" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="578" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="62" PartNumbers="62" Quan="1" Name="Front Toe" Width="114.3" Length="578" EdgeBand="None" Color="None" AssyNo="R11C14" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="578" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="578" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="63" PartNumbers="63" Quan="1" Name="Left Stretcher" Width="101.6" Length="501" EdgeBand="0-1,0,0,0" Color="None" AssyNo="R11N7" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="64" PartNumbers="64" Quan="1" Name="Right Stretcher" Width="101.6" Length="501" EdgeBand="0-1,0,0,0" Color="None" AssyNo="R11N7" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="65" PartNumbers="65" Quan="1" Name="Sleeper" Width="114.3" Length="501" EdgeBand="None" Color="None" AssyNo="R11N7" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="501" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="66" PartNumbers="66" Quan="1" Name="Sleeper" Width="114.3" Length="501" EdgeBand="None" Color="None" AssyNo="R11N7" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="501" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="67" PartNumbers="67" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R11N7" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="68" PartNumbers="68" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R11N7" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="69" PartNumbers="69" Quan="1" Name="Back Toe" Width="114.3" Length="805.8" EdgeBand="None" Color="None" AssyNo="R11N7" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="805.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="805.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="70" PartNumbers="70" Quan="1" Name="Front Toe" Width="114.3" Length="838.2" EdgeBand="None" Color="None" AssyNo="R11N7" Comment="Front Toe" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="838.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="838.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="71" PartNumbers="71" Quan="1" Name="Left Stretcher" Width="101.6" Length="501" EdgeBand="0-1,0,0,0" Color="None" AssyNo="R11N13" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="72" PartNumbers="72" Quan="1" Name="Right Stretcher" Width="101.6" Length="501" EdgeBand="0-1,0,0,0" Color="None" AssyNo="R11N13" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="73" PartNumbers="73" Quan="1" Name="Back Toe" Width="114.3" Length="272.4" EdgeBand="None" Color="None" AssyNo="R11N13" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="272.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="272.4" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="74" PartNumbers="74" Quan="1" Name="Front Toe" Width="114.3" Length="304.8" EdgeBand="None" Color="None" AssyNo="R11N13" Comment="Front Toe" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="304.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="304.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="75" PartNumbers="75" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R11N13" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="76" PartNumbers="76" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R11N13" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="77" PartNumbers="77" Quan="1" Name="Back Toe" Width="114.3" Length="908.2" EdgeBand="None" Color="None" AssyNo="R12C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="908.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="908.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="78" PartNumbers="78" Quan="1" Name="Front Toe" Width="114.3" Length="908.2" EdgeBand="None" Color="None" AssyNo="R12C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="908.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="908.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="79" PartNumbers="79" Quan="1" Name="Back Toe" Width="114.3" Length="330.3502" EdgeBand="None" Color="None" AssyNo="R16C5" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="330.3502" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="330.3502" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="80" PartNumbers="80" Quan="1" Name="Front Toe" Width="114.3" Length="330.3502" EdgeBand="None" Color="None" AssyNo="R16C5" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="330.3502" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="330.3502" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="81" PartNumbers="81" Quan="1" Name="Back Toe" Width="114.3" Length="654.2" EdgeBand="None" Color="None" AssyNo="R16C4" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="654.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="654.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="82" PartNumbers="82" Quan="1" Name="Front Toe" Width="114.3" Length="654.2" EdgeBand="None" Color="None" AssyNo="R16C4" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="654.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="654.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="83" PartNumbers="83" Quan="1" Name="Back Toe" Width="114.3" Length="882.8" EdgeBand="None" Color="None" AssyNo="R16C10" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="882.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="882.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="84" PartNumbers="84" Quan="1" Name="Front Toe" Width="114.3" Length="882.8" EdgeBand="None" Color="None" AssyNo="R16C10" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="882.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="882.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="85" PartNumbers="85" Quan="1" Name="Back Toe" Width="114.3" Length="578.0001" EdgeBand="None" Color="None" AssyNo="R16C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="578.0001" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="578.0001" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="86" PartNumbers="86" Quan="1" Name="Front Toe" Width="114.3" Length="578.0001" EdgeBand="None" Color="None" AssyNo="R16C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="578.0001" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="578.0001" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="87" PartNumbers="87" Quan="1" Name="Back Toe" Width="114.3" Length="425.6" EdgeBand="None" Color="None" AssyNo="R16C2" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="425.6" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="425.6" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="88" PartNumbers="88" Quan="1" Name="Front Toe" Width="114.3" Length="425.6" EdgeBand="None" Color="None" AssyNo="R16C2" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="425.6" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="425.6" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="89" PartNumbers="89" Quan="1" Name="Left Stretcher" Width="101.6" Length="501" EdgeBand="0-1,0,0,0" Color="None" AssyNo="R16N12" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="90" PartNumbers="90" Quan="1" Name="Right Stretcher" Width="101.6" Length="501" EdgeBand="0-1,0,0,0" Color="None" AssyNo="R16N12" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="91" PartNumbers="91" Quan="1" Name="Sleeper" Width="114.3" Length="501" EdgeBand="None" Color="None" AssyNo="R16N12" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="501" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="92" PartNumbers="92" Quan="1" Name="Sleeper" Width="114.3" Length="501" EdgeBand="None" Color="None" AssyNo="R16N12" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="501" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="93" PartNumbers="93" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R16N12" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="94" PartNumbers="94" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R16N12" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="95" PartNumbers="95" Quan="1" Name="Back Toe" Width="114.3" Length="805.8" EdgeBand="None" Color="None" AssyNo="R16N12" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="805.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="805.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="96" PartNumbers="96" Quan="1" Name="Front Toe" Width="114.3" Length="838.2" EdgeBand="None" Color="None" AssyNo="R16N12" Comment="Front Toe" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="838.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="838.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="97" PartNumbers="97" Quan="1" Name="Left Stretcher" Width="101.6" Length="501" EdgeBand="0-1,0,0,0" Color="None" AssyNo="R16N17" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="98" PartNumbers="98" Quan="1" Name="Right Stretcher" Width="101.6" Length="501" EdgeBand="0-1,0,0,0" Color="None" AssyNo="R16N17" Comment="Horizontal Stretchers" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="501" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="2" X="501" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="101.6" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="99" PartNumbers="99" Quan="1" Name="Back Toe" Width="114.3" Length="272.4" EdgeBand="None" Color="None" AssyNo="R16N17" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="272.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="2" X="272.4" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="100" PartNumbers="100" Quan="1" Name="Front Toe" Width="114.3" Length="304.8" EdgeBand="None" Color="None" AssyNo="R16N17" Comment="Front Toe" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="304.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="304.8" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="101" PartNumbers="101" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R16N17" Comment="Center Toe braces running front to back" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="02 - CM - Birch PF">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="102" PartNumbers="102" Quan="1" Name="Side Toe" Width="114.3" Length="517.2" EdgeBand="None" Color="None" AssyNo="R16N17" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="None" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="517.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="517.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="103" PartNumbers="103" Quan="1" Name="Back Toe" Width="114.3" Length="1035.2" EdgeBand="None" Color="None" AssyNo="R17C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="1035.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="1035.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="104" PartNumbers="104" Quan="1" Name="Front Toe" Width="114.3" Length="1035.2" EdgeBand="None" Color="None" AssyNo="R17C1" Comment="Structural Toe parts" UserAdded="False" RemakeJobName="" BandTempName="02 - 5pc Paint Matched PVC - PC" TextureName="BM Classic Gray - 1548">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="1" X="1035.2" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="2" X="1035.2" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizeSheet Width="1219.2" Length="2438.4" Rotation="0" Quan="1" Flipped="False" HasBeenCut="False" ExportedToCNCOperator="True" PatternNumber="1" PatternNumberSuffix="">
+    <OptimizePartLocation PartID="28" PartNumber="28" X="12" Y="35.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="27" PartNumber="27" X="12" Y="152.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="6" PartNumber="6" X="12" Y="270.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="5" PartNumber="5" X="12" Y="387.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="82" PartNumber="82" X="12" Y="505.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="81" PartNumber="81" X="12" Y="622.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="62" PartNumber="62" X="669.4" Y="35.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="61" PartNumber="61" X="669.4" Y="152.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="95" PartNumber="95" X="669.4" Y="270.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="58" PartNumber="58" X="12" Y="740.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="69" PartNumber="69" X="669.4" Y="387.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="17" PartNumber="17" X="669.4" Y="505.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="57" PartNumber="57" X="12" Y="857.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="43" PartNumber="43" X="669.4" Y="622.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="32" PartNumber="32" X="12" Y="975.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="96" PartNumber="96" X="669.4" Y="740.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="70" PartNumber="70" X="669.4" Y="857.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="31" PartNumber="31" X="12" Y="1092.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="44" PartNumber="44" X="669.4" Y="975.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="18" PartNumber="18" X="669.4" Y="1092.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="84" PartNumber="84" X="1510.8" Y="35.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="83" PartNumber="83" X="1510.8" Y="152.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="54" PartNumber="54" X="1510.8" Y="270.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="53" PartNumber="53" X="1510.8" Y="387.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="36" PartNumber="36" X="1510.8" Y="505.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="35" PartNumber="35" X="1510.8" Y="622.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="2" PartNumber="2" X="1510.8" Y="740.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="1" PartNumber="1" X="1510.8" Y="857.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="78" PartNumber="78" X="1510.8" Y="975.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="77" PartNumber="77" X="1510.8" Y="1092.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+  </OptimizeSheet>
+  <OptimizeSheet Width="1219.2" Length="2438.4" Rotation="0" Quan="1" Flipped="False" HasBeenCut="False" ExportedToCNCOperator="True" PatternNumber="2" PatternNumberSuffix="">
+    <OptimizePartLocation PartID="15" PartNumber="15" X="12" Y="35.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="76" PartNumber="76" X="12" Y="152.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="75" PartNumber="75" X="12" Y="270.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="23" PartNumber="23" X="12" Y="387.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="68" PartNumber="68" X="12" Y="505.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="46" PartNumber="46" X="532.4" Y="60.8" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="45" PartNumber="45" X="532.4" Y="165.6" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="40" PartNumber="40" X="532.4" Y="270.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="67" PartNumber="67" X="12" Y="622.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="39" PartNumber="39" X="532.4" Y="387.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="14" PartNumber="14" X="532.4" Y="505.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="50" PartNumber="50" X="12" Y="740.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="13" PartNumber="13" X="532.4" Y="622.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="49" PartNumber="49" X="12" Y="857.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="92" PartNumber="92" X="532.4" Y="740.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="42" PartNumber="42" X="12" Y="975.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="91" PartNumber="91" X="532.4" Y="857.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="37" PartNumber="37" X="1036.6" Y="86.2" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="72" PartNumber="72" X="1036.6" Y="191" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="71" PartNumber="71" X="1036.6" Y="295.8" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="41" PartNumber="41" X="12" Y="1092.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="66" PartNumber="66" X="532.4" Y="975.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="19" PartNumber="19" X="1036.6" Y="400.6" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="102" PartNumber="102" X="1036.6" Y="505.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="101" PartNumber="101" X="1036.6" Y="622.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="65" PartNumber="65" X="532.4" Y="1092.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="24" PartNumber="24" X="1036.6" Y="740.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="94" PartNumber="94" X="1036.6" Y="857.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="93" PartNumber="93" X="1036.6" Y="975.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="16" PartNumber="16" X="1036.6" Y="1092.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="25" PartNumber="25" X="1557" Y="172" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="26" PartNumber="26" X="1674.5" Y="172" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="51" PartNumber="51" X="1792" Y="172" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="52" PartNumber="52" X="1909.5" Y="172" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="103" PartNumber="103" X="2027" Y="172" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="104" PartNumber="104" X="2144.5" Y="172" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="22" PartNumber="22" X="2262" Y="13.2" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="74" PartNumber="74" X="2262" Y="321.2" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="85" PartNumber="85" X="2262" Y="629.2" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+  </OptimizeSheet>
+  <OptimizeSheet Width="1219.2" Length="2438.4" Rotation="0" Quan="1" Flipped="False" HasBeenCut="False" ExportedToCNCOperator="True" PatternNumber="3" PatternNumberSuffix="">
+    <OptimizePartLocation PartID="98" PartNumber="98" X="12" Y="19.5" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="97" PartNumber="97" X="12" Y="124.3" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="20" PartNumber="20" X="12" Y="229.1" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="12" PartNumber="12" X="12" Y="333.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="11" PartNumber="11" X="12" Y="438.7" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="90" PartNumber="90" X="12" Y="543.5" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="8" PartNumber="8" X="593.2" Y="60.8" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="7" PartNumber="7" X="593.2" Y="178.3" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="89" PartNumber="89" X="12" Y="648.3" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="60" PartNumber="60" X="593.2" Y="295.8" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="59" PartNumber="59" X="593.2" Y="413.3" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="38" PartNumber="38" X="12" Y="753.1" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="88" PartNumber="88" X="593.2" Y="530.8" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="86" PartNumber="86" X="12" Y="857.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="87" PartNumber="87" X="593.2" Y="648.3" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="30" PartNumber="30" X="593.2" Y="765.8" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="10" PartNumber="10" X="12" Y="975.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="29" PartNumber="29" X="593.2" Y="883.3" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="9" PartNumber="9" X="12" Y="1092.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="48" PartNumber="48" X="1097.4" Y="35.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="100" PartNumber="100" X="1097.4" Y="152.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="80" PartNumber="80" X="1097.4" Y="270.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="64" PartNumber="64" X="593.2" Y="1000.8" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="79" PartNumber="79" X="1097.4" Y="387.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="56" PartNumber="56" X="1097.4" Y="505.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="63" PartNumber="63" X="593.2" Y="1105.6" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="55" PartNumber="55" X="1097.4" Y="622.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="3" PartNumber="3" X="1097.4" Y="740.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="4" PartNumber="4" X="1097.4" Y="857.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="34" PartNumber="34" X="1097.4" Y="975.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="33" PartNumber="33" X="1097.4" Y="1092.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="99" PartNumber="99" X="1431" Y="740.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="47" PartNumber="47" X="1431" Y="857.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="21" PartNumber="21" X="1431" Y="975.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="73" PartNumber="73" X="1431" Y="1092.9" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+  </OptimizeSheet>
+  <RoomInfo Number="0" Name="Order Entry" WallCabString="" BaseCabString="R0N1,R0N2,R0N3,R0N4,R0N5,R0N6,R0N7,R0N8,R0N9,R0N10,R0N11,R0N12,R0N13,R0N14" CabNames="R0N1,Internal Duct Cover - SFR1|R0N2,(4) Sheets of Birch PF Cover Caps - SFR1|R0N3,(2) Ledger Boards - SFR1|R0N4,Internal Duct Cover - ADU1|R0N5,(4) Sheets of Birch PF Cover Caps - ADU1|R0N6,(2) Ledger Boards - ADU1|R0N7,(1) Floating Shelf Cleat - ADU1|R0N8,Internal Duct Cover - SFR2|R0N9,(4) Sheets of Birch PF Cover Caps - SFR2|R0N10,(2) Ledger Boards - SFR2|R0N11,(1) Floating Shelf Cleat - SFR2|R0N12,Internal Duct Cover - ADU2|R0N13,(4) Sheets of Birch PF Cover Caps - ADU2|R0N14,(2) Ledger Boards - ADU2" />
+  <RoomInfo Number="1" Name="SFR 1 Kitchen" WallCabString="R1N2,R1N3,R1C3,R1C4,R1N4,R1N11,R1C8,R1C10,R1C9" BaseCabString="R1N19,R1N16,R1N17,R1N1,R1C1,R1C2,R1C5,R1C6,R1N8,R1N9,R1C7,R1C11,R1C12,R1N18,R1N6,R1N14,R1N12,R1N5,R1N10,R1N15,R1N7,R1N13" CabNames="R1N19,5pc Base Face Panel|R1N16,5pc Base End Panel .75 - L (no wall scribe)|R1N17,5pc Base End Panel .75 - R (no wall scribe)|R1N1,5pc Base End Panel .75 - L|R1N2,5pc Wall End Panel .75 - L|R1N3,5pc Wall End Panel .75 - R|R1C3,Wall 1 Door - 2 AS|R1C1,Base Sink|R1C2,Base Corner Left - Susan (S)|R1C4,Wall Blind 1 Door - R - 2 AS|R1N4,5pc Wall End Panel .75 - L|R1N11,Wall Filler - L|R1C8,Wall 2 Door - 2 AS|R1C10,Wall 2 Door - 2 AS|R1C9,Wall Micro Hood 19.5H|R1C5,Base 1 Door 1 Drw - 1 TD|R1C6,Base 3 Drawer|R1N8,Tall End Panel .75|R1N9,Tall End Panel .75 (no wall scribe)|R1C7,Wall Fridge 20H - 1 AS|R1C11,Base Trash 52qt|R1C12,Base 3 Drawer|R1N18,Toeboard|R1N6,Toeboard|R1N14,Toeboard|R1N12,Light Valance|R1N5,Light Valance|R1N10,Tall Filler - R|R1N15,Fridge Valance|R1N7,Base Toekick|R1N13,Base Toekick" />
+  <RoomInfo Number="2" Name="SFR 1 Buffet" WallCabString="R2C2,R2N3,R2N4" BaseCabString="R2C1,R2N1,R2N2,R2N6,R2N5" CabNames="R2C2,Wall 2 Door - 2 AS|R2N3,Wall Filler - L|R2N4,Wall Filler - R|R2C1,Base 2 Door|R2N1,Base Filler - L|R2N2,Base Filler - R|R2N6,Light Valance|R2N5,Toeboard" />
+  <RoomInfo Number="3" Name="SFR 1 Powder" WallCabString="" BaseCabString="R3N1,R3C1,R3C2,R3N2" CabNames="R3N1,5pc Floating Vanity End Panel .75 - L|R3C1,Floating Vanity Sink - 1 Door|R3C2,Floating Vanity 3 Drw - A|R3N2,Floating Vanity Filler - R" />
+  <RoomInfo Number="4" Name="SFR 1 Master Bath" WallCabString="" BaseCabString="R4C1,R4C3,R4N2,R4N1,R4C2" CabNames="R4C1,Floating Vanity Sink - 2 Door|R4C3,Floating Vanity Sink - 2 Door|R4N2,Floating Vanity Filler - R|R4N1,Floating Vanity Filler - L|R4C2,Floating Vanity 3 Drw - A" />
+  <RoomInfo Number="5" Name="SFR 1 Laundry" WallCabString="R5C1,R5C2,R5N2,R5N1" BaseCabString="" CabNames="R5C1,Wall 2 Door - 2 AS|R5C2,Wall 2 Door - 2 AS|R5N2,Wall Filler - R|R5N1,Wall Filler - L" />
+  <RoomInfo Number="6" Name="ADU 1 Kitchen " WallCabString="R6N13,R6N14,R6C14,R6N7,R6N15,R6C7,R6C9,R6C8,R6C11,R6C12,R6C13" BaseCabString="R6C3,R6N6,R6N12,R6C1,R6C2,R6N2,R6N1,R6N3,R6N5,R6N4,R6N10,R6C4,R6C5,R6C6,R6C10,R6N18,R6N17,R6N9,R6N8,R6N11,R6N16" CabNames="R6C3,Wall Fridge 20H - 1 AS|R6N6,Tall End Panel .75|R6N13,Wall End Panel .75|R6N14,Wall End Panel .75|R6C14,Wall 1 Door - 2 AS|R6N7,Wall Filler - R|R6N12,5pc Base End Panel .75 - R|R6N15,5pc Wall End Panel .75 - R|R6C1,Base 3 Drawer|R6C2,Base Trash 52qt|R6N2,5pc Base End Panel .75 - R (no wall scribe)|R6N1,5pc Base End Panel .75 - L (no wall scribe)|R6N3,5pc Base Face Panel|R6N5,Tall End Panel .75 (no wall scribe)|R6N4,Tall Filler - L|R6N10,Light Valance|R6C7,Wall 2 Door - 2 AS|R6C9,Wall 2 Door - 2 AS|R6C8,Wall Micro Hood 19.5H|R6C4,Base 3 Drawer|R6C5,Base 1 Door 1 Drw - 1 TD|R6C6,Base Corner Right - Susan (S)|R6C11,Wall Blind 1 Door - L - 2 AS|R6C10,Base Sink|R6C12,Floating Shelf (Laminated)|R6C13,Floating Shelf (Laminated)|R6N18,Light Valance|R6N17,Toeboard|R6N9,Toeboard|R6N8,Fridge Valance|R6N11,Base Toekick|R6N16,Base Toekick" />
+  <RoomInfo Number="7" Name="ADU 1 Buffet " WallCabString="R7C2,R7N3,R7N4" BaseCabString="R7N1,R7N2,R7C1,R7N6,R7N5" CabNames="R7C2,Wall 2 Door - 2 AS|R7N3,Wall Filler - L|R7N4,Wall Filler - R|R7N1,Base Filler - L|R7N2,Base Filler - R|R7C1,Base 2 Door|R7N6,Light Valance|R7N5,Toeboard" />
+  <RoomInfo Number="8" Name="ADU 1 Powder" WallCabString="" BaseCabString="R8N2,R8C2,R8C1,R8N1" CabNames="R8N2,5pc Floating Vanity End Panel .75 - R|R8C2,Floating Vanity Sink - 1 Door|R8C1,Floating Vanity 3 Drw - A|R8N1,Floating Vanity Filler - L" />
+  <RoomInfo Number="9" Name="ADU 1 Master Bath" WallCabString="" BaseCabString="R9C3,R9C1,R9N1,R9C2,R9N2" CabNames="R9C3,Floating Vanity Sink - 2 Door|R9C1,Floating Vanity Sink - 2 Door|R9N1,Floating Vanity Filler - L|R9C2,Floating Vanity 3 Drw - A|R9N2,Floating Vanity Filler - R" />
+  <RoomInfo Number="10" Name="ADU 1 Laundry " WallCabString="R10C2,R10C1,R10N2,R10N1" BaseCabString="" CabNames="R10C2,Wall 2 Door - 2 AS|R10C1,Wall 2 Door - 2 AS|R10N2,Wall Filler - R|R10N1,Wall Filler - L" />
+  <RoomInfo Number="11" Name="SFR 2 Kitchen " WallCabString="R11N2,R11C6,R11C3,R11N4,R11N3,R11C4,R11C5,R11N11,R11C10,R11C12,R11C11" BaseCabString="R11N17,R11N16,R11N19,R11C1,R11N5,R11N1,R11C2,R11N6,R11N10,R11N8,R11N12,R11C9,R11C7,R11C8,R11N14,R11N9,R11C13,R11C14,R11N18,R11N15,R11N7,R11N13" CabNames="R11N17,5pc Base End Panel .75 - R (no wall scribe)|R11N16,5pc Base End Panel .75 - L (no wall scribe)|R11N19,5pc Base Face Panel|R11N2,5pc Wall End Panel .75 - L|R11C1,Base Sink|R11N5,Light Valance|R11N1,5pc Base End Panel .75 - L|R11C2,Base Corner Left - Susan (S)|R11C6,Wall Blind 1 Door - R - 2 AS|R11N6,Toeboard|R11C3,Wall 1 Door - 2 AS|R11N4,Wall End Panel .75|R11N3,Wall End Panel .75|R11C4,Floating Shelf (Laminated)|R11C5,Floating Shelf (Laminated)|R11N10,Tall Filler - R|R11N11,Wall Filler - L|R11N8,Tall End Panel .75|R11C10,Wall 2 Door - 2 AS|R11N12,Light Valance|R11C12,Wall 2 Door - 2 AS|R11C9,Wall Fridge 20H - 1 AS|R11C11,Wall Micro Hood 19.5H|R11C7,Base 1 Door 1 Drw - 1 TD|R11C8,Base 3 Drawer|R11N14,Toeboard|R11N9,Tall End Panel .75 (no wall scribe)|R11C13,Base Trash 52qt|R11C14,Base 3 Drawer|R11N18,Toeboard|R11N15,Fridge Valance|R11N7,Base Toekick|R11N13,Base Toekick" />
+  <RoomInfo Number="12" Name="SFR 2 Buffet " WallCabString="R12C2,R12N3,R12N4" BaseCabString="R12N6,R12N2,R12N1,R12N5,R12C1" CabNames="R12N6,Light Valance|R12N2,Base Filler - R|R12N1,Base Filler - L|R12C2,Wall 2 Door - 2 AS|R12N3,Wall Filler - L|R12N5,Toeboard|R12C1,Base 2 Door|R12N4,Wall Filler - R" />
+  <RoomInfo Number="13" Name="SFR 2 Powder " WallCabString="" BaseCabString="R13C1,R13N1,R13N2,R13C2" CabNames="R13C1,Floating Vanity Sink - 1 Door|R13N1,5pc Floating Vanity End Panel .75 - L|R13N2,Floating Vanity Filler - R|R13C2,Floating Vanity 3 Drw - A" />
+  <RoomInfo Number="14" Name="SFR 2 Master Bath" WallCabString="" BaseCabString="R14C3,R14C1,R14N1,R14C2,R14N2" CabNames="R14C3,Floating Vanity Sink - 2 Door|R14C1,Floating Vanity Sink - 2 Door|R14N1,Floating Vanity Filler - L|R14C2,Floating Vanity 3 Drw - A|R14N2,Floating Vanity Filler - R" />
+  <RoomInfo Number="15" Name="SFR 2 Laundry" WallCabString="R15N2,R15C2,R15C1,R15N1" BaseCabString="" CabNames="R15N2,Wall Filler - R|R15C2,Wall 2 Door - 2 AS|R15C1,Wall 2 Door - 2 AS|R15N1,Wall Filler - L" />
+  <RoomInfo Number="16" Name="ADU 2 Kitchen  " WallCabString="R16N14,R16N16,R16N15,R16C9,R16N8,R16C7,R16C8,R16C11,R16C12" BaseCabString="R16N1,R16N2,R16N4,R16N13,R16N7,R16N6,R16N5,R16C6,R16N11,R16C3,R16N10,R16C5,R16C4,R16C10,R16N18,R16C1,R16C2,R16N3,R16N9,R16N12,R16N17" CabNames="R16N1,5pc Base End Panel .75 - L (no wall scribe)|R16N2,5pc Base End Panel .75 - R (no wall scribe)|R16N4,5pc Base Face Panel|R16N14,5pc Wall End Panel .75 - R|R16N16,5pc Wall End Panel .75 - R|R16N15,5pc Wall End Panel .75 - L|R16N13,5pc Base End Panel .75 - R|R16C9,Wall 2 Door - 2 AS|R16N7,Tall End Panel .75|R16N8,Wall Filler - R|R16N6,Tall End Panel .75 (no wall scribe)|R16N5,Tall Filler - L|R16C6,Base Corner Right - Susan (S)|R16N11,Light Valance|R16C7,Wall 2 Door - 2 AS|R16C3,Wall Fridge 20H - 1 AS|R16C8,Wall Micro Hood 19.5H|R16N10,Toeboard|R16C5,Base 1 Door 1 Drw - 1 TD|R16C4,Base 3 Drawer|R16C10,Base Sink|R16N18,Toeboard|R16C11,Wall Blind 1 Door - L - 2 AS|R16C12,Wall 1 Door - 2 AS|R16C1,Base 3 Drawer|R16C2,Base Trash 52qt|R16N3,Toeboard|R16N9,Fridge Valance|R16N12,Base Toekick|R16N17,Base Toekick" />
+  <RoomInfo Number="17" Name="ADU 2 Buffet" WallCabString="R17N3,R17N4,R17C2" BaseCabString="R17N1,R17N2,R17N6,R17C1,R17N5" CabNames="R17N3,Wall Filler - L|R17N4,Wall Filler - R|R17C2,Wall 2 Door - 2 AS|R17N1,Base Filler - L|R17N2,Base Filler - R|R17N6,Light Valance|R17C1,Base 2 Door|R17N5,Toeboard" />
+  <RoomInfo Number="18" Name="ADU 2 Powder " WallCabString="" BaseCabString="R18C2,R18N2,R18N1,R18C1" CabNames="R18C2,Floating Vanity Sink - 1 Door|R18N2,5pc Floating Vanity End Panel .75 - R|R18N1,Floating Vanity Filler - L|R18C1,Floating Vanity 3 Drw - A" />
+  <RoomInfo Number="19" Name="ADU 2 Master Bath " WallCabString="" BaseCabString="R19N1,R19C1,R19N2,R19C2,R19C3" CabNames="R19N1,Floating Vanity Filler - L|R19C1,Floating Vanity Sink - 2 Door|R19N2,Floating Vanity Filler - R|R19C2,Floating Vanity 3 Drw - A|R19C3,Floating Vanity Sink - 2 Door" />
+  <RoomInfo Number="20" Name="ADU 2 Laundry  " WallCabString="R20C1,R20N2,R20N1,R20C2" BaseCabString="" CabNames="R20C1,Wall 2 Door - 2 AS|R20N2,Wall Filler - R|R20N1,Wall Filler - L|R20C2,Wall 2 Door - 2 AS" />
+</OptimizeMaterial>

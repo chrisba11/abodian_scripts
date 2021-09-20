@@ -1,0 +1,121 @@
+1
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PricingTemplateRuns>
+  <PricingTemplateRun Name="1. Material List (Jul 29, 21)" CreationDate="1627570307.423" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS" Units="0" IDTag="BUYOUT DOORS" SortTag="BUYOUT DOORS" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="BUYOUT MDF 3/4" Units="0" IDTag="BUYOUT MDF 3/4" SortTag="BUYOUT MDF 3/4" QTY="10" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Birch PF 5/8 [Matching Banding]" Units="0" IDTag="CM Birch PF 5/8 [Matching Banding]" SortTag="CM Birch PF 5/8 [Matching Banding]" QTY="35" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Birch PF 5/8 [Paint-Matched PVC Banding]" Units="0" IDTag="CM Birch PF 5/8 [Paint-Matched PVC Banding]" SortTag="CM Birch PF 5/8 [Paint-Matched PVC Banding]" QTY="40" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 BSAW" Units="0" IDTag="MDF 3/4 BSAW" SortTag="MDF 3/4 BSAW" QTY="7" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Paint Grade VENEER" Units="0" IDTag="Paint Grade VENEER" SortTag="Paint Grade VENEER" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Raw Toe Material 5/8" Units="0" IDTag="Raw Toe Material 5/8" SortTag="Raw Toe Material 5/8" QTY="2" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\28in White Kidney Susan on Pole" Units="0" IDTag="Cabinet Accessories\28in White Kidney Susan on Pole" SortTag="Cabinet Accessories\28in White Kidney Susan on Pole" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" Units="0" IDTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" SortTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" QTY="4" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Birch PF" Units="6" IDTag="0.5mm Birch PF" SortTag="0.5mm Birch PF" QTY="836.068898799225740" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Paint Matched PVC" Units="6" IDTag="0.5mm Paint Matched PVC" SortTag="0.5mm Paint Matched PVC" QTY="673.555768230768360" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None EB2-Door" Units="6" IDTag="None EB2-Door" SortTag="None EB2-Door" QTY="961.123573688697456" Amount="0.07" Total="67.28" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Blum 110 / 3mm - 71B358180" Units="0" IDTag="Blum 110 / 3mm - 71B358180" SortTag="Blum 110 / 3mm - 71B358180" QTY="200" Amount="2.6" Total="520.0" />
+        <PricingTemplateSubRow ItemName="Blum 170 / 3mm - 71T658180" Units="0" IDTag="Blum 170 / 3mm - 71T658180" SortTag="Blum 170 / 3mm - 71T658180" QTY="8" Amount="2.6" Total="20.8" />
+        <PricingTemplateSubRow ItemName="Blum 95 Blind / 3mm - 79B958180" Units="0" IDTag="Blum 95 Blind / 3mm - 79B958180" SortTag="Blum 95 Blind / 3mm - 79B958180" QTY="8" Amount="4.23" Total="33.84" />
+        <PricingTemplateSubRow ItemName="Blum Bi-fold 60 / 0mm - 79T853180" Units="0" IDTag="Blum Bi-fold 60 / 0mm - 79T853180" SortTag="Blum Bi-fold 60 / 0mm - 79T853180" QTY="8" Amount="2.6" Total="20.8" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="828400" Units="0" IDTag="828400" SortTag="828400" QTY="24" Amount="8.36" Total="200.64" />
+        <PricingTemplateSubRow ItemName="828500" Units="0" IDTag="828500" SortTag="828500" QTY="28" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="164" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Dowel" Units="0" IDTag="Dowel" SortTag="Dowel" QTY="52" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Dowels Corners 1-4 V3" Units="0" IDTag="Back Dowels Corners 1-4 V3" SortTag="Back Dowels Corners 1-4 V3" QTY="64" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Back Dowels Corners 5-8 V3" Units="0" IDTag="Back Dowels Corners 5-8 V3" SortTag="Back Dowels Corners 5-8 V3" QTY="32" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="284" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="672" Amount="0.001785" Total="1.20" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="304" Amount="0.001785" Total="0.54" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="1304" Amount="0.001785" Total="2.33" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="120" Amount="0.001785" Total="0.21" />
+        <PricingTemplateSubRow ItemName="Dowels Corners 1-4 V3" Units="0" IDTag="Dowels Corners 1-4 V3" SortTag="Dowels Corners 1-4 V3" QTY="64" Amount="0.001785" Total="0.11" />
+        <PricingTemplateSubRow ItemName="Dowels Corners 5-8 V3" Units="0" IDTag="Dowels Corners 5-8 V3" SortTag="Dowels Corners 5-8 V3" QTY="16" Amount="0.001785" Total="0.03" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Leg Levelers - Corner Cabs (x6)" Units="0" IDTag="Leg Levelers - Corner Cabs (x6)" SortTag="Leg Levelers - Corner Cabs (x6)" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Notched Toe" Units="0" IDTag="Notched Toe" SortTag="Notched Toe" QTY="24" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+    <ReportFilename Filename="1. Material List (Jul 29, 21)" />
+  </PricingTemplateRun>
+  <PricingTemplateRun Name="1. Material List (Aug 18, 21)" CreationDate="1629308905.384" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS" Units="0" IDTag="BUYOUT DOORS" SortTag="BUYOUT DOORS" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Birch PF 5/8 [Matching Banding]" Units="0" IDTag="CM Birch PF 5/8 [Matching Banding]" SortTag="CM Birch PF 5/8 [Matching Banding]" QTY="36" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Birch PF 5/8 [Paint-Matched PVC Banding]" Units="0" IDTag="CM Birch PF 5/8 [Paint-Matched PVC Banding]" SortTag="CM Birch PF 5/8 [Paint-Matched PVC Banding]" QTY="40" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Birch Raw 5/8 [Matching Banding]" Units="0" IDTag="CM Birch Raw 5/8 [Matching Banding]" SortTag="CM Birch Raw 5/8 [Matching Banding]" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4" Units="0" IDTag="MDF 3/4" SortTag="MDF 3/4" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 BSAW" Units="0" IDTag="MDF 3/4 BSAW" SortTag="MDF 3/4 BSAW" QTY="9" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Paint Grade VENEER" Units="0" IDTag="Paint Grade VENEER" SortTag="Paint Grade VENEER" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Raw Toe Material 5/8" Units="0" IDTag="Raw Toe Material 5/8" SortTag="Raw Toe Material 5/8" QTY="2" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\28in White Kidney Susan on Pole" Units="0" IDTag="Cabinet Accessories\28in White Kidney Susan on Pole" SortTag="Cabinet Accessories\28in White Kidney Susan on Pole" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" Units="0" IDTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" SortTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" QTY="4" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Birch PF" Units="6" IDTag="0.5mm Birch PF" SortTag="0.5mm Birch PF" QTY="843.091207389131040" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Paint Matched PVC" Units="6" IDTag="0.5mm Paint Matched PVC" SortTag="0.5mm Paint Matched PVC" QTY="779.366796498536190" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None EB1-Case" Units="6" IDTag="None EB1-Case" SortTag="None EB1-Case" QTY="5.866666578558176" Amount="0.07" Total="0.41" />
+        <PricingTemplateSubRow ItemName="None EB2-Door" Units="6" IDTag="None EB2-Door" SortTag="None EB2-Door" QTY="770.557222231166684" Amount="0.07" Total="53.94" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Blum 110 / 3mm - 71B358180" Units="0" IDTag="Blum 110 / 3mm - 71B358180" SortTag="Blum 110 / 3mm - 71B358180" QTY="200" Amount="2.6" Total="520.0" />
+        <PricingTemplateSubRow ItemName="Blum 170 / 3mm - 71T658180" Units="0" IDTag="Blum 170 / 3mm - 71T658180" SortTag="Blum 170 / 3mm - 71T658180" QTY="8" Amount="2.6" Total="20.8" />
+        <PricingTemplateSubRow ItemName="Blum 95 Blind / 3mm - 79B958180" Units="0" IDTag="Blum 95 Blind / 3mm - 79B958180" SortTag="Blum 95 Blind / 3mm - 79B958180" QTY="8" Amount="4.23" Total="33.84" />
+        <PricingTemplateSubRow ItemName="Blum Bi-fold 60 / 0mm - 79T853180" Units="0" IDTag="Blum Bi-fold 60 / 0mm - 79T853180" SortTag="Blum Bi-fold 60 / 0mm - 79T853180" QTY="8" Amount="2.6" Total="20.8" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="828400" Units="0" IDTag="828400" SortTag="828400" QTY="24" Amount="8.36" Total="200.64" />
+        <PricingTemplateSubRow ItemName="828500" Units="0" IDTag="828500" SortTag="828500" QTY="28" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="164" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Dowel" Units="0" IDTag="Dowel" SortTag="Dowel" QTY="52" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Dowels Corners 1-4 V3" Units="0" IDTag="Back Dowels Corners 1-4 V3" SortTag="Back Dowels Corners 1-4 V3" QTY="64" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Back Dowels Corners 5-8 V3" Units="0" IDTag="Back Dowels Corners 5-8 V3" SortTag="Back Dowels Corners 5-8 V3" QTY="32" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="288" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="672" Amount="0.001785" Total="1.20" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="304" Amount="0.001785" Total="0.54" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 1-2 V3" Units="0" IDTag="Dowels (End to TRB) 1-2 V3" SortTag="Dowels (End to TRB) 1-2 V3" QTY="64" Amount="0.001785" Total="0.11" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 3 V3" Units="0" IDTag="Dowels (End to TRB) 3 V3" SortTag="Dowels (End to TRB) 3 V3" QTY="0" Amount="0.001785" Total="0.00" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="1328" Amount="0.001785" Total="2.37" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="136" Amount="0.001785" Total="0.24" />
+        <PricingTemplateSubRow ItemName="Dowels Corners 1-4 V3" Units="0" IDTag="Dowels Corners 1-4 V3" SortTag="Dowels Corners 1-4 V3" QTY="64" Amount="0.001785" Total="0.11" />
+        <PricingTemplateSubRow ItemName="Dowels Corners 5-8 V3" Units="0" IDTag="Dowels Corners 5-8 V3" SortTag="Dowels Corners 5-8 V3" QTY="16" Amount="0.001785" Total="0.03" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Notched Toe" Units="0" IDTag="Notched Toe" SortTag="Notched Toe" QTY="24" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+    <ReportFilename Filename="1. Material List (Aug 18, 21)" />
+  </PricingTemplateRun>
+</PricingTemplateRuns>

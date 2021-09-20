@@ -1,0 +1,945 @@
+12
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Room UniqueID="981" RoomType="0" Name="ADU 1 Laundry " RoomNosDirty="True" IdTagCount="26" Quan="1" FloorDirty="1">
+  <RoomParms H_Walls="2743.2" H_Soffit="406.4" H_BaseCab="889" H_WallCab="876.3" H_FridgeCab="508" H_RangeCab="495.3" H_VanityCab="838.2" D_Wall="304.8" D_Base="609.6" D_Tall="635" Cl_Fridge="0" Cl_Window="0" Cl_Door="0" Cl_Range="0" CT_Thick="19.05" CT_FrOLay="31.75" CT_FEOlay="31.75" CT_Splash="50.8" CT_Face="19.05" CT_SplashThick="19.05" CT_DefaultSinkOverlay="25.4" CT_DefaultSinkSetback="25.4" CT_DefaultSinkRadius="76.2" M_CeilOffset="0" M_CrownOffset="0" M_LightRailOffset="0" M_ElevChairRail="812.8" M_ElevCustom="1066.8" SinkCabW="914.9724" WallThickness="114.3" StartingCabNo="1" AutoToeSkin="False" LockCabNos="False" />
+  <RoomSet Version="6" PricingColumns="" SourceTemplateID="239" NonColumnBaseDoor="Shaker Door" NonColumnWallDoor="Shaker Door" NonColumnTopDrawer="Shaker DF Top" NonColumnMidDrawer="Shaker DF MidBot" NonColumnBotDrawer="Shaker DF MidBot" DrawerBox="Dowel Undermount V3" DrawerGuide="U58-Rich W/O 550" DrawerGuideSlowCloseOn="True" DrawerGuideSpacerState="1" DrawerFrontFastener="Dowel" ROTray="Dowel Undermount V3 RO" ROTrayGuide="U58-Rich-RO W/O 550" ROTrayGuideSlowCloseOn="True" ROTrayGuideSpacerState="1" ROTrayFrontFastener="Dowel" ROShelfGuide="None" DrwPulls="None" BasePulls="None" WallPulls="None" BaseHinges="Blum 110 / 3mm - 71B358180" WallHinges="Blum 110 / 3mm - 71B358180" ClosetRod="Mozaik Default" ShelfPins="" AutofillLib="Axon V3" MatTemplate="Plywood 3-4 Template" MatDoorTemplate="02 - 5pc Painted - In House MDF (1)" MatDrawerTemplate="02 - CM - PF Plywood .625" MatCabTemplate="05 - PF Ply 58 [Paint-Match PVC 1]" MatTopsTemplate="" MatBandingTemplate="02 - 5pc Paint Matched PVC (1) - PC" CabBaseDoorTexture="BM Classic Gray - 1548" CabDwrFaceTexture="BM Classic Gray - 1548" CabWallDoorTexture="BM Classic Gray - 1548" CabExtTexture="BM Classic Gray - 1548" CabIntTexture="02 - CM - Birch PF" BandTexture="BM Classic Gray - 1548" WallTexture="1C pale white" FloorTexture="Hardwood White Ash" TopsTexture="1C Marble white" ApplTexture="1 Stainless" MoldTexture="1 Paint White Dove" RoomDoorLibName="Standard" EndDoorW="Slab Door - VG" EndDoorB="Slab Door - VG" EndDoorT="Slab Door - VG" BackDoor="Slab Door - VG" DefaultUseSplitMatTemps="True">
+    <NonColumnBaseDoorSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </NonColumnBaseDoorSettings>
+    <NonColumnWallDoorSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </NonColumnWallDoorSettings>
+    <NonColumnTopDrawerSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </NonColumnTopDrawerSettings>
+    <NonColumnMidDrawerSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </NonColumnMidDrawerSettings>
+    <NonColumnBotDrawerSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </NonColumnBotDrawerSettings>
+    <EndDoorWSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </EndDoorWSettings>
+    <EndDoorBSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </EndDoorBSettings>
+    <EndDoorTSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </EndDoorTSettings>
+    <BackDoorSettings TopRail="57.15" BottomRail="57.15" Stiles="57.15" CenterStile="57.15" CenterRail="57.15" StileRailInset="12.7" PanelInsetTop="12.7" PanelInsetBottom="12.7" PanelInsetSide="12.7" PanelRecess="6.35" RoutedUseCutoutTool="True" RoutedOutsideEdgeToolID="-1" RoutedOutsideEdgeToolGroupID="-1" RoutedDoorToolGroupID="2" RoutedGlassDoorPanelCutoutToolID="1" RoutedPocketingToolID="15" RoutedPocketingInsideOut="True" RoutedPocketingCCW="False" TraditionalOutsideEdgeProfileID="-1" TraditionalInsideFrameProfileID="18" TraditionalPanelProfileID="15" MitreOutsideEdgeProfileID="-1" MitreFrameProfileID="-1" MitrePanelProfileID="-1" IsBeadingDouble="False" BeadingWidth="6.35" BeadingSpaceBetween="25.4" BeadingCutDepth="4.7625" BeadingStopDistance="8.89" BeadingToolID="-1">
+      <DefaultRailShapeA RailLoc="0" RailShape="1" Value="63.5" />
+      <DefaultRailShapeA RailLoc="0" RailShape="5" Value="101.6" />
+      <DefaultRailShapeA RailLoc="0" RailShape="2" Value="50.8" />
+      <DefaultRailShapeA RailLoc="0" RailShape="4" Value="50.8" />
+      <DefaultRailShapeB RailLoc="0" RailShape="5" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="2" Value="63.5" />
+      <DefaultRailShapeB RailLoc="0" RailShape="4" Value="50.8" />
+    </BackDoorSettings>
+  </RoomSet>
+  <Walls>
+    <Wall IDTag="1" Len="609.6" Height="2438.4" PosX="-1273.052" PosY="247.7173" Ang="90" Invisible="False" SUDirty="True" Bulge="0" WallNumber="1" Thickness="114.3" HasLeftEndCap="False" HasRightEndCap="False" HasBackSpace="False" HasLeftSpace="False" HasRightSpace="False" LeftSpaceLength="1333.5" RightSpaceLength="1333.5" ShapeType="0" CathedralHeight="0">
+      <LabelDimensionOverrideMap />
+    </Wall>
+    <Wall IDTag="2" Len="1689.1" Height="2438.4" PosX="-1273.052" PosY="857.3173" Ang="0" Invisible="False" SUDirty="True" Bulge="0" WallNumber="2" Thickness="114.3" HasLeftEndCap="False" HasRightEndCap="False" HasBackSpace="False" HasLeftSpace="False" HasRightSpace="False" LeftSpaceLength="1333.5" RightSpaceLength="1333.5" ShapeType="0" CathedralHeight="0">
+      <LabelDimensionOverrideMap />
+    </Wall>
+    <Wall IDTag="3" Len="609.6" Height="2438.4" PosX="416.048" PosY="857.3173" Ang="270" Invisible="False" SUDirty="True" Bulge="0" WallNumber="3" Thickness="114.3" HasLeftEndCap="False" HasRightEndCap="False" HasBackSpace="False" HasLeftSpace="False" HasRightSpace="False" LeftSpaceLength="1333.5" RightSpaceLength="1333.5" ShapeType="0" CathedralHeight="0">
+      <LabelDimensionOverrideMap />
+    </Wall>
+  </Walls>
+  <WallJoints>
+    <WallJoint Wall1="1" Wall2="2" IsInterior="False" Wall1Corner="1" Wall2Corner="0" Wall2Along="0" Wall2Front="False" MiterBack="False" />
+    <WallJoint Wall1="2" Wall2="3" IsInterior="False" Wall1Corner="1" Wall2Corner="0" Wall2Along="0" Wall2Front="False" MiterBack="False" />
+  </WallJoints>
+  <Appls>
+    <Appl Name="Front Load Washer" IDTag="11" Type="6" SubType="0" Wall="2_1" Width="762" Height="984.25" Depth="787.4" X="82.55" Elev="0" Rot="0" Outset="0" SUDirty="True" SketchUpFile="Front Load Washer.skp" SourceLib="Appliances V8" SnapTo="0" NonGraphic="False" HasCutout="True" CutoutOverlay="25.4" CutoutSetback="25.4" CutoutRadius="76.2" CutoutTop="0" CutoutPID="-1" Price="0" Upcharge="0">
+      <LabelDimensionOverrideMap />
+    </Appl>
+    <Appl Name="Front Load Dryer" IDTag="12" Type="6" SubType="0" Wall="2_1" Width="762" Height="984.25" Depth="787.4" X="844.55" Elev="0" Rot="0" Outset="0" SUDirty="True" SketchUpFile="Front Load Dryer.skp" SourceLib="Appliances V8" SnapTo="0" NonGraphic="False" HasCutout="True" CutoutOverlay="25.4" CutoutSetback="25.4" CutoutRadius="76.2" CutoutTop="0" CutoutPID="-1" Price="0" Upcharge="0">
+      <LabelDimensionOverrideMap />
+    </Appl>
+  </Appls>
+  <Fixts />
+  <Products>
+    <Product UniqueID="2731648" OrderID="0" ProdName="Wall 2 Door - 2 AS" IDTag="20" ProductDesc="Wall 2 Door - 2 AS 3.25.21" SourceLib="Axon V3" NonGraphic="False" ImageFile="Pair Doors Wall.JPG" SketchUpFile="" UseSUModel="0" AutoFill="True" Mirror="False" SUDirty="True" OrderDirty="True" Width="800.1" Height="914.4" Depth="304.8" WStretch="True" HStretch="True" DStretch="True" minW="533.4" minH="0" minD="0" MaxW="1066.8" MaxH="0" MaxD="0" X="844.55" Elev="1422.4" Rot="0" Outset="0" Wall="2_1" CabNo="2" Numbered="True" SnapTo="0" IsRectShape="True" MatOR="" DoorOR="" TopDrwOR="" MidDrwOR="" BotDrwOR="" DrwPullOR="" DoorPullOR="" HingeOR="" GuideOR="" GuideORSlowCloseOn="False" GuideORSpacerState="1" ShelfPinsOR="" DrawerFrontFastenerOR="" EndDoorOR="" BackDoorOR="" BaseDoorTextureOR="" DwrFaceTextureOR="" WallDoorTextureOR="" ExtTextureOR="" IntTextureOR="" BandTextureOR="" MatDoorOR="" MatDrawerOR="" MatCabOR="" MatBandingOR="" LToeAdj="0" RToeAdj="0" TopDepthAdj="0" BottomDepthAdj="0" CurrentConst="1" ShowElevDepth="False" ExtEnds="0" Flags="1111111111111111" NoParts="False" DoorStyle="Slab Door - VG" FinInt="False" AutomateInterior="False" GrainMatched="0" ScribeRefWasExterior="True" PrevInteriorScribeStileWidths="" PrevInteriorScribeSideThicknesses="" Count="1" LockConst="False" EndsToFloor="0" CornerVoidAssigned="False" Notes="" Price="0" PricePerM="0" PricePerSqM="0" Upcharge="0" Weight="0" IncludeInCabCount="True" IncludeInLinearCalculations="True" IncludeInSqCalculations="True" PricingColumn="" NotchForLeftPanelEndFrontToe="True" NotchForLeftPanelEndBackToe="True" NotchForRightPanelEndFrontToe="True" NotchForRightPanelEndBackToe="True" NotchForLeftEndFrontToe="True" NotchForLeftEndBackToe="False" NotchForRightEndFrontToe="True" NotchForRightEndBackToe="False" ParmVersion="10">
+      <ProductOptions />
+      <CabProdParts>
+        <CabProdPart Name="Door(L)" ReportName="Door(L)" UsageType="0" Comment="Cabinet Door" CommentLocked="False" Quan="1" W="396.8625" L="912.8" DisplayW="396.8625" DisplayL="912.8" Color="None" Type="Door" Q_EQ="" W_EQ="" L_EQ="" Layer="4" X="398.4625" Y="-3.175" Z="0" X_EQ="" Y_EQ="" Z_EQ="" DisplayX="398.4625" DisplayY="-3.175" DisplayZ="0" A1="-90" A2="90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="0" X="912.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+            <ShapePoint ID="0" X="912.8" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+            <ShapePoint ID="0" X="0" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationToolPath ToolID="39" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="9" X="-1.397" Y="-1.397" Depth="2.79" Hide="True" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="3" Noneditable="False" Anchor="" FlipSideOp="False">
+              <OperationToolPathNode X="-1.397" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="914.197" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="914.197" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="-1.397" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+            </OperationToolPath>
+            <OperationPocket CCW="True" InsideOut="True" PocketingToolID="40" ToolID="-1" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="13" X="58.7375" Y="58.7375" Depth="6.35" Hide="False" X_Eq="(BRail+(0.0625*tomm))" Y_Eq="(RStile+(0.0625*tomm))" Depth_Eq="" Hide_Eq="0 | If PartW &lt; (1.75*tomm)+(0.0625*tomm)+LStile+RStile Then Hide(0/1)= 1" IsUserOp="False" IdTag="4" Noneditable="False" Anchor="" FlipSideOp="False">
+              <OperationToolPathNode X="57.15" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="855.65" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="855.65" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="57.15" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+            </OperationPocket>
+          </PartOpsXml>
+          <PartTag SourceCode="2" TypeCode="51" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceType" Value="1" />
+            <PartTagReference Key="FaceIdx" Value="1" />
+            <PartTagReference Key="SectIdx" Value="1" />
+            <PartTagReference Key="SectAC" Value="A" />
+            <PartTagReference Key="DoorConst" Value="Shaker Door" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="Door(R)" ReportName="Door(R)" UsageType="0" Comment="Cabinet Door" CommentLocked="False" Quan="1" W="396.8625" L="912.8" DisplayW="396.8625" DisplayL="912.8" Color="None" Type="Door" Q_EQ="" W_EQ="" L_EQ="" Layer="4" X="798.5" Y="-3.175" Z="0" X_EQ="" Y_EQ="" Z_EQ="" DisplayX="798.5" DisplayY="-3.175" DisplayZ="0" A1="-90" A2="90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="0" X="912.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+            <ShapePoint ID="0" X="912.8" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+            <ShapePoint ID="0" X="0" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationToolPath ToolID="39" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="9" X="-1.397" Y="-1.397" Depth="2.79" Hide="True" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="3" Noneditable="False" Anchor="" FlipSideOp="False">
+              <OperationToolPathNode X="-1.397" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="914.197" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="914.197" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="-1.397" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+            </OperationToolPath>
+            <OperationPocket CCW="True" InsideOut="True" PocketingToolID="40" ToolID="-1" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="13" X="58.7375" Y="58.7375" Depth="6.35" Hide="False" X_Eq="(BRail+(0.0625*tomm))" Y_Eq="(RStile+(0.0625*tomm))" Depth_Eq="" Hide_Eq="0 | If PartW &lt; (1.75*tomm)+(0.0625*tomm)+LStile+RStile Then Hide(0/1)= 1" IsUserOp="False" IdTag="4" Noneditable="False" Anchor="" FlipSideOp="False">
+              <OperationToolPathNode X="57.15" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="855.65" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="855.65" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="57.15" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+            </OperationPocket>
+          </PartOpsXml>
+          <PartTag SourceCode="2" TypeCode="53" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceType" Value="1" />
+            <PartTagReference Key="FaceIdx" Value="1" />
+            <PartTagReference Key="SectIdx" Value="1" />
+            <PartTagReference Key="SectAC" Value="A" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="Pull" ReportName="Pull" UsageType="0" Comment="Metal" CommentLocked="False" Quan="1" W="12.7" L="152.4" Color="None" Type="Metal" Q_EQ="" W_EQ="" L_EQ="" Layer="13" X="363.5375" Y="-41.225" Z="28.575" X_EQ="" Y_EQ="" Z_EQ="" A1="0" A2="0" A3="0" R1="X" R2="Y" R3="Z" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="BarPull_Door.skp" SUPartD="19">
+          <PartShapeXml Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False" />
+          <PartTag SourceCode="2" TypeCode="64" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceType" Value="1" />
+            <PartTagReference Key="FaceIdx" Value="1" />
+            <PartTagReference Key="SectIdx" Value="1" />
+            <PartTagReference Key="SectAC" Value="A" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="Pull" ReportName="Pull" UsageType="0" Comment="Metal" CommentLocked="False" Quan="1" W="12.7" L="152.4" Color="None" Type="Metal" Q_EQ="" W_EQ="" L_EQ="" Layer="13" X="423.8625" Y="-41.225" Z="28.575" X_EQ="" Y_EQ="" Z_EQ="" A1="0" A2="0" A3="0" R1="X" R2="Y" R3="Z" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="BarPull_Door.skp" SUPartD="19">
+          <PartShapeXml Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False" />
+          <PartTag SourceCode="2" TypeCode="66" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceType" Value="1" />
+            <PartTagReference Key="FaceIdx" Value="1" />
+            <PartTagReference Key="SectIdx" Value="1" />
+            <PartTagReference Key="SectAC" Value="A" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="Shelf" ReportName="Adjustable Shelf" UsageType="0" Comment="Adjustable Shelf" CommentLocked="False" Quan="1" W="282.65" L="763.7375" Color="None" Type="AdjustableShelf" Q_EQ="" W_EQ="" L_EQ="" Layer="3" X="781.9188" Y="6.35" Z="315.1" X_EQ="" Y_EQ="" Z_EQ="" A1="180" A2="0" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="762" RadiusY="304.8" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="763.73755" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+            <ShapePoint ID="0" X="763.73755" Y="282.65" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="2" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="0" X="0" Y="282.65" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+          </PartShapeXml>
+          <PartTag SourceCode="3" TypeCode="17" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="SectIdx" Value="2" />
+            <PartTagReference Key="DivideType" Value="AS" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="Shelf" ReportName="Adjustable Shelf" UsageType="0" Comment="Adjustable Shelf" CommentLocked="False" Quan="1" W="282.65" L="763.7375" Color="None" Type="AdjustableShelf" Q_EQ="" W_EQ="" L_EQ="" Layer="3" X="781.9188" Y="6.35" Z="614.6" X_EQ="" Y_EQ="" Z_EQ="" A1="180" A2="0" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="762" RadiusY="304.8" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="763.73755" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+            <ShapePoint ID="0" X="763.73755" Y="282.65" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="2" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="0" X="0" Y="282.65" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+          </PartShapeXml>
+          <PartTag SourceCode="3" TypeCode="17" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="SectIdx" Value="3" />
+            <PartTagReference Key="DivideType" Value="AS" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="Bottom" ReportName="Bottom" UsageType="0" Comment="Bottom of cabinet box" CommentLocked="False" Quan="1" W="289" L="768.5" Color="None" Type="Bottom" Q_EQ="" W_EQ="" L_EQ="" Layer="9" X="15.8" Y="0" Z="-1.907349E-07" X_EQ="" Y_EQ="" Z_EQ="" A1="0" A2="0" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="762" RadiusY="304.8" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+            <ShapePoint ID="0" X="768.5" Y="0" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="0" X="768.5" Y="289" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="2" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="0" X="0" Y="289" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+          </PartShapeXml>
+          <PartTag SourceCode="3" TypeCode="16" IsAddedByCustomParm="False" IsModifiedByCustomParm="False" />
+        </CabProdPart>
+        <CabProdPart Name="Top" ReportName="Top" UsageType="0" Comment="Top of cabinet box" CommentLocked="False" Quan="1" W="289" L="768.5" Color="None" Type="Top" Q_EQ="" W_EQ="" L_EQ="" Layer="8" X="784.3" Y="0" Z="914.4" X_EQ="" Y_EQ="" Z_EQ="" A1="180" A2="0" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="762" RadiusY="304.8" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="768.5" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+            <ShapePoint ID="0" X="768.5" Y="289" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="2" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="0" X="0" Y="289" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+          </PartShapeXml>
+          <PartTag SourceCode="3" TypeCode="14" IsAddedByCustomParm="False" IsModifiedByCustomParm="False" />
+        </CabProdPart>
+        <CabProdPart Name="UnFin End (L)" ReportName="UEnd (L)" UsageType="0" Comment="Unfinished End" CommentLocked="False" Quan="1" W="304.8" L="914.4" Color="None" Type="UEnd" Q_EQ="" W_EQ="" L_EQ="" Layer="2" X="0" Y="304.8" Z="0" X_EQ="" Y_EQ="" Z_EQ="" A1="-90" A2="180" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+            <ShapePoint ID="2" X="914.4" Y="304.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+            <ShapePoint ID="3" X="0" Y="304.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="240.8" Y="69.85" Depth="12.7" Hide="False" X_Eq="(PartL/3)-64" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="912" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="240.8" Y="254" Depth="12.7" Hide="False" X_Eq="(PartL/3)-64" Y_Eq="PartW-32mmFrLBIn" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="812" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="545.6" Y="69.85" Depth="12.7" Hide="False" X_Eq="PartL-(PartL/3)-64" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="913" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="545.6" Y="254" Depth="12.7" Hide="False" X_Eq="PartL-(PartL/3)-64" Y_Eq="PartW-32mmFrLBIn" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="813" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="85.5999984741" Y="267.799987793" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2401" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="117.5999984741" Y="267.799987793" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2501" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="795.200012207" Y="267.799987793" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2601" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="827.200012207" Y="267.799987793" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2701" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="278.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112010" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="214.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112011" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="104.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112012" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="40.79999" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112013" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="278.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112050" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="214.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112051" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="104.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112052" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="40.79999" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112053" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="888.4" Y="7.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132410" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="792.4" Y="7.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132411" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="7.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132412" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122" Y="7.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132413" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="600.4" Y="7.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="142410" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="314" Y="7.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="142411" Noneditable="False" Anchor="" FlipSideOp="False" />
+          </PartOpsXml>
+          <PartTag SourceCode="1" TypeCode="22" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceIdx" Value="4" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="UnFin End (R)" ReportName="UEnd (R)" UsageType="0" Comment="Unfinished End" CommentLocked="False" Quan="1" W="304.8" L="914.4" Color="None" Type="UEnd" Q_EQ="" W_EQ="" L_EQ="" Layer="2" X="800.1" Y="0" Z="0" X_EQ="" Y_EQ="" Z_EQ="" A1="-90" A2="0" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+            <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+            <ShapePoint ID="2" X="914.4" Y="304.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="3" X="0" Y="304.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="240.8" Y="234.95" Depth="12.7" Hide="False" X_Eq="(PartL/3)-64" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="922" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="240.8" Y="50.8" Depth="12.7" Hide="False" X_Eq="(PartL/3)-64" Y_Eq="32mmFrLBIn" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="822" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="545.6" Y="234.95" Depth="12.7" Hide="False" X_Eq="PartL-(PartL/3)-64" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="923" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="545.6" Y="50.8" Depth="12.7" Hide="False" X_Eq="PartL-(PartL/3)-64" Y_Eq="32mmFrLBIn" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="823" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="85.5999984741" Y="37" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2401" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="117.5999984741" Y="37" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2501" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="795.200012207" Y="37" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2601" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="827.200012207" Y="37" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2701" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="26" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112020" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="90" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112021" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="200" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112022" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="264" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112023" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="26" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112060" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="90" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112061" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="200" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112062" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="264" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112063" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="888.4" Y="297" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132420" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="792.4" Y="297" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132421" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="297" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132422" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122" Y="297" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132423" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="600.4" Y="297" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="142420" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="314" Y="297" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="142421" Noneditable="False" Anchor="" FlipSideOp="False" />
+          </PartOpsXml>
+          <PartTag SourceCode="1" TypeCode="22" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceIdx" Value="2" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="UBack" ReportName="UBack" UsageType="0" Comment="Unfinished Back" CommentLocked="False" Quan="1" W="768.5" L="914.4" Color="None" Type="UBack" Q_EQ="" W_EQ="" L_EQ="" Layer="7" X="784.3" Y="304.8" Z="0" X_EQ="" Y_EQ="" Z_EQ="" A1="-90" A2="90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+            <ShapePoint ID="2" X="914.4" Y="768.5" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+            <ShapePoint ID="3" X="0" Y="768.5" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="240.8" Y="384.25" Depth="12.7" Hide="False" X_Eq="(PartL/3)-64" Y_Eq="PartW/2" Depth_Eq="" Hide_Eq="0 | If W &lt; 30*tomm Then Hide(0/1)= 1" IsUserOp="True" IdTag="912" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="545.6" Y="384.25" Depth="12.7" Hide="False" X_Eq="PartL-(PartL/3)-64" Y_Eq="PartW/2" Depth_Eq="" Hide_Eq="0 | If W &lt; 30*tomm Then Hide(0/1)= 1" IsUserOp="True" IdTag="913" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="906.5" Y="512.3334" Depth="15.8" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="252510" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="906.5" Y="256.1666" Depth="15.8" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="252511" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="7.9" Y="512.3334" Depth="15.8" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="252520" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="7.9" Y="256.1666" Depth="15.8" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="252521" Noneditable="False" Anchor="" FlipSideOp="False" />
+          </PartOpsXml>
+          <PartTag SourceCode="1" TypeCode="34" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceIdx" Value="3" />
+          </PartTag>
+        </CabProdPart>
+      </CabProdParts>
+      <CabProdParms>
+        <CabProdParm ProdID="0" Name="PnlFast" Desc="CNC Panel Fastener Templates" Type="2" Category="11" Value="1" Options="None,Axon - GP,Axon - PF,Axon - PVC,Axon,Casters,False Front,Horizontal Backs,Leg Levelers - Corner Cabs,Leg Levelers - Partitions,Leg Levelers,LockDowel Spring Pin Top-Bot,Notched Toe" MaxVal="0" MinVal="0" />
+        <CabProdParm ProdID="0" Name="FLRevBW" Desc="Frameless Reveal Bottom(Wall)" Type="0" Category="1" Value="0" Options="" MaxVal="0" MinVal="0" />
+      </CabProdParms>
+      <CustomParmEnabledORs />
+      <ProductDoors>
+        <ProductDoor DoorStyle="Shaker Door" W="396.8625" H="912.8" Oversize="0" FaceIdx="1" SectIdx="1" SectAC="A" IsSecondOfPair="False" HingeCenterLines="101.6#811.2" HingeEdge="Left" HingeType="Blum 110 / 3mm - 71B358180" IsDrawerFront="False" IsHorizGrain="False" DoorType="2" Profile1="Use Cutout Tool" X="1.6" Y="-3.175" Z="0" DoorAng="0">
+          <DoorProdPart Name="Door(L)" ReportName="Door(L)" UsageType="0" Comment="Cabinet Door" CommentLocked="False" Quan="1" W="396.8625" L="912.8" DisplayW="396.8625" DisplayL="912.8" Color="None" Type="Door" Q_EQ="" W_EQ="" L_EQ="" Layer="4" X="398.4625" Y="-3.175" Z="0" X_EQ="" Y_EQ="" Z_EQ="" DisplayX="398.4625" DisplayY="-3.175" DisplayZ="0" A1="-90" A2="90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+            <PartShapeXml Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+              <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+              <ShapePoint ID="0" X="912.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+              <ShapePoint ID="0" X="912.8" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+              <ShapePoint ID="0" X="0" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+            </PartShapeXml>
+            <PartOpsXml Version="2">
+              <OperationToolPath ToolID="39" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="9" X="-1.397" Y="-1.397" Depth="2.79" Hide="True" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="3" Noneditable="False" Anchor="" FlipSideOp="False">
+                <OperationToolPathNode X="-1.397" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="914.197" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="914.197" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="-1.397" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+              </OperationToolPath>
+              <OperationPocket CCW="True" InsideOut="True" PocketingToolID="40" ToolID="-1" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="13" X="58.7375" Y="58.7375" Depth="6.35" Hide="False" X_Eq="(BRail+(0.0625*tomm))" Y_Eq="(RStile+(0.0625*tomm))" Depth_Eq="" Hide_Eq="0 | If PartW &lt; (1.75*tomm)+(0.0625*tomm)+LStile+RStile Then Hide(0/1)= 1" IsUserOp="False" IdTag="4" Noneditable="False" Anchor="" FlipSideOp="False">
+                <OperationToolPathNode X="57.15" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="855.65" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="855.65" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="57.15" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+              </OperationPocket>
+            </PartOpsXml>
+            <PartTag SourceCode="2" TypeCode="51" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+              <PartTagReference Key="FaceType" Value="1" />
+              <PartTagReference Key="FaceIdx" Value="1" />
+              <PartTagReference Key="SectIdx" Value="1" />
+              <PartTagReference Key="SectAC" Value="A" />
+              <PartTagReference Key="DoorConst" Value="Shaker Door" />
+            </PartTag>
+          </DoorProdPart>
+        </ProductDoor>
+        <ProductDoor DoorStyle="Shaker Door" W="396.8625" H="912.8" Oversize="0" FaceIdx="1" SectIdx="1" SectAC="A" IsSecondOfPair="True" HingeCenterLines="101.6#811.2" HingeEdge="Right" HingeType="Blum 110 / 3mm - 71B358180" IsDrawerFront="False" IsHorizGrain="False" DoorType="2" Profile1="Use Cutout Tool" X="401.6375" Y="-3.175" Z="0" DoorAng="0">
+          <DoorProdPart Name="Door(R)" ReportName="Door(R)" UsageType="0" Comment="Cabinet Door" CommentLocked="False" Quan="1" W="396.8625" L="912.8" DisplayW="396.8625" DisplayL="912.8" Color="None" Type="Door" Q_EQ="" W_EQ="" L_EQ="" Layer="4" X="798.5" Y="-3.175" Z="0" X_EQ="" Y_EQ="" Z_EQ="" DisplayX="798.5" DisplayY="-3.175" DisplayZ="0" A1="-90" A2="90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+            <PartShapeXml Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+              <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+              <ShapePoint ID="0" X="912.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+              <ShapePoint ID="0" X="912.8" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+              <ShapePoint ID="0" X="0" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+            </PartShapeXml>
+            <PartOpsXml Version="2">
+              <OperationToolPath ToolID="39" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="9" X="-1.397" Y="-1.397" Depth="2.79" Hide="True" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="3" Noneditable="False" Anchor="" FlipSideOp="False">
+                <OperationToolPathNode X="-1.397" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="914.197" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="914.197" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="-1.397" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+              </OperationToolPath>
+              <OperationPocket CCW="True" InsideOut="True" PocketingToolID="40" ToolID="-1" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="13" X="58.7375" Y="58.7375" Depth="6.35" Hide="False" X_Eq="(BRail+(0.0625*tomm))" Y_Eq="(RStile+(0.0625*tomm))" Depth_Eq="" Hide_Eq="0 | If PartW &lt; (1.75*tomm)+(0.0625*tomm)+LStile+RStile Then Hide(0/1)= 1" IsUserOp="False" IdTag="4" Noneditable="False" Anchor="" FlipSideOp="False">
+                <OperationToolPathNode X="57.15" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="855.65" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="855.65" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="57.15" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+              </OperationPocket>
+            </PartOpsXml>
+            <PartTag SourceCode="2" TypeCode="53" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+              <PartTagReference Key="FaceType" Value="1" />
+              <PartTagReference Key="FaceIdx" Value="1" />
+              <PartTagReference Key="SectIdx" Value="1" />
+              <PartTagReference Key="SectAC" Value="A" />
+            </PartTag>
+          </DoorProdPart>
+        </ProductDoor>
+      </ProductDoors>
+      <ProductDrawers />
+      <ProductRolloutShelves />
+      <JointFastenerCounts>
+        <JointFastenerCount Name="Dowels 1-4 V3" Count="16" />
+        <JointFastenerCount Name="Dowels 5-8 V3" Count="0" />
+        <JointFastenerCount Name="Dowels (End to Back) 1-4 V3" Count="8" />
+        <JointFastenerCount Name="Dowels (End to Back) 5-8 V3" Count="4" />
+        <JointFastenerCount Name="Back Screws" Count="4" />
+      </JointFastenerCounts>
+      <ShelfPinCounts>
+        <ShelfPinCount Index="2" Count="5" />
+        <ShelfPinCount Index="3" Count="5" />
+      </ShelfPinCounts>
+      <ProductInterior MaxIntSecID="3" DelT="False" DelB="False" DelL="False" DelR="False">
+        <Section nSide="1" ID="1" pParent="0" pAChild="2" pCChild="0" Locked="N" AdjL="0" AdjR="0" ParentABC="N" ATray="0" CTray="0" Split="N" DivideType="N" LockParentID="0" LockPosition="0" DepthAdj="0" InsetAdj="0" SplitBack="False" SplitTop="False" SplitBottom="False" SplitEnds="False" NoShelfHolesA="False" NoShelfHolesC="False" ROTrayOR="0" ROShelfA="0" ROShelfC="0" ROGuideOR="0" ClosetRodOR="0" ShelfPinsOR="0" ROTrayFrontFastenersOR="0" NoShotgunBore="False" X="158" Y="158" DX="7685" DY="8828" DA="8828" DB="0" MatOR="" MatDrawerOR="" MatCabOR="" />
+        <Section nSide="1" ID="2" pParent="1" pAChild="0" pCChild="3" Locked="P" AdjL="0" AdjR="0" ParentABC="A" ATray="0" CTray="0" Split="H" DivideType="AS" LockParentID="0" LockPosition="0" DepthAdj="0" InsetAdj="0" SplitBack="False" SplitTop="False" SplitBottom="False" SplitEnds="False" NoShelfHolesA="False" NoShelfHolesC="False" ROTrayOR="0" ROShelfA="0" ROShelfC="0" ROGuideOR="0" ClosetRodOR="0" ShelfPinsOR="0" ROTrayFrontFastenersOR="0" NoShotgunBore="False" X="158" Y="158" DX="7685" DY="8828" DA="2835" DB="158" MatOR="" MatDrawerOR="" MatCabOR="" />
+        <Section nSide="1" ID="3" pParent="2" pAChild="0" pCChild="0" Locked="P" AdjL="0" AdjR="0" ParentABC="C" ATray="0" CTray="0" Split="H" DivideType="AS" LockParentID="0" LockPosition="0" DepthAdj="0" InsetAdj="0" SplitBack="False" SplitTop="False" SplitBottom="False" SplitEnds="False" NoShelfHolesA="False" NoShelfHolesC="False" ROTrayOR="0" ROShelfA="0" ROShelfC="0" ROGuideOR="0" ClosetRodOR="0" ShelfPinsOR="0" ROTrayFrontFastenersOR="0" NoShotgunBore="False" X="158" Y="3151" DX="7685" DY="5835" DA="2837" DB="158" MatOR="" MatDrawerOR="" MatCabOR="" />
+      </ProductInterior>
+      <FrontFace MaxSecID="1" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1">
+        <Section nSide="1" ID="1" pParent="0" pAChild="0" pCChild="0" UseTopDwr="0" Locked="N" ParentABC="N" Equal3="N" Split="N" AoType="P" CoType="O" AHinge="N" CHinge="N" AdeltaT="0" AdeltaB="0" AdeltaL="0" AdeltaR="0" AInset="0" CdeltaT="0" CdeltaB="0" CdeltaL="0" CdeltaR="0" CInset="0" ADwrWAdj="0" CDwrWAdj="0" ADwrHAdj="0" CDwrHAdj="0" ADwrDAdj="0" CDwrDAdj="0" ADwrBCLAdj="0" CDwrBCLAdj="0" X="158" Y="158" DX="7685" DY="8828" DA="8828" DB="0" DwrBoxA="0" DwrBoxC="0" GuideA="0" GuideC="0" HingeA="0" HingeC="0" PullA="0" PullC="0" DwrFrontFastenerA="0" DwrFrontFastenerC="0" HngAdj="0" PullAdj="0" PullDelA="0" PullDelC="0" PullHorizAdjA="0" PullHorizAdjC="0" PullVertAdjA="0" PullVertAdjC="0" Pull2XA="0" Pull2XC="0" Pull2XSepA="0" Pull2XSepC="0" HngDelA="0" HngDelC="0" HngTopAdjA="0" HngTopAdjC="0" HngBotAdjA="0" HngBotAdjC="0" HngOverrideA="-1" HngOverrideC="-1" HngMidAdjA="" HngMidAdjC="" MatORA="" MatORC="" MatDoorORA="" MatDoorORC="" MatDrawerORA="" MatDrawerORC="" />
+      </FrontFace>
+      <LeftFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <RightFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <BackFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <TopShapeXml Version="2" Name="" Type="1" RadiusX="762" RadiusY="304.8" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+        <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+        <ShapePoint ID="0" X="800.1" Y="0" PtType="0" Data="0" EdgeType="8" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+        <ShapePoint ID="0" X="800.1" Y="304.8" PtType="0" Data="0" EdgeType="9" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="2" EBandLock="False" SideName="" />
+        <ShapePoint ID="0" X="0" Y="304.8" PtType="0" Data="0" EdgeType="8" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      </TopShapeXml>
+      <ProductType Type="3" SubType="2" SubSubType="1" />
+      <LabelDimensionOverrideMap />
+    </Product>
+    <Product UniqueID="2731649" OrderID="0" ProdName="Wall 2 Door - 2 AS" IDTag="21" ProductDesc="Wall 2 Door - 2 AS 3.25.21" SourceLib="Axon V3" NonGraphic="False" ImageFile="Pair Doors Wall.JPG" SketchUpFile="" UseSUModel="0" AutoFill="True" Mirror="False" SUDirty="True" OrderDirty="True" Width="800.1" Height="914.4" Depth="304.8" WStretch="True" HStretch="True" DStretch="True" minW="533.4" minH="0" minD="0" MaxW="1066.8" MaxH="0" MaxD="0" X="44.45" Elev="1422.4" Rot="0" Outset="0" Wall="2_1" CabNo="1" Numbered="True" SnapTo="0" IsRectShape="True" MatOR="" DoorOR="" TopDrwOR="" MidDrwOR="" BotDrwOR="" DrwPullOR="" DoorPullOR="" HingeOR="" GuideOR="" GuideORSlowCloseOn="False" GuideORSpacerState="1" ShelfPinsOR="" DrawerFrontFastenerOR="" EndDoorOR="" BackDoorOR="" BaseDoorTextureOR="" DwrFaceTextureOR="" WallDoorTextureOR="" ExtTextureOR="" IntTextureOR="" BandTextureOR="" MatDoorOR="" MatDrawerOR="" MatCabOR="" MatBandingOR="" LToeAdj="0" RToeAdj="0" TopDepthAdj="0" BottomDepthAdj="0" CurrentConst="1" ShowElevDepth="False" ExtEnds="0" Flags="1111111111111111" NoParts="False" DoorStyle="Slab Door - VG" FinInt="False" AutomateInterior="False" GrainMatched="0" ScribeRefWasExterior="True" PrevInteriorScribeStileWidths="" PrevInteriorScribeSideThicknesses="" Count="1" LockConst="False" EndsToFloor="0" CornerVoidAssigned="False" Notes="" Price="0" PricePerM="0" PricePerSqM="0" Upcharge="0" Weight="0" IncludeInCabCount="True" IncludeInLinearCalculations="True" IncludeInSqCalculations="True" PricingColumn="" NotchForLeftPanelEndFrontToe="True" NotchForLeftPanelEndBackToe="True" NotchForRightPanelEndFrontToe="True" NotchForRightPanelEndBackToe="True" NotchForLeftEndFrontToe="True" NotchForLeftEndBackToe="False" NotchForRightEndFrontToe="True" NotchForRightEndBackToe="False" ParmVersion="10">
+      <ProductOptions />
+      <CabProdParts>
+        <CabProdPart Name="Door(L)" ReportName="Door(L)" UsageType="0" Comment="Cabinet Door" CommentLocked="False" Quan="1" W="396.8625" L="912.8" DisplayW="396.8625" DisplayL="912.8" Color="None" Type="Door" Q_EQ="" W_EQ="" L_EQ="" Layer="4" X="398.4625" Y="-3.175" Z="0" X_EQ="" Y_EQ="" Z_EQ="" DisplayX="398.4625" DisplayY="-3.175" DisplayZ="0" A1="-90" A2="90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="0" X="912.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+            <ShapePoint ID="0" X="912.8" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+            <ShapePoint ID="0" X="0" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationToolPath ToolID="39" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="9" X="-1.397" Y="-1.397" Depth="2.79" Hide="True" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="3" Noneditable="False" Anchor="" FlipSideOp="False">
+              <OperationToolPathNode X="-1.397" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="914.197" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="914.197" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="-1.397" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+            </OperationToolPath>
+            <OperationPocket CCW="True" InsideOut="True" PocketingToolID="40" ToolID="-1" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="13" X="58.7375" Y="58.7375" Depth="6.35" Hide="False" X_Eq="(BRail+(0.0625*tomm))" Y_Eq="(RStile+(0.0625*tomm))" Depth_Eq="" Hide_Eq="0 | If PartW &lt; (1.75*tomm)+(0.0625*tomm)+LStile+RStile Then Hide(0/1)= 1" IsUserOp="False" IdTag="4" Noneditable="False" Anchor="" FlipSideOp="False">
+              <OperationToolPathNode X="57.15" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="855.65" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="855.65" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="57.15" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+            </OperationPocket>
+          </PartOpsXml>
+          <PartTag SourceCode="2" TypeCode="51" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceType" Value="1" />
+            <PartTagReference Key="FaceIdx" Value="1" />
+            <PartTagReference Key="SectIdx" Value="1" />
+            <PartTagReference Key="SectAC" Value="A" />
+            <PartTagReference Key="DoorConst" Value="Shaker Door" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="Door(R)" ReportName="Door(R)" UsageType="0" Comment="Cabinet Door" CommentLocked="False" Quan="1" W="396.8625" L="912.8" DisplayW="396.8625" DisplayL="912.8" Color="None" Type="Door" Q_EQ="" W_EQ="" L_EQ="" Layer="4" X="798.5" Y="-3.175" Z="0" X_EQ="" Y_EQ="" Z_EQ="" DisplayX="798.5" DisplayY="-3.175" DisplayZ="0" A1="-90" A2="90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="0" X="912.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+            <ShapePoint ID="0" X="912.8" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+            <ShapePoint ID="0" X="0" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationToolPath ToolID="39" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="9" X="-1.397" Y="-1.397" Depth="2.79" Hide="True" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="3" Noneditable="False" Anchor="" FlipSideOp="False">
+              <OperationToolPathNode X="-1.397" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="914.197" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="914.197" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="-1.397" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+            </OperationToolPath>
+            <OperationPocket CCW="True" InsideOut="True" PocketingToolID="40" ToolID="-1" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="13" X="58.7375" Y="58.7375" Depth="6.35" Hide="False" X_Eq="(BRail+(0.0625*tomm))" Y_Eq="(RStile+(0.0625*tomm))" Depth_Eq="" Hide_Eq="0 | If PartW &lt; (1.75*tomm)+(0.0625*tomm)+LStile+RStile Then Hide(0/1)= 1" IsUserOp="False" IdTag="4" Noneditable="False" Anchor="" FlipSideOp="False">
+              <OperationToolPathNode X="57.15" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="855.65" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="855.65" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+              <OperationToolPathNode X="57.15" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+            </OperationPocket>
+          </PartOpsXml>
+          <PartTag SourceCode="2" TypeCode="53" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceType" Value="1" />
+            <PartTagReference Key="FaceIdx" Value="1" />
+            <PartTagReference Key="SectIdx" Value="1" />
+            <PartTagReference Key="SectAC" Value="A" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="Pull" ReportName="Pull" UsageType="0" Comment="Metal" CommentLocked="False" Quan="1" W="12.7" L="152.4" Color="None" Type="Metal" Q_EQ="" W_EQ="" L_EQ="" Layer="13" X="363.5375" Y="-41.225" Z="28.575" X_EQ="" Y_EQ="" Z_EQ="" A1="0" A2="0" A3="0" R1="X" R2="Y" R3="Z" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="BarPull_Door.skp" SUPartD="19">
+          <PartShapeXml Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False" />
+          <PartTag SourceCode="2" TypeCode="64" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceType" Value="1" />
+            <PartTagReference Key="FaceIdx" Value="1" />
+            <PartTagReference Key="SectIdx" Value="1" />
+            <PartTagReference Key="SectAC" Value="A" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="Pull" ReportName="Pull" UsageType="0" Comment="Metal" CommentLocked="False" Quan="1" W="12.7" L="152.4" Color="None" Type="Metal" Q_EQ="" W_EQ="" L_EQ="" Layer="13" X="423.8625" Y="-41.225" Z="28.575" X_EQ="" Y_EQ="" Z_EQ="" A1="0" A2="0" A3="0" R1="X" R2="Y" R3="Z" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="BarPull_Door.skp" SUPartD="19">
+          <PartShapeXml Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False" />
+          <PartTag SourceCode="2" TypeCode="66" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceType" Value="1" />
+            <PartTagReference Key="FaceIdx" Value="1" />
+            <PartTagReference Key="SectIdx" Value="1" />
+            <PartTagReference Key="SectAC" Value="A" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="Shelf" ReportName="Adjustable Shelf" UsageType="0" Comment="Adjustable Shelf" CommentLocked="False" Quan="1" W="282.65" L="763.7375" Color="None" Type="AdjustableShelf" Q_EQ="" W_EQ="" L_EQ="" Layer="3" X="781.9188" Y="6.35" Z="315.1" X_EQ="" Y_EQ="" Z_EQ="" A1="180" A2="0" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="762" RadiusY="304.8" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="763.73755" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+            <ShapePoint ID="0" X="763.73755" Y="282.65" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="2" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="0" X="0" Y="282.65" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+          </PartShapeXml>
+          <PartTag SourceCode="3" TypeCode="17" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="SectIdx" Value="2" />
+            <PartTagReference Key="DivideType" Value="AS" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="Shelf" ReportName="Adjustable Shelf" UsageType="0" Comment="Adjustable Shelf" CommentLocked="False" Quan="1" W="282.65" L="763.7375" Color="None" Type="AdjustableShelf" Q_EQ="" W_EQ="" L_EQ="" Layer="3" X="781.9188" Y="6.35" Z="614.6" X_EQ="" Y_EQ="" Z_EQ="" A1="180" A2="0" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="762" RadiusY="304.8" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="763.73755" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+            <ShapePoint ID="0" X="763.73755" Y="282.65" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="2" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="0" X="0" Y="282.65" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+          </PartShapeXml>
+          <PartTag SourceCode="3" TypeCode="17" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="SectIdx" Value="3" />
+            <PartTagReference Key="DivideType" Value="AS" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="Bottom" ReportName="Bottom" UsageType="0" Comment="Bottom of cabinet box" CommentLocked="False" Quan="1" W="289" L="768.5" Color="None" Type="Bottom" Q_EQ="" W_EQ="" L_EQ="" Layer="9" X="15.8" Y="0" Z="-1.907349E-07" X_EQ="" Y_EQ="" Z_EQ="" A1="0" A2="0" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="762" RadiusY="304.8" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+            <ShapePoint ID="0" X="768.5" Y="0" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="0" X="768.5" Y="289" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="2" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="0" X="0" Y="289" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+          </PartShapeXml>
+          <PartTag SourceCode="3" TypeCode="16" IsAddedByCustomParm="False" IsModifiedByCustomParm="False" />
+        </CabProdPart>
+        <CabProdPart Name="Top" ReportName="Top" UsageType="0" Comment="Top of cabinet box" CommentLocked="False" Quan="1" W="289" L="768.5" Color="None" Type="Top" Q_EQ="" W_EQ="" L_EQ="" Layer="8" X="784.3" Y="0" Z="914.4" X_EQ="" Y_EQ="" Z_EQ="" A1="180" A2="0" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="762" RadiusY="304.8" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="768.5" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+            <ShapePoint ID="0" X="768.5" Y="289" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="2" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="0" X="0" Y="289" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+          </PartShapeXml>
+          <PartTag SourceCode="3" TypeCode="14" IsAddedByCustomParm="False" IsModifiedByCustomParm="False" />
+        </CabProdPart>
+        <CabProdPart Name="UnFin End (L)" ReportName="UEnd (L)" UsageType="0" Comment="Unfinished End" CommentLocked="False" Quan="1" W="304.8" L="914.4" Color="None" Type="UEnd" Q_EQ="" W_EQ="" L_EQ="" Layer="2" X="0" Y="304.8" Z="0" X_EQ="" Y_EQ="" Z_EQ="" A1="-90" A2="180" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+            <ShapePoint ID="2" X="914.4" Y="304.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+            <ShapePoint ID="3" X="0" Y="304.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="240.8" Y="69.85" Depth="12.7" Hide="False" X_Eq="(PartL/3)-64" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="912" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="240.8" Y="254" Depth="12.7" Hide="False" X_Eq="(PartL/3)-64" Y_Eq="PartW-32mmFrLBIn" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="812" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="545.6" Y="69.85" Depth="12.7" Hide="False" X_Eq="PartL-(PartL/3)-64" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="913" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="545.6" Y="254" Depth="12.7" Hide="False" X_Eq="PartL-(PartL/3)-64" Y_Eq="PartW-32mmFrLBIn" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="813" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="85.5999984741" Y="267.799987793" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2401" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="117.5999984741" Y="267.799987793" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2501" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="795.200012207" Y="267.799987793" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2601" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="827.200012207" Y="267.799987793" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2701" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="278.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112010" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="214.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112011" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="104.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112012" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="40.79999" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112013" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="278.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112050" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="214.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112051" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="104.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112052" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="40.79999" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112053" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="888.4" Y="7.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132410" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="792.4" Y="7.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132411" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="7.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132412" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122" Y="7.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132413" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="600.4" Y="7.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="142410" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="314" Y="7.8" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="142411" Noneditable="False" Anchor="" FlipSideOp="False" />
+          </PartOpsXml>
+          <PartTag SourceCode="1" TypeCode="22" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceIdx" Value="4" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="UnFin End (R)" ReportName="UEnd (R)" UsageType="0" Comment="Unfinished End" CommentLocked="False" Quan="1" W="304.8" L="914.4" Color="None" Type="UEnd" Q_EQ="" W_EQ="" L_EQ="" Layer="2" X="800.1" Y="0" Z="0" X_EQ="" Y_EQ="" Z_EQ="" A1="-90" A2="0" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+            <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+            <ShapePoint ID="2" X="914.4" Y="304.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="3" X="0" Y="304.8" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="240.8" Y="234.95" Depth="12.7" Hide="False" X_Eq="(PartL/3)-64" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="922" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="240.8" Y="50.8" Depth="12.7" Hide="False" X_Eq="(PartL/3)-64" Y_Eq="32mmFrLBIn" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="822" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="545.6" Y="234.95" Depth="12.7" Hide="False" X_Eq="PartL-(PartL/3)-64" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="923" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="545.6" Y="50.8" Depth="12.7" Hide="False" X_Eq="PartL-(PartL/3)-64" Y_Eq="32mmFrLBIn" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="823" Noneditable="False" Anchor="TL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="85.5999984741" Y="37" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2401" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="117.5999984741" Y="37" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2501" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="795.200012207" Y="37" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2601" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="827.200012207" Y="37" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="2701" Noneditable="False" Anchor="NL" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="26" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112020" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="90" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112021" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="200" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112022" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="906.4" Y="264" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112023" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="26" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112060" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="90" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112061" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="200" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112062" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="8" Y="264" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112063" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="888.4" Y="297" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132420" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="792.4" Y="297" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132421" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="297" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132422" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122" Y="297" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132423" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="600.4" Y="297" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="142420" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="314" Y="297" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="142421" Noneditable="False" Anchor="" FlipSideOp="False" />
+          </PartOpsXml>
+          <PartTag SourceCode="1" TypeCode="22" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceIdx" Value="2" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="UBack" ReportName="UBack" UsageType="0" Comment="Unfinished Back" CommentLocked="False" Quan="1" W="768.5" L="914.4" Color="None" Type="UBack" Q_EQ="" W_EQ="" L_EQ="" Layer="7" X="784.3" Y="304.8" Z="0" X_EQ="" Y_EQ="" Z_EQ="" A1="-90" A2="90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+            <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+            <ShapePoint ID="2" X="914.4" Y="768.5" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+            <ShapePoint ID="3" X="0" Y="768.5" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="3" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="240.8" Y="384.25" Depth="12.7" Hide="False" X_Eq="(PartL/3)-64" Y_Eq="PartW/2" Depth_Eq="" Hide_Eq="0 | If W &lt; 30*tomm Then Hide(0/1)= 1" IsUserOp="True" IdTag="912" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+            <OperationLineBore Quan="5" Ang="0" Diameter="5" Quan_Eq="" Ang_Eq="" Diameter_Eq="" ID="1" X="545.6" Y="384.25" Depth="12.7" Hide="False" X_Eq="PartL-(PartL/3)-64" Y_Eq="PartW/2" Depth_Eq="" Hide_Eq="0 | If W &lt; 30*tomm Then Hide(0/1)= 1" IsUserOp="True" IdTag="913" Noneditable="False" Anchor="BL" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="906.5" Y="512.3334" Depth="15.8" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="252510" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="906.5" Y="256.1666" Depth="15.8" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="252511" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="7.9" Y="512.3334" Depth="15.8" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="252520" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="5" Diameter_Eq="" ID="1" X="7.9" Y="256.1666" Depth="15.8" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="252521" Noneditable="False" Anchor="" FlipSideOp="False" />
+          </PartOpsXml>
+          <PartTag SourceCode="1" TypeCode="34" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceIdx" Value="3" />
+          </PartTag>
+        </CabProdPart>
+      </CabProdParts>
+      <CabProdParms>
+        <CabProdParm ProdID="0" Name="PnlFast" Desc="CNC Panel Fastener Templates" Type="2" Category="11" Value="1" Options="None,Axon - GP,Axon - PF,Axon - PVC,Axon,Casters,False Front,Horizontal Backs,Leg Levelers - Corner Cabs,Leg Levelers - Partitions,Leg Levelers,LockDowel Spring Pin Top-Bot,Notched Toe" MaxVal="0" MinVal="0" />
+        <CabProdParm ProdID="0" Name="FLRevBW" Desc="Frameless Reveal Bottom(Wall)" Type="0" Category="1" Value="0" Options="" MaxVal="0" MinVal="0" />
+      </CabProdParms>
+      <CustomParmEnabledORs />
+      <ProductDoors>
+        <ProductDoor DoorStyle="Shaker Door" W="396.8625" H="912.8" Oversize="0" FaceIdx="1" SectIdx="1" SectAC="A" IsSecondOfPair="False" HingeCenterLines="101.6#811.2" HingeEdge="Left" HingeType="Blum 110 / 3mm - 71B358180" IsDrawerFront="False" IsHorizGrain="False" DoorType="2" Profile1="Use Cutout Tool" X="1.6" Y="-3.175" Z="0" DoorAng="0">
+          <DoorProdPart Name="Door(L)" ReportName="Door(L)" UsageType="0" Comment="Cabinet Door" CommentLocked="False" Quan="1" W="396.8625" L="912.8" DisplayW="396.8625" DisplayL="912.8" Color="None" Type="Door" Q_EQ="" W_EQ="" L_EQ="" Layer="4" X="398.4625" Y="-3.175" Z="0" X_EQ="" Y_EQ="" Z_EQ="" DisplayX="398.4625" DisplayY="-3.175" DisplayZ="0" A1="-90" A2="90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+            <PartShapeXml Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+              <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+              <ShapePoint ID="0" X="912.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+              <ShapePoint ID="0" X="912.8" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+              <ShapePoint ID="0" X="0" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+            </PartShapeXml>
+            <PartOpsXml Version="2">
+              <OperationToolPath ToolID="39" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="9" X="-1.397" Y="-1.397" Depth="2.79" Hide="True" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="3" Noneditable="False" Anchor="" FlipSideOp="False">
+                <OperationToolPathNode X="-1.397" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="914.197" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="914.197" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="-1.397" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+              </OperationToolPath>
+              <OperationPocket CCW="True" InsideOut="True" PocketingToolID="40" ToolID="-1" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="13" X="58.7375" Y="58.7375" Depth="6.35" Hide="False" X_Eq="(BRail+(0.0625*tomm))" Y_Eq="(RStile+(0.0625*tomm))" Depth_Eq="" Hide_Eq="0 | If PartW &lt; (1.75*tomm)+(0.0625*tomm)+LStile+RStile Then Hide(0/1)= 1" IsUserOp="False" IdTag="4" Noneditable="False" Anchor="" FlipSideOp="False">
+                <OperationToolPathNode X="57.15" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="855.65" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="855.65" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="57.15" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+              </OperationPocket>
+            </PartOpsXml>
+            <PartTag SourceCode="2" TypeCode="51" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+              <PartTagReference Key="FaceType" Value="1" />
+              <PartTagReference Key="FaceIdx" Value="1" />
+              <PartTagReference Key="SectIdx" Value="1" />
+              <PartTagReference Key="SectAC" Value="A" />
+              <PartTagReference Key="DoorConst" Value="Shaker Door" />
+            </PartTag>
+          </DoorProdPart>
+        </ProductDoor>
+        <ProductDoor DoorStyle="Shaker Door" W="396.8625" H="912.8" Oversize="0" FaceIdx="1" SectIdx="1" SectAC="A" IsSecondOfPair="True" HingeCenterLines="101.6#811.2" HingeEdge="Right" HingeType="Blum 110 / 3mm - 71B358180" IsDrawerFront="False" IsHorizGrain="False" DoorType="2" Profile1="Use Cutout Tool" X="401.6375" Y="-3.175" Z="0" DoorAng="0">
+          <DoorProdPart Name="Door(R)" ReportName="Door(R)" UsageType="0" Comment="Cabinet Door" CommentLocked="False" Quan="1" W="396.8625" L="912.8" DisplayW="396.8625" DisplayL="912.8" Color="None" Type="Door" Q_EQ="" W_EQ="" L_EQ="" Layer="4" X="798.5" Y="-3.175" Z="0" X_EQ="" Y_EQ="" Z_EQ="" DisplayX="798.5" DisplayY="-3.175" DisplayZ="0" A1="-90" A2="90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+            <PartShapeXml Version="2" Name="" Type="0" RadiusX="762" RadiusY="508" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+              <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+              <ShapePoint ID="0" X="912.8" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+              <ShapePoint ID="0" X="912.8" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+              <ShapePoint ID="0" X="0" Y="396.8625" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+            </PartShapeXml>
+            <PartOpsXml Version="2">
+              <OperationToolPath ToolID="39" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="9" X="-1.397" Y="-1.397" Depth="2.79" Hide="True" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="3" Noneditable="False" Anchor="" FlipSideOp="False">
+                <OperationToolPathNode X="-1.397" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="914.197" Y="-1.397" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="-(0.055*tomm)" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="914.197" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="PartL+(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="-1.397" Y="398.2595" DepthOR="-9999" PtType="1" Data="2.98" X_Eq="-(0.055*tomm)" Y_Eq="PartW+(0.055*tomm)" Data_Eq="" Anchor="" />
+              </OperationToolPath>
+              <OperationPocket CCW="True" InsideOut="True" PocketingToolID="40" ToolID="-1" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="13" X="58.7375" Y="58.7375" Depth="6.35" Hide="False" X_Eq="(BRail+(0.0625*tomm))" Y_Eq="(RStile+(0.0625*tomm))" Depth_Eq="" Hide_Eq="0 | If PartW &lt; (1.75*tomm)+(0.0625*tomm)+LStile+RStile Then Hide(0/1)= 1" IsUserOp="False" IdTag="4" Noneditable="False" Anchor="" FlipSideOp="False">
+                <OperationToolPathNode X="57.15" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="855.65" Y="57.15" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="RStile" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="855.65" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="PartL-TRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+                <OperationToolPathNode X="57.15" Y="339.7125" DepthOR="-9999" PtType="0" Data="0" X_Eq="BRail" Y_Eq="PartW-LStile" Data_Eq="" Anchor="" />
+              </OperationPocket>
+            </PartOpsXml>
+            <PartTag SourceCode="2" TypeCode="53" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+              <PartTagReference Key="FaceType" Value="1" />
+              <PartTagReference Key="FaceIdx" Value="1" />
+              <PartTagReference Key="SectIdx" Value="1" />
+              <PartTagReference Key="SectAC" Value="A" />
+            </PartTag>
+          </DoorProdPart>
+        </ProductDoor>
+      </ProductDoors>
+      <ProductDrawers />
+      <ProductRolloutShelves />
+      <JointFastenerCounts>
+        <JointFastenerCount Name="Dowels 1-4 V3" Count="16" />
+        <JointFastenerCount Name="Dowels 5-8 V3" Count="0" />
+        <JointFastenerCount Name="Dowels (End to Back) 1-4 V3" Count="8" />
+        <JointFastenerCount Name="Dowels (End to Back) 5-8 V3" Count="4" />
+        <JointFastenerCount Name="Back Screws" Count="4" />
+      </JointFastenerCounts>
+      <ShelfPinCounts>
+        <ShelfPinCount Index="2" Count="5" />
+        <ShelfPinCount Index="3" Count="5" />
+      </ShelfPinCounts>
+      <ProductInterior MaxIntSecID="3" DelT="False" DelB="False" DelL="False" DelR="False">
+        <Section nSide="1" ID="1" pParent="0" pAChild="2" pCChild="0" Locked="N" AdjL="0" AdjR="0" ParentABC="N" ATray="0" CTray="0" Split="N" DivideType="N" LockParentID="0" LockPosition="0" DepthAdj="0" InsetAdj="0" SplitBack="False" SplitTop="False" SplitBottom="False" SplitEnds="False" NoShelfHolesA="False" NoShelfHolesC="False" ROTrayOR="0" ROShelfA="0" ROShelfC="0" ROGuideOR="0" ClosetRodOR="0" ShelfPinsOR="0" ROTrayFrontFastenersOR="0" NoShotgunBore="False" X="158" Y="158" DX="7685" DY="8828" DA="8828" DB="0" MatOR="" MatDrawerOR="" MatCabOR="" />
+        <Section nSide="1" ID="2" pParent="1" pAChild="0" pCChild="3" Locked="P" AdjL="0" AdjR="0" ParentABC="A" ATray="0" CTray="0" Split="H" DivideType="AS" LockParentID="0" LockPosition="0" DepthAdj="0" InsetAdj="0" SplitBack="False" SplitTop="False" SplitBottom="False" SplitEnds="False" NoShelfHolesA="False" NoShelfHolesC="False" ROTrayOR="0" ROShelfA="0" ROShelfC="0" ROGuideOR="0" ClosetRodOR="0" ShelfPinsOR="0" ROTrayFrontFastenersOR="0" NoShotgunBore="False" X="158" Y="158" DX="7685" DY="8828" DA="2835" DB="158" MatOR="" MatDrawerOR="" MatCabOR="" />
+        <Section nSide="1" ID="3" pParent="2" pAChild="0" pCChild="0" Locked="P" AdjL="0" AdjR="0" ParentABC="C" ATray="0" CTray="0" Split="H" DivideType="AS" LockParentID="0" LockPosition="0" DepthAdj="0" InsetAdj="0" SplitBack="False" SplitTop="False" SplitBottom="False" SplitEnds="False" NoShelfHolesA="False" NoShelfHolesC="False" ROTrayOR="0" ROShelfA="0" ROShelfC="0" ROGuideOR="0" ClosetRodOR="0" ShelfPinsOR="0" ROTrayFrontFastenersOR="0" NoShotgunBore="False" X="158" Y="3151" DX="7685" DY="5835" DA="2837" DB="158" MatOR="" MatDrawerOR="" MatCabOR="" />
+      </ProductInterior>
+      <FrontFace MaxSecID="1" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1">
+        <Section nSide="1" ID="1" pParent="0" pAChild="0" pCChild="0" UseTopDwr="0" Locked="N" ParentABC="N" Equal3="N" Split="N" AoType="P" CoType="O" AHinge="N" CHinge="N" AdeltaT="0" AdeltaB="0" AdeltaL="0" AdeltaR="0" AInset="0" CdeltaT="0" CdeltaB="0" CdeltaL="0" CdeltaR="0" CInset="0" ADwrWAdj="0" CDwrWAdj="0" ADwrHAdj="0" CDwrHAdj="0" ADwrDAdj="0" CDwrDAdj="0" ADwrBCLAdj="0" CDwrBCLAdj="0" X="158" Y="158" DX="7685" DY="8828" DA="8828" DB="0" DwrBoxA="0" DwrBoxC="0" GuideA="0" GuideC="0" HingeA="0" HingeC="0" PullA="0" PullC="0" DwrFrontFastenerA="0" DwrFrontFastenerC="0" HngAdj="0" PullAdj="0" PullDelA="0" PullDelC="0" PullHorizAdjA="0" PullHorizAdjC="0" PullVertAdjA="0" PullVertAdjC="0" Pull2XA="0" Pull2XC="0" Pull2XSepA="0" Pull2XSepC="0" HngDelA="0" HngDelC="0" HngTopAdjA="0" HngTopAdjC="0" HngBotAdjA="0" HngBotAdjC="0" HngOverrideA="-1" HngOverrideC="-1" HngMidAdjA="" HngMidAdjC="" MatORA="" MatORC="" MatDoorORA="" MatDoorORC="" MatDrawerORA="" MatDrawerORC="" />
+      </FrontFace>
+      <LeftFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <RightFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <BackFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <TopShapeXml Version="2" Name="" Type="1" RadiusX="762" RadiusY="304.8" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+        <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+        <ShapePoint ID="0" X="800.1" Y="0" PtType="0" Data="0" EdgeType="8" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+        <ShapePoint ID="0" X="800.1" Y="304.8" PtType="0" Data="0" EdgeType="9" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="2" EBandLock="False" SideName="" />
+        <ShapePoint ID="0" X="0" Y="304.8" PtType="0" Data="0" EdgeType="8" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      </TopShapeXml>
+      <ProductType Type="3" SubType="2" SubSubType="1" />
+      <LabelDimensionOverrideMap />
+    </Product>
+    <Product UniqueID="2735659" OrderID="0" ProdName="Wall Filler - R" IDTag="24" ProductDesc="Wall Filler - R 2.16.21" SourceLib="Axon V3" NonGraphic="False" ImageFile="" SketchUpFile="" UseSUModel="0" AutoFill="False" Mirror="False" SUDirty="True" OrderDirty="True" Width="44.45" Height="914.4" Depth="304.8" WStretch="True" HStretch="True" DStretch="True" minW="0" minH="0" minD="0" MaxW="0" MaxH="0" MaxD="0" X="1644.65" Elev="1422.4" Rot="0" Outset="0" Wall="2_1" CabNo="2" Numbered="False" SnapTo="0" IsRectShape="False" MatOR="" DoorOR="" TopDrwOR="" MidDrwOR="" BotDrwOR="" DrwPullOR="" DoorPullOR="" HingeOR="" GuideOR="" GuideORSlowCloseOn="False" GuideORSpacerState="1" ShelfPinsOR="" DrawerFrontFastenerOR="" EndDoorOR="" BackDoorOR="" BaseDoorTextureOR="" DwrFaceTextureOR="" WallDoorTextureOR="" ExtTextureOR="" IntTextureOR="" BandTextureOR="" MatDoorOR="" MatDrawerOR="" MatCabOR="" MatBandingOR="" LToeAdj="0" RToeAdj="0" TopDepthAdj="0" BottomDepthAdj="0" CurrentConst="1" ShowElevDepth="False" ExtEnds="0" Flags="0010000100100011" NoParts="False" DoorStyle="Slab Door - VG" FinInt="False" AutomateInterior="False" GrainMatched="0" ScribeRefWasExterior="True" PrevInteriorScribeStileWidths="" PrevInteriorScribeSideThicknesses="" Count="1" LockConst="False" EndsToFloor="0" CornerVoidAssigned="False" Notes="" Price="0" PricePerM="0" PricePerSqM="0" Upcharge="0" Weight="0" IncludeInCabCount="True" IncludeInLinearCalculations="True" IncludeInSqCalculations="True" PricingColumn="" NotchForLeftPanelEndFrontToe="True" NotchForLeftPanelEndBackToe="True" NotchForRightPanelEndFrontToe="True" NotchForRightPanelEndBackToe="True" NotchForLeftEndFrontToe="True" NotchForLeftEndBackToe="False" NotchForRightEndFrontToe="True" NotchForRightEndBackToe="False" ParmVersion="10">
+      <ProductOptions />
+      <CabProdParts>
+        <CabProdPart Name="Stile" ReportName=" Filler Face/Cleat" UsageType="1" Comment="Filler Face/Cleat" CommentLocked="True" Quan="1" W="149.25" L="914.4" Color="None" Type="PANELIZEDEND" Q_EQ="1 | If HorizGrain = 1 Then Quan= 0" W_EQ="W+BFRetDL+3.2 | If ScribeOn = 1 Then Width= W+ScribeRight+BFRetDL+3.2" L_EQ="H | If FLRevBW &lt; 0 Then Length= H-FLRevBW | If ScribeOn = 1 Then Length= H+ScribeTop | If ScribeOn = 1 And FLRevBW &lt; 0 Then Length= H-FLRevBW+ScribeTop" Layer="2" X="0" Y="-22.225" Z="0" X_EQ="0 | If ScribeOn = 1 Then X Pos= ScribeLeft*-1" Y_EQ="(Door.th+DoorOutset)*-1 | If FlushWithDoors = 0 Then Y Pos= 0" Z_EQ="FLRevBW | If FLRevBW &gt; 0 Then Z Pos= 0" A1="-90" A2="-90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="2" X="914.4" Y="149.25" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="3" X="0" Y="149.25" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="8" Depth="12.7" Hide="True" X_Eq="26" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="154" Y="8" Depth="12.7" Hide="True" X_Eq="(26+128)" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="3" X="888.4" Y="8" Depth="12.7" Hide="True" X_Eq="PartL-26" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="4" X="760.4" Y="8" Depth="12.7" Hide="True" X_Eq="PartL-(26+128)" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="115.85" Depth="12.7" Hide="True" X_Eq="26" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="154" Y="115.85" Depth="12.7" Hide="True" X_Eq="(26+128)" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="3" X="760.4" Y="115.85" Depth="12.7" Hide="True" X_Eq="PartL-(26+128)" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="4" X="888.4" Y="115.85" Depth="12.7" Hide="True" X_Eq="PartL-26" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+          </PartOpsXml>
+          <PartTag SourceCode="0" TypeCode="-1" IsAddedByCustomParm="False" IsModifiedByCustomParm="False" />
+        </CabProdPart>
+        <CabProdPart Name="Stile" ReportName=" Horizontal Filler Face/Cleat" UsageType="1" Comment="Horizontal Filler Face/Cleat" CommentLocked="True" Quan="0" W="914.4" L="149.25" Color="None" Type="PANELIZEDEND" Q_EQ="0 | If HorizGrain = 1 Then Quan= 1" W_EQ="H | If FLRevBW &lt; 0 Then Width= H-FLRevBW | If ScribeOn = 1 Then Width= H+ScribeTop | If ScribeOn = 1 And FLRevBW &lt; 0 Then Width= H+ScribeTop-FLRevBW" L_EQ="W+BFRetDL+3.2 | If ScribeOn = 1 Then Length= W+ScribeRight+BFRetDL+3.2" Layer="2" X="0" Y="-22.225" Z="0" X_EQ="0 | If ScribeOn = 1 Then X Pos= ScribeLeft*-1" Y_EQ="(Door.th+DoorOutset)*-1 | If FlushWithDoors = 0 Then Y Pos= 0" Z_EQ="FLRevBW | If FLRevBW &gt; 0 Then Z Pos= 0" A1="-90" A2="-90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="1" X="149.25" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="2" X="149.25" Y="914.4002" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="3" X="0" Y="914.4002" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="8" Depth="12.7" Hide="True" X_Eq="26" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="154" Y="8" Depth="12.7" Hide="True" X_Eq="(26+128)" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="3" X="123.25" Y="8" Depth="12.7" Hide="True" X_Eq="PartL-26" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="4" X="-4.75" Y="8" Depth="12.7" Hide="True" X_Eq="PartL-(26+128)" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="881" Depth="12.7" Hide="True" X_Eq="26" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="154" Y="881" Depth="12.7" Hide="True" X_Eq="(26+128)" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="3" X="-4.75" Y="881" Depth="12.7" Hide="True" X_Eq="PartL-(26+128)" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="4" X="123.25" Y="881" Depth="12.7" Hide="True" X_Eq="PartL-26" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+          </PartOpsXml>
+          <PartTag SourceCode="0" TypeCode="-1" IsAddedByCustomParm="False" IsModifiedByCustomParm="False" />
+        </CabProdPart>
+        <CabProdPart Name="Stile" ReportName=" Filler Face (Graphic Only)" UsageType="0" Comment="Filler Face (Graphic Only)" CommentLocked="True" Quan="1" W="69.85" L="914.4" Color="None" Type="FINSKIN" Q_EQ="" W_EQ="W | If ScribeOn = 1 Then Width= W+ScribeRight" L_EQ="H-FLRevBW | If FLRevBW &gt; 0 Then Length= H | If ScribeOn = 1 Then Length= H-FLRevBW+ScribeTop | If ScribeOn = 1 And FLRevBW &gt; 0 Then Length= H+ScribeTop" Layer="2" X="0" Y="-22.225" Z="0" X_EQ="0 | If ScribeOn = 1 Then X Pos= ScribeLeft*-1" Y_EQ="(Door.th+DoorOutset)*-1 | If FlushWithDoors = 0 Then Y Pos= 0" Z_EQ="FLRevBW | If FLRevBW &gt; 0 Then Z Pos= 0" A1="-90" A2="-90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="2" X="914.4" Y="69.85" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="3" X="0" Y="69.85" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="8" Depth="12.7" Hide="True" X_Eq="26" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="154" Y="8" Depth="12.7" Hide="True" X_Eq="(26+128)" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="3" X="888.4" Y="8" Depth="12.7" Hide="True" X_Eq="PartL-26" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="4" X="760.4" Y="8" Depth="12.7" Hide="True" X_Eq="PartL-(26+128)" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="36.45" Depth="12.7" Hide="True" X_Eq="26" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="154" Y="36.45" Depth="12.7" Hide="True" X_Eq="(26+128)" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="3" X="760.4" Y="36.45" Depth="12.7" Hide="True" X_Eq="PartL-(26+128)" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="4" X="888.4" Y="36.45" Depth="12.7" Hide="True" X_Eq="PartL-26" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+          </PartOpsXml>
+          <PartTag SourceCode="1" TypeCode="22" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceIdx" Value="1" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="UnFin End (L)" ReportName=" W Cleat L (Graphic Only)" UsageType="0" Comment="W Cleat L (Graphic Only)" CommentLocked="True" Quan="1" W="76.2" L="914.4" Color="None" Type="FINSKIN" Q_EQ="" W_EQ="BFRetDL | If BFRetDL = 0 And FlushWithDoors = 1 Then Width= D+DoorOutset | If BFRetDL = 0 And FlushWithDoors = 0 Then Width= D-Door.th | If BFRetDL = 0 And FlushWithDoors = 1 And ScribeOn = 1 Then Width= D+DoorOutset+ScribeBack | If BFRetDL = 0 And FlushWithDoors = 0 And ScribeOn = 1 Then Width= D-Door.th+ScribeBack" L_EQ="H-FLRevBW | If FLRevBW &gt; 0 Then Length= H | If ScribeOn = 1 Then Length= H-FLRevBW+ScribeTop | If ScribeOn = 1 And FLRevBW &gt; 0 Then Length= H+ScribeTop" Layer="2" X="0" Y="73.02499" Z="0" X_EQ="" Y_EQ="PartW-DoorOutset | If FlushWithDoors = 0 Then Y Pos= PartW+Door.th" Z_EQ="FLRevBW | If FLRevBW &gt; 0 Then Z Pos= 0" A1="-90" A2="180" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+            <ShapePoint ID="2" X="914.4" Y="76.2" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+            <ShapePoint ID="3" X="0" Y="76.2" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+          </PartShapeXml>
+          <PartTag SourceCode="1" TypeCode="22" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceIdx" Value="4" />
+          </PartTag>
+        </CabProdPart>
+      </CabProdParts>
+      <CabProdParms>
+        <CabProdParm ProdID="0" Name="BFRetDL" Desc="Filler Return Depth Left (0 = Full Depth)" Type="0" Category="0" Value="76.2" Options="" MaxVal="0" MinVal="0" />
+        <CabProdParm ProdID="0" Name="ScribeRight" Desc="Scribe on right side of part" Type="0" Category="0" Value="25.4" Options="" MaxVal="0" MinVal="0" />
+        <CabProdParm ProdID="0" Name="ScribeTop" Desc="Scribe on top of parts" Type="0" Category="0" Value="0" Options="" MaxVal="0" MinVal="0" />
+        <CabProdParm ProdID="0" Name="ScribeBack" Desc="Scribe on back of cleat (full depth only)" Type="0" Category="0" Value="25.4" Options="" MaxVal="0" MinVal="0" />
+        <CabProdParm ProdID="0" Name="PnlFast" Desc="CNC Panel Fastener Templates" Type="2" Category="11" Value="1" Options="None,Axon - GP,Axon - PF,Axon - PVC,Axon,Casters,False Front,Horizontal Backs,Leg Levelers - Corner Cabs,Leg Levelers - Partitions,Leg Levelers,LockDowel Spring Pin Top-Bot,Notched Toe" MaxVal="0" MinVal="0" />
+        <CabProdParm ProdID="0" Name="FLRevBW" Desc="Frameless Reveal Bottom(Wall)" Type="0" Category="1" Value="0" Options="" MaxVal="0" MinVal="0" />
+      </CabProdParms>
+      <CustomParmEnabledORs />
+      <ProductDoors />
+      <ProductDrawers />
+      <ProductRolloutShelves />
+      <JointFastenerCounts />
+      <ShelfPinCounts />
+      <ProductInterior MaxIntSecID="0" DelT="False" DelB="False" DelL="False" DelR="False" />
+      <FrontFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <LeftFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <RightFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <BackFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <TopShapeXml Version="2" Name="" Type="1" RadiusX="25.42" RadiusY="609.6" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+        <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="13" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+        <ShapePoint ID="0" X="44.45" Y="0" PtType="0" Data="0" EdgeType="8" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+        <ShapePoint ID="0" X="44.45" Y="304.8" PtType="0" Data="0" EdgeType="9" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+        <ShapePoint ID="0" X="0" Y="304.8" PtType="0" Data="0" EdgeType="8" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      </TopShapeXml>
+      <ProductType Type="3" SubType="2" SubSubType="7" />
+      <LabelDimensionOverrideMap />
+    </Product>
+    <Product UniqueID="2735660" OrderID="0" ProdName="Wall Filler - L" IDTag="25" ProductDesc="Wall Filler - L 2.16.21" SourceLib="Axon V3" NonGraphic="False" ImageFile="" SketchUpFile="" UseSUModel="0" AutoFill="False" Mirror="False" SUDirty="True" OrderDirty="True" Width="44.45" Height="914.4" Depth="304.8" WStretch="True" HStretch="True" DStretch="True" minW="0" minH="0" minD="0" MaxW="0" MaxH="0" MaxD="0" X="0" Elev="1422.4" Rot="0" Outset="0" Wall="2_1" CabNo="1" Numbered="False" SnapTo="0" IsRectShape="False" MatOR="" DoorOR="" TopDrwOR="" MidDrwOR="" BotDrwOR="" DrwPullOR="" DoorPullOR="" HingeOR="" GuideOR="" GuideORSlowCloseOn="False" GuideORSpacerState="1" ShelfPinsOR="" DrawerFrontFastenerOR="" EndDoorOR="" BackDoorOR="" BaseDoorTextureOR="" DwrFaceTextureOR="" WallDoorTextureOR="" ExtTextureOR="" IntTextureOR="" BandTextureOR="" MatDoorOR="" MatDrawerOR="" MatCabOR="" MatBandingOR="" LToeAdj="0" RToeAdj="0" TopDepthAdj="0" BottomDepthAdj="0" CurrentConst="1" ShowElevDepth="False" ExtEnds="0" Flags="0001000000100011" NoParts="False" DoorStyle="Slab Door - VG" FinInt="False" AutomateInterior="False" GrainMatched="0" ScribeRefWasExterior="True" PrevInteriorScribeStileWidths="" PrevInteriorScribeSideThicknesses="" Count="1" LockConst="False" EndsToFloor="0" CornerVoidAssigned="False" Notes="" Price="0" PricePerM="0" PricePerSqM="0" Upcharge="0" Weight="0" IncludeInCabCount="True" IncludeInLinearCalculations="True" IncludeInSqCalculations="True" PricingColumn="" NotchForLeftPanelEndFrontToe="True" NotchForLeftPanelEndBackToe="True" NotchForRightPanelEndFrontToe="True" NotchForRightPanelEndBackToe="True" NotchForLeftEndFrontToe="True" NotchForLeftEndBackToe="False" NotchForRightEndFrontToe="True" NotchForRightEndBackToe="False" ParmVersion="10">
+      <ProductOptions />
+      <CabProdParts>
+        <CabProdPart Name="Stile" ReportName=" Filler Face/Cleat" UsageType="1" Comment=" Filler Face/Cleat" CommentLocked="True" Quan="1" W="149.25" L="914.4" Color="None" Type="PANELIZEDEND" Q_EQ="1 | If HorizGrain = 1 Then Quan= 0" W_EQ="W+BFRetDR+3.2 | If ScribeOn = 1 Then Width= W+ScribeLeft+BFRetDR+3.2" L_EQ="H | If FLRevBW &lt; 0 Then Length= H-FLRevBW | If ScribeOn = 1 Then Length= H+ScribeTop | If ScribeOn = 1 And FLRevBW &lt; 0 Then Length= H-FLRevBW+ScribeTop" Layer="2" X="-104.8" Y="-22.225" Z="0" X_EQ="0 | If ScribeOn = 1 Then X Pos= (PartW-W)*-1" Y_EQ="(Door.th+DoorOutset)*-1 | If FlushWithDoors = 0 Then Y Pos= 0" Z_EQ="FLRevBW | If FLRevBW &gt; 0 Then Z Pos= 0" A1="-90" A2="-90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="2" X="914.4" Y="149.25" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="3" X="0" Y="149.25" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="33.4" Depth="12.7" Hide="True" X_Eq="26" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="154" Y="33.4" Depth="12.7" Hide="True" X_Eq="(26+128)" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="3" X="888.4" Y="33.4" Depth="12.7" Hide="True" X_Eq="PartL-26" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="4" X="760.4" Y="33.4" Depth="12.7" Hide="True" X_Eq="PartL-(26+128)" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="141.25" Depth="12.7" Hide="True" X_Eq="26" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="154" Y="141.25" Depth="12.7" Hide="True" X_Eq="(26+128)" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="3" X="760.4" Y="141.25" Depth="12.7" Hide="True" X_Eq="PartL-(26+128)" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="4" X="888.4" Y="141.25" Depth="12.7" Hide="True" X_Eq="PartL-26" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+          </PartOpsXml>
+          <PartTag SourceCode="0" TypeCode="-1" IsAddedByCustomParm="False" IsModifiedByCustomParm="False" />
+        </CabProdPart>
+        <CabProdPart Name="Stile" ReportName=" Horizontal Filler Face/Cleat" UsageType="1" Comment="Horizontal Filler Face/Cleat" CommentLocked="True" Quan="0" W="914.4" L="149.25" Color="None" Type="PANELIZEDEND" Q_EQ="0 | If HorizGrain = 1 Then Quan= 1" W_EQ="H | If FLRevBW &lt; 0 Then Width= H-FLRevBW | If ScribeOn = 1 Then Width= H+ScribeTop | If ScribeOn = 1 And FLRevBW &lt; 0 Then Width= H+ScribeTop-FLRevBW" L_EQ="W+BFRetDR+3.2 | If ScribeOn = 1 Then Length= W+ScribeLeft+BFRetDR+3.2" Layer="2" X="-869.95" Y="-22.225" Z="0" X_EQ="0 | If ScribeOn = 1 Then X Pos= (PartW-W)*-1" Y_EQ="(Door.th+DoorOutset)*-1 | If FlushWithDoors = 0 Then Y Pos= 0" Z_EQ="FLRevBW | If FLRevBW &gt; 0 Then Z Pos= 0" A1="-90" A2="-90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="1" X="149.25" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="2" X="149.25" Y="914.4002" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="3" X="0" Y="914.4002" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="33.4" Depth="12.7" Hide="True" X_Eq="26" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="154" Y="33.4" Depth="12.7" Hide="True" X_Eq="(26+128)" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="3" X="123.25" Y="33.4" Depth="12.7" Hide="True" X_Eq="PartL-26" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="4" X="-4.75" Y="33.4" Depth="12.7" Hide="True" X_Eq="PartL-(26+128)" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="906.4" Depth="12.7" Hide="True" X_Eq="26" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="154" Y="906.4" Depth="12.7" Hide="True" X_Eq="(26+128)" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="3" X="-4.75" Y="906.4" Depth="12.7" Hide="True" X_Eq="PartL-(26+128)" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="4" X="123.25" Y="906.4" Depth="12.7" Hide="True" X_Eq="PartL-26" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+          </PartOpsXml>
+          <PartTag SourceCode="0" TypeCode="-1" IsAddedByCustomParm="False" IsModifiedByCustomParm="False" />
+        </CabProdPart>
+        <CabProdPart Name="Stile" ReportName=" Filler Face (Graphic Only)" UsageType="0" Comment="Filler Face (Graphic Only)" CommentLocked="True" Quan="1" W="69.85" L="914.4" Color="None" Type="FINSKIN" Q_EQ="" W_EQ="W | If ScribeOn = 1 Then Width= W+ScribeLeft" L_EQ="H-FLRevBW | If FLRevBW &gt; 0 Then Length= H | If ScribeOn = 1 Then Length= H-FLRevBW+ScribeTop | If ScribeOn = 1 And FLRevBW &gt; 0 Then Length= H+ScribeTop" Layer="2" X="-25.4" Y="-22.225" Z="0" X_EQ="0 | If ScribeOn = 1 Then X Pos= (PartW-W)*-1" Y_EQ="(Door.th+DoorOutset)*-1 | If FlushWithDoors = 0 Then Y Pos= 0" Z_EQ="FLRevBW | If FLRevBW &gt; 0 Then Z Pos= 0" A1="-90" A2="-90" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="2" X="914.4" Y="69.85" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+            <ShapePoint ID="3" X="0" Y="69.85" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+          </PartShapeXml>
+          <PartOpsXml Version="2">
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="33.4" Depth="12.7" Hide="True" X_Eq="26" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="154" Y="33.4" Depth="12.7" Hide="True" X_Eq="(26+128)" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="3" X="888.4" Y="33.4" Depth="12.7" Hide="True" X_Eq="PartL-26" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="4" X="760.4" Y="33.4" Depth="12.7" Hide="True" X_Eq="PartL-(26+128)" Y_Eq="8 | If ScribeOn = 1 Then Y= 8+ScribeLeft" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="1" X="26" Y="61.85" Depth="12.7" Hide="True" X_Eq="26" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="2" X="154" Y="61.85" Depth="12.7" Hide="True" X_Eq="(26+128)" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="3" X="760.4" Y="61.85" Depth="12.7" Hide="True" X_Eq="PartL-(26+128)" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+            <OperationHole Diameter="8" Diameter_Eq="8" ID="4" X="888.4" Y="61.85" Depth="12.7" Hide="True" X_Eq="PartL-26" Y_Eq="partw-8 | If ScribeOn = 1 Then Y= PartW-8-ScribeRight" Depth_Eq="1/2*tomm" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+          </PartOpsXml>
+          <PartTag SourceCode="1" TypeCode="22" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceIdx" Value="1" />
+          </PartTag>
+        </CabProdPart>
+        <CabProdPart Name="UnFin End (R)" ReportName=" W Cleat R (Graphic Only)" UsageType="0" Comment="W Cleat R (Graphic Only)" CommentLocked="True" Quan="1" W="76.2" L="914.4" Color="None" Type="FINSKIN" Q_EQ="" W_EQ="BFRetDR | If BFRetDR = 0 And FlushWithDoors = 1 Then Width= D+DoorOutset | If BFRetDR = 0 And FlushWithDoors = 0 Then Width= D-Door.th | If BFRetDR = 0 And FlushWithDoors = 1 And ScribeOn = 1 Then Width= D+DoorOutset+ScribeBack | If BFRetDR = 0 And FlushWithDoors = 0 And ScribeOn = 1 Then Width= D-Door.th+ScribeBack" L_EQ="H-FLRevBW | If FLRevBW &gt; 0 Then Length= H | If ScribeOn = 1 Then Length= H-FLRevBW+ScribeTop | If ScribeOn = 1 And FLRevBW &gt; 0 Then Length= H+ScribeTop" Layer="2" X="44.45" Y="-3.175" Z="0" X_EQ="" Y_EQ="DoorOutset*-1 | If FlushWithDoors = 0 Then Y Pos= Door.th" Z_EQ="FLRevBW | If FLRevBW &gt; 0 Then Z Pos= 0" A1="-90" A2="0" A3="0" R1="Y" R2="Z" R3="X" Face="0" A1_EQ="" A2_EQ="" A3_EQ="" Radius="0" RadAxis="0" SUPartName="" SUPartD="0">
+          <PartShapeXml Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+            <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+            <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+            <ShapePoint ID="2" X="914.4" Y="76.2" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+            <ShapePoint ID="3" X="0" Y="76.2" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+          </PartShapeXml>
+          <PartTag SourceCode="1" TypeCode="22" IsAddedByCustomParm="False" IsModifiedByCustomParm="False">
+            <PartTagReference Key="FaceIdx" Value="2" />
+          </PartTag>
+        </CabProdPart>
+      </CabProdParts>
+      <CabProdParms>
+        <CabProdParm ProdID="0" Name="BFRetDR" Desc="Filler Return Depth Right (0 = Full Depth)" Type="0" Category="0" Value="76.2" Options="" MaxVal="0" MinVal="0" />
+        <CabProdParm ProdID="0" Name="ScribeLeft" Desc="Scribe on left side of part" Type="0" Category="0" Value="25.4" Options="" MaxVal="0" MinVal="0" />
+        <CabProdParm ProdID="0" Name="ScribeTop" Desc="Scribe on top of parts" Type="0" Category="0" Value="0" Options="" MaxVal="0" MinVal="0" />
+        <CabProdParm ProdID="0" Name="ScribeBack" Desc="Scribe on back side of cleat (full depth only)" Type="0" Category="0" Value="25.4" Options="" MaxVal="0" MinVal="0" />
+        <CabProdParm ProdID="0" Name="PnlFast" Desc="CNC Panel Fastener Templates" Type="2" Category="11" Value="1" Options="None,Axon - GP,Axon - PF,Axon - PVC,Axon,Casters,False Front,Horizontal Backs,Leg Levelers - Corner Cabs,Leg Levelers - Partitions,Leg Levelers,LockDowel Spring Pin Top-Bot,Notched Toe" MaxVal="0" MinVal="0" />
+        <CabProdParm ProdID="0" Name="FLRevBW" Desc="Frameless Reveal Bottom(Wall)" Type="0" Category="1" Value="0" Options="" MaxVal="0" MinVal="0" />
+      </CabProdParms>
+      <CustomParmEnabledORs />
+      <ProductDoors />
+      <ProductDrawers />
+      <ProductRolloutShelves />
+      <JointFastenerCounts />
+      <ShelfPinCounts />
+      <ProductInterior MaxIntSecID="0" DelT="False" DelB="False" DelL="False" DelR="False" />
+      <FrontFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <LeftFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <RightFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <BackFace MaxSecID="0" TROverride="-1" BROverride="-1" LSOverride="-1" RSOverride="-1" />
+      <TopShapeXml Version="2" Name="" Type="1" RadiusX="25.42" RadiusY="609.6" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+        <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="13" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+        <ShapePoint ID="0" X="44.45" Y="0" PtType="0" Data="0" EdgeType="8" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+        <ShapePoint ID="0" X="44.45" Y="304.8" PtType="0" Data="0" EdgeType="9" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+        <ShapePoint ID="0" X="0" Y="304.8" PtType="0" Data="0" EdgeType="8" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      </TopShapeXml>
+      <ProductType Type="3" SubType="2" SubSubType="7" />
+      <LabelDimensionOverrideMap />
+    </Product>
+  </Products>
+  <Tops />
+  <Moldings />
+  <ToeSkins />
+  <Notes />
+  <Dimensions />
+</Room>
