@@ -369,12 +369,12 @@ def hinge_boring_report():
     row = 1
     col = 1
 
-    sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 12)
-    sheet1.cell(row, col, job_name + ' - Door List')
-    sheet1.cell(row, col).alignment = Alignment(vertical='top')
-    sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
-    sheet1.row_dimensions[row].height = 40
-    row += 1
+    # sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 12)
+    # sheet1.cell(row, col, job_name + ' - Door List')
+    # sheet1.cell(row, col).alignment = Alignment(vertical='top')
+    # sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
+    # sheet1.row_dimensions[row].height = 40
+    # row += 1
     
     for _material in mat_list:
         sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 12)
@@ -651,13 +651,17 @@ def hinge_boring_report():
 
     sheet1.page_margins.left = 0.5
     sheet1.page_margins.right = 0.5
-    sheet1.page_margins.top = 0.5
+    sheet1.page_margins.top = 1.0
     sheet1.page_margins.bottom = 0.5
     sheet1.page_margins.footer = 0.25
+    sheet1.page_margins.footer = 0.375
 
 
+    sheet1.oddHeader.left.text = job_name + ' - Door List'
+    sheet1.oddHeader.left.size = 12
+    sheet1.oddHeader.left.color = "000000"
     sheet1.oddFooter.right.text = "Page &[Page] of &N"
-    sheet1.oddFooter.right.size = 9
+    sheet1.oddFooter.right.size = 10
     sheet1.oddFooter.right.color = "000000"
     
     print_area = 'A1:M' + str(row - 1)
