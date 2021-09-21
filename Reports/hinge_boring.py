@@ -257,7 +257,6 @@ def hinge_boring_report():
     for _room in product_dict:
         __room = product_dict[_room]
         mat = __room["MatDoorTemplate"]
-        print(mat)
         # if material does not exist in sorted product list, add it
         if mat not in sorted_product_dict:
             sorted_product_dict[mat] = {}
@@ -267,6 +266,7 @@ def hinge_boring_report():
             __product = __room["Products"][_product]
             cab_num = 'R' + _room + _product
 
+            mat = __room["MatDoorTemplate"]
             # if product has material override
             if __product["MatOR"] != None:
                 mat = __product["MatOR"]
@@ -299,12 +299,11 @@ def hinge_boring_report():
                 num_hinges = len(hinge_centers)
                 bot_hinge_center = round(hinge_centers[0],1) if num_hinges > 0 else 0
                 bot_mid_hinge_center = round(hinge_centers[1],1) if num_hinges > 2 else 0
+                top_mid_hinge_center = round(hinge_centers[2],1) if num_hinges > 3 else 0
                 if _door["HingeEdge"] == 'Left' or _door["HingeEdge"] == 'Right':
                     top_hinge_center = round(_door["H"] - hinge_centers[-1],1) if num_hinges > 1 else 0
-                    top_mid_hinge_center = round(_door["H"] - hinge_centers[-2],1) if num_hinges > 3 else 0
                 else:
                     top_hinge_center = round(_door["W"] - hinge_centers[-1],1) if num_hinges > 1 else 0
-                    top_mid_hinge_center = round(_door["W"] - hinge_centers[-2],1) if num_hinges > 3 else 0
 
 
                 # is the hinging standard or not
@@ -341,17 +340,29 @@ def hinge_boring_report():
                 if found_match is False:
                     door_list.append(door_details)
 
-    # pprint.pprint(product_dict)
-    # pprint.pprint(sorted_product_dict)
+    pprint.pprint(product_dict)
+    pprint.pprint(sorted_product_dict)
 
+    # remove any materials that don't have doors associated with them
+    temp_mat_set = set()
+    for _material in materials:
+        for _style in door_styles:
+            if _style not in sorted_product_dict[_material]:
+                continue
+
+            for _type in hinge_types:
+                if _type not in sorted_product_dict[_material][_style]:
+                    continue
+
+                list_of_doors = sorted_product_dict[_material][_style][_type]
+                if len(list_of_doors) > 0:
+                    temp_mat_set.add(_material)
+    
     # creates sorted lists from sets
-    mat_list = sorted(materials)
+    mat_list = sorted(temp_mat_set)
     styles_list = sorted(door_styles)
     types_list = sorted(hinge_types)
 
-    print(mat_list)
-    print(styles_list)
-    print(types_list)
 
     wb = Workbook()
     sheet1 = wb.active
@@ -397,6 +408,9 @@ def hinge_boring_report():
                 if _type in door_style:
                     hinge = door_style[_type]
                 else:
+                    continue
+
+                if len(hinge) == 0:
                     continue
 
                 sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 11)
@@ -461,7 +475,7 @@ def hinge_boring_report():
                 sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
                 col += 1
-                sheet1.cell(row, col, "T2/R2")
+                sheet1.cell(row, col, "B3/L3")
                 sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
                 sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
                 sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
