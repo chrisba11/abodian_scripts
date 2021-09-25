@@ -3,12 +3,15 @@ import pprint
 from openpyxl.workbook import Workbook
 from openpyxl.styles import Border, Side, Alignment, Font
 from openpyxl.worksheet.pagebreak import Break
+from datetime import datetime
 
 
 # This is to ask for the directory path at the command prompt
 dir_path = input('What is the full directory path for the job? ')
 rooms_in_report = input('Which rooms should be included in this report? List the room integers only, separated by commas and no spaces. Include "0" if you want Order Entry included. If all rooms, type "all". ').lower()
 
+now = datetime.now()
+now_string = now.strftime("%m.%d.%Y-%H.%M.%S")
 
 def hinge_boring_report():
     """
@@ -300,7 +303,7 @@ def hinge_boring_report():
                 bot_hinge_center = round(hinge_centers[0],1) if num_hinges > 0 else 0
                 bot_mid_hinge_center = round(hinge_centers[1],1) if num_hinges > 2 else 0
                 top_mid_hinge_center = round(hinge_centers[2],1) if num_hinges > 3 else 0
-                if _door["HingeEdge"] == 'Left' or _door["HingeEdge"] == 'Right':
+                if (_door["HingeEdge"] == 'Left' or _door["HingeEdge"] == 'Right') and _door["IsHorizGrain"] == False:
                     top_hinge_center = round(_door["H"] - hinge_centers[-1],1) if num_hinges > 1 else 0
                 else:
                     top_hinge_center = round(_door["W"] - hinge_centers[-1],1) if num_hinges > 1 else 0
@@ -340,8 +343,6 @@ def hinge_boring_report():
                 if found_match is False:
                     door_list.append(door_details)
 
-    pprint.pprint(product_dict)
-    pprint.pprint(sorted_product_dict)
 
     # remove any materials that don't have doors associated with them
     temp_mat_set = set()
@@ -654,10 +655,10 @@ def hinge_boring_report():
     sheet1.page_margins.top = 1.0
     sheet1.page_margins.bottom = 0.5
     sheet1.page_margins.footer = 0.25
-    sheet1.page_margins.footer = 0.375
+    sheet1.page_margins.header = 0.375
 
 
-    sheet1.oddHeader.left.text = job_name + ' - Door List'
+    sheet1.oddHeader.left.text = job_name + ' - Door List (Rooms: ' + rooms_in_report + ')'
     sheet1.oddHeader.left.size = 12
     sheet1.oddHeader.left.color = "000000"
     sheet1.oddFooter.right.text = "Page &[Page] of &N"
@@ -669,7 +670,7 @@ def hinge_boring_report():
     sheet1.sheet_properties.pageSetUpPr.fitToPage = True
     sheet1.page_setup.fitToHeight = False   
     
-    save_name = job_name + ' - Hinge Boring List' + '.xlsx'
+    save_name = job_name + ' - Hinge Boring List - ' + rooms_in_report + " - " + now_string + '.xlsx'
     full_save_name = os.path.join(dir_path, save_name)
     try:
         wb.save(full_save_name)
