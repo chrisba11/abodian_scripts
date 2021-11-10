@@ -8,7 +8,8 @@ from datetime import datetime
 
 # This is to ask for the directory path at the command prompt
 dir_path = input('What is the full directory path for the job? ')
-rooms_in_report = input('Which rooms should be included in this report? List the room integers only, separated by commas and no spaces. Include "0" if you want Order Entry included. If all rooms, type "all". ').lower()
+rooms_string = input('Which rooms should be included in this report? List the room integers only, separated by commas and no spaces. Include "0" if you want Order Entry included. If all rooms, type "all". ').lower()
+rooms_in_report = rooms_string.split(',')
 
 now = datetime.now()
 now_string = now.strftime("%m.%d.%Y-%H.%M.%S")
@@ -658,7 +659,7 @@ def hinge_boring_report():
     sheet1.page_margins.header = 0.375
 
 
-    sheet1.oddHeader.left.text = job_name + ' - Door List (Rooms: ' + rooms_in_report + ')'
+    sheet1.oddHeader.left.text = job_name + ' - Hinge Boring List (Rooms: ' + rooms_string + ')'
     sheet1.oddHeader.left.size = 12
     sheet1.oddHeader.left.color = "000000"
     sheet1.oddFooter.right.text = "Page &[Page] of &N"
@@ -670,7 +671,7 @@ def hinge_boring_report():
     sheet1.sheet_properties.pageSetUpPr.fitToPage = True
     sheet1.page_setup.fitToHeight = False   
     
-    save_name = job_name + ' - Hinge Boring List - ' + rooms_in_report + " - " + now_string + '.xlsx'
+    save_name = job_name + ' - Hinge Boring List - ' + rooms_string + " - " + now_string + '.xlsx'
     full_save_name = os.path.join(dir_path, save_name)
     try:
         wb.save(full_save_name)
