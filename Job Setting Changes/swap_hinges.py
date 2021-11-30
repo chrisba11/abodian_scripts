@@ -36,6 +36,12 @@ all_hinges = {
     },
 }
 
+h_edge_b_dict = {
+    'blum': '23.1',
+    'dtc': '17',
+    'hettich': '30'
+}
+
 # removes dict of selected brand from all hinges dict
 # stores brand of hinges swapping to in new dict variable
 swap_to = all_hinges.pop(hinge_type)
@@ -93,15 +99,35 @@ def swap_hinges():
 
 
 
-                    f = open(full_path, "wt")
+                with open(full_path, "wt") as f:
                     f.write(content)
-                    f.close()
+
     
     print('Total hinges replaced:', total_to_replace)
     print('Total hinges missed:', total_not_replaced)
 
-            
+def swap_hedgeb():
+    for root, dirs, files in os.walk(dir_path):     
+        for file in files:
+            if file.endswith('-JobParms.dat'):
+
+                full_path = dir_path + '\\' + file
+                with open(full_path, "rt") as f:
+                    content = f.readlines()
+
+                    line_num = 0
+                    for line in content:
+                        line_num += 1
+                        if line.startswith('HEdgeB'):
+                            content[line_num + 1] = h_edge_b_dict[hinge_type] + '\n'
+                            break
+                
+                with open(full_path, "wt") as f:
+                    f.writelines(content)
+
+    print('\nHEdgeB = ' + h_edge_b_dict[hinge_type] + '\n')
 
 swap_hinges()
+swap_hedgeb()
 
 input("Press Enter to Close")
