@@ -251,6 +251,82 @@ def hinge_boring_report():
                     if line.startswith('        </ProductDoor>'):
                         doors.append(door)
 
+                    # drawer fronts
+                    if line.startswith('          <DrawerFront '):
+                        df = {}
+
+                        # df style
+                        start_idx = line.find('DoorStyle=') + 11
+                        end_idx = line.find('" W=')
+                        df_style = line[start_idx:end_idx]
+
+                        # width
+                        start_idx = end_idx + 5
+                        end_idx = line.find('" H=')
+                        width = float(line[start_idx:end_idx])
+                        
+                        # height
+                        start_idx = end_idx + 5
+                        end_idx = line.find('" Oversize=')
+                        height = float(line[start_idx:end_idx])
+
+                        # hinge center lines
+                        hinge_centers = '-'
+
+                        # hinge edge
+                        hinge_edge = '-'
+
+                        # hinge type
+                        hinge_type = 'No Hinges'
+
+                        # horizontal grain?
+                        start_idx = line.find('IsHorizGrain=') + 14
+                        end_idx = line.find('" DoorType=')
+                        horizontal = line[start_idx:end_idx]
+                        horizontal = True if horizontal == 'True' else False
+
+                        # add to df dict
+                        df["DoorStyle"] = df_style
+                        df["W"] = width
+                        df["H"] = height
+                        df["HingeCenterLines"] = hinge_centers
+                        df["HingeEdge"] = hinge_edge
+                        df["HingeType"] = hinge_type
+                        df["IsHorizGrain"] = horizontal
+
+
+                    if line.startswith('            <DoorProdPart '):
+                        # df name
+                        start_idx = line.find('Name=') + 6
+                        end_idx = line.find('" ReportName=')
+                        df_name = line[start_idx:end_idx]
+                        
+                        # report name
+                        start_idx = end_idx + 14
+                        end_idx = line.find('" UsageType=')
+                        report_name = line[start_idx:end_idx]
+
+                        # comment
+                        start_idx = line.find('Comment=') + 9
+                        end_idx = line.find('" CommentLocked=')
+                        comment = line[start_idx:end_idx]
+
+                        # quantity
+                        start_idx = line.find('Quan=') + 6
+                        end_idx = line.find('" W=')
+                        quantity = line[start_idx:end_idx]
+
+                        # add to df dict
+                        df["Name"] = df_name
+                        df["ReportName"] = report_name
+                        df["Comment"] = comment
+                        df["Quan"] = int(quantity)
+
+
+                    if line.startswith('          </DrawerFront>'):
+                        doors.append(df)
+
+
 
     sorted_product_dict = {}
     materials = set()
@@ -300,20 +376,29 @@ def hinge_boring_report():
 
                 # assign true hinge centers from top/bottom of door for up to 4 hinges
                 hinge_centers = _door["HingeCenterLines"]
-                num_hinges = len(hinge_centers)
-                bot_hinge_center = round(hinge_centers[0],1) if num_hinges > 0 else 0
-                bot_mid_hinge_center = round(hinge_centers[1],1) if num_hinges > 2 else 0
-                top_mid_hinge_center = round(hinge_centers[2],1) if num_hinges > 3 else 0
-                if (_door["HingeEdge"] == 'Left' or _door["HingeEdge"] == 'Right') and _door["IsHorizGrain"] == False:
-                    top_hinge_center = round(_door["H"] - hinge_centers[-1],1) if num_hinges > 1 else 0
+                if hinge_centers != '-':
+                    num_hinges = len(hinge_centers)
+                    bot_hinge_center = round(hinge_centers[0],1) if num_hinges > 0 else 0
+                    bot_mid_hinge_center = round(hinge_centers[1],1) if num_hinges > 2 else 0
+                    top_mid_hinge_center = round(hinge_centers[2],1) if num_hinges > 3 else 0
+                    if (_door["HingeEdge"] == 'Left' or _door["HingeEdge"] == 'Right') and _door["IsHorizGrain"] == False:
+                        top_hinge_center = round(_door["H"] - hinge_centers[-1],1) if num_hinges > 1 else 0
+                    else:
+                        top_hinge_center = round(_door["W"] - hinge_centers[-1],1) if num_hinges > 1 else 0
                 else:
-                    top_hinge_center = round(_door["W"] - hinge_centers[-1],1) if num_hinges > 1 else 0
+                    bot_hinge_center = '-'
+                    bot_mid_hinge_center = '-'
+                    top_mid_hinge_center = '-'
+                    top_hinge_center = '-'
 
 
                 # is the hinging standard or not
                 std_not = "S"
                 if bot_hinge_center != std_hinge_dist or top_hinge_center != std_hinge_dist:
                     std_not = "N"
+                
+                if bot_hinge_center == '-':
+                    std_not = "-"
                 
                 door_details = [
                     _door["Quan"],
@@ -659,7 +744,7 @@ def hinge_boring_report():
     sheet1.page_margins.header = 0.375
 
 
-    sheet1.oddHeader.left.text = job_name + ' - Hinge Boring List (Rooms: ' + rooms_string + ')'
+    sheet1.oddHeader.left.text = job_name + ' - Door List (Rooms: ' + rooms_string + ')'
     sheet1.oddHeader.left.size = 12
     sheet1.oddHeader.left.color = "000000"
     sheet1.oddFooter.right.text = "Page &[Page] of &N"
@@ -671,7 +756,7 @@ def hinge_boring_report():
     sheet1.sheet_properties.pageSetUpPr.fitToPage = True
     sheet1.page_setup.fitToHeight = False   
     
-    save_name = job_name + ' - Hinge Boring List - ' + rooms_string + " - " + now_string + '.xlsx'
+    save_name = job_name + ' - Door List - ' + rooms_string + " - " + now_string + '.xlsx'
     full_save_name = os.path.join(dir_path, save_name)
     try:
         wb.save(full_save_name)
