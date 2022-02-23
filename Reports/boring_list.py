@@ -14,6 +14,51 @@ rooms_in_report = rooms_string.split(',')
 now = datetime.now()
 now_string = now.strftime("%m.%d.%Y-%H.%M.%S")
 
+def mm_to_in(metric_decimal):
+    inch_decimal = metric_decimal / 25.4
+    inch_int = int(inch_decimal)
+    inch_remain = inch_decimal % 1
+
+    if inch_remain < 0.03125:
+        inch_fraction = ""
+    elif inch_remain < 0.09375:
+        inch_fraction = " 1/16"
+    elif inch_remain < 0.15625:
+        inch_fraction = " 1/8"
+    elif inch_remain < 0.21875:
+        inch_fraction = " 3/16"
+    elif inch_remain < 0.28125:
+        inch_fraction = " 1/4"
+    elif inch_remain < 0.34375:
+        inch_fraction = " 5/16"
+    elif inch_remain < 0.40625:
+        inch_fraction = " 3/8"
+    elif inch_remain < 0.46875:
+        inch_fraction = " 7/16"
+    elif inch_remain < 0.53125:
+        inch_fraction = " 1/2"
+    elif inch_remain < 0.59375:
+        inch_fraction = " 9/16"
+    elif inch_remain < 0.65625:
+        inch_fraction = " 5/8"
+    elif inch_remain < 0.71875:
+        inch_fraction = " 11/16"
+    elif inch_remain < 0.78125:
+        inch_fraction = " 3/4",
+    elif inch_remain < 0.84375:
+        inch_fraction = " 13/16"
+    elif inch_remain < 0.90625:
+        inch_fraction = " 7/8"
+    elif inch_remain < 0.96875:
+        inch_fraction = " 15/16"
+    else:
+        inch_fraction = ""
+        inch_int += 1
+
+    inches = str(inch_int) + inch_fraction
+
+    return inches
+
 def hinge_boring_report():
     """
 
@@ -609,13 +654,13 @@ def hinge_boring_report():
                     sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                     col += 1
                     # Width
-                    sheet1.cell(row, col, round(door[3],1))
+                    sheet1.cell(row, col, mm_to_in(door[3]))
                     sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
                     sheet1.cell(row, col).font = Font(size=9)
                     sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                     col += 1
                     # Height
-                    sheet1.cell(row, col, round(door[4],1))
+                    sheet1.cell(row, col, mm_to_in(door[4]))
                     sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
                     sheet1.cell(row, col).font = Font(size=9)
                     sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
@@ -633,28 +678,48 @@ def hinge_boring_report():
                     sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                     col += 1
                     # Bottom/Left Hinge
-                    hinge_center = door[7] if door[7] != 0 else ''
+                    if door[7] == 0:
+                        hinge_center = ''
+                    elif door[7] == '-':
+                        hinge_center = door[7]
+                    else:
+                        hinge_center = mm_to_in(door[7])
                     sheet1.cell(row, col, hinge_center)
                     sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
                     sheet1.cell(row, col).font = Font(size=9)
                     sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                     col += 1
                     # Bottom/Left Mid Hinge
-                    hinge_center = door[8] if door[8] != 0 else ''
+                    if door[8] == 0:
+                        hinge_center = ''
+                    elif door[8] == '-':
+                        hinge_center = door[8]
+                    else:
+                        hinge_center = mm_to_in(door[8])
                     sheet1.cell(row, col, hinge_center)
                     sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
                     sheet1.cell(row, col).font = Font(size=9)
                     sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                     col += 1
                     # Top/Right Mid Hinge
-                    hinge_center = door[9] if door[9] != 0 else ''
+                    if door[9] == 0:
+                        hinge_center = ''
+                    elif door[9] == '-':
+                        hinge_center = door[9]
+                    else:
+                        hinge_center = mm_to_in(door[9])
                     sheet1.cell(row, col, hinge_center)
                     sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
                     sheet1.cell(row, col).font = Font(size=9)
                     sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
                     col += 1
                     # Top/Right Hinge
-                    hinge_center = door[10] if door[10] != 0 else ''
+                    if door[10] == 0:
+                        hinge_center = ''
+                    elif door[10] == '-':
+                        hinge_center = door[10]
+                    else:
+                        hinge_center = mm_to_in(door[10])
                     sheet1.cell(row, col, hinge_center)
                     sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
                     sheet1.cell(row, col).font = Font(size=9)
@@ -744,7 +809,7 @@ def hinge_boring_report():
     sheet1.page_margins.header = 0.375
 
 
-    sheet1.oddHeader.left.text = job_name + ' - Door List (Rooms: ' + rooms_string + ')'
+    sheet1.oddHeader.left.text = job_name + ' - Boring List (Rooms: ' + rooms_string + ')'
     sheet1.oddHeader.left.size = 12
     sheet1.oddHeader.left.color = "000000"
     sheet1.oddFooter.right.text = "Page &[Page] of &N"
@@ -756,7 +821,7 @@ def hinge_boring_report():
     sheet1.sheet_properties.pageSetUpPr.fitToPage = True
     sheet1.page_setup.fitToHeight = False   
     
-    save_name = job_name + ' - Door List - ' + rooms_string + " - " + now_string + '.xlsx'
+    save_name = job_name + ' - Boring List - ' + rooms_string + " - " + now_string + '.xlsx'
     full_save_name = os.path.join(dir_path, save_name)
     try:
         wb.save(full_save_name)
