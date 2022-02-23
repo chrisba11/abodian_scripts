@@ -1,8 +1,0 @@
-6
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Materials>
-  <PanelStockMaterials>
-    <Material Name="Absolute Acajou 3/4 WY160 PAN DOORS [Matching Banding]" Quan="1" W="1243.012" L="2462.212" Thick="19.05" WTrim="6.35" LTrim="6.35" HasGrain="True" TwoSided="True" CostEach="75" MarkupPercentage="0" AddOnCost="0" Speed="100" ImageFile="" Comment="" WastePercentage="20" Optimize="True" BandType="0" />
-    <Material Name="Absolute Acajou 3/4 WY160 PAN [Matching Banding]" Quan="1" W="1243.012" L="2462.212" Thick="19.05" WTrim="6.35" LTrim="6.35" HasGrain="True" TwoSided="True" CostEach="75" MarkupPercentage="0" AddOnCost="0" Speed="100" ImageFile="" Comment="" WastePercentage="20" Optimize="True" BandType="0" />
-    <Material Name="Absolute Acajou 3/4 WY160 PAN PARTS [Matching Banding]" Quan="1" W="1243.012" L="2462.212" Thick="19.05" WTrim="6.35" LTrim="6.35" HasGrain="True" TwoSided="True" CostEach="75" MarkupPercentage="0" AddOnCost="0" Speed="100" ImageFile="" Comment="" WastePercentage="20" Optimize="True" BandType="0" />
-    <Material Name="Absolute Acajou 3/4 WY160 PAN PARTS [Matching Banding] BSAW" Quan="1" W="1243.012" L="2462.212" Thick="19.05" WTrim="12" LTrim="12" HasGrain="True" TwoSided="True" CostEach="75" MarkupPercentage="0" AddOnCost="0" Speed="100" ImageFile="" Comment="" WastePercentage="20" Optimize="True" BandType="0" />

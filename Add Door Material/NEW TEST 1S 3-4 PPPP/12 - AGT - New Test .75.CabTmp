@@ -1,0 +1,38 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="12 - AGT - New Test .75" Type="3" SymbolForLabels="">
+  <MaterialReference PartType="Top" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Bottom" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FEnd" Mat="NEW TEST 1S 3/4 PPPP DOORS [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UEnd" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AppliedUE" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Shelf" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="AdjustableShelf" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="RolloutShelf" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FixedShelf" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Partition" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Divider" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UBack" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FBack" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Frame" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FramelessRail" Mat="NEW TEST 1S 3/4 PPPP DOORS [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Nailer" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Stretcher" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Cleat" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Toe" Mat="Raw Toe Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinExterior" Mat="NEW TEST 1S 3/4 PPPP PARTS [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInterior" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinInteriorBack" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinExterior" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinInterior" Mat="NEW TEST 1S 3/4 PPPP [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="FinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="UfinSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ToeSkin" Mat="NONE" MatThick="19.05" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="EdgeBand" Mat="Banding" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Sleeper" Mat="Raw Toe Material 5/8" MatThick="16.2" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Glass" Mat="1/8 Glass" MatThick="3.175" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Plastic" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Metal" Mat="Mirror 1/4" MatThick="6.35" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Special" Mat="NEW TEST 1S 3/4 PPPP PARTS [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="ClosetRod" Mat="" MatThick="0" MatWall="" MatWallThick="0" />
+</MaterialTemplate>

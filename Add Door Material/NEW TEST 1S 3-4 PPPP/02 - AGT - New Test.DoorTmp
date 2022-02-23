@@ -1,0 +1,11 @@
+2
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialTemplate Name="02 - AGT - New Test" Type="1" SymbolForLabels="">
+  <MaterialReference PartType="Door" Mat="NEW TEST 1S 3/4 PPPP DOORS [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorPanel" Mat="NEW TEST 1S 3/4 PPPP DOORS [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DoorFrame" Mat="NEW TEST 1S 3/4 PPPP DOORS [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="Drawer" Mat="NEW TEST 1S 3/4 PPPP DOORS [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerPanel" Mat="NEW TEST 1S 3/4 PPPP DOORS [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="DrawerFrame" Mat="NEW TEST 1S 3/4 PPPP DOORS [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+  <MaterialReference PartType="PanelizedEnd" Mat="NEW TEST 1S 3/4 PPPP PARTS [Matching Banding]" MatThick="18.001" MatWall="" MatWallThick="0" />
+</MaterialTemplate>
