@@ -215,13 +215,15 @@ def hinge_boring_report():
                         doors = products[num_prefix + prod_num]["Doors"]
 
 
-                    if line.startswith('        <ProductDoor '):
-                        door = {}
 
-                        # door style
+                    # drawer fronts
+                    if line.startswith('          <DrawerFront '):
+                        df = {}
+
+                        # df style
                         start_idx = line.find('DoorStyle=') + 11
                         end_idx = line.find('" W=')
-                        door_style = line[start_idx:end_idx]
+                        df_style = line[start_idx:end_idx]
 
                         # width
                         start_idx = end_idx + 5
@@ -234,20 +236,13 @@ def hinge_boring_report():
                         height = float(line[start_idx:end_idx])
 
                         # hinge center lines
-                        start_idx = line.find('HingeCenterLines=') + 18
-                        end_idx = line.find('" HingeEdge=')
-                        hinge_centers = line[start_idx:end_idx].split('#')
-                        hinge_centers = [float(i) for i in hinge_centers if i != '']
+                        hinge_centers = '-'
 
                         # hinge edge
-                        start_idx = end_idx + 13
-                        end_idx = line.find('" HingeType=')
-                        hinge_edge = line[start_idx:end_idx]
+                        hinge_edge = '-'
 
                         # hinge type
-                        start_idx = end_idx + 13
-                        end_idx = line.find('" IsDrawerFront=')
-                        hinge_type = line[start_idx:end_idx]
+                        hinge_type = 'No Hinges'
 
                         # horizontal grain?
                         start_idx = line.find('IsHorizGrain=') + 14
@@ -255,21 +250,21 @@ def hinge_boring_report():
                         horizontal = line[start_idx:end_idx]
                         horizontal = True if horizontal == 'True' else False
 
-                        # add to door dict
-                        door["DoorStyle"] = door_style
-                        door["W"] = width
-                        door["H"] = height
-                        door["HingeCenterLines"] = hinge_centers
-                        door["HingeEdge"] = hinge_edge
-                        door["HingeType"] = hinge_type
-                        door["IsHorizGrain"] = horizontal
+                        # add to df dict
+                        df["DoorStyle"] = df_style
+                        df["W"] = width
+                        df["H"] = height
+                        df["HingeCenterLines"] = hinge_centers
+                        df["HingeEdge"] = hinge_edge
+                        df["HingeType"] = hinge_type
+                        df["IsHorizGrain"] = horizontal
 
 
-                    if line.startswith('          <DoorProdPart '):
-                        # door name
+                    if line.startswith('            <DoorProdPart '):
+                        # df name
                         start_idx = line.find('Name=') + 6
                         end_idx = line.find('" ReportName=')
-                        door_name = line[start_idx:end_idx]
+                        df_name = line[start_idx:end_idx]
                         
                         # report name
                         start_idx = end_idx + 14
@@ -286,16 +281,17 @@ def hinge_boring_report():
                         end_idx = line.find('" W=')
                         quantity = line[start_idx:end_idx]
 
-                        # add to door dict of quantity > 0
+                        # add to df dict if quantity > 0
                         if int(quantity) > 0:
-                            door["Name"] = door_name
-                            door["ReportName"] = report_name
-                            door["Comment"] = comment
-                            door["Quan"] = int(quantity)
+                            df["Name"] = df_name
+                            df["ReportName"] = report_name
+                            df["Comment"] = comment
+                            df["Quan"] = int(quantity)
 
 
-                    if line.startswith('        </ProductDoor>'):
-                        doors.append(door)
+                    if line.startswith('          </DrawerFront>'):
+                        doors.append(df)
+
 
 
     sorted_product_dict = {}
@@ -737,7 +733,7 @@ def hinge_boring_report():
     sheet1.page_margins.header = 0.375
 
 
-    sheet1.oddHeader.left.text = job_name + ' - Boring List (Rooms: ' + rooms_string + ')'
+    sheet1.oddHeader.left.text = job_name + ' - Drawer Front List (Rooms: ' + rooms_string + ')'
     sheet1.oddHeader.left.size = 12
     sheet1.oddHeader.left.color = "000000"
     sheet1.oddFooter.right.text = "Page &[Page] of &N"
@@ -749,7 +745,7 @@ def hinge_boring_report():
     sheet1.sheet_properties.pageSetUpPr.fitToPage = True
     sheet1.page_setup.fitToHeight = False   
     
-    save_name = job_name + ' - Boring List - ' + rooms_string + " - " + now_string + '.xlsx'
+    save_name = job_name + ' - Drawer Front List - ' + rooms_string + " - " + now_string + '.xlsx'
     full_save_name = os.path.join(dir_path, save_name)
     try:
         wb.save(full_save_name)
