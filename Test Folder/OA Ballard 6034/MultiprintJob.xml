@@ -1,0 +1,1858 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<multiprint>
+  <version>0</version>
+  <state>
+    <selectedPrinterName>Microsoft Print to PDF</selectedPrinterName>
+    <pageMargins>25, 25, 25, 25</pageMargins>
+    <pageOrientation>landscape</pageOrientation>
+    <isBorderEnabled>True</isBorderEnabled>
+    <borderThickness>1</borderThickness>
+    <revisionNumber>1.0</revisionNumber>
+    <titleBlockName>Abodian Sales Title Block</titleBlockName>
+    <titleBlockAnchor>4</titleBlockAnchor>
+    <defaultPageUnitsPerFoot>150</defaultPageUnitsPerFoot>
+    <defaultPageUnitsPerFootMetric>72</defaultPageUnitsPerFootMetric>
+    <showGrid>True</showGrid>
+    <gridSizeMm>304.8</gridSizeMm>
+    <borderColor>FF000000</borderColor>
+    <printerSettings>
+      <printerSetting>
+        <printerName>Adobe PDF</printerName>
+        <paperSize width="1100" height="1700" rawKind="3" paperName="Tabloid" />
+        <paperSource sourceName="Automatically Select" rawKind="15" />
+      </printerSetting>
+      <printerSetting>
+        <printerName>Microsoft Print to PDF</printerName>
+        <paperSize width="1100" height="1700" rawKind="3" paperName="Tabloid" />
+        <paperSource sourceName="unknown" rawKind="15" />
+      </printerSetting>
+    </printerSettings>
+  </state>
+  <pages>
+    <page>
+      <title>Main House - Kitchen</title>
+      <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+      <titleBlockNameOverride />
+      <titleBlockAnchorOverride>0</titleBlockAnchorOverride>
+      <isTitleBlockOverridden>False</isTitleBlockOverridden>
+      <backgroundColor>FFFFFFFF</backgroundColor>
+      <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+        <LayerHidden LayerName="Cabinet Label Circles" Hidden="True" />
+        <LayerHidden LayerName="Floor - Plan" Hidden="True" />
+        <LayerHidden LayerName="Toe Skins" Hidden="True" />
+        <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+        <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Face Product Label" Hidden="True" />
+        <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+        <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+        <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="Room Operations" Hidden="True" />
+        <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+        <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+        <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+        <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+        <LayerHidden LayerName="Non-numbered" Hidden="False" />
+        <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+        <LayerHidden LayerName="Opening Labels" Hidden="True" />
+        <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+        <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+        <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+        <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+        <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+        <LayerHidden LayerName="Top Drawings" Hidden="False" />
+        <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+        <LayerHidden LayerName="" Hidden="True" />
+        <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+        <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+        <LayerHidden LayerName="Hardware" Hidden="False" />
+        <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+        <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+        <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+        <LayerHidden LayerName="Wall Labels" Hidden="False" />
+        <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+        <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+        <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+        <LayerHidden LayerName="End Labels" Hidden="False" />
+        <LayerHidden LayerName="Insert Labels" Hidden="True" />
+        <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+        <LayerHidden LayerName="Opening Widths" Hidden="True" />
+        <LayerHidden LayerName="Doors" Hidden="False" />
+        <LayerHidden LayerName="Countertops" Hidden="False" />
+        <LayerHidden LayerName="Corner X" Hidden="False" />
+        <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+        <LayerHidden LayerName="Grid" Hidden="True" />
+        <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+        <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+        <LayerHidden LayerName="Moldings" Hidden="True" />
+        <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+        <LayerHidden LayerName="Room Label" Hidden="False" />
+        <LayerHidden LayerName="T Walls" Hidden="False" />
+        <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+        <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+        <LayerHidden LayerName="User Dimensions" Hidden="False" />
+        <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+        <LayerHidden LayerName="Notes" Hidden="False" />
+        <LayerHidden LayerName="Walls" Hidden="False" />
+        <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+        <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+        <LayerHidden LayerName="Face" Hidden="False" />
+        <LayerHidden LayerName="Back" Hidden="False" />
+        <LayerHidden LayerName="Ends" Hidden="False" />
+        <LayerHidden LayerName="Top" Hidden="False" />
+        <LayerHidden LayerName="Bottom" Hidden="False" />
+        <LayerHidden LayerName="Inserts" Hidden="False" />
+        <LayerHidden LayerName="Interior" Hidden="False" />
+        <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+        <LayerHidden LayerName="DrawerBox" Hidden="False" />
+        <LayerHidden LayerName="Rulers" Hidden="False" />
+        <LayerHidden LayerName="Toe" Hidden="False" />
+        <LayerFont LayerName="Elev Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Room Label">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Wall Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Base Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Depth">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Wall">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Wall Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Wall Fixture Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Base Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Cab Heights">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Height">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Length">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Cabinet Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Cabinet Number Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="End Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Frame Size Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Frame Special Size Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Insert Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Open Section Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Opening Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Opening Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Selected Depth Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Special Depth Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Appliance Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerColor LayerName="Wall Labels" Color="-12550016" />
+        <LayerColor LayerName="Corner X" Color="-8355712" />
+        <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+        <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+        <LayerColor LayerName="Room Label" Color="-12550016" />
+        <LayerColor LayerName="Moldings" Color="-16777216" />
+        <LayerColor LayerName="Countertops" Color="-16711681" />
+      </DrawingSettings>
+      <objects>
+        <schematic>
+          <schematicTagCode>1|1|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Kitchen Wall 1</name>
+          <baseName>Main House - Kitchen Wall 1</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="0.75" m01="0" m10="0" m11="0.75" offsetX="854.3262" offsetY="203.5816" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>1|2|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Kitchen Wall 2</name>
+          <baseName>Main House - Kitchen Wall 2</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="2897.883" offsetY="255.3135" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>1|6|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Kitchen Wall 6</name>
+          <baseName>Main House - Kitchen Wall 6</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="609.4208" offsetY="1636.033" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>1|8|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Kitchen Wall 8</name>
+          <baseName>Main House - Kitchen Wall 8</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="2402.546" offsetY="2293.122" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>1|8|1|Back</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Kitchen Wall 8 Back</name>
+          <baseName>Main House - Kitchen Wall 8 Back</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="3633.017" offsetY="2248.476" />
+          <children>
+            <text>
+              <size width="960.4727" height="120.5154" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="14.40552" offsetY="513.5541" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>BACK OF ISLAND PANELS </content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="FF000000" width="1.181102" />
+            </text>
+          </children>
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <image>
+          <fileTagFilename>\2D3DViewerPictures\Screenshot 2021-09-27 115136.jpg</fileTagFilename>
+          <fileTagFiletype>1</fileTagFiletype>
+          <fileTagLocation>0</fileTagLocation>
+          <size width="623.5673" height="663.6017" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="132.1004" offsetY="752.1015" />
+        </image>
+        <text>
+          <size width="650.0537" height="153.3835" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="145.1665" offsetY="1366.971" />
+          <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+          <fontColor>FF000000</fontColor>
+          <content>Back / side panel are each 35+12=47 tall</content>
+          <alignment>0</alignment>
+          <lineAlignment>0</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="FF000000" width="1.181102" />
+        </text>
+      </objects>
+    </page>
+    <page>
+      <title>Main House - Other Areas</title>
+      <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+      <titleBlockNameOverride />
+      <titleBlockAnchorOverride>0</titleBlockAnchorOverride>
+      <isTitleBlockOverridden>False</isTitleBlockOverridden>
+      <backgroundColor>FFFFFFFF</backgroundColor>
+      <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+        <LayerHidden LayerName="Cabinet Label Circles" Hidden="True" />
+        <LayerHidden LayerName="Floor - Plan" Hidden="True" />
+        <LayerHidden LayerName="Toe Skins" Hidden="True" />
+        <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+        <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Face Product Label" Hidden="True" />
+        <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+        <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+        <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="Room Operations" Hidden="True" />
+        <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+        <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+        <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+        <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+        <LayerHidden LayerName="Non-numbered" Hidden="False" />
+        <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+        <LayerHidden LayerName="Opening Labels" Hidden="True" />
+        <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+        <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+        <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+        <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+        <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+        <LayerHidden LayerName="Top Drawings" Hidden="False" />
+        <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+        <LayerHidden LayerName="" Hidden="True" />
+        <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+        <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+        <LayerHidden LayerName="Hardware" Hidden="False" />
+        <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+        <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+        <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+        <LayerHidden LayerName="Wall Labels" Hidden="False" />
+        <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+        <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+        <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+        <LayerHidden LayerName="End Labels" Hidden="False" />
+        <LayerHidden LayerName="Insert Labels" Hidden="True" />
+        <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+        <LayerHidden LayerName="Opening Widths" Hidden="True" />
+        <LayerHidden LayerName="Doors" Hidden="False" />
+        <LayerHidden LayerName="Countertops" Hidden="False" />
+        <LayerHidden LayerName="Corner X" Hidden="False" />
+        <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+        <LayerHidden LayerName="Grid" Hidden="True" />
+        <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+        <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+        <LayerHidden LayerName="Moldings" Hidden="True" />
+        <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+        <LayerHidden LayerName="Room Label" Hidden="False" />
+        <LayerHidden LayerName="T Walls" Hidden="False" />
+        <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+        <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+        <LayerHidden LayerName="User Dimensions" Hidden="False" />
+        <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+        <LayerHidden LayerName="Notes" Hidden="False" />
+        <LayerHidden LayerName="Walls" Hidden="False" />
+        <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+        <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+        <LayerHidden LayerName="Face" Hidden="False" />
+        <LayerHidden LayerName="Back" Hidden="False" />
+        <LayerHidden LayerName="Ends" Hidden="False" />
+        <LayerHidden LayerName="Top" Hidden="False" />
+        <LayerHidden LayerName="Bottom" Hidden="False" />
+        <LayerHidden LayerName="Inserts" Hidden="False" />
+        <LayerHidden LayerName="Interior" Hidden="False" />
+        <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+        <LayerHidden LayerName="DrawerBox" Hidden="False" />
+        <LayerHidden LayerName="Rulers" Hidden="False" />
+        <LayerHidden LayerName="Toe" Hidden="False" />
+        <LayerFont LayerName="Elev Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Room Label">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Wall Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Base Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Depth">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Wall">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Wall Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Wall Fixture Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Base Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Cab Heights">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Height">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Length">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Cabinet Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Cabinet Number Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="End Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Frame Size Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Frame Special Size Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Insert Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Open Section Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Opening Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Opening Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Selected Depth Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Special Depth Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Appliance Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerColor LayerName="Wall Labels" Color="-12550016" />
+        <LayerColor LayerName="Corner X" Color="-8355712" />
+        <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+        <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+        <LayerColor LayerName="Room Label" Color="-12550016" />
+        <LayerColor LayerName="Moldings" Color="-16777216" />
+        <LayerColor LayerName="Countertops" Color="-16711681" />
+      </DrawingSettings>
+      <objects>
+        <schematic>
+          <schematicTagCode>2|2|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Mud Bench Wall 2</name>
+          <baseName>Main House - Mud Bench Wall 2</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="375.0923" offsetY="309.3179" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>6|2|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Laundry Wall 2</name>
+          <baseName>Main House - Laundry Wall 2</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="2500.035" offsetY="310.3297" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>10|1|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Entry Bench Wall 1</name>
+          <baseName>Main House - Entry Bench Wall 1</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="716.5253" offsetY="2341.293" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <text>
+          <size width="310.4189" height="94.95169" />
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="1930.988" offsetY="2572.127" />
+          <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+          <fontColor>FF000000</fontColor>
+          <content>ENTRY BENCH</content>
+          <alignment>0</alignment>
+          <lineAlignment>0</lineAlignment>
+          <textRotation>0</textRotation>
+          <showBorder>False</showBorder>
+          <edgePenParams color="FF000000" width="1.181102" />
+        </text>
+        <schematic>
+          <schematicTagCode>12|1|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Loft Wall 1</name>
+          <baseName>Loft Wall 1</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="3048.874" offsetY="2371.621" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+      </objects>
+    </page>
+    <page>
+      <title>DADU</title>
+      <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+      <titleBlockNameOverride />
+      <titleBlockAnchorOverride>0</titleBlockAnchorOverride>
+      <isTitleBlockOverridden>False</isTitleBlockOverridden>
+      <backgroundColor>FFFFFFFF</backgroundColor>
+      <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+        <LayerHidden LayerName="Cabinet Label Circles" Hidden="True" />
+        <LayerHidden LayerName="Floor - Plan" Hidden="True" />
+        <LayerHidden LayerName="Toe Skins" Hidden="True" />
+        <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+        <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Face Product Label" Hidden="True" />
+        <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+        <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+        <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="Room Operations" Hidden="True" />
+        <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+        <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+        <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+        <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+        <LayerHidden LayerName="Non-numbered" Hidden="False" />
+        <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+        <LayerHidden LayerName="Opening Labels" Hidden="True" />
+        <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+        <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+        <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+        <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+        <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+        <LayerHidden LayerName="Top Drawings" Hidden="False" />
+        <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+        <LayerHidden LayerName="" Hidden="True" />
+        <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+        <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+        <LayerHidden LayerName="Hardware" Hidden="False" />
+        <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+        <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+        <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+        <LayerHidden LayerName="Wall Labels" Hidden="False" />
+        <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+        <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+        <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+        <LayerHidden LayerName="End Labels" Hidden="False" />
+        <LayerHidden LayerName="Insert Labels" Hidden="True" />
+        <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+        <LayerHidden LayerName="Opening Widths" Hidden="True" />
+        <LayerHidden LayerName="Doors" Hidden="False" />
+        <LayerHidden LayerName="Countertops" Hidden="False" />
+        <LayerHidden LayerName="Corner X" Hidden="False" />
+        <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+        <LayerHidden LayerName="Grid" Hidden="True" />
+        <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+        <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+        <LayerHidden LayerName="Moldings" Hidden="True" />
+        <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+        <LayerHidden LayerName="Room Label" Hidden="False" />
+        <LayerHidden LayerName="T Walls" Hidden="False" />
+        <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+        <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+        <LayerHidden LayerName="User Dimensions" Hidden="False" />
+        <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+        <LayerHidden LayerName="Notes" Hidden="False" />
+        <LayerHidden LayerName="Walls" Hidden="False" />
+        <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+        <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+        <LayerHidden LayerName="Face" Hidden="False" />
+        <LayerHidden LayerName="Back" Hidden="False" />
+        <LayerHidden LayerName="Ends" Hidden="False" />
+        <LayerHidden LayerName="Top" Hidden="False" />
+        <LayerHidden LayerName="Bottom" Hidden="False" />
+        <LayerHidden LayerName="Inserts" Hidden="False" />
+        <LayerHidden LayerName="Interior" Hidden="False" />
+        <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+        <LayerHidden LayerName="DrawerBox" Hidden="False" />
+        <LayerHidden LayerName="Rulers" Hidden="False" />
+        <LayerHidden LayerName="Toe" Hidden="False" />
+        <LayerFont LayerName="Elev Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Room Label">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Wall Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Base Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Depth">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Wall">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Wall Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Wall Fixture Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Base Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Cab Heights">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Height">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Length">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Cabinet Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Cabinet Number Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="End Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Frame Size Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Frame Special Size Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Insert Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Open Section Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Opening Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Opening Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Selected Depth Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Special Depth Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Appliance Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerColor LayerName="Wall Labels" Color="-12550016" />
+        <LayerColor LayerName="Corner X" Color="-8355712" />
+        <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+        <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+        <LayerColor LayerName="Room Label" Color="-12550016" />
+        <LayerColor LayerName="Moldings" Color="-16777216" />
+        <LayerColor LayerName="Countertops" Color="-16711681" />
+      </DrawingSettings>
+      <objects>
+        <schematic>
+          <schematicTagCode>7|2|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>DADU - Kitchen Wall 2</name>
+          <baseName>DADU - Kitchen Wall 2</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="250.2791" offsetY="327.4755" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>7|4|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>DADU - Kitchen Wall 4</name>
+          <baseName>DADU - Kitchen Wall 4</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="253.0428" offsetY="2001.658" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>8|1|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>DADU - Bath Wall 1</name>
+          <baseName>DADU - Bath Wall 1</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="3188.861" offsetY="2041.829" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>9|2|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>DADU - Powder  Wall 2</name>
+          <baseName>DADU - Powder  Wall 2</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="4091.471" offsetY="829.3705" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>7|4|1|Back</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>DADU - Kitchen Wall 4 Back</name>
+          <baseName>DADU - Kitchen Wall 4 Back</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="1309.996" offsetY="2012.614" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+      </objects>
+    </page>
+    <page>
+      <title>Main House - Baths</title>
+      <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+      <titleBlockNameOverride />
+      <titleBlockAnchorOverride>0</titleBlockAnchorOverride>
+      <isTitleBlockOverridden>False</isTitleBlockOverridden>
+      <backgroundColor>FFFFFFFF</backgroundColor>
+      <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+        <LayerHidden LayerName="Cabinet Label Circles" Hidden="True" />
+        <LayerHidden LayerName="Floor - Plan" Hidden="True" />
+        <LayerHidden LayerName="Toe Skins" Hidden="True" />
+        <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+        <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Face Product Label" Hidden="True" />
+        <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+        <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+        <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="Room Operations" Hidden="True" />
+        <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+        <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+        <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+        <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+        <LayerHidden LayerName="Non-numbered" Hidden="False" />
+        <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+        <LayerHidden LayerName="Opening Labels" Hidden="True" />
+        <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+        <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+        <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+        <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+        <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+        <LayerHidden LayerName="Top Drawings" Hidden="False" />
+        <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+        <LayerHidden LayerName="" Hidden="True" />
+        <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+        <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+        <LayerHidden LayerName="Hardware" Hidden="False" />
+        <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+        <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+        <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+        <LayerHidden LayerName="Wall Labels" Hidden="False" />
+        <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+        <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+        <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+        <LayerHidden LayerName="End Labels" Hidden="False" />
+        <LayerHidden LayerName="Insert Labels" Hidden="True" />
+        <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+        <LayerHidden LayerName="Opening Widths" Hidden="True" />
+        <LayerHidden LayerName="Doors" Hidden="False" />
+        <LayerHidden LayerName="Countertops" Hidden="False" />
+        <LayerHidden LayerName="Corner X" Hidden="False" />
+        <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+        <LayerHidden LayerName="Grid" Hidden="True" />
+        <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+        <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+        <LayerHidden LayerName="Moldings" Hidden="True" />
+        <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+        <LayerHidden LayerName="Room Label" Hidden="False" />
+        <LayerHidden LayerName="T Walls" Hidden="False" />
+        <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+        <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+        <LayerHidden LayerName="User Dimensions" Hidden="False" />
+        <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+        <LayerHidden LayerName="Notes" Hidden="False" />
+        <LayerHidden LayerName="Walls" Hidden="False" />
+        <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+        <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+        <LayerHidden LayerName="Face" Hidden="False" />
+        <LayerHidden LayerName="Back" Hidden="False" />
+        <LayerHidden LayerName="Ends" Hidden="False" />
+        <LayerHidden LayerName="Top" Hidden="False" />
+        <LayerHidden LayerName="Bottom" Hidden="False" />
+        <LayerHidden LayerName="Inserts" Hidden="False" />
+        <LayerHidden LayerName="Interior" Hidden="False" />
+        <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+        <LayerHidden LayerName="DrawerBox" Hidden="False" />
+        <LayerHidden LayerName="Rulers" Hidden="False" />
+        <LayerHidden LayerName="Toe" Hidden="False" />
+        <LayerFont LayerName="Elev Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Room Label">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Wall Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Base Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Depth">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Wall">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Wall Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Wall Fixture Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Base Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Cab Heights">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Height">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Length">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Cabinet Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Cabinet Number Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="End Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Frame Size Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Frame Special Size Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Insert Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Open Section Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Opening Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Opening Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Selected Depth Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Special Depth Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Appliance Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerColor LayerName="Wall Labels" Color="-12550016" />
+        <LayerColor LayerName="Corner X" Color="-8355712" />
+        <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+        <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+        <LayerColor LayerName="Room Label" Color="-12550016" />
+        <LayerColor LayerName="Moldings" Color="-16777216" />
+        <LayerColor LayerName="Countertops" Color="-16711681" />
+      </DrawingSettings>
+      <objects>
+        <schematic>
+          <schematicTagCode>11|2|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Powder Wall 2</name>
+          <baseName>Main House - Powder Wall 2</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="3697.08" offsetY="614.2263" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>5|2|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - En-suite Bath Wall 2</name>
+          <baseName>Main House - En-suite Bath Wall 2</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="2598.275" offsetY="2107.565" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>4|2|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Common Bath Wall 2</name>
+          <baseName>Main House - Common Bath Wall 2</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="462.0838" offsetY="2125.825" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+        <schematic>
+          <schematicTagCode>3|2|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Master Bath Wall 2</name>
+          <baseName>Main House - Master Bath Wall 2</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="352.1913" offsetY="604.5792" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False" />
+        </schematic>
+      </objects>
+    </page>
+    <page>
+      <title>Main House - TV Area</title>
+      <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+      <titleBlockNameOverride />
+      <titleBlockAnchorOverride>0</titleBlockAnchorOverride>
+      <isTitleBlockOverridden>False</isTitleBlockOverridden>
+      <backgroundColor>FFFFFFFF</backgroundColor>
+      <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+        <LayerHidden LayerName="Cabinet Label Circles" Hidden="True" />
+        <LayerHidden LayerName="Floor - Plan" Hidden="True" />
+        <LayerHidden LayerName="Toe Skins" Hidden="True" />
+        <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+        <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Face Product Label" Hidden="True" />
+        <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+        <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+        <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+        <LayerHidden LayerName="Room Operations" Hidden="True" />
+        <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+        <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+        <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+        <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+        <LayerHidden LayerName="Non-numbered" Hidden="False" />
+        <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+        <LayerHidden LayerName="Opening Labels" Hidden="True" />
+        <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+        <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+        <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+        <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+        <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+        <LayerHidden LayerName="Top Drawings" Hidden="False" />
+        <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+        <LayerHidden LayerName="" Hidden="True" />
+        <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+        <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+        <LayerHidden LayerName="Hardware" Hidden="False" />
+        <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+        <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+        <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+        <LayerHidden LayerName="Wall Labels" Hidden="False" />
+        <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+        <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+        <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+        <LayerHidden LayerName="End Labels" Hidden="False" />
+        <LayerHidden LayerName="Insert Labels" Hidden="True" />
+        <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+        <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+        <LayerHidden LayerName="Opening Widths" Hidden="True" />
+        <LayerHidden LayerName="Doors" Hidden="False" />
+        <LayerHidden LayerName="Countertops" Hidden="False" />
+        <LayerHidden LayerName="Corner X" Hidden="False" />
+        <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+        <LayerHidden LayerName="Grid" Hidden="True" />
+        <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+        <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+        <LayerHidden LayerName="Moldings" Hidden="True" />
+        <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+        <LayerHidden LayerName="Room Label" Hidden="False" />
+        <LayerHidden LayerName="T Walls" Hidden="False" />
+        <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+        <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+        <LayerHidden LayerName="User Dimensions" Hidden="False" />
+        <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+        <LayerHidden LayerName="Notes" Hidden="False" />
+        <LayerHidden LayerName="Walls" Hidden="False" />
+        <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+        <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+        <LayerHidden LayerName="Face" Hidden="False" />
+        <LayerHidden LayerName="Back" Hidden="False" />
+        <LayerHidden LayerName="Ends" Hidden="False" />
+        <LayerHidden LayerName="Top" Hidden="False" />
+        <LayerHidden LayerName="Bottom" Hidden="False" />
+        <LayerHidden LayerName="Inserts" Hidden="False" />
+        <LayerHidden LayerName="Interior" Hidden="False" />
+        <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+        <LayerHidden LayerName="DrawerBox" Hidden="False" />
+        <LayerHidden LayerName="Rulers" Hidden="False" />
+        <LayerHidden LayerName="Toe" Hidden="False" />
+        <LayerFont LayerName="Elev Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Room Label">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Wall Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Base Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Depth">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Wall">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Plan - Wall Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Wall Fixture Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Base Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Cab Heights">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Cabs">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Height">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Elev - Wall Length">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Cabinet Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Cabinet Number Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="End Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Frame Size Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Frame Special Size Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Insert Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Open Section Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Opening Dimensions">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Opening Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Selected Depth Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Special Depth Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerFont LayerName="Appliance Labels">
+          <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+        </LayerFont>
+        <LayerColor LayerName="Wall Labels" Color="-12550016" />
+        <LayerColor LayerName="Corner X" Color="-8355712" />
+        <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+        <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+        <LayerColor LayerName="Room Label" Color="-12550016" />
+        <LayerColor LayerName="Moldings" Color="-16777216" />
+        <LayerColor LayerName="Countertops" Color="-16711681" />
+      </DrawingSettings>
+      <objects>
+        <schematic>
+          <schematicTagCode>13|1|0|</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Bar + TV Cabinet Wall 1</name>
+          <baseName>Main House - Bar + TV Cabinet Wall 1</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="398.9417" offsetY="341.7189" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+            <LayerHidden LayerName="Cabinet Label Circles" Hidden="True" />
+            <LayerHidden LayerName="Floor - Plan" Hidden="True" />
+            <LayerHidden LayerName="Toe Skins" Hidden="True" />
+            <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+            <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Face Product Label" Hidden="True" />
+            <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+            <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+            <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="Room Operations" Hidden="True" />
+            <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+            <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+            <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+            <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+            <LayerHidden LayerName="Non-numbered" Hidden="False" />
+            <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+            <LayerHidden LayerName="Opening Labels" Hidden="True" />
+            <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+            <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+            <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+            <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+            <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+            <LayerHidden LayerName="Top Drawings" Hidden="False" />
+            <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+            <LayerHidden LayerName="" Hidden="True" />
+            <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+            <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+            <LayerHidden LayerName="Hardware" Hidden="False" />
+            <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+            <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+            <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+            <LayerHidden LayerName="Wall Labels" Hidden="False" />
+            <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+            <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+            <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+            <LayerHidden LayerName="End Labels" Hidden="False" />
+            <LayerHidden LayerName="Insert Labels" Hidden="True" />
+            <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+            <LayerHidden LayerName="Opening Widths" Hidden="True" />
+            <LayerHidden LayerName="Doors" Hidden="False" />
+            <LayerHidden LayerName="Countertops" Hidden="False" />
+            <LayerHidden LayerName="Corner X" Hidden="False" />
+            <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+            <LayerHidden LayerName="Grid" Hidden="True" />
+            <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+            <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+            <LayerHidden LayerName="Moldings" Hidden="True" />
+            <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+            <LayerHidden LayerName="Room Label" Hidden="False" />
+            <LayerHidden LayerName="T Walls" Hidden="False" />
+            <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+            <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+            <LayerHidden LayerName="User Dimensions" Hidden="False" />
+            <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+            <LayerHidden LayerName="Notes" Hidden="False" />
+            <LayerHidden LayerName="Walls" Hidden="False" />
+            <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+            <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+            <LayerHidden LayerName="Face" Hidden="False" />
+            <LayerHidden LayerName="Back" Hidden="False" />
+            <LayerHidden LayerName="Ends" Hidden="False" />
+            <LayerHidden LayerName="Top" Hidden="False" />
+            <LayerHidden LayerName="Bottom" Hidden="False" />
+            <LayerHidden LayerName="Inserts" Hidden="False" />
+            <LayerHidden LayerName="Interior" Hidden="False" />
+            <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+            <LayerHidden LayerName="DrawerBox" Hidden="False" />
+            <LayerHidden LayerName="Rulers" Hidden="False" />
+            <LayerHidden LayerName="Toe" Hidden="False" />
+            <LayerFont LayerName="Elev Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Room Label">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Wall Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Base Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Depth">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Wall">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Wall Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Wall Fixture Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Base Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Cab Heights">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Height">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Length">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Cabinet Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Cabinet Number Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="End Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Frame Size Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Frame Special Size Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Insert Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Open Section Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Opening Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Opening Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Selected Depth Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Special Depth Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Appliance Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerColor LayerName="Wall Labels" Color="-12550016" />
+            <LayerColor LayerName="Corner X" Color="-8355712" />
+            <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+            <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+            <LayerColor LayerName="Room Label" Color="-12550016" />
+            <LayerColor LayerName="Moldings" Color="-16777216" />
+            <LayerColor LayerName="Countertops" Color="-16711681" />
+          </DrawingSettings>
+        </schematic>
+        <schematic>
+          <schematicTagCode>13|1|0|</schematicTagCode>
+          <schematicTagType>14</schematicTagType>
+          <name>Main House - Bar + TV Cabinet Wall 1 Left</name>
+          <baseName>Main House - Bar + TV Cabinet Wall 1 Left</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="3250.781" offsetY="1629.488" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+            <LayerHidden LayerName="Cabinet Label Circles" Hidden="True" />
+            <LayerHidden LayerName="Floor - Plan" Hidden="True" />
+            <LayerHidden LayerName="Toe Skins" Hidden="True" />
+            <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+            <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Face Product Label" Hidden="True" />
+            <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+            <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+            <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="Room Operations" Hidden="True" />
+            <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+            <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+            <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+            <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+            <LayerHidden LayerName="Non-numbered" Hidden="False" />
+            <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+            <LayerHidden LayerName="Opening Labels" Hidden="True" />
+            <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+            <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+            <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+            <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+            <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+            <LayerHidden LayerName="Top Drawings" Hidden="False" />
+            <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+            <LayerHidden LayerName="" Hidden="True" />
+            <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+            <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+            <LayerHidden LayerName="Hardware" Hidden="False" />
+            <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+            <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+            <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+            <LayerHidden LayerName="Wall Labels" Hidden="False" />
+            <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+            <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+            <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+            <LayerHidden LayerName="End Labels" Hidden="False" />
+            <LayerHidden LayerName="Insert Labels" Hidden="True" />
+            <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+            <LayerHidden LayerName="Opening Widths" Hidden="True" />
+            <LayerHidden LayerName="Doors" Hidden="False" />
+            <LayerHidden LayerName="Countertops" Hidden="False" />
+            <LayerHidden LayerName="Corner X" Hidden="False" />
+            <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+            <LayerHidden LayerName="Grid" Hidden="True" />
+            <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+            <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+            <LayerHidden LayerName="Moldings" Hidden="True" />
+            <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+            <LayerHidden LayerName="Room Label" Hidden="False" />
+            <LayerHidden LayerName="T Walls" Hidden="False" />
+            <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+            <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+            <LayerHidden LayerName="User Dimensions" Hidden="False" />
+            <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+            <LayerHidden LayerName="Notes" Hidden="False" />
+            <LayerHidden LayerName="Walls" Hidden="False" />
+            <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+            <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+            <LayerHidden LayerName="Face" Hidden="False" />
+            <LayerHidden LayerName="Back" Hidden="False" />
+            <LayerHidden LayerName="Ends" Hidden="False" />
+            <LayerHidden LayerName="Top" Hidden="False" />
+            <LayerHidden LayerName="Bottom" Hidden="False" />
+            <LayerHidden LayerName="Inserts" Hidden="False" />
+            <LayerHidden LayerName="Interior" Hidden="False" />
+            <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+            <LayerHidden LayerName="DrawerBox" Hidden="False" />
+            <LayerHidden LayerName="Rulers" Hidden="False" />
+            <LayerHidden LayerName="Toe" Hidden="False" />
+            <LayerFont LayerName="Elev Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Room Label">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Wall Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Base Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Depth">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Wall">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Wall Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Wall Fixture Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Base Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Cab Heights">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Height">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Length">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Cabinet Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Cabinet Number Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="End Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Frame Size Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Frame Special Size Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Insert Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Open Section Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Opening Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Opening Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Selected Depth Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Special Depth Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Appliance Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerColor LayerName="Wall Labels" Color="-12550016" />
+            <LayerColor LayerName="Corner X" Color="-8355712" />
+            <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+            <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+            <LayerColor LayerName="Room Label" Color="-12550016" />
+            <LayerColor LayerName="Moldings" Color="-16777216" />
+            <LayerColor LayerName="Countertops" Color="-16711681" />
+          </DrawingSettings>
+        </schematic>
+        <schematic>
+          <schematicTagCode>13|1|1|Back</schematicTagCode>
+          <schematicTagType>11</schematicTagType>
+          <name>Main House - Bar + TV Cabinet Wall 1 Back</name>
+          <baseName>Main House - Bar + TV Cabinet Wall 1 Back</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="403.6415" offsetY="1638.863" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+            <LayerHidden LayerName="Cabinet Label Circles" Hidden="True" />
+            <LayerHidden LayerName="Floor - Plan" Hidden="True" />
+            <LayerHidden LayerName="Toe Skins" Hidden="True" />
+            <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+            <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Face Product Label" Hidden="True" />
+            <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+            <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+            <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="Room Operations" Hidden="True" />
+            <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+            <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+            <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+            <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+            <LayerHidden LayerName="Non-numbered" Hidden="False" />
+            <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+            <LayerHidden LayerName="Opening Labels" Hidden="True" />
+            <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+            <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+            <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+            <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+            <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+            <LayerHidden LayerName="Top Drawings" Hidden="False" />
+            <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+            <LayerHidden LayerName="" Hidden="True" />
+            <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+            <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+            <LayerHidden LayerName="Hardware" Hidden="False" />
+            <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+            <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+            <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+            <LayerHidden LayerName="Wall Labels" Hidden="False" />
+            <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+            <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+            <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+            <LayerHidden LayerName="End Labels" Hidden="False" />
+            <LayerHidden LayerName="Insert Labels" Hidden="True" />
+            <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+            <LayerHidden LayerName="Opening Widths" Hidden="True" />
+            <LayerHidden LayerName="Doors" Hidden="False" />
+            <LayerHidden LayerName="Countertops" Hidden="False" />
+            <LayerHidden LayerName="Corner X" Hidden="False" />
+            <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+            <LayerHidden LayerName="Grid" Hidden="True" />
+            <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+            <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+            <LayerHidden LayerName="Moldings" Hidden="True" />
+            <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+            <LayerHidden LayerName="Room Label" Hidden="False" />
+            <LayerHidden LayerName="T Walls" Hidden="False" />
+            <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+            <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+            <LayerHidden LayerName="User Dimensions" Hidden="False" />
+            <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+            <LayerHidden LayerName="Notes" Hidden="False" />
+            <LayerHidden LayerName="Walls" Hidden="False" />
+            <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+            <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+            <LayerHidden LayerName="Face" Hidden="False" />
+            <LayerHidden LayerName="Back" Hidden="False" />
+            <LayerHidden LayerName="Ends" Hidden="False" />
+            <LayerHidden LayerName="Top" Hidden="False" />
+            <LayerHidden LayerName="Bottom" Hidden="False" />
+            <LayerHidden LayerName="Inserts" Hidden="False" />
+            <LayerHidden LayerName="Interior" Hidden="False" />
+            <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+            <LayerHidden LayerName="DrawerBox" Hidden="False" />
+            <LayerHidden LayerName="Rulers" Hidden="False" />
+            <LayerHidden LayerName="Toe" Hidden="False" />
+            <LayerFont LayerName="Elev Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Room Label">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Wall Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Base Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Depth">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Wall">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Wall Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Wall Fixture Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Base Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Cab Heights">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Height">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Length">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Cabinet Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Cabinet Number Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="End Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Frame Size Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Frame Special Size Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Insert Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Open Section Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Opening Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Opening Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Selected Depth Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Special Depth Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Appliance Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerColor LayerName="Wall Labels" Color="-12550016" />
+            <LayerColor LayerName="Corner X" Color="-8355712" />
+            <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+            <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+            <LayerColor LayerName="Room Label" Color="-12550016" />
+            <LayerColor LayerName="Moldings" Color="-16777216" />
+            <LayerColor LayerName="Countertops" Color="-16711681" />
+          </DrawingSettings>
+        </schematic>
+        <schematic>
+          <schematicTagCode>13</schematicTagCode>
+          <schematicTagType>0</schematicTagType>
+          <name>Main House - Bar + TV Cabinet Plan</name>
+          <baseName>Main House - Bar + TV Cabinet Plan</baseName>
+          <isRescalable>False</isRescalable>
+          <pageUnitsPerFoot>112.5</pageUnitsPerFoot>
+          <lockLayers>False</lockLayers>
+          <scaleLocked>False</scaleLocked>
+          <transform m00="1" m01="0" m10="0" m11="1" offsetX="2878.125" offsetY="859.6876" />
+          <children />
+          <DrawingSettings Version="8" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+            <LayerHidden LayerName="Cabinet Label Circles" Hidden="True" />
+            <LayerHidden LayerName="Floor - Plan" Hidden="True" />
+            <LayerHidden LayerName="Toe Skins" Hidden="True" />
+            <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+            <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Face Product Label" Hidden="True" />
+            <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+            <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+            <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="Room Operations" Hidden="True" />
+            <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+            <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+            <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+            <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+            <LayerHidden LayerName="Non-numbered" Hidden="False" />
+            <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+            <LayerHidden LayerName="Opening Labels" Hidden="True" />
+            <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+            <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+            <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+            <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+            <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+            <LayerHidden LayerName="Top Drawings" Hidden="False" />
+            <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+            <LayerHidden LayerName="" Hidden="True" />
+            <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+            <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+            <LayerHidden LayerName="Hardware" Hidden="False" />
+            <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+            <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+            <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+            <LayerHidden LayerName="Wall Labels" Hidden="False" />
+            <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+            <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+            <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+            <LayerHidden LayerName="End Labels" Hidden="False" />
+            <LayerHidden LayerName="Insert Labels" Hidden="True" />
+            <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+            <LayerHidden LayerName="Opening Widths" Hidden="True" />
+            <LayerHidden LayerName="Doors" Hidden="False" />
+            <LayerHidden LayerName="Countertops" Hidden="False" />
+            <LayerHidden LayerName="Corner X" Hidden="False" />
+            <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+            <LayerHidden LayerName="Grid" Hidden="True" />
+            <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+            <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+            <LayerHidden LayerName="Moldings" Hidden="True" />
+            <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+            <LayerHidden LayerName="Room Label" Hidden="False" />
+            <LayerHidden LayerName="T Walls" Hidden="False" />
+            <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+            <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+            <LayerHidden LayerName="User Dimensions" Hidden="False" />
+            <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+            <LayerHidden LayerName="Notes" Hidden="False" />
+            <LayerHidden LayerName="Walls" Hidden="False" />
+            <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+            <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+            <LayerHidden LayerName="Face" Hidden="False" />
+            <LayerHidden LayerName="Back" Hidden="False" />
+            <LayerHidden LayerName="Ends" Hidden="False" />
+            <LayerHidden LayerName="Top" Hidden="False" />
+            <LayerHidden LayerName="Bottom" Hidden="False" />
+            <LayerHidden LayerName="Inserts" Hidden="False" />
+            <LayerHidden LayerName="Interior" Hidden="False" />
+            <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+            <LayerHidden LayerName="DrawerBox" Hidden="False" />
+            <LayerHidden LayerName="Rulers" Hidden="False" />
+            <LayerHidden LayerName="Toe" Hidden="False" />
+            <LayerFont LayerName="Elev Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Room Label">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Wall Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Base Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Depth">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Wall">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Wall Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Wall Fixture Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Base Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Cab Heights">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Height">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Length">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Cabinet Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Cabinet Number Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="End Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Frame Size Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Frame Special Size Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Insert Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Open Section Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Opening Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Opening Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Selected Depth Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Special Depth Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Appliance Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerColor LayerName="Wall Labels" Color="-12550016" />
+            <LayerColor LayerName="Corner X" Color="-8355712" />
+            <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+            <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+            <LayerColor LayerName="Room Label" Color="-12550016" />
+            <LayerColor LayerName="Moldings" Color="-16777216" />
+            <LayerColor LayerName="Countertops" Color="-16711681" />
+          </DrawingSettings>
+        </schematic>
+      </objects>
+    </page>
+  </pages>
+</multiprint>

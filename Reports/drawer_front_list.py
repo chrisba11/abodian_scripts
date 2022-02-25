@@ -290,7 +290,8 @@ def drawer_list_report():
 
 
                     if line.startswith('          </DrawerFront>'):
-                        doors.append(df)
+                        if "Quan" in df:
+                            doors.append(df)
 
 
 
@@ -398,6 +399,8 @@ def drawer_list_report():
 
     # remove any materials that don't have doors associated with them
     temp_mat_set = set()
+    temp_styles_set = set()
+    temp_types_set = set()
     for _material in materials:
         for _style in door_styles:
             if _style not in sorted_product_dict[_material]:
@@ -410,11 +413,13 @@ def drawer_list_report():
                 list_of_doors = sorted_product_dict[_material][_style][_type]
                 if len(list_of_doors) > 0:
                     temp_mat_set.add(_material)
+                    temp_styles_set.add(_style)
+                    temp_types_set.add(_type)
     
     # creates sorted lists from sets
     mat_list = sorted(temp_mat_set)
-    styles_list = sorted(door_styles)
-    types_list = sorted(hinge_types)
+    styles_list = sorted(temp_styles_set)
+    types_list = sorted(temp_types_set)
 
 
     wb = Workbook()

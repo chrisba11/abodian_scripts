@@ -1,0 +1,270 @@
+4
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<OptimizeMaterial Name="Dark Grey Matte 2S 3/4 P3002 AGT PARTS [Matching Banding]" Thickness="18.001" Width="1219.2" Length="2794" HasGrain="False" WidthTrim="6.35" LengthTrim="6.35" FeedRate="100" Comment="" CustomerName="" Timestamp="1640188875.13078" OptParamSpeed="2" OptParamMachineName="" OptParamSeqByCabN="False" OptParamSeqFlipsideFirst="False" OptParamRemnantUsagePolicy="0" ToolsetName="Axon Standard" IsLegacy="False" BatchRevisionNumber="0">
+  <OptimizePart PartID="1" PartNumbers="1" Quan="1" Name=" Wall Panel Face" Width="1803.4" Length="114.3" EdgeBand="DA-Custom*" Color="None" AssyNo="R2N5" Comment="Wall Panel Face" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="114.3" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="114.3" Y="1803.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="1803.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="2" PartNumbers="2" Quan="1" Name=" Countertop Build-Up" Width="76.2" Length="1803.4" EdgeBand="None" Color="None" AssyNo="R2C1" Comment="Countertop Build-Up" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="1" X="1803.4" Y="0" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="2" X="1803.4" Y="76.2" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="3" X="0" Y="76.2" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="3" PartNumbers="3" Quan="1" Name=" Countertop Build-Up" Width="76.2" Length="1854.2" EdgeBand="None" Color="None" AssyNo="R2C1" Comment="Countertop Build-Up" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="1" X="1854.2" Y="0" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="2" X="1854.2" Y="76.2" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="3" X="0" Y="76.2" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="4" PartNumbers="4" Quan="1" Name=" Finished Bottom Panel" Width="352.425" Length="1828.8" EdgeBand="DA-Custom*" Color="None" AssyNo="R2N4" Comment=" Finished Bottom Panel" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="0" RadiusX="19.05" RadiusY="323.85" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="1828.8" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Left" />
+      <ShapePoint ID="0" X="1828.8" Y="352.425" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="0" X="0" Y="352.425" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Right" />
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Right" />
+      <Operations Version="2">
+        <OperationHole Diameter="9.525" Diameter_Eq="" ID="6" X="1209.675" Y="22.22498" Depth="16.10106" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="9.525" Diameter_Eq="" ID="7" X="1203.326" Y="28.57498" Depth="16.10106" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="9.525" Diameter_Eq="" ID="8" X="1209.675" Y="28.57498" Depth="16.10106" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50009" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="9.525" Diameter_Eq="" ID="9" X="1203.326" Y="22.22498" Depth="16.10106" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50010" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationToolPath ToolID="1" ToolGroupID="-1" DecorativeProfileID="-1" ClosedShape="True" ToolPathWidth="0" NoRamp="False" NextToolPathIdTag="-1" ToolPathIdTag="-1" ID="10" X="0" Y="0" Depth="16.10106" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="54002" Noneditable="False" Anchor="" FlipSideOp="True">
+          <OperationToolPathNode X="1211.262" Y="30.16248" DepthOR="-9999" PtType="0" Data="0" X_Eq="" Y_Eq="" Data_Eq="" Anchor="" />
+          <OperationToolPathNode X="1201.738" Y="30.16248" DepthOR="-9999" PtType="0" Data="0" X_Eq="" Y_Eq="" Data_Eq="" Anchor="" />
+          <OperationToolPathNode X="1201.738" Y="20.63748" DepthOR="-9999" PtType="0" Data="0" X_Eq="" Y_Eq="" Data_Eq="" Anchor="" />
+          <OperationToolPathNode X="1211.262" Y="20.63748" DepthOR="-9999" PtType="0" Data="0" X_Eq="" Y_Eq="" Data_Eq="" Anchor="" />
+        </OperationToolPath>
+        <OperationHole Diameter="47.625" Diameter_Eq="" ID="66" X="12.69995" Y="163.5125" Depth="18.001" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50016" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="47.625" Diameter_Eq="" ID="67" X="-3594.1" Y="163.5125" Depth="18.001" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50017" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="47.625" Diameter_Eq="" ID="68" X="-9004.3" Y="163.5125" Depth="18.001" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50018" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="47.625" Diameter_Eq="" ID="69" X="-5397.5" Y="163.5125" Depth="18.001" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50019" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="47.625" Diameter_Eq="" ID="70" X="-1790.7" Y="163.5125" Depth="18.001" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50020" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationHole Diameter="47.625" Diameter_Eq="" ID="71" X="-7200.9" Y="163.5125" Depth="18.001" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50021" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationGroove Width="12.7" Len="195.199" Ang="90" W_Eq="" L_Eq="" Ang_Eq="" ApplyDadoLogic="True" ID="72" X="-9004.3" Y="163.5125" Depth="9.525" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="51013" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationGroove Width="12.7" Len="195.199" Ang="90" W_Eq="" L_Eq="" Ang_Eq="" ApplyDadoLogic="True" ID="73" X="-5397.5" Y="163.5125" Depth="9.525" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="51014" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationGroove Width="12.7" Len="195.199" Ang="90" W_Eq="" L_Eq="" Ang_Eq="" ApplyDadoLogic="True" ID="74" X="-3594.1" Y="163.5125" Depth="9.525" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="51015" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationGroove Width="12.7" Len="195.199" Ang="90" W_Eq="" L_Eq="" Ang_Eq="" ApplyDadoLogic="True" ID="75" X="-1790.7" Y="163.5125" Depth="9.525" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="51016" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationGroove Width="12.7" Len="195.199" Ang="90" W_Eq="" L_Eq="" Ang_Eq="" ApplyDadoLogic="True" ID="76" X="12.69995" Y="163.5125" Depth="9.525" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="51017" Noneditable="False" Anchor="" FlipSideOp="True" />
+        <OperationGroove Width="12.7" Len="195.199" Ang="90" W_Eq="" L_Eq="" Ang_Eq="" ApplyDadoLogic="True" ID="77" X="-7200.9" Y="163.5125" Depth="9.525" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="51018" Noneditable="False" Anchor="" FlipSideOp="True" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="5" PartNumbers="5" Quan="1" Name=" Filler Face/Cleat" Width="142.9" Length="609.6" EdgeBand="DA-Custom*" Color="None" AssyNo="R2N6" Comment="Filler Face/Cleat" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="609.6" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="609.6" Y="142.9" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="142.9" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="583.6" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="455.6" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="109.5" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="109.5" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="455.6" Y="109.5" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="583.6" Y="109.5" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="6" PartNumbers="6" Quan="1" Name=" Filler Face/Cleat" Width="142.9" Length="609.6" EdgeBand="DA-Custom*" Color="None" AssyNo="R2N3" Comment=" Filler Face/Cleat" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="609.6" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="609.6" Y="142.9" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="142.9" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="583.6" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="455.6" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="134.9" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="134.9" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="455.6" Y="134.9" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="583.6" Y="134.9" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="7" PartNumbers="7" Quan="1" Name=" Filler Face/Cleat" Width="130.2" Length="342.9" EdgeBand="DA-Custom*" Color="None" AssyNo="R2N1" Comment="Filler Face/Cleat" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="342.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="342.9" Y="130.2" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="130.2" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="316.9" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="188.9" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="122.2" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="122.2" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="188.9" Y="122.2" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="316.9" Y="122.2" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="8" PartNumbers="8" Quan="1" Name=" Filler Face/Cleat" Width="130.2" Length="342.9" EdgeBand="DA-Custom*" Color="None" AssyNo="R2N2" Comment="Filler Face" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="342.9" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="342.9" Y="130.2" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="130.2" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="316.9" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="188.9" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="96.8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="96.8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="188.9" Y="96.8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="316.9" Y="96.8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="9" PartNumbers="9" Quan="1" Name=" Filler Face/Cleat" Width="161.95" Length="914.4" EdgeBand="DA-Custom*" Color="None" AssyNo="R6N5" Comment=" Filler Face/Cleat" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="914.4" Y="161.95" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="161.95" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="888.4" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="760.4" Y="33.4" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="153.95" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="153.95" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="760.4" Y="153.95" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="888.4" Y="153.95" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="10" PartNumbers="10" Quan="1" Name=" Filler Face/Cleat" Width="142.9" Length="914.4" EdgeBand="DA-Custom*" Color="None" AssyNo="R6N9" Comment="Filler Face/Cleat" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="914.4" Y="142.9" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="142.9" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="888.4" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="760.4" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="109.5" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="109.5" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="760.4" Y="109.5" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="888.4" Y="109.5" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="11" PartNumbers="11" Quan="1" Name=" Base Applied End Panel" Width="656.176" Length="914.4" EdgeBand="DA-2,0,0,0" Color="None" AssyNo="R6N1" Comment="Base Applied End Panel" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Back" />
+      <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Top" />
+      <ShapePoint ID="2" X="914.4" Y="656.176" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Front" />
+      <ShapePoint ID="3" X="0" Y="656.176" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Bottom" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="12" PartNumbers="12" Quan="1" Name=" Filler Face/Cleat" Width="142.9" Length="774.7" EdgeBand="DA-Custom*" Color="None" AssyNo="R6N4" Comment="Filler Face" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="774.7" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="774.7" Y="142.9" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="142.9" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="748.7" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="620.7" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="109.5" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="109.5" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="620.7" Y="109.5" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="748.7" Y="109.5" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="13" PartNumbers="13" Quan="1" Name=" Base Applied End Panel" Width="656.176" Length="914.4" EdgeBand="DA-2,0,0,0" Color="None" AssyNo="R6N3" Comment="Base Applied End Panel" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Back" />
+      <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Top" />
+      <ShapePoint ID="2" X="914.4" Y="656.176" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Front" />
+      <ShapePoint ID="3" X="0" Y="656.176" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Bottom" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="14" PartNumbers="14" Quan="1" Name=" Base Applied End Panel" Width="656.176" Length="914.4" EdgeBand="DA-2,0,0,0" Color="None" AssyNo="R6N2" Comment="Base Applied End Panel" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Back" />
+      <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Top" />
+      <ShapePoint ID="2" X="914.4" Y="656.176" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Front" />
+      <ShapePoint ID="3" X="0" Y="656.176" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Bottom" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="15" PartNumbers="15" Quan="1" Name=" Base Applied End Panel" Width="656.176" Length="914.4" EdgeBand="DA-2,0,0,0" Color="None" AssyNo="R12N1" Comment="Base Applied End Panel" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Back" />
+      <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Top" />
+      <ShapePoint ID="2" X="914.4" Y="656.176" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Front" />
+      <ShapePoint ID="3" X="0" Y="656.176" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Bottom" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="16" PartNumbers="16" Quan="1" Name=" Filler Face" Width="76.2" Length="774.7" EdgeBand="DA-Custom*" Color="None" AssyNo="R12N2" Comment="Filler Face" UserAdded="False" RemakeJobName="" BandTempName="02 - AGT - Dark Grey Matte - MC" TextureName="02 - AGT - Dark Grey">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="1" X="774.7" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="2" X="774.7" Y="76.2" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="3" X="0" Y="76.2" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50002" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="748.7" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50003" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="620.7" Y="8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50004" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="42.8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50005" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="154" Y="42.8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50006" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="3" X="620.7" Y="42.8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50007" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="4" X="748.7" Y="42.8" Depth="12.7" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50008" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizeSheet Width="1219.2" Length="2794" Rotation="0" Quan="1" Flipped="False" HasBeenCut="False" ExportedToCNCOperator="True" PatternNumber="1" PatternNumberSuffix="">
+    <OptimizePartLocation PartID="15" PartNumber="15" X="6.4" Y="6.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="13" PartNumber="13" X="683.2" Y="6.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="3" PartNumber="3" X="6.4" Y="941.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="9" PartNumber="9" X="6.4" Y="1038.2" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="11" PartNumber="11" X="1360" Y="6.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="10" PartNumber="10" X="941.4" Y="1038.2" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="14" PartNumber="14" X="2036.8" Y="6.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="16" PartNumber="16" X="1881.2" Y="941.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="12" PartNumber="12" X="1876.4" Y="1038.2" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+  </OptimizeSheet>
+  <OptimizeSheet Width="1219.2" Length="2794" Rotation="0" Quan="1" Flipped="False" HasBeenCut="False" ExportedToCNCOperator="True" PatternNumber="2" PatternNumberSuffix="">
+    <OptimizePartLocation PartID="4" PartNumber="4" X="6.4" Y="6.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="1" PartNumber="1" X="6.4" Y="379.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="2" PartNumber="2" X="6.4" Y="514.2" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="7" PartNumber="7" X="1855.8" Y="6.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="8" PartNumber="8" X="2006.6" Y="6.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="5" PartNumber="5" X="2157.4" Y="6.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="6" PartNumber="6" X="2157.4" Y="169.8" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+  </OptimizeSheet>
+  <RoomInfo Number="0" Name="Order Entry" WallCabString="" BaseCabString="R0N1,R0N2,R0N3,R0N4,R0N5,R0N6,R0N7,R0N8,R0N9,R0N10,R0N11,R0N12,R0N13,R0N14" CabNames="R0N1,(2) Sheets of Maple Melamine Cover Caps - SFR DADU Painted|R0N2,(3) Ledger Board - SFR DADU Painted|R0N3,Touch-Up Paint - Frosty White - SFR DADU Painted|R0N4,(6) Sheets of Maple Melamine Cover Caps - SFR Chique|R0N5,(5) PRZ Chique Cover Caps - SFR Chique|R0N6,(7) Ledger Board - SFR Chique|R0N7,(3) Sheets of Maple Melamine Cover Caps - DADU Chique|R0N8,(4) Ledger Board - DADU Chique|R0N9,(3) Sheets of Maple Melamine Cover Caps - SFR Dark Grey|R0N10,(20) AGT SM Dark Grey Cover Caps - SFR Dark Grey|R0N11,(4) Ledger Board - SFR Dark Grey|R0N12,Internal Duct Cover - DADU Chique|R0N13,Rev-A-Shelf Shelf Trash Pullout - 5SBWC815S1 - DADU|R0N14,10' Laguna Gola L - Matte Black - 1682.AUC.MB" />
+  <RoomInfo Number="1" Name="Main House - Kitchen" WallCabString="R1N7,R1C11,R1C12,R1C13,R1C14,R1N10,R1N9,R1N8" BaseCabString="R1C21,R1N1,R1N12,R1N14,R1N2,R1C1,R1C2,R1C3,R1C4,R1C5,R1N3,R1C7,R1C8,R1C9,R1C10,R1C6,R1N6,R1N11,R1N13,R1C19,R1C20,R1N4,R1N5,R1C18,R1C22,R1N21,R1N22,R1N23,R1N16,R1N15,R1N17,R1C15,R1C17,R1C16,R1N20,R1N18,R1N19" CabNames="R1C21,Base Micro &amp; Drawer|R1N1,Base Face Panel|R1N7,Wall Filler - L|R1N12,Crown Moulding|R1N14,Crown Moulding|R1N2,Peninsula End Panel .75|R1C1,Base 1 Door|R1C2,Base 1 Door|R1C3,Base 1 Door|R1C4,Base Sink|R1C5,Base Trash 52qt|R1N3,Base Filler - R|R1C7,Base 1 Door 1 Drw|R1C8,Base 1 Door 1 Drw|R1C9,Base 1 Door 1 Drw|R1C10,Base 3 Drawer|R1C11,Wall 2 Door - 2 AS|R1C12,Wall 2 Door - 2 AS|R1C13,Wall 2 Door - 2 AS|R1C14,Wall 2 Door - 2 AS|R1C6,Base Blind 1 Door - L - 1 AS|R1N10,Wall Filler - R|R1N9,Wall End Panel .75|R1N8,Wall End Panel .75|R1N6,Base Filler - R|R1N11,Toeboard|R1N13,Toeboard|R1C19,Base 3 Drawer|R1C20,Base 3 Drawer|R1N4,Toeboard|R1N5,Toeboard|R1C18,Base Thick End Panel - Custom  (Laminated)|R1C22,Base Thick End Panel - Custom  (Laminated)|R1N21,Base Face Panel|R1N22,Base Face Panel|R1N23,Base Face Panel|R1N16,Side by Side Fridge Panels w Grille|R1N15,Tall Filler - L - Full Depth|R1N17,Tall Filler - R|R1C15,Tall Base 1 Door|R1C17,Tall Base 1 Door|R1C16,Tall Base 1 Door|R1N20,Toeboard|R1N18,Toeboard|R1N19,Toeboard" />
+  <RoomInfo Number="2" Name="Main House - Mud Bench" WallCabString="R2N5,R2N4,R2C5,R2C6,R2N6,R2N3" BaseCabString="R2C1,R2C2,R2C3,R2C4,R2N7,R2N1,R2N2" CabNames="R2N5,Wall Face Panel|R2C1,Wood Top 1.5 - Custom|R2N4,Wall Bottom Panel .75|R2C5,Wall 2 Door - 2 AS|R2C6,Wall 2 Door - 2 AS|R2N6,Wall Filler - R|R2N3,Wall Filler - L|R2C2,Bench Open|R2C3,Bench Open|R2C4,Bench Open|R2N7,Toeboard|R2N1,Base Filler - L|R2N2,Base Filler - R" />
+  <RoomInfo Number="3" Name="Main House - Master Bath" WallCabString="" BaseCabString="R3N1,R3N2,R3C2,R3C1,R3C3,R3N3" CabNames="R3N1,Vanity Filler - L|R3N2,Base Filler - R|R3C2,Vanity Sink w Nailer|R3C1,Vanity 3 Drawer|R3C3,Vanity 3 Drawer|R3N3,Toeboard" />
+  <RoomInfo Number="4" Name="Main House - Common Bath" WallCabString="" BaseCabString="R4N1,R4N2,R4C1,R4C3,R4N3,R4C2" CabNames="R4N1,Vanity Filler - L|R4N2,Vanity Filler - R|R4C1,Vanity Sink|R4C3,Vanity Sink|R4N3,Toeboard|R4C2,Base 3 Drawer" />
+  <RoomInfo Number="5" Name="Main House - En-suite Bath" WallCabString="" BaseCabString="R5N2,R5N1,R5C1,R5N4,R5N3" CabNames="R5N2,Floating Vanity End Panel .75|R5N1,Floating Vanity Filler - L|R5C1,Floating Vanity Sink - 2 Door|R5N4,Vanity Toekick - Custom|R5N3,Toeboard" />
+  <RoomInfo Number="6" Name="Main House - Laundry" WallCabString="R6C4,R6C5,R6C6,R6N5,R6N9,R6N6,R6N8,R6N7" BaseCabString="R6C3,R6N1,R6N4,R6N10,R6N11,R6N3,R6N2,R6C1,R6C2" CabNames="R6C4,Wall 2 Door - 2 AS|R6C5,Wall 2 Door - 2 AS|R6C6,Wall 2 Door - 2 AS|R6N5,Wall Filler - L|R6N9,Wall Filler - R|R6C3,Base Sink w RO|R6N1,Base End Panel .75|R6N4,Base Filler - R|R6N10,Toeboard|R6N11,Toeboard|R6N6,Wall End Panel .75|R6N8,Wall End Panel .75|R6N7,Wall Top Panel .75|R6N3,Base End Panel .75|R6N2,Base End Panel .75|R6C1,Desk 1 Drawer|R6C2,Desk 1 Drawer" />
+  <RoomInfo Number="7" Name="DADU - Kitchen" WallCabString="R7N4,R7N5,R7N6,R7C6,R7C7,R7C9,R7C10,R7C8" BaseCabString="R7N1,R7N3,R7N2,R7C4,R7C3,R7C2,R7C1,R7C5,R7N11,R7N8,R7N10,R7N7,R7N9,R7C11,R7C14,R7C12,R7C13,R7N13,R7N14,R7N12" CabNames="R7N1,Base Filler - L|R7N3,Tall Filler - R - Full Depth|R7N4,Wall Filler - L|R7N2,Tall End Panel .75|R7C4,Base 2 Door|R7C3,Base 3 Drawer|R7C2,Base 3 Drawer|R7C1,Base 2 Door|R7N5,Wall End Panel .75|R7N6,Wall End Panel .75|R7C6,Wall 1 Door - 2 AS|R7C7,Wall 1 Door - 2 AS|R7C9,Wall 1 Door - 2 AS|R7C10,Wall 1 Door - 2 AS|R7C8,Wall Micro Hood 18H|R7C5,Wall Fridge 21H - 1 AS|R7N11,Fridge Valance|R7N8,Light Valance|R7N10,Light Valance|R7N7,Toeboard|R7N9,Toeboard|R7C11,Base Thick End Panel - Custom (Laminated)|R7C14,Base Thick End Panel - Custom (Laminated)|R7C12,Base Sink w Trash PO|R7C13,Base Micro &amp; Drawer|R7N13,Base Face Panel|R7N14,Base Face Panel|R7N12,Toeboard" />
+  <RoomInfo Number="8" Name="DADU - Bath" WallCabString="" BaseCabString="R8C1,R8C2,R8N1,R8N2,R8N3,R8N4" CabNames="R8C1,Floating Vanity Sink - 2 Door|R8C2,Floating Vanity 3 Drw - A|R8N1,Floating Vanity End Panel .75|R8N2,Floating Vanity Filler - R|R8N3,Toeboard|R8N4,Vanity Toekick - Custom" />
+  <RoomInfo Number="9" Name="DADU - Powder " WallCabString="" BaseCabString="R9N1,R9N2,R9C1" CabNames="R9N1,Floating Vanity Filler - L|R9N2,Floating Vanity Filler - R|R9C1,Floating Vanity Sink - 2 Door" />
+  <RoomInfo Number="10" Name="Main House - Entry Bench" WallCabString="" BaseCabString="R10N1,R10N2,R10C2,R10C3,R10C4,R10N3,R10C1" CabNames="R10N1,Base End Panel .75|R10N2,Base End Panel .75|R10C2,GTall Base 1 Drawer|R10C3,GTall Base 1 Drawer|R10C4,GTall Base 1 Drawer|R10N3,Toeboard|R10C1,Wood Top 1.5 - Custom" />
+  <RoomInfo Number="11" Name="Main House - Powder" WallCabString="" BaseCabString="R11C1,R11N1,R11N2" CabNames="R11C1,Floating Vanity Sink - 2 Door|R11N1,Floating Vanity Filler - L|R11N2,Floating Vanity Filler - R" />
+  <RoomInfo Number="12" Name="Loft" WallCabString="" BaseCabString="R12C1,R12N1,R12C2,R12C3,R12N2,R12N3" CabNames="R12C1,Base Open - 1 FS (See Notes)|R12N1,Base End Panel .75|R12C2,Base 3 Drawer|R12C3,Base Sink|R12N2,Base Filler - R - Full Depth|R12N3,Toeboard" />
+  <RoomInfo Number="13" Name="Main House - Bar + TV Cabinet" WallCabString="R13C5" BaseCabString="R13C1,R13N3,R13N2,R13C2,R13N10,R13N6,R13N8,R13N5,R13N7,R13C3,R13C4,R13N14,R13N15,R13N17,R13N18,R13N9,R13N1,R13N4,R13N13,R13N12,R13N11,R13N16" CabNames="R13C1,Base 2 Door (See Notes)|R13N3,Base Face Panel|R13N2,Wood Top .75|R13C2,Base 2 Door (See Notes)|R13N10,Base Face Panel|R13N6,Base Face Panel|R13N8,Base Face Panel|R13N5,Base Face Panel|R13N7,Base Face Panel|R13C3,Base 2 Drawer|R13C4,Base 2 Drawer|R13C5,Wall Open - 8 Partitions|R13N14,Base Face Panel|R13N15,Base Face Panel|R13N17,Toeboard|R13N18,Toeboard|R13N9,Wood Top .75|R13N1,Base Filler - L|R13N4,Base End Panel .75 (no wall scribe)|R13N13,Base Filler - L|R13N12,Base End Panel .75 (no wall scribe)|R13N11,Base Filler - R|R13N16,Base Filler - R" />
+</OptimizeMaterial>

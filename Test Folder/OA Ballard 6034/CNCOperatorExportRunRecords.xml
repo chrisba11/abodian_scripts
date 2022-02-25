@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RunRecords>
+  <CNCOperatorExportRunRecord Timestamp="1638447528.582" RunName="SFR Dadu Painted - 12.2.21">
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="MDF 3/4 [1]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 [1] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1638447872.855" RunName="SFR Chique - 12.2.21">
+    <Material Name="Chique 3/4 WF442 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+      <Pattern Name="Pattern #15" />
+      <Pattern Name="Pattern #16" />
+      <Pattern Name="Pattern #17" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+      <Pattern Name="Pattern #15" />
+      <Pattern Name="Pattern #16" />
+      <Pattern Name="Pattern #17" />
+      <Pattern Name="Pattern #18" />
+      <Pattern Name="Pattern #19" />
+    </Material>
+    <Material Name="MDF 3/4 [2]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 Doors [2]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1638448100.222" RunName="Dadu Chique - 12.2.21">
+    <Material Name="Chique 3/4 WF442 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1638448209.748" RunName="SFR Dark Grey - 12.2.21">
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1638459176.933" RunName="SFR Dadu Painted - 12.2.21">
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="MDF 3/4 [1]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 [1] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1638459372.662" RunName="SFR Chique - 12.2.21">
+    <Material Name="Chique 3/4 WF442 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+      <Pattern Name="Pattern #15" />
+      <Pattern Name="Pattern #16" />
+      <Pattern Name="Pattern #17" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+      <Pattern Name="Pattern #15" />
+      <Pattern Name="Pattern #16" />
+      <Pattern Name="Pattern #17" />
+      <Pattern Name="Pattern #18" />
+      <Pattern Name="Pattern #19" />
+    </Material>
+    <Material Name="MDF 3/4 [2]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 Doors [2]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1638459557.376" RunName="Dadu Chique - 12.2.21">
+    <Material Name="Chique 3/4 WF442 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1638459692.828" RunName="SFR Dark Grey - 12.2.21">
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1640166886.239" RunName="BSAW Labels 12.22.21">
+    <Material Name="Chique 3/4 WF442 PRZ PARTS [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT PARTS [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="MDF 3/4 PARTS [1] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1640169310.399" RunName="12.22.21">
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Paint-Matched PVC Banding 1]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Paint-Matched PVC Banding 1]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 DOORS [1]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 PARTS [1]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1640171829.286" RunName="SFR Chique - 12.22.21">
+    <Material Name="Chique 3/4 WF442 PRZ BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ DOORS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ GABLE [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ PARTS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ SHELF [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ ADJ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ DRAWER [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 [2]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 DOORS [2]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="MDF 3/4 PARTS [2]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1640174125.38" RunName="Dadu Chique - 12.22.21">
+    <Material Name="Chique 3/4 WF442 PRZ DOORS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ PARTS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ ADJ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ DRAWER [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1640174399.846" RunName="SFR Dark Grey - 12.22.21">
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ ADJ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Dark Grey Matte Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Dark Grey Matte Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT DOORS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT GABLE [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT PARTS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT SHELF [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1640175536.109" RunName="SFR Chique - 12.22.21">
+    <Material Name="Chique 3/4 WF442 PRZ BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ DOORS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ GABLE [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ PARTS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ SHELF [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ ADJ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ DRAWER [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 [2]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 DOORS [2]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="MDF 3/4 PARTS [2]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1640187627.252" RunName="SFR DADU Painted - 12.22.21">
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Paint-Matched PVC Banding 1]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Paint-Matched PVC Banding 1]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 DOORS [1]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 PARTS [1]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1640188079.416" RunName="SFR Chique - 12.22.21">
+    <Material Name="Chique 3/4 WF442 PRZ BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ DOORS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ GABLE [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ PARTS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ SHELF [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ ADJ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ DRAWER [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+      <Pattern Name="Pattern #8" />
+      <Pattern Name="Pattern #9" />
+      <Pattern Name="Pattern #10" />
+      <Pattern Name="Pattern #11" />
+      <Pattern Name="Pattern #12" />
+      <Pattern Name="Pattern #13" />
+      <Pattern Name="Pattern #14" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 [2]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="MDF 3/4 DOORS [2]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="MDF 3/4 PARTS [2]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1640188474.798" RunName="Dadu Chique - 12.22.21">
+    <Material Name="Chique 3/4 WF442 PRZ DOORS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="Chique 3/4 WF442 PRZ PARTS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ ADJ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ DRAWER [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+      <Pattern Name="Pattern #6" />
+      <Pattern Name="Pattern #7" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Chique Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1640188820.581" RunName="SFR Dark Grey - 12.22.21">
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ ADJ [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Dark Grey Matte Banding]">
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+      <Pattern Name="Pattern #5" />
+    </Material>
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Dark Grey Matte Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT BACK [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT DOORS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT GABLE [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT PARTS [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT SHELF [Matching Banding]">
+      <Pattern Name="Pattern #1" />
+    </Material>
+    <Material Name="Raw Toe Material 5/8">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1640267602.844" RunName="BSAW Labels - 12.23.21">
+    <Material Name="Chique 3/4 WF442 PRZ PARTS [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT PARTS [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="MDF 3/4 PARTS [1] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1640792071.97084" RunName="SFR Dadu Painted 12.29.21">
+    <Material Name="Chique 3/4 WF442 PRZ PARTS [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+      <Pattern Name="Pattern #3" />
+      <Pattern Name="Pattern #4" />
+    </Material>
+    <Material Name="Dark Grey Matte 2S 3/4 P3002 AGT PARTS [Matching Banding] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+    <Material Name="MDF 3/4 PARTS [1] BSAW">
+      <Pattern Name="Pattern #1" />
+      <Pattern Name="Pattern #2" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+</RunRecords>

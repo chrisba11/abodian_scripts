@@ -1,0 +1,598 @@
+1
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PricingTemplateRuns>
+  <PricingTemplateRun Name="1. Material List (Dec 01, 21)" CreationDate="1638351107.586" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS 1" Units="0" IDTag="BUYOUT DOORS 1" SortTag="BUYOUT DOORS 1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding]" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding]" SortTag="Chique 3/4 WF442 PRZ [Matching Banding]" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" SortTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="0" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" QTY="22" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" QTY="30" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" QTY="7" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1]" Units="0" IDTag="MDF 3/4 [1]" SortTag="MDF 3/4 [1]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1] BSAW" Units="0" IDTag="MDF 3/4 [1] BSAW" SortTag="MDF 3/4 [1] BSAW" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2]" Units="0" IDTag="MDF 3/4 [2]" SortTag="MDF 3/4 [2]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 Doors [2]" Units="0" IDTag="MDF 3/4 Doors [2]" SortTag="MDF 3/4 Doors [2]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Raw Toe Material 5/8" Units="0" IDTag="Raw Toe Material 5/8" SortTag="Raw Toe Material 5/8" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Appliance Inserts\Microwave Drawer" Units="0" IDTag="Appliance Inserts\Microwave Drawer" SortTag="Appliance Inserts\Microwave Drawer" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" Units="0" IDTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" SortTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Decorative\Touch-Up Paint" Units="0" IDTag="Decorative\Touch-Up Paint" SortTag="Decorative\Touch-Up Paint" QTY="1" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Apple Spice 4274 DOL" Units="6" IDTag="0.5mm Apple Spice 4274 DOL" SortTag="0.5mm Apple Spice 4274 DOL" QTY="477.249457341792434" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Chique WF442 PRZ" Units="6" IDTag="0.5mm Chique WF442 PRZ" SortTag="0.5mm Chique WF442 PRZ" QTY="393.012790329500117" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Hardrock Maple WF275 PRZ" Units="6" IDTag="0.5mm Hardrock Maple WF275 PRZ" SortTag="0.5mm Hardrock Maple WF275 PRZ" QTY="54.15480325854044" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Moonlight Isola SM9217 TEK" Units="6" IDTag="0.5mm Moonlight Isola SM9217 TEK" SortTag="0.5mm Moonlight Isola SM9217 TEK" QTY="104.57858308406634" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Paint Matched PVC 1" Units="6" IDTag="0.5mm Paint Matched PVC 1" SortTag="0.5mm Paint Matched PVC 1" QTY="53.08191574777521" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Chique WF442 PRZ" Units="6" IDTag="1mm Chique WF442 PRZ" SortTag="1mm Chique WF442 PRZ" QTY="996.546418773220232" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Dark Grey Matte P3002 AGT" Units="6" IDTag="1mm Dark Grey Matte P3002 AGT" SortTag="1mm Dark Grey Matte P3002 AGT" QTY="308.448764821049989" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Hardrock Maple WF275 PRZ" Units="6" IDTag="1mm Hardrock Maple WF275 PRZ" SortTag="1mm Hardrock Maple WF275 PRZ" QTY="124.790026847458844" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="6" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="68.88750123351884" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None EB2-Door" Units="6" IDTag="None EB2-Door" SortTag="None EB2-Door" QTY="56.099997092419748" Amount="0.07" Total="3.93" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="DTC C-80 Blind 90 / 2mm - 105-C96J6A5NH" Units="0" IDTag="DTC C-80 Blind 90 / 2mm - 105-C96J6A5NH" SortTag="DTC C-80 Blind 90 / 2mm - 105-C96J6A5NH" QTY="2" Amount="2.6" Total="5.2" />
+        <PricingTemplateSubRow ItemName="Hettich - Sensys 110 / 3mm - 9071226" Units="0" IDTag="Hettich - Sensys 110 / 3mm - 9071226" SortTag="Hettich - Sensys 110 / 3mm - 9071226" QTY="147" Amount="2.6" Total="382.2" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="828350" Units="0" IDTag="828350" SortTag="828350" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="828400" Units="0" IDTag="828400" SortTag="828400" QTY="3" Amount="8.36" Total="25.08" />
+        <PricingTemplateSubRow ItemName="828450" Units="0" IDTag="828450" SortTag="828450" QTY="4" Amount="8.36" Total="33.44" />
+        <PricingTemplateSubRow ItemName="828500" Units="0" IDTag="828500" SortTag="828500" QTY="17" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 185_500 (see Excel list of parts)" SortTag="Optimiz-R 185_500 (see Excel list of parts)" QTY="12" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 89_500 (see Excel list of parts)" SortTag="Optimiz-R 89_500 (see Excel list of parts)" QTY="14" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="110" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None (for real though)" Units="0" IDTag="None (for real though)" SortTag="None (for real though)" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Richelieu Optimiz-R - RO Spacers" Units="0" IDTag="Richelieu Optimiz-R - RO Spacers" SortTag="Richelieu Optimiz-R - RO Spacers" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="U58-Rich-RO W/O 550 Spacers" Units="0" IDTag="U58-Rich-RO W/O 550 Spacers" SortTag="U58-Rich-RO W/O 550 Spacers" QTY="4" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="200" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="505" Amount="0.001785" Total="0.90" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="210" Amount="0.001785" Total="0.37" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 1-2 V3" Units="0" IDTag="Dowels (End to TRB) 1-2 V3" SortTag="Dowels (End to TRB) 1-2 V3" QTY="40" Amount="0.001785" Total="0.07" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 3 V3" Units="0" IDTag="Dowels (End to TRB) 3 V3" SortTag="Dowels (End to TRB) 3 V3" QTY="0" Amount="0.001785" Total="0.00" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="1126" Amount="0.001785" Total="2.01" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="216" Amount="0.001785" Total="0.39" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Notched Toe" Units="0" IDTag="Notched Toe" SortTag="Notched Toe" QTY="40" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+  </PricingTemplateRun>
+  <PricingTemplateRun Name="1. Material List (Dec 01, 21)" CreationDate="1638351402.553" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS 1" Units="0" IDTag="BUYOUT DOORS 1" SortTag="BUYOUT DOORS 1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding]" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding]" SortTag="Chique 3/4 WF442 PRZ [Matching Banding]" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" SortTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="0" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" QTY="22" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" QTY="30" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" QTY="7" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1]" Units="0" IDTag="MDF 3/4 [1]" SortTag="MDF 3/4 [1]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1] BSAW" Units="0" IDTag="MDF 3/4 [1] BSAW" SortTag="MDF 3/4 [1] BSAW" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2]" Units="0" IDTag="MDF 3/4 [2]" SortTag="MDF 3/4 [2]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 Doors [2]" Units="0" IDTag="MDF 3/4 Doors [2]" SortTag="MDF 3/4 Doors [2]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Raw Toe Material 5/8" Units="0" IDTag="Raw Toe Material 5/8" SortTag="Raw Toe Material 5/8" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Appliance Inserts\Microwave Drawer" Units="0" IDTag="Appliance Inserts\Microwave Drawer" SortTag="Appliance Inserts\Microwave Drawer" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" Units="0" IDTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" SortTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Decorative\Touch-Up Paint" Units="0" IDTag="Decorative\Touch-Up Paint" SortTag="Decorative\Touch-Up Paint" QTY="1" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Apple Spice 4274 DOL" Units="6" IDTag="0.5mm Apple Spice 4274 DOL" SortTag="0.5mm Apple Spice 4274 DOL" QTY="477.249457341792434" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Chique WF442 PRZ" Units="6" IDTag="0.5mm Chique WF442 PRZ" SortTag="0.5mm Chique WF442 PRZ" QTY="398.15236739912054" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Hardrock Maple WF275 PRZ" Units="6" IDTag="0.5mm Hardrock Maple WF275 PRZ" SortTag="0.5mm Hardrock Maple WF275 PRZ" QTY="107.23671900631565" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Moonlight Isola SM9217 TEK" Units="6" IDTag="0.5mm Moonlight Isola SM9217 TEK" SortTag="0.5mm Moonlight Isola SM9217 TEK" QTY="104.57858308406634" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Chique WF442 PRZ" Units="6" IDTag="1mm Chique WF442 PRZ" SortTag="1mm Chique WF442 PRZ" QTY="996.546418773220232" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Dark Grey Matte P3002 AGT" Units="6" IDTag="1mm Dark Grey Matte P3002 AGT" SortTag="1mm Dark Grey Matte P3002 AGT" QTY="308.448764821049989" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Hardrock Maple WF275 PRZ" Units="6" IDTag="1mm Hardrock Maple WF275 PRZ" SortTag="1mm Hardrock Maple WF275 PRZ" QTY="175.790024204204016" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="6" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="68.88750123351884" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Hettich - Sensys 110 / 3mm - 9071226" Units="0" IDTag="Hettich - Sensys 110 / 3mm - 9071226" SortTag="Hettich - Sensys 110 / 3mm - 9071226" QTY="147" Amount="2.6" Total="382.2" />
+        <PricingTemplateSubRow ItemName="Hettich - Sensys Blind 95 / 3mm - 9088045" Units="0" IDTag="Hettich - Sensys Blind 95 / 3mm - 9088045" SortTag="Hettich - Sensys Blind 95 / 3mm - 9088045" QTY="2" Amount="2.6" Total="5.2" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="828350" Units="0" IDTag="828350" SortTag="828350" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="828400" Units="0" IDTag="828400" SortTag="828400" QTY="3" Amount="8.36" Total="25.08" />
+        <PricingTemplateSubRow ItemName="828450" Units="0" IDTag="828450" SortTag="828450" QTY="4" Amount="8.36" Total="33.44" />
+        <PricingTemplateSubRow ItemName="828500" Units="0" IDTag="828500" SortTag="828500" QTY="17" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 185_500 (see Excel list of parts)" SortTag="Optimiz-R 185_500 (see Excel list of parts)" QTY="12" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 89_500 (see Excel list of parts)" SortTag="Optimiz-R 89_500 (see Excel list of parts)" QTY="14" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="110" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None (for real though)" Units="0" IDTag="None (for real though)" SortTag="None (for real though)" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Richelieu Optimiz-R - RO Spacers" Units="0" IDTag="Richelieu Optimiz-R - RO Spacers" SortTag="Richelieu Optimiz-R - RO Spacers" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="U58-Rich-RO W/O 550 Spacers" Units="0" IDTag="U58-Rich-RO W/O 550 Spacers" SortTag="U58-Rich-RO W/O 550 Spacers" QTY="4" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="200" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="505" Amount="0.001785" Total="0.90" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="210" Amount="0.001785" Total="0.37" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 1-2 V3" Units="0" IDTag="Dowels (End to TRB) 1-2 V3" SortTag="Dowels (End to TRB) 1-2 V3" QTY="40" Amount="0.001785" Total="0.07" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 3 V3" Units="0" IDTag="Dowels (End to TRB) 3 V3" SortTag="Dowels (End to TRB) 3 V3" QTY="0" Amount="0.001785" Total="0.00" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="1126" Amount="0.001785" Total="2.01" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="216" Amount="0.001785" Total="0.39" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Notched Toe" Units="0" IDTag="Notched Toe" SortTag="Notched Toe" QTY="40" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+  </PricingTemplateRun>
+  <PricingTemplateRun Name="1. Material List (Dec 02, 21)" CreationDate="1638445221.788" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS 1" Units="0" IDTag="BUYOUT DOORS 1" SortTag="BUYOUT DOORS 1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding]" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding]" SortTag="Chique 3/4 WF442 PRZ [Matching Banding]" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" SortTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="0" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" QTY="22" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" QTY="30" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1]" Units="0" IDTag="MDF 3/4 [1]" SortTag="MDF 3/4 [1]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1] BSAW" Units="0" IDTag="MDF 3/4 [1] BSAW" SortTag="MDF 3/4 [1] BSAW" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2]" Units="0" IDTag="MDF 3/4 [2]" SortTag="MDF 3/4 [2]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 Doors [2]" Units="0" IDTag="MDF 3/4 Doors [2]" SortTag="MDF 3/4 Doors [2]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Raw Toe Material 5/8" Units="0" IDTag="Raw Toe Material 5/8" SortTag="Raw Toe Material 5/8" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Appliance Inserts\Microwave Drawer" Units="0" IDTag="Appliance Inserts\Microwave Drawer" SortTag="Appliance Inserts\Microwave Drawer" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" Units="0" IDTag="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" SortTag="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" Units="0" IDTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" SortTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Decorative\Touch-Up Paint" Units="0" IDTag="Decorative\Touch-Up Paint" SortTag="Decorative\Touch-Up Paint" QTY="1" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Apple Spice 4274 DOL" Units="6" IDTag="0.5mm Apple Spice 4274 DOL" SortTag="0.5mm Apple Spice 4274 DOL" QTY="323.031579265444308" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Chique WF442 PRZ" Units="6" IDTag="0.5mm Chique WF442 PRZ" SortTag="0.5mm Chique WF442 PRZ" QTY="393.846122861847137" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Hardrock Maple WF275 PRZ" Units="6" IDTag="0.5mm Hardrock Maple WF275 PRZ" SortTag="0.5mm Hardrock Maple WF275 PRZ" QTY="67.23671660335673" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Moonlight Isola SM9217 TEK" Units="6" IDTag="0.5mm Moonlight Isola SM9217 TEK" SortTag="0.5mm Moonlight Isola SM9217 TEK" QTY="113.197650458868972" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Chique WF442 PRZ" Units="6" IDTag="1mm Chique WF442 PRZ" SortTag="1mm Chique WF442 PRZ" QTY="996.713085600084112" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Dark Grey Matte P3002 AGT" Units="6" IDTag="1mm Dark Grey Matte P3002 AGT" SortTag="1mm Dark Grey Matte P3002 AGT" QTY="305.865141450576549" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Hardrock Maple WF275 PRZ" Units="6" IDTag="1mm Hardrock Maple WF275 PRZ" SortTag="1mm Hardrock Maple WF275 PRZ" QTY="175.790024204204016" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="6" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="68.88750123351884" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Hettich - Sensys 110 / 3mm - 9071226" Units="0" IDTag="Hettich - Sensys 110 / 3mm - 9071226" SortTag="Hettich - Sensys 110 / 3mm - 9071226" QTY="147" Amount="2.6" Total="382.2" />
+        <PricingTemplateSubRow ItemName="Hettich - Sensys Blind 95 / 3mm - 9088045" Units="0" IDTag="Hettich - Sensys Blind 95 / 3mm - 9088045" SortTag="Hettich - Sensys Blind 95 / 3mm - 9088045" QTY="2" Amount="2.6" Total="5.2" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="828400" Units="0" IDTag="828400" SortTag="828400" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="828450" Units="0" IDTag="828450" SortTag="828450" QTY="16" Amount="8.36" Total="133.76" />
+        <PricingTemplateSubRow ItemName="828550" Units="0" IDTag="828550" SortTag="828550" QTY="5" Amount="9.5" Total="47.5" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 185_500 (see Excel list of parts)" SortTag="Optimiz-R 185_500 (see Excel list of parts)" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 89_500 (see Excel list of parts)" SortTag="Optimiz-R 89_500 (see Excel list of parts)" QTY="8" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="111" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None (for real though)" Units="0" IDTag="None (for real though)" SortTag="None (for real though)" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Richelieu Optimiz-R - RO Spacers" Units="0" IDTag="Richelieu Optimiz-R - RO Spacers" SortTag="Richelieu Optimiz-R - RO Spacers" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="U58-Rich-RO Dovetail 16mm Spacers" Units="0" IDTag="U58-Rich-RO Dovetail 16mm Spacers" SortTag="U58-Rich-RO Dovetail 16mm Spacers" QTY="4" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="200" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="497" Amount="0.001785" Total="0.89" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="202" Amount="0.001785" Total="0.36" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 1-2 V3" Units="0" IDTag="Dowels (End to TRB) 1-2 V3" SortTag="Dowels (End to TRB) 1-2 V3" QTY="40" Amount="0.001785" Total="0.07" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 3 V3" Units="0" IDTag="Dowels (End to TRB) 3 V3" SortTag="Dowels (End to TRB) 3 V3" QTY="0" Amount="0.001785" Total="0.00" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="1126" Amount="0.001785" Total="2.01" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="208" Amount="0.001785" Total="0.37" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Notched Toe" Units="0" IDTag="Notched Toe" SortTag="Notched Toe" QTY="38" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+  </PricingTemplateRun>
+  <PricingTemplateRun Name="1. Material List (Dec 02, 21)" CreationDate="1638455892.558" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS 1" Units="0" IDTag="BUYOUT DOORS 1" SortTag="BUYOUT DOORS 1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="BUYOUT DRAWERS Baltic Birch Dovetail" Units="0" IDTag="BUYOUT DRAWERS Baltic Birch Dovetail" SortTag="BUYOUT DRAWERS Baltic Birch Dovetail" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding]" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding]" SortTag="Chique 3/4 WF442 PRZ [Matching Banding]" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" SortTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="0" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" QTY="22" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" QTY="25" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1]" Units="0" IDTag="MDF 3/4 [1]" SortTag="MDF 3/4 [1]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1] BSAW" Units="0" IDTag="MDF 3/4 [1] BSAW" SortTag="MDF 3/4 [1] BSAW" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2]" Units="0" IDTag="MDF 3/4 [2]" SortTag="MDF 3/4 [2]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 Doors [2]" Units="0" IDTag="MDF 3/4 Doors [2]" SortTag="MDF 3/4 Doors [2]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Raw Toe Material 5/8" Units="0" IDTag="Raw Toe Material 5/8" SortTag="Raw Toe Material 5/8" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Appliance Inserts\Microwave Drawer" Units="0" IDTag="Appliance Inserts\Microwave Drawer" SortTag="Appliance Inserts\Microwave Drawer" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" Units="0" IDTag="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" SortTag="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" Units="0" IDTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" SortTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Decorative\Touch-Up Paint" Units="0" IDTag="Decorative\Touch-Up Paint" SortTag="Decorative\Touch-Up Paint" QTY="1" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Apple Spice 4274 DOL" Units="6" IDTag="0.5mm Apple Spice 4274 DOL" SortTag="0.5mm Apple Spice 4274 DOL" QTY="323.031579265444308" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Chique WF442 PRZ" Units="6" IDTag="0.5mm Chique WF442 PRZ" SortTag="0.5mm Chique WF442 PRZ" QTY="393.846122861847137" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Hardrock Maple WF275 PRZ" Units="6" IDTag="0.5mm Hardrock Maple WF275 PRZ" SortTag="0.5mm Hardrock Maple WF275 PRZ" QTY="66.09236669665561" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Moonlight Isola SM9217 TEK" Units="6" IDTag="0.5mm Moonlight Isola SM9217 TEK" SortTag="0.5mm Moonlight Isola SM9217 TEK" QTY="113.197650458868972" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Chique WF442 PRZ" Units="6" IDTag="1mm Chique WF442 PRZ" SortTag="1mm Chique WF442 PRZ" QTY="996.713085600084112" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Dark Grey Matte P3002 AGT" Units="6" IDTag="1mm Dark Grey Matte P3002 AGT" SortTag="1mm Dark Grey Matte P3002 AGT" QTY="305.865141450576549" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Hardrock Maple WF275 PRZ" Units="6" IDTag="1mm Hardrock Maple WF275 PRZ" SortTag="1mm Hardrock Maple WF275 PRZ" QTY="175.790024204204016" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="6" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="68.88750123351884" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Hettich - Sensys 110 / 3mm - 9071226" Units="0" IDTag="Hettich - Sensys 110 / 3mm - 9071226" SortTag="Hettich - Sensys 110 / 3mm - 9071226" QTY="147" Amount="2.6" Total="382.2" />
+        <PricingTemplateSubRow ItemName="Hettich - Sensys Blind 95 / 3mm - 9088045" Units="0" IDTag="Hettich - Sensys Blind 95 / 3mm - 9088045" SortTag="Hettich - Sensys Blind 95 / 3mm - 9088045" QTY="2" Amount="2.6" Total="5.2" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="828400" Units="0" IDTag="828400" SortTag="828400" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="828450" Units="0" IDTag="828450" SortTag="828450" QTY="16" Amount="8.36" Total="133.76" />
+        <PricingTemplateSubRow ItemName="828550" Units="0" IDTag="828550" SortTag="828550" QTY="5" Amount="9.5" Total="47.5" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 185_500 (see Excel list of parts)" SortTag="Optimiz-R 185_500 (see Excel list of parts)" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 89_500 (see Excel list of parts)" SortTag="Optimiz-R 89_500 (see Excel list of parts)" QTY="8" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="111" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None (for real though)" Units="0" IDTag="None (for real though)" SortTag="None (for real though)" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Richelieu Optimiz-R - RO Spacers" Units="0" IDTag="Richelieu Optimiz-R - RO Spacers" SortTag="Richelieu Optimiz-R - RO Spacers" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="U58-Rich-RO Dovetail 16mm Spacers" Units="0" IDTag="U58-Rich-RO Dovetail 16mm Spacers" SortTag="U58-Rich-RO Dovetail 16mm Spacers" QTY="4" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="200" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="500" Amount="0.001785" Total="0.89" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="204" Amount="0.001785" Total="0.36" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 1-2 V3" Units="0" IDTag="Dowels (End to TRB) 1-2 V3" SortTag="Dowels (End to TRB) 1-2 V3" QTY="40" Amount="0.001785" Total="0.07" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 3 V3" Units="0" IDTag="Dowels (End to TRB) 3 V3" SortTag="Dowels (End to TRB) 3 V3" QTY="0" Amount="0.001785" Total="0.00" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="1128" Amount="0.001785" Total="2.01" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="208" Amount="0.001785" Total="0.37" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Notched Toe" Units="0" IDTag="Notched Toe" SortTag="Notched Toe" QTY="38" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+  </PricingTemplateRun>
+  <PricingTemplateRun Name="1. Material List (Dec 02, 21)" CreationDate="1638458227.42" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS 1" Units="0" IDTag="BUYOUT DOORS 1" SortTag="BUYOUT DOORS 1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="BUYOUT DRAWERS Baltic Birch Dovetail" Units="0" IDTag="BUYOUT DRAWERS Baltic Birch Dovetail" SortTag="BUYOUT DRAWERS Baltic Birch Dovetail" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding]" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding]" SortTag="Chique 3/4 WF442 PRZ [Matching Banding]" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" SortTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="0" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" QTY="22" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" QTY="25" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1]" Units="0" IDTag="MDF 3/4 [1]" SortTag="MDF 3/4 [1]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1] BSAW" Units="0" IDTag="MDF 3/4 [1] BSAW" SortTag="MDF 3/4 [1] BSAW" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2]" Units="0" IDTag="MDF 3/4 [2]" SortTag="MDF 3/4 [2]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 Doors [2]" Units="0" IDTag="MDF 3/4 Doors [2]" SortTag="MDF 3/4 Doors [2]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Raw Toe Material 5/8" Units="0" IDTag="Raw Toe Material 5/8" SortTag="Raw Toe Material 5/8" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Appliance Inserts\Microwave Drawer" Units="0" IDTag="Appliance Inserts\Microwave Drawer" SortTag="Appliance Inserts\Microwave Drawer" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" Units="0" IDTag="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" SortTag="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" Units="0" IDTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" SortTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Decorative\Touch-Up Paint" Units="0" IDTag="Decorative\Touch-Up Paint" SortTag="Decorative\Touch-Up Paint" QTY="1" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Apple Spice 4274 DOL" Units="6" IDTag="0.5mm Apple Spice 4274 DOL" SortTag="0.5mm Apple Spice 4274 DOL" QTY="323.031579265444308" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Chique WF442 PRZ" Units="6" IDTag="0.5mm Chique WF442 PRZ" SortTag="0.5mm Chique WF442 PRZ" QTY="393.846122861847137" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Hardrock Maple WF275 PRZ" Units="6" IDTag="0.5mm Hardrock Maple WF275 PRZ" SortTag="0.5mm Hardrock Maple WF275 PRZ" QTY="66.09236669665561" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Moonlight Isola SM9217 TEK" Units="6" IDTag="0.5mm Moonlight Isola SM9217 TEK" SortTag="0.5mm Moonlight Isola SM9217 TEK" QTY="113.197650458868972" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Chique WF442 PRZ" Units="6" IDTag="1mm Chique WF442 PRZ" SortTag="1mm Chique WF442 PRZ" QTY="996.713085600084112" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Dark Grey Matte P3002 AGT" Units="6" IDTag="1mm Dark Grey Matte P3002 AGT" SortTag="1mm Dark Grey Matte P3002 AGT" QTY="305.865141450576549" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Hardrock Maple WF275 PRZ" Units="6" IDTag="1mm Hardrock Maple WF275 PRZ" SortTag="1mm Hardrock Maple WF275 PRZ" QTY="175.790024204204016" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="6" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="68.88750123351884" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Hettich - Sensys 110 / 3mm - 9071226" Units="0" IDTag="Hettich - Sensys 110 / 3mm - 9071226" SortTag="Hettich - Sensys 110 / 3mm - 9071226" QTY="147" Amount="2.6" Total="382.2" />
+        <PricingTemplateSubRow ItemName="Hettich - Sensys Blind 95 / 3mm - 9088045" Units="0" IDTag="Hettich - Sensys Blind 95 / 3mm - 9088045" SortTag="Hettich - Sensys Blind 95 / 3mm - 9088045" QTY="2" Amount="2.6" Total="5.2" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="828400" Units="0" IDTag="828400" SortTag="828400" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="828450" Units="0" IDTag="828450" SortTag="828450" QTY="16" Amount="8.36" Total="133.76" />
+        <PricingTemplateSubRow ItemName="828550" Units="0" IDTag="828550" SortTag="828550" QTY="5" Amount="9.5" Total="47.5" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 185_500 (see Excel list of parts)" SortTag="Optimiz-R 185_500 (see Excel list of parts)" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 89_500 (see Excel list of parts)" SortTag="Optimiz-R 89_500 (see Excel list of parts)" QTY="8" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="111" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None (for real though)" Units="0" IDTag="None (for real though)" SortTag="None (for real though)" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Richelieu Optimiz-R - RO Spacers" Units="0" IDTag="Richelieu Optimiz-R - RO Spacers" SortTag="Richelieu Optimiz-R - RO Spacers" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="U58-Rich-RO Dovetail 16mm Spacers" Units="0" IDTag="U58-Rich-RO Dovetail 16mm Spacers" SortTag="U58-Rich-RO Dovetail 16mm Spacers" QTY="4" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="200" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="500" Amount="0.001785" Total="0.89" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="204" Amount="0.001785" Total="0.36" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 1-2 V3" Units="0" IDTag="Dowels (End to TRB) 1-2 V3" SortTag="Dowels (End to TRB) 1-2 V3" QTY="40" Amount="0.001785" Total="0.07" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 3 V3" Units="0" IDTag="Dowels (End to TRB) 3 V3" SortTag="Dowels (End to TRB) 3 V3" QTY="0" Amount="0.001785" Total="0.00" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="1128" Amount="0.001785" Total="2.01" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="208" Amount="0.001785" Total="0.37" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Notched Toe" Units="0" IDTag="Notched Toe" SortTag="Notched Toe" QTY="38" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+    <ReportFilename Filename="1. Material List (Dec 02, 21)" />
+  </PricingTemplateRun>
+  <PricingTemplateRun Name="1. Material List (Dec 02, 21)" CreationDate="1638458583.64" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS 1" Units="0" IDTag="BUYOUT DOORS 1" SortTag="BUYOUT DOORS 1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="BUYOUT DRAWERS Baltic Birch Dovetail" Units="0" IDTag="BUYOUT DRAWERS Baltic Birch Dovetail" SortTag="BUYOUT DRAWERS Baltic Birch Dovetail" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding]" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding]" SortTag="Chique 3/4 WF442 PRZ [Matching Banding]" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" SortTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="0" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" QTY="22" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" QTY="25" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1]" Units="0" IDTag="MDF 3/4 [1]" SortTag="MDF 3/4 [1]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1] BSAW" Units="0" IDTag="MDF 3/4 [1] BSAW" SortTag="MDF 3/4 [1] BSAW" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2]" Units="0" IDTag="MDF 3/4 [2]" SortTag="MDF 3/4 [2]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 Doors [2]" Units="0" IDTag="MDF 3/4 Doors [2]" SortTag="MDF 3/4 Doors [2]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Raw Toe Material 5/8" Units="0" IDTag="Raw Toe Material 5/8" SortTag="Raw Toe Material 5/8" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Appliance Inserts\Microwave Drawer" Units="0" IDTag="Appliance Inserts\Microwave Drawer" SortTag="Appliance Inserts\Microwave Drawer" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" Units="0" IDTag="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" SortTag="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" Units="0" IDTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" SortTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Decorative\Touch-Up Paint" Units="0" IDTag="Decorative\Touch-Up Paint" SortTag="Decorative\Touch-Up Paint" QTY="1" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Apple Spice 4274 DOL" Units="6" IDTag="0.5mm Apple Spice 4274 DOL" SortTag="0.5mm Apple Spice 4274 DOL" QTY="323.031579265444308" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Chique WF442 PRZ" Units="6" IDTag="0.5mm Chique WF442 PRZ" SortTag="0.5mm Chique WF442 PRZ" QTY="393.846122861847137" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Hardrock Maple WF275 PRZ" Units="6" IDTag="0.5mm Hardrock Maple WF275 PRZ" SortTag="0.5mm Hardrock Maple WF275 PRZ" QTY="66.09236669665561" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Moonlight Isola SM9217 TEK" Units="6" IDTag="0.5mm Moonlight Isola SM9217 TEK" SortTag="0.5mm Moonlight Isola SM9217 TEK" QTY="113.197650458868972" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Chique WF442 PRZ" Units="6" IDTag="1mm Chique WF442 PRZ" SortTag="1mm Chique WF442 PRZ" QTY="996.713085600084112" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Dark Grey Matte P3002 AGT" Units="6" IDTag="1mm Dark Grey Matte P3002 AGT" SortTag="1mm Dark Grey Matte P3002 AGT" QTY="305.865141450576549" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Hardrock Maple WF275 PRZ" Units="6" IDTag="1mm Hardrock Maple WF275 PRZ" SortTag="1mm Hardrock Maple WF275 PRZ" QTY="175.790024204204016" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="6" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="68.88750123351884" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Hettich - Sensys 110 / 3mm - 9071226" Units="0" IDTag="Hettich - Sensys 110 / 3mm - 9071226" SortTag="Hettich - Sensys 110 / 3mm - 9071226" QTY="147" Amount="2.6" Total="382.2" />
+        <PricingTemplateSubRow ItemName="Hettich - Sensys Blind 95 / 3mm - 9088045" Units="0" IDTag="Hettich - Sensys Blind 95 / 3mm - 9088045" SortTag="Hettich - Sensys Blind 95 / 3mm - 9088045" QTY="2" Amount="2.6" Total="5.2" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="828400" Units="0" IDTag="828400" SortTag="828400" QTY="20" Amount="8.36" Total="167.20" />
+        <PricingTemplateSubRow ItemName="828500" Units="0" IDTag="828500" SortTag="828500" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 185_500 (see Excel list of parts)" SortTag="Optimiz-R 185_500 (see Excel list of parts)" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 89_500 (see Excel list of parts)" SortTag="Optimiz-R 89_500 (see Excel list of parts)" QTY="8" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="111" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None (for real though)" Units="0" IDTag="None (for real though)" SortTag="None (for real though)" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Richelieu Optimiz-R - RO Spacers" Units="0" IDTag="Richelieu Optimiz-R - RO Spacers" SortTag="Richelieu Optimiz-R - RO Spacers" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="U58-Rich-RO Dovetail 16mm Spacers" Units="0" IDTag="U58-Rich-RO Dovetail 16mm Spacers" SortTag="U58-Rich-RO Dovetail 16mm Spacers" QTY="4" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="200" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="500" Amount="0.001785" Total="0.89" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="204" Amount="0.001785" Total="0.36" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 1-2 V3" Units="0" IDTag="Dowels (End to TRB) 1-2 V3" SortTag="Dowels (End to TRB) 1-2 V3" QTY="40" Amount="0.001785" Total="0.07" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 3 V3" Units="0" IDTag="Dowels (End to TRB) 3 V3" SortTag="Dowels (End to TRB) 3 V3" QTY="0" Amount="0.001785" Total="0.00" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="1128" Amount="0.001785" Total="2.01" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="208" Amount="0.001785" Total="0.37" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Notched Toe" Units="0" IDTag="Notched Toe" SortTag="Notched Toe" QTY="38" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+    <ReportFilename Filename="1. Material List (Dec 02, 21)" />
+  </PricingTemplateRun>
+  <PricingTemplateRun Name="1. Material List (Dec 02, 21)" CreationDate="1638458656.757" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS 1" Units="0" IDTag="BUYOUT DOORS 1" SortTag="BUYOUT DOORS 1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="BUYOUT DRAWERS Baltic Birch Dovetail" Units="0" IDTag="BUYOUT DRAWERS Baltic Birch Dovetail" SortTag="BUYOUT DRAWERS Baltic Birch Dovetail" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding]" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding]" SortTag="Chique 3/4 WF442 PRZ [Matching Banding]" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" Units="0" IDTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" SortTag="Chique 3/4 WF442 PRZ [Matching Banding] BSAW" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="0" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Chique Banding]" QTY="22" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Dark Grey Matte Banding]" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" QTY="25" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ [Paint-Matched PVC Banding 1]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding]" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT [Matching Banding] BSAW" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1]" Units="0" IDTag="MDF 3/4 [1]" SortTag="MDF 3/4 [1]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [1] BSAW" Units="0" IDTag="MDF 3/4 [1] BSAW" SortTag="MDF 3/4 [1] BSAW" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2]" Units="0" IDTag="MDF 3/4 [2]" SortTag="MDF 3/4 [2]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 Doors [2]" Units="0" IDTag="MDF 3/4 Doors [2]" SortTag="MDF 3/4 Doors [2]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Raw Toe Material 5/8" Units="0" IDTag="Raw Toe Material 5/8" SortTag="Raw Toe Material 5/8" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Appliance Inserts\Microwave Drawer" Units="0" IDTag="Appliance Inserts\Microwave Drawer" SortTag="Appliance Inserts\Microwave Drawer" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" Units="0" IDTag="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" SortTag="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" Units="0" IDTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" SortTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Decorative\Touch-Up Paint" Units="0" IDTag="Decorative\Touch-Up Paint" SortTag="Decorative\Touch-Up Paint" QTY="1" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Apple Spice 4274 DOL" Units="6" IDTag="0.5mm Apple Spice 4274 DOL" SortTag="0.5mm Apple Spice 4274 DOL" QTY="323.031579265444308" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Chique WF442 PRZ" Units="6" IDTag="0.5mm Chique WF442 PRZ" SortTag="0.5mm Chique WF442 PRZ" QTY="393.846122861847137" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Hardrock Maple WF275 PRZ" Units="6" IDTag="0.5mm Hardrock Maple WF275 PRZ" SortTag="0.5mm Hardrock Maple WF275 PRZ" QTY="66.09236669665561" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Moonlight Isola SM9217 TEK" Units="6" IDTag="0.5mm Moonlight Isola SM9217 TEK" SortTag="0.5mm Moonlight Isola SM9217 TEK" QTY="113.197650458868972" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Chique WF442 PRZ" Units="6" IDTag="1mm Chique WF442 PRZ" SortTag="1mm Chique WF442 PRZ" QTY="996.713085600084112" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Dark Grey Matte P3002 AGT" Units="6" IDTag="1mm Dark Grey Matte P3002 AGT" SortTag="1mm Dark Grey Matte P3002 AGT" QTY="305.865141450576549" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Hardrock Maple WF275 PRZ" Units="6" IDTag="1mm Hardrock Maple WF275 PRZ" SortTag="1mm Hardrock Maple WF275 PRZ" QTY="175.790024204204016" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="6" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="68.88750123351884" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Hettich - Sensys 110 / 3mm - 9071226" Units="0" IDTag="Hettich - Sensys 110 / 3mm - 9071226" SortTag="Hettich - Sensys 110 / 3mm - 9071226" QTY="147" Amount="2.6" Total="382.2" />
+        <PricingTemplateSubRow ItemName="Hettich - Sensys Blind 95 / 3mm - 9088045" Units="0" IDTag="Hettich - Sensys Blind 95 / 3mm - 9088045" SortTag="Hettich - Sensys Blind 95 / 3mm - 9088045" QTY="2" Amount="2.6" Total="5.2" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="828400" Units="0" IDTag="828400" SortTag="828400" QTY="20" Amount="8.36" Total="167.20" />
+        <PricingTemplateSubRow ItemName="828500" Units="0" IDTag="828500" SortTag="828500" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 185_500 (see Excel list of parts)" SortTag="Optimiz-R 185_500 (see Excel list of parts)" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 89_500 (see Excel list of parts)" SortTag="Optimiz-R 89_500 (see Excel list of parts)" QTY="8" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="111" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None (for real though)" Units="0" IDTag="None (for real though)" SortTag="None (for real though)" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Richelieu Optimiz-R - RO Spacers" Units="0" IDTag="Richelieu Optimiz-R - RO Spacers" SortTag="Richelieu Optimiz-R - RO Spacers" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="U58-Rich-RO Dovetail 16mm Spacers" Units="0" IDTag="U58-Rich-RO Dovetail 16mm Spacers" SortTag="U58-Rich-RO Dovetail 16mm Spacers" QTY="4" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="200" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="500" Amount="0.001785" Total="0.89" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="204" Amount="0.001785" Total="0.36" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 1-2 V3" Units="0" IDTag="Dowels (End to TRB) 1-2 V3" SortTag="Dowels (End to TRB) 1-2 V3" QTY="40" Amount="0.001785" Total="0.07" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 3 V3" Units="0" IDTag="Dowels (End to TRB) 3 V3" SortTag="Dowels (End to TRB) 3 V3" QTY="0" Amount="0.001785" Total="0.00" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="1128" Amount="0.001785" Total="2.01" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="208" Amount="0.001785" Total="0.37" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Notched Toe" Units="0" IDTag="Notched Toe" SortTag="Notched Toe" QTY="38" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+    <ReportFilename Filename="1. Material List (Dec 02, 21)" />
+  </PricingTemplateRun>
+  <PricingTemplateRun Name="1. Material List (Dec 22, 21)" CreationDate="1640176273.57269" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="BUYOUT DOORS 1" Units="0" IDTag="BUYOUT DOORS 1" SortTag="BUYOUT DOORS 1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="BUYOUT DRAWERS Baltic Birch Dovetail" Units="0" IDTag="BUYOUT DRAWERS Baltic Birch Dovetail" SortTag="BUYOUT DRAWERS Baltic Birch Dovetail" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ BACK [Matching Banding]" Units="0" IDTag="Chique 3/4 WF442 PRZ BACK [Matching Banding]" SortTag="Chique 3/4 WF442 PRZ BACK [Matching Banding]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ DOORS [Matching Banding]" Units="0" IDTag="Chique 3/4 WF442 PRZ DOORS [Matching Banding]" SortTag="Chique 3/4 WF442 PRZ DOORS [Matching Banding]" QTY="11" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ GABLE [Matching Banding]" Units="0" IDTag="Chique 3/4 WF442 PRZ GABLE [Matching Banding]" SortTag="Chique 3/4 WF442 PRZ GABLE [Matching Banding]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ PARTS [Matching Banding]" Units="0" IDTag="Chique 3/4 WF442 PRZ PARTS [Matching Banding]" SortTag="Chique 3/4 WF442 PRZ PARTS [Matching Banding]" QTY="7" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ PARTS [Matching Banding] BSAW" Units="0" IDTag="Chique 3/4 WF442 PRZ PARTS [Matching Banding] BSAW" SortTag="Chique 3/4 WF442 PRZ PARTS [Matching Banding] BSAW" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique 3/4 WF442 PRZ SHELF [Matching Banding]" Units="0" IDTag="Chique 3/4 WF442 PRZ SHELF [Matching Banding]" SortTag="Chique 3/4 WF442 PRZ SHELF [Matching Banding]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="0" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ ADJ [Matching Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ ADJ [Matching Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ ADJ [Matching Banding]" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ BACK [Matching Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ BACK [Matching Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ BACK [Matching Banding]" QTY="12" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ DRAWER [Matching Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ DRAWER [Matching Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ DRAWER [Matching Banding]" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Chique Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Chique Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Chique Banding]" QTY="14" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Dark Grey Matte Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Dark Grey Matte Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Dark Grey Matte Banding]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Matching Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Matching Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Matching Banding]" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Paint-Matched PVC Banding 1]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Paint-Matched PVC Banding 1]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ GABLE [Paint-Matched PVC Banding 1]" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Chique Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Chique Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Chique Banding]" QTY="9" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Dark Grey Matte Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Dark Grey Matte Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Dark Grey Matte Banding]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Matching Banding]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Matching Banding]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Matching Banding]" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Paint-Matched PVC Banding 1]" Units="0" IDTag="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Paint-Matched PVC Banding 1]" SortTag="CM Hardrock Maple 5/8 WF275 PRZ SHELF [Paint-Matched PVC Banding 1]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT BACK [Matching Banding]" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT BACK [Matching Banding]" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT BACK [Matching Banding]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT DOORS [Matching Banding]" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT DOORS [Matching Banding]" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT DOORS [Matching Banding]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT GABLE [Matching Banding]" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT GABLE [Matching Banding]" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT GABLE [Matching Banding]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT PARTS [Matching Banding]" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT PARTS [Matching Banding]" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT PARTS [Matching Banding]" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT PARTS [Matching Banding] BSAW" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT PARTS [Matching Banding] BSAW" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT PARTS [Matching Banding] BSAW" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dark Grey Matte 2S 3/4 P3002 AGT SHELF [Matching Banding]" Units="0" IDTag="Dark Grey Matte 2S 3/4 P3002 AGT SHELF [Matching Banding]" SortTag="Dark Grey Matte 2S 3/4 P3002 AGT SHELF [Matching Banding]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 [2]" Units="0" IDTag="MDF 3/4 [2]" SortTag="MDF 3/4 [2]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 DOORS [1]" Units="0" IDTag="MDF 3/4 DOORS [1]" SortTag="MDF 3/4 DOORS [1]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 DOORS [2]" Units="0" IDTag="MDF 3/4 DOORS [2]" SortTag="MDF 3/4 DOORS [2]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 PARTS [1]" Units="0" IDTag="MDF 3/4 PARTS [1]" SortTag="MDF 3/4 PARTS [1]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 PARTS [1] BSAW" Units="0" IDTag="MDF 3/4 PARTS [1] BSAW" SortTag="MDF 3/4 PARTS [1] BSAW" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="MDF 3/4 PARTS [2]" Units="0" IDTag="MDF 3/4 PARTS [2]" SortTag="MDF 3/4 PARTS [2]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Raw Toe Material 5/8" Units="0" IDTag="Raw Toe Material 5/8" SortTag="Raw Toe Material 5/8" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Appliance Inserts\Microwave Drawer" Units="0" IDTag="Appliance Inserts\Microwave Drawer" SortTag="Appliance Inserts\Microwave Drawer" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" Units="0" IDTag="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" SortTag="Cabinet Accessories\Rev-A-Shelf Sink Trash Pullout - 5SBWC815S1" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" Units="0" IDTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" SortTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Decorative\Touch-Up Paint" Units="0" IDTag="Decorative\Touch-Up Paint" SortTag="Decorative\Touch-Up Paint" QTY="1" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Apple Spice 4274 DOL" Units="6" IDTag="0.5mm Apple Spice 4274 DOL" SortTag="0.5mm Apple Spice 4274 DOL" QTY="322.536827648092768" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Chique WF442 PRZ" Units="6" IDTag="0.5mm Chique WF442 PRZ" SortTag="0.5mm Chique WF442 PRZ" QTY="398.65236547675344" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Hardrock Maple WF275 PRZ" Units="6" IDTag="0.5mm Hardrock Maple WF275 PRZ" SortTag="0.5mm Hardrock Maple WF275 PRZ" QTY="66.09236669665561" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Moonlight Isola SM9217 TEK" Units="6" IDTag="0.5mm Moonlight Isola SM9217 TEK" SortTag="0.5mm Moonlight Isola SM9217 TEK" QTY="113.197650458868972" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Chique WF442 PRZ" Units="6" IDTag="1mm Chique WF442 PRZ" SortTag="1mm Chique WF442 PRZ" QTY="996.046418292628392" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Dark Grey Matte P3002 AGT" Units="6" IDTag="1mm Dark Grey Matte P3002 AGT" SortTag="1mm Dark Grey Matte P3002 AGT" QTY="305.865141450576549" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Hardrock Maple WF275 PRZ" Units="6" IDTag="1mm Hardrock Maple WF275 PRZ" SortTag="1mm Hardrock Maple WF275 PRZ" QTY="175.790024204204016" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Chique LAMINATE WF442 PRZ" Units="6" IDTag="Chique LAMINATE WF442 PRZ" SortTag="Chique LAMINATE WF442 PRZ" QTY="68.88750123351884" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Hettich - Sensys 110 / 3mm - 9071226" Units="0" IDTag="Hettich - Sensys 110 / 3mm - 9071226" SortTag="Hettich - Sensys 110 / 3mm - 9071226" QTY="147" Amount="2.6" Total="382.2" />
+        <PricingTemplateSubRow ItemName="Hettich - Sensys Blind 95 / 3mm - 9088045" Units="0" IDTag="Hettich - Sensys Blind 95 / 3mm - 9088045" SortTag="Hettich - Sensys Blind 95 / 3mm - 9088045" QTY="2" Amount="2.6" Total="5.2" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="828300" Units="0" IDTag="828300" SortTag="828300" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="828400" Units="0" IDTag="828400" SortTag="828400" QTY="19" Amount="8.36" Total="158.84" />
+        <PricingTemplateSubRow ItemName="828500" Units="0" IDTag="828500" SortTag="828500" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 185_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 185_500 (see Excel list of parts)" SortTag="Optimiz-R 185_500 (see Excel list of parts)" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Optimiz-R 89_500 (see Excel list of parts)" Units="0" IDTag="Optimiz-R 89_500 (see Excel list of parts)" SortTag="Optimiz-R 89_500 (see Excel list of parts)" QTY="8" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="111" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None (for real though)" Units="0" IDTag="None (for real though)" SortTag="None (for real though)" QTY="3" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Richelieu Optimiz-R - RO Spacers" Units="0" IDTag="Richelieu Optimiz-R - RO Spacers" SortTag="Richelieu Optimiz-R - RO Spacers" QTY="18" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="U58-Rich-RO Dovetail 16mm Spacers" Units="0" IDTag="U58-Rich-RO Dovetail 16mm Spacers" SortTag="U58-Rich-RO Dovetail 16mm Spacers" QTY="4" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="200" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="500" Amount="0.001785" Total="0.89" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="204" Amount="0.001785" Total="0.36" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 1-2 V3" Units="0" IDTag="Dowels (End to TRB) 1-2 V3" SortTag="Dowels (End to TRB) 1-2 V3" QTY="40" Amount="0.001785" Total="0.07" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 3 V3" Units="0" IDTag="Dowels (End to TRB) 3 V3" SortTag="Dowels (End to TRB) 3 V3" QTY="0" Amount="0.001785" Total="0.00" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="1128" Amount="0.001785" Total="2.01" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="208" Amount="0.001785" Total="0.37" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Notched Toe" Units="0" IDTag="Notched Toe" SortTag="Notched Toe" QTY="38" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+    <ReportFilename Filename="1. Material List (Dec 22, 21)" />
+  </PricingTemplateRun>
+</PricingTemplateRuns>
