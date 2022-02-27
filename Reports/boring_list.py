@@ -400,11 +400,11 @@ def hinge_boring_report():
                 if found_match is False:
                     door_list.append(door_details)
 
-
     # remove any materials that don't have doors associated with them
     temp_mat_set = set()
     temp_styles_set = set()
     temp_types_set = set()
+
     for _material in materials:
         for _style in door_styles:
             if _style not in sorted_product_dict[_material]:
@@ -415,6 +415,7 @@ def hinge_boring_report():
                     continue
 
                 list_of_doors = sorted_product_dict[_material][_style][_type]
+
                 if len(list_of_doors) > 0:
                     temp_mat_set.add(_material)
                     temp_styles_set.add(_style)
@@ -425,343 +426,343 @@ def hinge_boring_report():
     styles_list = sorted(temp_styles_set)
     types_list = sorted(temp_types_set)
 
+    def create_excel():
 
-    wb = Workbook()
-    sheet1 = wb.active
-    row = 1
-    col = 1
-
-    # sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 12)
-    # sheet1.cell(row, col, job_name + ' - Door List')
-    # sheet1.cell(row, col).alignment = Alignment(vertical='top')
-    # sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
-    # sheet1.row_dimensions[row].height = 40
-    # row += 1
-    
-    for _material in mat_list:
-        sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 12)
-        sheet1.cell(row, col, _material)
-        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='left')
-        sheet1.cell(row, col).font = Font(size=16, bold=True)
-        sheet1.row_dimensions[row].height = 18
-        row += 2
-
-        mat = sorted_product_dict[_material]
-
-        mat_total = 0
-
-        for _style in styles_list:
-            if _style in mat:
-                door_style = mat[_style]
-            else:
-                continue
-
+        wb = Workbook()
+        sheet1 = wb.active
+        row = 1
+        col = 1
+        
+        for _material in mat_list:
             sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 12)
-            sheet1.cell(row, col, _style)
-            sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='left')
-            sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
+            sheet1.cell(row, col, _material)
+            sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='left')
+            sheet1.cell(row, col).font = Font(size=16, bold=True)
             sheet1.row_dimensions[row].height = 18
             row += 2
-            col += 1
 
-            style_total = 0
+            mat = sorted_product_dict[_material]
 
-            for _type in types_list:
-                if _type in door_style:
-                    hinge = door_style[_type]
+            mat_total = 0
+
+            for _style in styles_list:
+                if _style in mat:
+                    door_style = mat[_style]
                 else:
                     continue
 
-                if len(hinge) == 0:
-                    continue
-
-                sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 11)
-                sheet1.cell(row, col, _type)
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left')
-                sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 1).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 2).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 3).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 4).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 5).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 6).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 7).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 8).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 9).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 10).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 11).border = Border(bottom=Side(style='thin', color='000000'))
-                row += 1
-                sheet1.cell(row, col, "Qty")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                col += 1
-                sheet1.cell(row, col, "Door Name")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                col += 1
-                sheet1.cell(row, col, "Comment")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                col += 1
-                sheet1.cell(row, col, "W")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                col += 1
-                sheet1.cell(row, col, "H")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                col += 1
-                sheet1.cell(row, col, "Std")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                col += 1
-                sheet1.cell(row, col, "Edge")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'), right=Side(style='thin', color='D4D4D4'))
-                col += 1
-                sheet1.cell(row, col, "BOT\nor LT")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                col += 1
-                sheet1.cell(row, col, "BOT2\nor LT2")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                col += 1
-                sheet1.cell(row, col, "BOT3\nor LT3")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                col += 1
-                sheet1.cell(row, col, "TOP\nor RT")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'), right=Side(style='thin', color='D4D4D4'))
-                col += 1
-                sheet1.cell(row, col, "Cab #")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                row += 1
-                col -= 11
-                type_total = 0
-
-                hinge.sort(key = lambda x: x[10])
-                hinge.sort(key = lambda x: x[7])
-                hinge.sort(key = lambda x: x[3])
-                hinge.sort(key = lambda x: x[4])
-                hinge.sort(key = lambda x: x[6])
-                hinge.sort(key = lambda x: x[5])
-                
-                for door in hinge:
-                    if door[7] == 0 and door[8] == 0 and door[9] == 0 and door[10] == 0:
-                        continue
-                    # Quantity
-                    sheet1.cell(row, col, door[0])
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                    sheet1.cell(row, col).font = Font(size=9)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    # Name
-                    sheet1.cell(row, col, door[1])
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                    sheet1.cell(row, col).font = Font(size=9)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    # Comment
-                    sheet1.cell(row, col, door[2])
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                    sheet1.cell(row, col).font = Font(size=9)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    # Width
-                    sheet1.cell(row, col, mm_to_in(door[3]))
-                    sheet1.cell(row, col).number_format = '#  ##/##'
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='left', indent=1)
-                    sheet1.cell(row, col).font = Font(size=9)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    # Height
-                    sheet1.cell(row, col, mm_to_in(door[4]))
-                    sheet1.cell(row, col).number_format = '#  ##/##'
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='left', indent=1)
-                    sheet1.cell(row, col).font = Font(size=9)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    # Standard or Non-Standard
-                    sheet1.cell(row, col, door[5])
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                    sheet1.cell(row, col).font = Font(size=9)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    # Hinge Edge
-                    sheet1.cell(row, col, door[6])
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                    sheet1.cell(row, col).font = Font(size=9)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'), right=Side(style='thin', color='D4D4D4'))
-
-                    col += 1
-                    # Bottom/Left Hinge
-                    if door[7] == 0:
-                        hinge_center = ''
-                    elif door[7] == '-':
-                        hinge_center = door[7]
-                    else:
-                        hinge_center = mm_to_in(door[7])
-                    sheet1.cell(row, col).number_format = '#  ##/##'
-                    sheet1.cell(row, col, hinge_center)
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                    sheet1.cell(row, col).font = Font(size=9)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    # Bottom/Left Mid Hinge
-                    if door[8] == 0:
-                        hinge_center = ''
-                    elif door[8] == '-':
-                        hinge_center = door[8]
-                    else:
-                        hinge_center = mm_to_in(door[8])
-                    sheet1.cell(row, col, hinge_center)
-                    sheet1.cell(row, col).number_format = '#  ##/##'
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                    sheet1.cell(row, col).font = Font(size=9)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    # Top/Right Mid Hinge
-                    if door[9] == 0:
-                        hinge_center = ''
-                    elif door[9] == '-':
-                        hinge_center = door[9]
-                    else:
-                        hinge_center = mm_to_in(door[9])
-                    sheet1.cell(row, col, hinge_center)
-                    sheet1.cell(row, col).number_format = '#  ##/##'
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                    sheet1.cell(row, col).font = Font(size=9)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    # Top/Right Hinge
-                    if door[10] == 0:
-                        hinge_center = ''
-                    elif door[10] == '-':
-                        hinge_center = door[10]
-                    else:
-                        hinge_center = mm_to_in(door[10])
-                    sheet1.cell(row, col, hinge_center)
-                    sheet1.cell(row, col).number_format = '#  ##/##'
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                    sheet1.cell(row, col).font = Font(size=9)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'), right=Side(style='thin', color='D4D4D4'))
-                    col += 1
-                    
-                    # convert list of cab_nums to string
-                    cab_num_string = ', '.join(door[11])
-                    
-                    # Cabinet Numbers
-                    sheet1.cell(row, col, cab_num_string)
-                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
-                    sheet1.cell(row, col).font = Font(size=9)
-                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
-                    
-
-                    # increment quantity
-                    type_total += door[0]
-
-                    # reset row & column
-                    col -= 11
-                    row += 1
-
-                row -= 1
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 1).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 2).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 3).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 4).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 5).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 6).border = Border(bottom=Side(style='thin', color='000000'), right=Side(style='thin', color='D4D4D4'))
-                sheet1.cell(row, col + 7).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 8).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 9).border = Border(bottom=Side(style='thin', color='000000'))
-                sheet1.cell(row, col + 10).border = Border(bottom=Side(style='thin', color='000000'), right=Side(style='thin', color='D4D4D4'))
-                sheet1.cell(row, col + 11).border = Border(bottom=Side(style='thin', color='000000'))
-                row += 1
-                sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 11)
-                sheet1.cell(row, col, "Hinge Type Total: (" + str(type_total) + ")")
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left')
-                sheet1.cell(row, col).font = Font(size=10, italic=True)
-
-                style_total += type_total
+                sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 12)
+                sheet1.cell(row, col, _style)
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='left')
+                sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
+                sheet1.row_dimensions[row].height = 18
                 row += 2
-        
-            sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 11)
-            sheet1.cell(row, col, "Door Style Total: (" + str(style_total) + ")")
-            sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='left')
-            sheet1.cell(row, col).font = Font(size=11, bold=True, italic=True, underline='single')
-            col -= 1
+                col += 1
 
-            mat_total += style_total
-            row += 2
+                style_total = 0
+
+                for _type in types_list:
+                    if _type in door_style:
+                        hinge = door_style[_type]
+                    else:
+                        continue
+
+                    if len(hinge) == 0:
+                        continue
+                    
+                    # Change printed type to say 'No Hinges' if there is no type listed
+                    __type = _type if _type != '' else 'No Hinges'
+
+                    sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 11)
+                    sheet1.cell(row, col, __type)
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left')
+                    sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 1).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 2).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 3).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 4).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 5).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 6).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 7).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 8).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 9).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 10).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 11).border = Border(bottom=Side(style='thin', color='000000'))
+                    row += 1
+                    sheet1.cell(row, col, "Qty")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                    col += 1
+                    sheet1.cell(row, col, "Door Name")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                    col += 1
+                    sheet1.cell(row, col, "Comment")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                    col += 1
+                    sheet1.cell(row, col, "W")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                    col += 1
+                    sheet1.cell(row, col, "H")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                    col += 1
+                    sheet1.cell(row, col, "Std")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                    col += 1
+                    sheet1.cell(row, col, "Edge")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'), right=Side(style='thin', color='D4D4D4'))
+                    col += 1
+                    sheet1.cell(row, col, "BOT\nor LT")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                    col += 1
+                    sheet1.cell(row, col, "BOT2\nor LT2")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                    col += 1
+                    sheet1.cell(row, col, "BOT3\nor LT3")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                    col += 1
+                    sheet1.cell(row, col, "TOP\nor RT")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'), right=Side(style='thin', color='D4D4D4'))
+                    col += 1
+                    sheet1.cell(row, col, "Cab #")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10, bold=True, italic=True)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                    row += 1
+                    col -= 11
+                    type_total = 0
+
+                    hinge.sort(key = lambda x: x[10])
+                    hinge.sort(key = lambda x: x[7])
+                    hinge.sort(key = lambda x: x[3])
+                    hinge.sort(key = lambda x: x[4])
+                    hinge.sort(key = lambda x: x[6])
+                    hinge.sort(key = lambda x: x[5])
+                    
+                    for door in hinge:
+                        # Quantity
+                        sheet1.cell(row, col, door[0])
+                        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                        sheet1.cell(row, col).font = Font(size=9)
+                        sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                        col += 1
+                        # Name
+                        sheet1.cell(row, col, door[1])
+                        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                        sheet1.cell(row, col).font = Font(size=9)
+                        sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                        col += 1
+                        # Comment
+                        sheet1.cell(row, col, door[2])
+                        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                        sheet1.cell(row, col).font = Font(size=9)
+                        sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                        col += 1
+                        # Width
+                        sheet1.cell(row, col, mm_to_in(door[3]))
+                        sheet1.cell(row, col).number_format = '#  ##/##'
+                        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='left', indent=1)
+                        sheet1.cell(row, col).font = Font(size=9)
+                        sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                        col += 1
+                        # Height
+                        sheet1.cell(row, col, mm_to_in(door[4]))
+                        sheet1.cell(row, col).number_format = '#  ##/##'
+                        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='left', indent=1)
+                        sheet1.cell(row, col).font = Font(size=9)
+                        sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                        col += 1
+                        # Standard or Non-Standard
+                        sheet1.cell(row, col, door[5])
+                        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                        sheet1.cell(row, col).font = Font(size=9)
+                        sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                        col += 1
+                        # Hinge Edge
+                        sheet1.cell(row, col, door[6])
+                        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                        sheet1.cell(row, col).font = Font(size=9)
+                        sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'), right=Side(style='thin', color='D4D4D4'))
+
+                        col += 1
+                        # Bottom/Left Hinge
+                        if door[7] == 0:
+                            hinge_center = ''
+                        elif door[7] == '-':
+                            hinge_center = door[7]
+                        else:
+                            hinge_center = mm_to_in(door[7])
+                        sheet1.cell(row, col).number_format = '#  ##/##'
+                        sheet1.cell(row, col, hinge_center)
+                        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                        sheet1.cell(row, col).font = Font(size=9)
+                        sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                        col += 1
+                        # Bottom/Left Mid Hinge
+                        if door[8] == 0:
+                            hinge_center = ''
+                        elif door[8] == '-':
+                            hinge_center = door[8]
+                        else:
+                            hinge_center = mm_to_in(door[8])
+                        sheet1.cell(row, col, hinge_center)
+                        sheet1.cell(row, col).number_format = '#  ##/##'
+                        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                        sheet1.cell(row, col).font = Font(size=9)
+                        sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                        col += 1
+                        # Top/Right Mid Hinge
+                        if door[9] == 0:
+                            hinge_center = ''
+                        elif door[9] == '-':
+                            hinge_center = door[9]
+                        else:
+                            hinge_center = mm_to_in(door[9])
+                        sheet1.cell(row, col, hinge_center)
+                        sheet1.cell(row, col).number_format = '#  ##/##'
+                        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                        sheet1.cell(row, col).font = Font(size=9)
+                        sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                        col += 1
+                        # Top/Right Hinge
+                        if door[10] == 0:
+                            hinge_center = ''
+                        elif door[10] == '-':
+                            hinge_center = door[10]
+                        else:
+                            hinge_center = mm_to_in(door[10])
+                        sheet1.cell(row, col, hinge_center)
+                        sheet1.cell(row, col).number_format = '#  ##/##'
+                        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                        sheet1.cell(row, col).font = Font(size=9)
+                        sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'), right=Side(style='thin', color='D4D4D4'))
+                        col += 1
+                        
+                        # convert list of cab_nums to string
+                        cab_num_string = ', '.join(door[11])
+                        
+                        # Cabinet Numbers
+                        sheet1.cell(row, col, cab_num_string)
+                        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='center')
+                        sheet1.cell(row, col).font = Font(size=9)
+                        sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                        
+
+                        # increment quantity
+                        type_total += door[0]
+
+                        # reset row & column
+                        col -= 11
+                        row += 1
+
+                    row -= 1
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 1).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 2).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 3).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 4).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 5).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 6).border = Border(bottom=Side(style='thin', color='000000'), right=Side(style='thin', color='D4D4D4'))
+                    sheet1.cell(row, col + 7).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 8).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 9).border = Border(bottom=Side(style='thin', color='000000'))
+                    sheet1.cell(row, col + 10).border = Border(bottom=Side(style='thin', color='000000'), right=Side(style='thin', color='D4D4D4'))
+                    sheet1.cell(row, col + 11).border = Border(bottom=Side(style='thin', color='000000'))
+                    row += 1
+                    sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 11)
+
+                    hinge_total_string = "Hinge Type Total: (" if _type != '' else "Total Doors w/o Hinges: ("
+                    
+                    sheet1.cell(row, col, hinge_total_string + str(type_total) + ")")
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='left')
+                    sheet1.cell(row, col).font = Font(size=10, italic=True)
+
+                    style_total += type_total
+                    row += 2
             
-        sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 11)
-        sheet1.cell(row, col, "Material Total: (" + str(mat_total) + ")")
-        sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='left')
-        sheet1.cell(row, col).font = Font(size=14, italic=True, bold=True)
-        page_break = Break(id=row)
-        sheet1.row_breaks.append(page_break)
-        row += 1
+                sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 11)
+                sheet1.cell(row, col, "Door Style Total: (" + str(style_total) + ")")
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='left')
+                sheet1.cell(row, col).font = Font(size=11, bold=True, italic=True, underline='single')
+                col -= 1
+
+                mat_total += style_total
+                row += 2
                 
-    
-    sheet1.column_dimensions['A'].width = 2
-    sheet1.column_dimensions['B'].width = 4
-    sheet1.column_dimensions['C'].width = 11
-    sheet1.column_dimensions['D'].width = 20
-    sheet1.column_dimensions['E'].width = 9
-    sheet1.column_dimensions['F'].width = 9
-    sheet1.column_dimensions['G'].width = 4
-    sheet1.column_dimensions['H'].width = 6
-    sheet1.column_dimensions['I'].width = 8
-    sheet1.column_dimensions['J'].width = 8
-    sheet1.column_dimensions['K'].width = 8
-    sheet1.column_dimensions['L'].width = 8
-    sheet1.column_dimensions['M'].width = 20
+            sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 11)
+            sheet1.cell(row, col, "Material Total: (" + str(mat_total) + ")")
+            sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='center', horizontal='left')
+            sheet1.cell(row, col).font = Font(size=14, italic=True, bold=True)
+            page_break = Break(id=row)
+            sheet1.row_breaks.append(page_break)
+            row += 1
+                    
+        
+        sheet1.column_dimensions['A'].width = 2
+        sheet1.column_dimensions['B'].width = 4
+        sheet1.column_dimensions['C'].width = 11
+        sheet1.column_dimensions['D'].width = 20
+        sheet1.column_dimensions['E'].width = 9
+        sheet1.column_dimensions['F'].width = 9
+        sheet1.column_dimensions['G'].width = 4
+        sheet1.column_dimensions['H'].width = 6
+        sheet1.column_dimensions['I'].width = 8
+        sheet1.column_dimensions['J'].width = 8
+        sheet1.column_dimensions['K'].width = 8
+        sheet1.column_dimensions['L'].width = 8
+        sheet1.column_dimensions['M'].width = 20
 
-    sheet1.page_margins.left = 0.5
-    sheet1.page_margins.right = 0.5
-    sheet1.page_margins.top = 1.0
-    sheet1.page_margins.bottom = 0.5
-    sheet1.page_margins.footer = 0.25
-    sheet1.page_margins.header = 0.375
+        sheet1.page_margins.left = 0.5
+        sheet1.page_margins.right = 0.5
+        sheet1.page_margins.top = 1.0
+        sheet1.page_margins.bottom = 0.5
+        sheet1.page_margins.footer = 0.25
+        sheet1.page_margins.header = 0.375
 
 
-    sheet1.oddHeader.left.text = job_name + ' - Boring List (Rooms: ' + rooms_string + ')'
-    sheet1.oddHeader.left.size = 12
-    sheet1.oddHeader.left.color = "000000"
-    sheet1.oddFooter.right.text = "Page &[Page] of &N"
-    sheet1.oddFooter.right.size = 10
-    sheet1.oddFooter.right.color = "000000"
-    
-    print_area = 'A1:M' + str(row - 1)
-    sheet1.print_area = print_area
-    sheet1.sheet_properties.pageSetUpPr.fitToPage = True
-    sheet1.page_setup.fitToHeight = False   
-    
-    save_name = job_name + ' - Boring List - ' + rooms_string + " - " + now_string + '.xlsx'
-    full_save_name = os.path.join(dir_path, save_name)
-    try:
-        wb.save(full_save_name)
-    except PermissionError:
-        print("\nSAVE FAILED\nYou will need to close the open file before it can be saved.")
+        sheet1.oddHeader.left.text = job_name + ' - Boring List (Rooms: ' + rooms_string + ')'
+        sheet1.oddHeader.left.size = 12
+        sheet1.oddHeader.left.color = "000000"
+        sheet1.oddFooter.right.text = "Page &[Page] of &N"
+        sheet1.oddFooter.right.size = 10
+        sheet1.oddFooter.right.color = "000000"
+        
+        print_area = 'A1:M' + str(row - 1)
+        sheet1.print_area = print_area
+        sheet1.sheet_properties.pageSetUpPr.fitToPage = True
+        sheet1.page_setup.fitToHeight = False   
+        
+        save_name = job_name + ' - Boring List - ' + rooms_string + " - " + now_string + '.xlsx'
+        full_save_name = os.path.join(dir_path, save_name)
+        try:
+            wb.save(full_save_name)
+        except PermissionError:
+            print("\nSAVE FAILED\nYou will need to close the open file before it can be saved.")
 
-    os.startfile(full_save_name)
+        os.startfile(full_save_name)
+
+    create_excel()
 
     
 hinge_boring_report()
