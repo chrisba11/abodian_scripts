@@ -1,0 +1,16 @@
+12
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Room UniqueID="1" RoomType="0" Name="Order Entry" RoomNosDirty="True" IdTagCount="0" Quan="1" FloorDirty="0">
+  <RoomParms H_Walls="2743.2" H_Soffit="406.4" H_BaseCab="889" H_WallCab="876.3" H_FridgeCab="457.2" H_RangeCab="609.6" H_VanityCab="838.2" D_Wall="304.8" D_Base="609.6" D_Tall="635" Cl_Fridge="0" Cl_Window="0" Cl_Door="0" Cl_Range="0" CT_Thick="19.05" CT_FrOLay="38.1" CT_FEOlay="19.05" CT_Splash="0" CT_Face="19.05" CT_SplashThick="0" M_CeilOffset="0" M_CrownOffset="0" M_LightRailOffset="0" M_ElevChairRail="812.8" M_ElevCustom="1066.8" SinkCabW="914.9724" WallThickness="114.3" StartingCabNo="0" AutoToeSkin="True" />
+  <RoomSet Version="6" PricingColumns="" SourceTemplateID="59" NonColumnBaseDoor="Slab Door - VG" NonColumnWallDoor="Slab Door - VG" NonColumnTopDrawer="Slab Dw - VG" NonColumnMidDrawer="Slab Dw - VG" NonColumnBotDrawer="Slab Dw - VG" DrawerBox="MetalBox Gray" DrawerGuide="Richelieu Optimiz-R" DrawerGuideSlowCloseOn="True" DrawerGuideSpacerState="1" DrawerFrontFastener="" ROTray="MetalBox Gray RO" ROTrayGuide="Richelieu Optimiz-R" ROTrayGuideSlowCloseOn="True" ROTrayGuideSpacerState="1" ROTrayFrontFastener="" ROShelfGuide="None" DrwPulls="None" BasePulls="None" WallPulls="None" BaseHinges="Blum 110 / 3mm - 71B358180" WallHinges="Blum 110 / 3mm - 71B358180" ClosetRod="Mozaik Default" ShelfPins="" AutofillLib="Axon V3" MatTemplate="Plywood 3-4 Template" MatDoorTemplate="TBD" MatDrawerTemplate="02 - CM - White Melamine .625" MatCabTemplate="02 - CM - White Melamine .625 [Door Banding]" MatTopsTemplate="" MatBandingTemplate="Kash" CabBaseDoorTexture="02 - ELG - White" CabDwrFaceTexture="02 - ELG - White" CabWallDoorTexture="02 - ELG - White" CabExtTexture="02 - ELG - White" CabIntTexture="02 - CM - White" BandTexture="02 - ELG - White" WallTexture="1C pale white" FloorTexture="Hardwood White Ash" TopsTexture="1C Marble white" ApplTexture="1 Stainless" MoldTexture="1 Paint White Dove" RoomDoorLibName="Standard" EndDoorW="Slab Door - VG" EndDoorB="Slab Door - VG" EndDoorT="Slab Door - VG" BackDoor="Slab Door - VG" DefaultUseSplitMatTemps="True" />
+  <Walls />
+  <WallJoints />
+  <Appls />
+  <Fixts />
+  <Products />
+  <Tops />
+  <Moldings />
+  <ToeSkins />
+  <Notes />
+  <Dimensions />
+</Room>

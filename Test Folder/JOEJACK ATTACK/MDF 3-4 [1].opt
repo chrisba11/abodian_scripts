@@ -1,0 +1,243 @@
+4
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<OptimizeMaterial Name="MDF 3/4 [1]" Thickness="19.05" Width="1244.6" Length="2463.8" HasGrain="False" WidthTrim="6.35" LengthTrim="6.35" FeedRate="100" Comment="" CustomerName="" Timestamp="1632739781.59303" OptParamSpeed="2" OptParamMachineName="" OptParamSeqByCabN="False" OptParamSeqFlipsideFirst="False" OptParamRemnantUsagePolicy="0" ToolsetName="Axon Standard" IsLegacy="False" BatchRevisionNumber="0">
+  <OptimizePart PartID="1" PartNumbers="1" Quan="1" Name=" Wall Applied End Panel" Width="327.0251" Length="914.4" EdgeBand="WH-2,2,2,2" Color="None" AssyNo="R6N1" Comment="Wall Applied End Panel" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - White Velvet - WC" ExportedToARDIS="True" TextureName="02 - AGT - White">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Back" />
+      <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Top" />
+      <ShapePoint ID="2" X="914.4" Y="327.0251" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Front" />
+      <ShapePoint ID="3" X="0" Y="327.0251" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Bottom" />
+      <Operations Version="2">
+        <OperationHole Diameter="5" Diameter_Eq="" ID="2" X="457.2" Y="163.51255" Depth="19" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="True" IdTag="50001" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="2" PartNumbers="2" Quan="1" Name=" Wall Applied End Panel" Width="327.0251" Length="914.4" EdgeBand="WH-2,2,2,2" Color="None" AssyNo="R6N2" Comment="Wall Applied End Panel" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - White Velvet - WC" ExportedToARDIS="True" TextureName="02 - AGT - White">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Back" />
+      <ShapePoint ID="1" X="914.4" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Top" />
+      <ShapePoint ID="2" X="914.4" Y="327.0251" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Front" />
+      <ShapePoint ID="3" X="0" Y="327.0251" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="Bottom" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="3" PartNumbers="3" Quan="1" Name="UBack" Width="114.3" Length="774.7" EdgeBand="None" Color="None" AssyNo="R6C1" Comment="Unfinished Back" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - White Velvet - WC" ExportedToARDIS="True" TextureName="02 - CM - White">
+    <Shape Version="2" Name="" Type="1" RadiusX="0" RadiusY="0" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="1" X="774.7" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Top" />
+      <ShapePoint ID="2" X="774.7" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="3" X="0" Y="114.3" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Bottom" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="4" PartNumbers="4" Quan="1" Name="Bottom" Width="612.775" Length="114.3" EdgeBand="WH-2,0,0,0" Color="None" AssyNo="R6C1" Comment="Bottom of cabinet box" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - White Velvet - WC" ExportedToARDIS="True" TextureName="02 - CM - White">
+    <Shape Version="2" Name="" Type="1" RadiusX="457.2" RadiusY="609.6" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+      <ShapePoint ID="0" X="114.3" Y="0" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="114.3" Y="612.775" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="0" X="0" Y="612.775" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="5" PartNumbers="5" Quan="1" Name="Fixed Shelf" Width="612.775" Length="114.3" EdgeBand="WH-2,0,0,0" Color="None" AssyNo="R6C1" Comment="Fixed Shelf" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - White Velvet - WC" ExportedToARDIS="True" TextureName="02 - AGT - White">
+    <Shape Version="2" Name="" Type="1" RadiusX="457.2" RadiusY="609.6" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="114.3" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="114.3" Y="612.775" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="0" X="0" Y="612.775" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="6" PartNumbers="6" Quan="1" Name="Fixed Shelf" Width="612.775" Length="114.3" EdgeBand="WH-2,0,0,0" Color="None" AssyNo="R6C1" Comment="Fixed Shelf" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - White Velvet - WC" ExportedToARDIS="True" TextureName="02 - AGT - White">
+    <Shape Version="2" Name="" Type="1" RadiusX="457.2" RadiusY="609.6" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="114.3" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="114.3" Y="612.775" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="0" X="0" Y="612.775" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="7" PartNumbers="7" Quan="1" Name="Fixed Shelf" Width="612.775" Length="114.3" EdgeBand="WH-2,0,0,0" Color="None" AssyNo="R6C1" Comment="Fixed Shelf" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - White Velvet - WC" ExportedToARDIS="True" TextureName="02 - AGT - White">
+    <Shape Version="2" Name="" Type="1" RadiusX="457.2" RadiusY="609.6" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="114.3" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="114.3" Y="612.775" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="0" X="0" Y="612.775" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="8" PartNumbers="8" Quan="1" Name="Fixed Shelf" Width="612.775" Length="114.3" EdgeBand="WH-2,0,0,0" Color="None" AssyNo="R6C1" Comment="Fixed Shelf" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - White Velvet - WC" ExportedToARDIS="True" TextureName="02 - AGT - White">
+    <Shape Version="2" Name="" Type="1" RadiusX="457.2" RadiusY="609.6" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="114.3" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="114.3" Y="612.775" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="0" X="0" Y="612.775" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="9" PartNumbers="9" Quan="1" Name="Fixed Shelf" Width="612.775" Length="114.3" EdgeBand="WH-2,0,0,0" Color="None" AssyNo="R6C1" Comment="Fixed Shelf" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - White Velvet - WC" ExportedToARDIS="True" TextureName="02 - AGT - White">
+    <Shape Version="2" Name="" Type="1" RadiusX="457.2" RadiusY="609.6" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="114.3" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="114.3" Y="612.775" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="0" X="0" Y="612.775" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="10" PartNumbers="10" Quan="1" Name="Top" Width="612.775" Length="114.3" EdgeBand="WH-2,0,0,0" Color="None" AssyNo="R6C1" Comment="Top of cabinet box" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - White Velvet - WC" ExportedToARDIS="True" TextureName="02 - CM - White">
+    <Shape Version="2" Name="" Type="1" RadiusX="457.2" RadiusY="609.6" Source="1" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="114.3" Y="0" PtType="0" Data="0" EdgeType="4" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Left" />
+      <ShapePoint ID="0" X="114.3" Y="612.775" PtType="0" Data="0" EdgeType="3" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Back" />
+      <ShapePoint ID="0" X="0" Y="612.775" PtType="0" Data="0" EdgeType="2" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Right" />
+      <ShapePoint ID="0" X="0" Y="0" PtType="0" Data="0" EdgeType="1" Anchor="" EBand="2" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="Front" />
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="11" PartNumbers="11" Quan="1" Name="UEnd (L)" Width="631.825" Length="888.9999" EdgeBand="WH-Custom*" Color="None" AssyNo="R6C1" Comment="Unfinished End" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - White Velvet - WC" ExportedToARDIS="True" TextureName="02 - CM - White">
+    <Shape Version="2" Name="Base Left End Panel with Ledger" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="114.3" Y="30" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="0" X="114.3" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="0" X="888.9999" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="0" X="888.9999" Y="631.825" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="0" X="114.3" Y="631.825" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="0" X="114.3" Y="533.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="0" X="0" Y="533.4" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="0" X="0" Y="30" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="9.525" Diameter_Eq="" ID="21" X="112.3" Y="535.4" Depth="19.05" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30201" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="39" X="26" Y="133.35" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30202" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="12.7" Diameter_Eq="" ID="40" X="114.3" Y="92.075" Depth="19.05" Hide="True" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30203" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="41" X="88.3" Y="525.4" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30204" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="42" X="26" Y="525.4" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30205" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="43" X="88.3" Y="133.35" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30206" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="881" Y="605.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112010" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="881" Y="509.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112011" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="881" Y="382.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112012" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="881" Y="286.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112013" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122.3" Y="605.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112050" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122.3" Y="509.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112051" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122.3" Y="382.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112052" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122.3" Y="286.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112053" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="253.75" Y="605.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112090" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="253.75" Y="509.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112091" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="253.75" Y="382.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112092" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="253.75" Y="286.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112093" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="381.55" Y="605.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512600" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="381.55" Y="509.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512601" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="381.55" Y="382.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512602" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="381.55" Y="286.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512603" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="508.65" Y="605.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512640" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="508.65" Y="509.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512641" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="508.65" Y="382.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512642" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="508.65" Y="286.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512643" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="634.75" Y="605.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512680" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="634.75" Y="509.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512681" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="634.75" Y="382.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512682" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="634.75" Y="286.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512683" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="759.45" Y="605.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512720" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="759.45" Y="509.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512721" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="759.45" Y="382.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512722" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="759.45" Y="286.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512723" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="881" Y="159.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="122010" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="881" Y="63.82001" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="122011" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122.3" Y="159.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="122050" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122.3" Y="63.82001" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="122051" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="253.75" Y="159.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="122090" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="253.75" Y="63.82001" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="122091" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="381.55" Y="159.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522600" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="381.55" Y="63.82001" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522601" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="508.65" Y="159.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522640" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="508.65" Y="63.82001" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522641" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="634.75" Y="159.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522680" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="634.75" Y="63.82001" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522681" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="759.45" Y="159.82" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522720" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="759.45" Y="63.82001" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522721" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="863" Y="11.05" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132410" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="767" Y="11.05" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132411" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="140.3" Y="11.05" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132412" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="236.3" Y="11.05" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132413" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="607" Y="11.05" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="142410" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="396.3" Y="11.05" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="142411" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizePart PartID="12" PartNumbers="12" Quan="1" Name="UEnd (R)" Width="631.825" Length="889" EdgeBand="WH-Custom*" Color="None" AssyNo="R6C1" Comment="Unfinished End" UserAdded="False" RemakeJobName="" BandTempName="02 - PRZ - White Velvet - WC" ExportedToARDIS="True" TextureName="02 - CM - White">
+    <Shape Version="2" Name="Base Right End Panel with Ledger" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False">
+      <ShapePoint ID="0" X="114.3" Y="98.425" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="0" X="114.3" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="1" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="True" SideName="" />
+      <ShapePoint ID="0" X="889" Y="0" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="0" X="889" Y="631.825" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="0" X="114.3" Y="631.825" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="0" X="114.3" Y="601.825" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="0" X="0" Y="601.825" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <ShapePoint ID="0" X="0" Y="98.425" PtType="0" Data="0" EdgeType="0" Anchor="" EBand="0" X_Eq="" Y_Eq="" Data_Eq="" LAdj="0" RAdj="0" TAdj="0" BAdj="0" Scribe="0" Source="0" BoreHoles="0" EBandLock="False" SideName="" />
+      <Operations Version="2">
+        <OperationHole Diameter="9.525" Diameter_Eq="" ID="22" X="112.3" Y="96.425" Depth="19.05" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30301" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="106.425" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30302" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="88.3" Y="106.425" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30303" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="26" Y="498.475" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30304" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="2" X="88.3" Y="498.475" Depth="12.7" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="30305" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="881" Y="26" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112020" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="881" Y="122" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112021" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="881" Y="249" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112022" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="881" Y="345" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112023" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122.3" Y="26" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112060" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122.3" Y="122" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112061" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122.3" Y="249" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112062" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122.3" Y="345" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112063" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="253.75" Y="26" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112100" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="253.75" Y="122" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112101" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="253.75" Y="249" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112102" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="253.75" Y="345" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="112103" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="381.55" Y="26" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512610" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="381.55" Y="122" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512611" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="381.55" Y="249" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512612" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="381.55" Y="345" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512613" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="508.65" Y="26" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512650" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="508.65" Y="122" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512651" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="508.65" Y="249" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512652" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="508.65" Y="345" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512653" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="634.75" Y="26" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512690" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="634.75" Y="122" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512691" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="634.75" Y="249" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512692" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="634.75" Y="345" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512693" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="759.45" Y="26" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512730" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="759.45" Y="122" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512731" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="759.45" Y="249" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512732" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="759.45" Y="345" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="512733" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="881" Y="472" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="122020" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="881" Y="568" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="122021" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122.3" Y="472" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="122060" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="122.3" Y="568" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="122061" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="253.75" Y="472" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="122100" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="253.75" Y="568" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="122101" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="381.55" Y="472" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522610" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="381.55" Y="568" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522611" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="508.65" Y="472" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522650" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="508.65" Y="568" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522651" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="634.75" Y="472" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522690" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="634.75" Y="568" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522691" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="759.45" Y="472" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522730" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="759.45" Y="568" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="522731" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="863" Y="620.78" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132420" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="767" Y="620.78" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132421" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="140.3" Y="620.78" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132422" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="236.3" Y="620.78" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="132423" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="607" Y="620.78" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="142420" Noneditable="False" Anchor="" FlipSideOp="False" />
+        <OperationHole Diameter="8" Diameter_Eq="" ID="1" X="396.3" Y="620.78" Depth="12.70795" Hide="False" X_Eq="" Y_Eq="" Depth_Eq="" Hide_Eq="" IsUserOp="False" IdTag="142421" Noneditable="False" Anchor="" FlipSideOp="False" />
+      </Operations>
+    </Shape>
+  </OptimizePart>
+  <OptimizeSheet Width="1244.6" Length="2463.8" Rotation="0" Quan="1" Flipped="False" HasBeenCut="False" ExportedToCNCOperator="False" PatternNumber="1" PatternNumberSuffix="">
+    <OptimizePartLocation PartID="12" PartNumber="12" X="6.4" Y="6.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="11" PartNumber="11" X="658.8" Y="6.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="9" PartNumber="9" X="6.4" Y="916" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="8" PartNumber="8" X="6.4" Y="1050.8" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="7" PartNumber="7" X="658.8" Y="916" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="6" PartNumber="6" X="658.8" Y="1050.8" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="1" PartNumber="1" X="1311.2" Y="6.4" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="2" PartNumber="2" X="1311.2" Y="354" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="3" PartNumber="3" X="1311.2" Y="701.6" Rotation="0" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="10" PartNumber="10" X="1311.2" Y="836.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="4" PartNumber="4" X="1311.2" Y="971.4" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+    <OptimizePartLocation PartID="5" PartNumber="5" X="1311.2" Y="1106.2" Rotation="90" Flipped="False" SentToRemakeBin="False" FromGroup="" ExplodedFromGroup="" ExplodedFromGroupSuffix="" TakenFromRemakeBin="False" ForceOnionSkin="False" LabelPrinted="False" />
+  </OptimizeSheet>
+  <RoomInfo Number="0" Name="Order Entry" WallCabString="" BaseCabString="" CabNames="" />
+  <RoomInfo Number="1" Name="Room 1" WallCabString="" BaseCabString="R1C1,R1C2,R1C3" CabNames="R1C1,Base 1 Door|R1C2,Floating Vanity 3 Drw - A|R1C3,Base 4 Drawer - A" />
+  <RoomInfo Number="2" Name="Room 2" WallCabString="" BaseCabString="R2N1" CabNames="R2N1,Base Toekick" />
+  <RoomInfo Number="3" Name="DTC HINGES" WallCabString="" BaseCabString="R3C1" CabNames="R3C1,Base 1 Door" />
+  <RoomInfo Number="4" Name="Murphy Beds" WallCabString="" BaseCabString="R4C1" CabNames="R4C1,Murphy Bed (Full Vertical) Reg" />
+  <RoomInfo Number="5" Name="OLD Bed Versions" WallCabString="" BaseCabString="R5C1" CabNames="R5C1,Murphy Bed (Full Vertical) Reg" />
+  <RoomInfo Number="6" Name="Room 6" WallCabString="R6N1,R6N2" BaseCabString="R6C1" CabNames="R6N1,Wall End Panel .75 with hole|R6N2,Wall End Panel .75|R6C1,Base Open - 6 Cubby" />
+</OptimizeMaterial>

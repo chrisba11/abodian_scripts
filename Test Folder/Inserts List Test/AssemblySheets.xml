@@ -1,0 +1,2178 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assemblySheetCollection>
+  <version>0</version>
+  <runs>
+    <run>
+      <name>Run 1</name>
+      <state>
+        <selectedPrinterName />
+        <pageMargins>25, 25, 25, 25</pageMargins>
+        <pageOrientation>landscape</pageOrientation>
+        <isBorderEnabled>True</isBorderEnabled>
+        <borderThickness>1</borderThickness>
+        <revisionNumber>1.0</revisionNumber>
+        <titleBlockName>8.5x11 Vertical</titleBlockName>
+        <titleBlockAnchor>4</titleBlockAnchor>
+        <defaultPageUnitsPerFoot>112.5</defaultPageUnitsPerFoot>
+        <defaultPageUnitsPerFootMetric>72</defaultPageUnitsPerFootMetric>
+        <borderColor>FF000000</borderColor>
+        <printerSettings>
+        </printerSettings>
+      </state>
+      <inches>True</inches>
+      <useFractions>True</useFractions>
+      <fineInches>False</fineInches>
+      <inchRounding>2</inchRounding>
+      <inchFractionRounding>0</inchFractionRounding>
+      <assemblySheets>
+        <assemblySheet>
+          <title>R1C2 (Base 2 Door 2 Drw)</title>
+          <templateName>Abodian Standard</templateName>
+          <runName>Run 1</runName>
+          <cabUniqueId>1449640</cabUniqueId>
+          <subpageNumber>1</subpageNumber>
+          <subpageCount>1</subpageCount>
+          <x>75</x>
+          <y>75</y>
+          <width>3150</width>
+          <height>2400</height>
+          <pen color="FF000000" width="1" />
+          <DrawingSettings Version="5" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+            <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+            <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Face Product Label" Hidden="True" />
+            <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+            <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+            <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+            <LayerHidden LayerName="Room Operations" Hidden="True" />
+            <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+            <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+            <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+            <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+            <LayerHidden LayerName="Non-numbered" Hidden="False" />
+            <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+            <LayerHidden LayerName="Opening Labels" Hidden="True" />
+            <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+            <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+            <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+            <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+            <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+            <LayerHidden LayerName="Top Drawings" Hidden="True" />
+            <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+            <LayerHidden LayerName="" Hidden="True" />
+            <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+            <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+            <LayerHidden LayerName="Hardware" Hidden="False" />
+            <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+            <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+            <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+            <LayerHidden LayerName="Wall Labels" Hidden="False" />
+            <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+            <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+            <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+            <LayerHidden LayerName="End Labels" Hidden="False" />
+            <LayerHidden LayerName="Insert Labels" Hidden="True" />
+            <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+            <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+            <LayerHidden LayerName="Opening Widths" Hidden="True" />
+            <LayerHidden LayerName="Doors" Hidden="False" />
+            <LayerHidden LayerName="Countertops" Hidden="True" />
+            <LayerHidden LayerName="Corner X" Hidden="False" />
+            <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+            <LayerHidden LayerName="Grid" Hidden="True" />
+            <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+            <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+            <LayerHidden LayerName="Moldings" Hidden="False" />
+            <LayerHidden LayerName="Toe Skins" Hidden="True" />
+            <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+            <LayerHidden LayerName="Room Label" Hidden="False" />
+            <LayerHidden LayerName="T Walls" Hidden="False" />
+            <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+            <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+            <LayerHidden LayerName="User Dimensions" Hidden="False" />
+            <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+            <LayerHidden LayerName="Notes" Hidden="False" />
+            <LayerHidden LayerName="Walls" Hidden="False" />
+            <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+            <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+            <LayerHidden LayerName="Face" Hidden="False" />
+            <LayerHidden LayerName="Back" Hidden="False" />
+            <LayerHidden LayerName="Ends" Hidden="False" />
+            <LayerHidden LayerName="Top" Hidden="False" />
+            <LayerHidden LayerName="Bottom" Hidden="False" />
+            <LayerHidden LayerName="Inserts" Hidden="False" />
+            <LayerHidden LayerName="Interior" Hidden="False" />
+            <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+            <LayerFont LayerName="Elev Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Room Label">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Wall Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Base Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Depth">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Wall">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Plan - Wall Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Wall Fixture Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Base Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Cab Heights">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Cabs">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Height">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Elev - Wall Length">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Cabinet Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Cabinet Number Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="End Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Frame Size Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Frame Special Size Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Insert Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Open Section Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Opening Dimensions">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Opening Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Selected Depth Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Special Depth Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerFont LayerName="Appliance Labels">
+              <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+            </LayerFont>
+            <LayerColor LayerName="Wall Labels" Color="-12550016" />
+            <LayerColor LayerName="Corner X" Color="-8355712" />
+            <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+            <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+            <LayerColor LayerName="Room Label" Color="-12550016" />
+            <LayerColor LayerName="Moldings" Color="-16777216" />
+          </DrawingSettings>
+          <sections>
+            <titleBlockSection>
+              <pParent>0</pParent>
+              <pAChild>2</pAChild>
+              <pCChild>0</pCChild>
+              <parentABC>N</parentABC>
+              <split>N</split>
+              <x>0</x>
+              <y>0</y>
+              <dx>3150</dx>
+              <dy>2400</dy>
+              <da>2400</da>
+            </titleBlockSection>
+            <titleBlockSection>
+              <pParent>1</pParent>
+              <pAChild>0</pAChild>
+              <pCChild>3</pCChild>
+              <parentABC>A</parentABC>
+              <split>H</split>
+              <x>0</x>
+              <y>0</y>
+              <dx>3150</dx>
+              <dy>2400</dy>
+              <da>2100</da>
+            </titleBlockSection>
+            <titleBlockSection>
+              <pParent>2</pParent>
+              <pAChild>0</pAChild>
+              <pCChild>0</pCChild>
+              <parentABC>C</parentABC>
+              <split>V</split>
+              <x>0</x>
+              <y>2100</y>
+              <dx>3150</dx>
+              <dy>300</dy>
+              <da>1650</da>
+            </titleBlockSection>
+          </sections>
+          <objects>
+            <text>
+              <size width="165.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="89.03397" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Qty</content>
+              <alignment>0</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="268.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="89.03397" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>W</content>
+              <alignment>0</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="268.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="89.03397" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>L</content>
+              <alignment>0</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="515.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="89.03397" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Part</content>
+              <alignment>0</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="536.485" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="89.03397" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Material</content>
+              <alignment>0</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="309.5106" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1854.048" offsetY="89.03397" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Opening</content>
+              <alignment>0</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <line>
+              <pen color="B2000000" width="0.5905511" />
+              <pt0 x="90.15453" y="142.7215" />
+              <pt1 x="2153.559" y="142.7215" />
+            </line>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="144.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>2</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="144.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>14 13/16</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="144.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>24 1/4</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="144.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Door</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="144.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Slab Door - VG</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="299.5106" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1854.048" offsetY="144.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>B</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="196.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>1</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="196.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>14 7/8</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="196.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>6</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="196.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Drawer Front</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="196.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Slab Dw - VG</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="299.5106" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1854.048" offsetY="196.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>A</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="248.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>1</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="248.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>14 13/16</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="248.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>6</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="248.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Drawer Front</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="248.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Slab Dw - VG</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="299.5106" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1854.048" offsetY="248.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>C</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="300.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>2</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="300.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>13 5/16</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="300.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>4</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="300.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Drawer Box</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="300.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Dowel Undermount V3</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="299.5106" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1854.048" offsetY="300.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>A,C</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="352.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>1</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="352.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>28 3/4</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="352.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>30 1/2</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="352.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>UBack</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="144.9883" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="352.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="497.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>1</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="497.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>24</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="497.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>30 1/2</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="497.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>UEnd (L)</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="144.9883" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="497.7215" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="642.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>1</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="642.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>24</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="642.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>30 1/2</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="642.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>UEnd (R)</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="144.9883" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="642.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="787.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>1</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="787.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>23 3/8</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="787.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>28 3/4</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="787.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Bottom</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="144.9883" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="787.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="932.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>2</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="932.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>23 3/8</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="932.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>5 9/16</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="932.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Partition</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="144.9883" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="932.7214" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="1077.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>1</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="1077.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>23 1/8</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="1077.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>28 1/2</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="1077.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Adjustable Shelf</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="144.9883" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="1077.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="1222.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>2</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="1222.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>5</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="1222.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>28 3/4</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="1222.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Drw Stretcher</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="144.9883" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="1222.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="1367.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>1</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="1367.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>5</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="1367.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>28 3/4</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="1367.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Front Stretcher</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="144.9883" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="1367.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="155.0723" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="100.1545" offsetY="1512.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>1</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="265.2269" offsetY="1512.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>5</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="258.2425" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="533.4694" offsetY="1512.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>28 3/4</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="505.851" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="801.7119" offsetY="1512.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Rear Stretcher</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="526.485" height="144.9883" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1317.563" offsetY="1512.721" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <schematic>
+              <schematicTagCode>1449640</schematicTagCode>
+              <schematicTagType>5</schematicTagType>
+              <name>Room 1 Cabinet 2 Top</name>
+              <baseName>Room 1 Cabinet 2 Top</baseName>
+              <isRescalable>True</isRescalable>
+              <pageUnitsPerFoot>364.263031005859</pageUnitsPerFoot>
+              <lockLayers>False</lockLayers>
+              <scaleLocked>False</scaleLocked>
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="2237.685" offsetY="154.93" />
+              <children />
+              <DrawingSettings Version="5" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+                <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+                <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+                <LayerHidden LayerName="Face Product Label" Hidden="True" />
+                <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+                <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+                <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+                <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+                <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+                <LayerHidden LayerName="Room Operations" Hidden="True" />
+                <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+                <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+                <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+                <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+                <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+                <LayerHidden LayerName="Non-numbered" Hidden="False" />
+                <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+                <LayerHidden LayerName="Opening Labels" Hidden="True" />
+                <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+                <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+                <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+                <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+                <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+                <LayerHidden LayerName="Top Drawings" Hidden="True" />
+                <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+                <LayerHidden LayerName="" Hidden="True" />
+                <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+                <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+                <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+                <LayerHidden LayerName="Hardware" Hidden="False" />
+                <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+                <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+                <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+                <LayerHidden LayerName="Wall Labels" Hidden="False" />
+                <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+                <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+                <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+                <LayerHidden LayerName="End Labels" Hidden="False" />
+                <LayerHidden LayerName="Insert Labels" Hidden="True" />
+                <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+                <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+                <LayerHidden LayerName="Opening Widths" Hidden="True" />
+                <LayerHidden LayerName="Doors" Hidden="False" />
+                <LayerHidden LayerName="Countertops" Hidden="True" />
+                <LayerHidden LayerName="Corner X" Hidden="False" />
+                <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+                <LayerHidden LayerName="Grid" Hidden="True" />
+                <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+                <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+                <LayerHidden LayerName="Moldings" Hidden="False" />
+                <LayerHidden LayerName="Toe Skins" Hidden="True" />
+                <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+                <LayerHidden LayerName="Room Label" Hidden="False" />
+                <LayerHidden LayerName="T Walls" Hidden="False" />
+                <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+                <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+                <LayerHidden LayerName="User Dimensions" Hidden="False" />
+                <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+                <LayerHidden LayerName="Notes" Hidden="False" />
+                <LayerHidden LayerName="Walls" Hidden="False" />
+                <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+                <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+                <LayerHidden LayerName="Face" Hidden="False" />
+                <LayerHidden LayerName="Back" Hidden="False" />
+                <LayerHidden LayerName="Ends" Hidden="False" />
+                <LayerHidden LayerName="Top" Hidden="False" />
+                <LayerHidden LayerName="Bottom" Hidden="False" />
+                <LayerHidden LayerName="Inserts" Hidden="False" />
+                <LayerHidden LayerName="Interior" Hidden="False" />
+                <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+                <LayerFont LayerName="Elev Dimensions">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Room Label">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan Dimensions">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Wall Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan - Base Cabs">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan - Depth">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan - Wall">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan - Wall Cabs">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Wall Fixture Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Base Cabs">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Cab Heights">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Wall Cabs">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Wall Height">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Wall Length">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Cabinet Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Cabinet Number Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="End Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Frame Size Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Frame Special Size Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Insert Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Open Section Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Opening Dimensions">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Opening Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Selected Depth Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Special Depth Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Appliance Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerColor LayerName="Wall Labels" Color="-12550016" />
+                <LayerColor LayerName="Corner X" Color="-8355712" />
+                <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+                <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+                <LayerColor LayerName="Room Label" Color="-12550016" />
+                <LayerColor LayerName="Moldings" Color="-16777216" />
+              </DrawingSettings>
+            </schematic>
+            <text>
+              <size width="1484.905" height="248.6624" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1732.549" offsetY="2222.606" />
+              <fontSettings FontFace="Arial" FontSize="12" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>{Cab_Notes}</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="FF000000" width="1.181102" />
+            </text>
+            <text>
+              <size width="1622.68" height="75.51294" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="89.17772" offsetY="2319.57" />
+              <fontSettings FontFace="Arial" FontSize="12" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>{Cab_Assembly_Num} - {Cab_Name}</content>
+              <alignment>0</alignment>
+              <lineAlignment>2</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="562.3256" height="108.721" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="2415.358" offsetY="1031.997" />
+              <fontSettings FontFace="Arial" FontSize="14" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>TOP VIEW</content>
+              <alignment>1</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="B2000000" width="0.5905511" />
+            </text>
+            <text>
+              <size width="562.3256" height="108.721" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="2398.378" offsetY="2082.474" />
+              <fontSettings FontFace="Arial" FontSize="14" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>FRONT VIEW</content>
+              <alignment>1</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="B2000000" width="0.5905511" />
+            </text>
+            <text>
+              <size width="562.3256" height="108.721" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1393.516" offsetY="2082.805" />
+              <fontSettings FontFace="Arial Narrow" FontSize="14" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>LEFT VIEW</content>
+              <alignment>1</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="B2000000" width="0.5905511" />
+            </text>
+            <schematic>
+              <schematicTagCode>1449640</schematicTagCode>
+              <schematicTagType>4</schematicTagType>
+              <name>Room 1 Cabinet 2 Front</name>
+              <baseName>Room 1 Cabinet 2 Front</baseName>
+              <isRescalable>True</isRescalable>
+              <pageUnitsPerFoot>300.080474853516</pageUnitsPerFoot>
+              <lockLayers>False</lockLayers>
+              <scaleLocked>False</scaleLocked>
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="2378.227" offsetY="1119.588" />
+              <children />
+              <DrawingSettings Version="5" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+                <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+                <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+                <LayerHidden LayerName="Face Product Label" Hidden="True" />
+                <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+                <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+                <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+                <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+                <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+                <LayerHidden LayerName="Room Operations" Hidden="True" />
+                <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+                <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+                <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+                <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+                <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+                <LayerHidden LayerName="Non-numbered" Hidden="False" />
+                <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+                <LayerHidden LayerName="Opening Labels" Hidden="True" />
+                <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+                <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+                <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+                <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+                <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+                <LayerHidden LayerName="Top Drawings" Hidden="True" />
+                <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+                <LayerHidden LayerName="" Hidden="True" />
+                <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+                <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+                <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+                <LayerHidden LayerName="Hardware" Hidden="False" />
+                <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+                <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+                <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+                <LayerHidden LayerName="Wall Labels" Hidden="False" />
+                <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+                <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+                <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+                <LayerHidden LayerName="End Labels" Hidden="False" />
+                <LayerHidden LayerName="Insert Labels" Hidden="True" />
+                <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+                <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+                <LayerHidden LayerName="Opening Widths" Hidden="True" />
+                <LayerHidden LayerName="Doors" Hidden="False" />
+                <LayerHidden LayerName="Countertops" Hidden="True" />
+                <LayerHidden LayerName="Corner X" Hidden="False" />
+                <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+                <LayerHidden LayerName="Grid" Hidden="True" />
+                <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+                <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+                <LayerHidden LayerName="Moldings" Hidden="False" />
+                <LayerHidden LayerName="Toe Skins" Hidden="True" />
+                <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+                <LayerHidden LayerName="Room Label" Hidden="False" />
+                <LayerHidden LayerName="T Walls" Hidden="False" />
+                <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+                <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+                <LayerHidden LayerName="User Dimensions" Hidden="False" />
+                <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+                <LayerHidden LayerName="Notes" Hidden="False" />
+                <LayerHidden LayerName="Walls" Hidden="False" />
+                <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+                <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+                <LayerHidden LayerName="Face" Hidden="False" />
+                <LayerHidden LayerName="Back" Hidden="False" />
+                <LayerHidden LayerName="Ends" Hidden="False" />
+                <LayerHidden LayerName="Top" Hidden="False" />
+                <LayerHidden LayerName="Bottom" Hidden="False" />
+                <LayerHidden LayerName="Inserts" Hidden="False" />
+                <LayerHidden LayerName="Interior" Hidden="False" />
+                <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+                <LayerFont LayerName="Elev Dimensions">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Room Label">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan Dimensions">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Wall Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan - Base Cabs">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan - Depth">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan - Wall">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan - Wall Cabs">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Wall Fixture Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Base Cabs">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Cab Heights">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Wall Cabs">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Wall Height">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Wall Length">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Cabinet Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Cabinet Number Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="End Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Frame Size Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Frame Special Size Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Insert Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Open Section Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Opening Dimensions">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Opening Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Selected Depth Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Special Depth Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Appliance Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerColor LayerName="Wall Labels" Color="-12550016" />
+                <LayerColor LayerName="Corner X" Color="-8355712" />
+                <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+                <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+                <LayerColor LayerName="Room Label" Color="-12550016" />
+                <LayerColor LayerName="Moldings" Color="-16777216" />
+              </DrawingSettings>
+            </schematic>
+            <text>
+              <size width="1623.74" height="99.48392" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="88.95598" offsetY="2364.267" />
+              <fontSettings FontFace="Arial" FontSize="12" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>{Cab_Width}" x {Cab_Height}" x {Cab_Depth}"</content>
+              <alignment>0</alignment>
+              <lineAlignment>2</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="1620.398" height="158.3717" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="97.34468" offsetY="2184.8" />
+              <fontSettings FontFace="Arial" FontSize="16" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>{Job_Name} ({Cab_Room_Name})</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="193.0305" height="69.01831" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1731.172" offsetY="2178.6" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Notes:</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="B2000000" width="0.5905511" />
+            </text>
+            <text>
+              <size width="85.65448" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="101.7765" offsetY="1115.74" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Qty</content>
+              <alignment>0</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="267.6703" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="187.431" offsetY="1115.74" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Part</content>
+              <alignment>0</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="396.152" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="455.1012" offsetY="1115.74" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Type</content>
+              <alignment>0</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="321.2043" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="851.2532" offsetY="1115.74" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="True" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Opening</content>
+              <alignment>0</alignment>
+              <lineAlignment>1</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <line>
+              <pen color="B2000000" width="0.5905511" />
+              <pt0 x="91.77648" y="1169.427" />
+              <pt1 x="1162.458" y="1169.427" />
+            </line>
+            <text>
+              <size width="75.65448" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="101.7765" offsetY="1171.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>2</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="257.6703" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="187.431" offsetY="1171.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Pull</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="386.152" height="98.99216" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="455.1012" offsetY="1171.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Rich BP10746140 - 6in</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="311.2043" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="851.2532" offsetY="1171.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>B</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="75.65448" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="101.7765" offsetY="1270.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>2</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="257.6703" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="187.431" offsetY="1270.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Pull</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="386.152" height="98.99216" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="455.1012" offsetY="1270.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Rich BP10748140 - 8in</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="311.2043" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="851.2532" offsetY="1270.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>A,C</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="75.65448" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="101.7765" offsetY="1369.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>4</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="257.6703" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="187.431" offsetY="1369.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Hinge</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="386.152" height="98.99216" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="455.1012" offsetY="1369.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Blum 110 / 0mm - 71B358180</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="311.2043" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="851.2532" offsetY="1369.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>B</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="75.65448" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="101.7765" offsetY="1468.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>4</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="257.6703" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="187.431" offsetY="1468.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Guide</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="386.152" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="455.1012" offsetY="1468.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>U58-Rich</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="311.2043" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="851.2532" offsetY="1468.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>A,C</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="75.65448" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="101.7765" offsetY="1520.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>2</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="257.6703" height="98.99216" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="187.431" offsetY="1520.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Drawer Front Fasteners</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="386.152" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="455.1012" offsetY="1520.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Dowel</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="311.2043" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="851.2532" offsetY="1520.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>A,C</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="75.65448" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="101.7765" offsetY="1619.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>40</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="257.6703" height="98.99216" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="187.431" offsetY="1619.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Joint Fastener</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="386.152" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="455.1012" offsetY="1619.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Dowels 1-4 V3</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="75.65448" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="101.7765" offsetY="1718.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>4</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="257.6703" height="98.99216" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="187.431" offsetY="1718.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Joint Fastener</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="386.152" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="455.1012" offsetY="1718.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Dowels 5-8 V3</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="75.65448" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="101.7765" offsetY="1817.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>8</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="257.6703" height="98.99216" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="187.431" offsetY="1817.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Joint Fastener</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="386.152" height="98.99216" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="455.1012" offsetY="1817.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Dowels (End to Back) 1-4 V3</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="75.65448" height="51.68749" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="101.7765" offsetY="1916.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>4</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="257.6703" height="98.99216" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="187.431" offsetY="1916.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Joint Fastener</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <text>
+              <size width="386.152" height="98.99216" />
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="455.1012" offsetY="1916.427" />
+              <fontSettings FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+              <fontColor>FF000000</fontColor>
+              <content>Dowels (End to Back) 5-8 V3</content>
+              <alignment>0</alignment>
+              <lineAlignment>0</lineAlignment>
+              <textRotation>0</textRotation>
+              <showBorder>False</showBorder>
+              <edgePenParams color="0" width="0" />
+            </text>
+            <schematic>
+              <schematicTagCode>1449640</schematicTagCode>
+              <schematicTagType>6</schematicTagType>
+              <name>Room 1 Cabinet 2 Left</name>
+              <baseName>Room 1 Cabinet 2 Left</baseName>
+              <isRescalable>True</isRescalable>
+              <pageUnitsPerFoot>300.6396484375</pageUnitsPerFoot>
+              <lockLayers>False</lockLayers>
+              <scaleLocked>False</scaleLocked>
+              <transform m00="1" m01="0" m10="0" m11="1" offsetX="1407.64" offsetY="1117.733" />
+              <children />
+              <DrawingSettings Version="5" SourceTemplate="Production" RotateFPLabels="False" RotateFPWallLabels="False" ReverseArchDoorSwings="False" PlanDrawMode="2" ElevationDrawMode="2" OrthoViewDrawMode="2" FaceInteriorDrawMode="2" FPNames="False" ElevNames="False" FPGrid="609.6" ElevGrid="304.8" FPDimOffsetSmall="True" FPDimPadding="5" FPDimFirstRowPadding="10" FPDimLineStyle="3" FPWallLabelsInWall="True" ElevDimOffsetSmall="True" ElevDimPadding="5" ElevDimFirstRowPadding="10" ElevDimLineStyle="3" ElevDimType="0" WallLabelRoomNumber="True" WallLabelRoomName="True" WallLabelWallLength="False" WallLabelWallHeight="False" OrthoDimOffsetSmall="True" OrthoDimPadding="2" OrthoDimFirstRowPadding="2" OrthoDimLineStyle="1" OrthoCrossSection="1" OrthoTrimCrossSection="False">
+                <LayerHidden LayerName="Elev - App Doors" Hidden="True" />
+                <LayerHidden LayerName="Applied Door Dimensions" Hidden="True" />
+                <LayerHidden LayerName="Face Product Label" Hidden="True" />
+                <LayerHidden LayerName="Face Product Label Product Name" Hidden="True" />
+                <LayerHidden LayerName="Interior Product Label" Hidden="True" />
+                <LayerHidden LayerName="Interior Product Label Product Name" Hidden="True" />
+                <LayerHidden LayerName="CabView Product Label" Hidden="True" />
+                <LayerHidden LayerName="CabView Product Label Product Name" Hidden="True" />
+                <LayerHidden LayerName="Room Operations" Hidden="True" />
+                <LayerHidden LayerName="Face Interior Sections" Hidden="True" />
+                <LayerHidden LayerName="Face Arch Door Swings" Hidden="True" />
+                <LayerHidden LayerName="Sink Center Dimensions" Hidden="True" />
+                <LayerHidden LayerName="Appliance Drawings" Hidden="False" />
+                <LayerHidden LayerName="Wall Fixture Drawings" Hidden="False" />
+                <LayerHidden LayerName="Non-numbered" Hidden="False" />
+                <LayerHidden LayerName="Arch Door Swings" Hidden="False" />
+                <LayerHidden LayerName="Opening Labels" Hidden="True" />
+                <LayerHidden LayerName="Special Depth Labels" Hidden="True" />
+                <LayerHidden LayerName="Frame Special Size Labels" Hidden="True" />
+                <LayerHidden LayerName="Open Section Labels" Hidden="False" />
+                <LayerHidden LayerName="Corner Cab Drawings" Hidden="False" />
+                <LayerHidden LayerName="Molding Drawings" Hidden="True" />
+                <LayerHidden LayerName="Top Drawings" Hidden="True" />
+                <LayerHidden LayerName="Plan - Depth" Hidden="False" />
+                <LayerHidden LayerName="" Hidden="True" />
+                <LayerHidden LayerName="Cabinet Opening Dimensions" Hidden="True" />
+                <LayerHidden LayerName="Cabinet End Labels" Hidden="True" />
+                <LayerHidden LayerName="Non-numbered Cabinet Labels" Hidden="True" />
+                <LayerHidden LayerName="Hardware" Hidden="False" />
+                <LayerHidden LayerName="Cabinet Labels" Hidden="False" />
+                <LayerHidden LayerName="Cabinet Door Swings" Hidden="True" />
+                <LayerHidden LayerName="Wall Fixtures" Hidden="False" />
+                <LayerHidden LayerName="Wall Labels" Hidden="False" />
+                <LayerHidden LayerName="Appliance Labels" Hidden="True" />
+                <LayerHidden LayerName="Wall Fixture Labels" Hidden="True" />
+                <LayerHidden LayerName="Cabinet Number Labels" Hidden="False" />
+                <LayerHidden LayerName="End Labels" Hidden="False" />
+                <LayerHidden LayerName="Insert Labels" Hidden="True" />
+                <LayerHidden LayerName="Opening Dimensions" Hidden="True" />
+                <LayerHidden LayerName="Selected Depth Labels" Hidden="True" />
+                <LayerHidden LayerName="Opening Widths" Hidden="True" />
+                <LayerHidden LayerName="Doors" Hidden="False" />
+                <LayerHidden LayerName="Countertops" Hidden="True" />
+                <LayerHidden LayerName="Corner X" Hidden="False" />
+                <LayerHidden LayerName="Elev - Toe Heights" Hidden="False" />
+                <LayerHidden LayerName="Grid" Hidden="True" />
+                <LayerHidden LayerName="Interior Wall Joints" Hidden="False" />
+                <LayerHidden LayerName="Countertop Cutouts" Hidden="True" />
+                <LayerHidden LayerName="Moldings" Hidden="False" />
+                <LayerHidden LayerName="Toe Skins" Hidden="True" />
+                <LayerHidden LayerName="Base Cabinets" Hidden="False" />
+                <LayerHidden LayerName="Room Label" Hidden="False" />
+                <LayerHidden LayerName="T Walls" Hidden="False" />
+                <LayerHidden LayerName="Plan - Wall" Hidden="False" />
+                <LayerHidden LayerName="Plan - Wall Cabs" Hidden="False" />
+                <LayerHidden LayerName="User Dimensions" Hidden="False" />
+                <LayerHidden LayerName="Product Space Borders" Hidden="True" />
+                <LayerHidden LayerName="Notes" Hidden="False" />
+                <LayerHidden LayerName="Walls" Hidden="False" />
+                <LayerHidden LayerName="Plan Dimensions" Hidden="False" />
+                <LayerHidden LayerName="Wall Label Borders" Hidden="True" />
+                <LayerHidden LayerName="Face" Hidden="False" />
+                <LayerHidden LayerName="Back" Hidden="False" />
+                <LayerHidden LayerName="Ends" Hidden="False" />
+                <LayerHidden LayerName="Top" Hidden="False" />
+                <LayerHidden LayerName="Bottom" Hidden="False" />
+                <LayerHidden LayerName="Inserts" Hidden="False" />
+                <LayerHidden LayerName="Interior" Hidden="False" />
+                <LayerHidden LayerName="Elev - Wall Length" Hidden="False" />
+                <LayerFont LayerName="Elev Dimensions">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Room Label">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan Dimensions">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Wall Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan - Base Cabs">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan - Depth">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan - Wall">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Plan - Wall Cabs">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Wall Fixture Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Base Cabs">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Cab Heights">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Wall Cabs">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Wall Height">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Elev - Wall Length">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Cabinet Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Cabinet Number Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="End Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Frame Size Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Frame Special Size Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Insert Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Open Section Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Opening Dimensions">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Opening Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Selected Depth Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Special Depth Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerFont LayerName="Appliance Labels">
+                  <FontSetting FontFace="Arial" FontSize="10" ScaleType="2" Bold="False" Italic="False" />
+                </LayerFont>
+                <LayerColor LayerName="Wall Labels" Color="-12550016" />
+                <LayerColor LayerName="Corner X" Color="-8355712" />
+                <LayerColor LayerName="Cabinet Labels" Color="Nothing" />
+                <LayerColor LayerName="Cabinet Number Labels" Color="-16776961" />
+                <LayerColor LayerName="Room Label" Color="-12550016" />
+                <LayerColor LayerName="Moldings" Color="-16777216" />
+              </DrawingSettings>
+            </schematic>
+          </objects>
+        </assemblySheet>
+      </assemblySheets>
+    </run>
+  </runs>
+</assemblySheetCollection>

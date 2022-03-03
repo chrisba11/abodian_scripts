@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RunRecords>
+  <CNCOperatorExportRunRecord Timestamp="1579870197.524" RunName="Export 1/24/2020">
+    <Material Name="CM White 3/4 W100 PRZ" />
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1605543431.969" RunName="11.16.20">
+    <Material Name="Absolute Acajou 3/4 WY160 PAN" />
+    <Material Name="Absolute Acajou 3/4 WY160 PAN [Matching Banding]" />
+    <Material Name="CM Birch PF 3/4 [Matching Banding]" />
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [Absolute Acajou Banding]" />
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" />
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [SELECT DOOR MATERIAL]" />
+    <Material Name="CM White 3/4 W100 PRZ" />
+    <Material Name="CM White 5/8 W100 PRZ" />
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1605543612.144" RunName="Export 11/16/2020">
+    <Material Name="Absolute Acajou 3/4 WY160 PAN" />
+    <Material Name="Absolute Acajou 3/4 WY160 PAN [Matching Banding]" />
+    <Material Name="CM Birch PF 3/4 [Matching Banding]" />
+    <Material Name="CM Hardrock Maple 3/4 WF275 PRZ [Absolute Acajou Banding]" />
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [Matching Banding]" />
+    <Material Name="CM Hardrock Maple 5/8 WF275 PRZ [SELECT DOOR MATERIAL]" />
+    <Material Name="CM White 3/4 W100 PRZ" />
+    <Material Name="CM White 5/8 W100 PRZ" />
+  </CNCOperatorExportRunRecord>
+  <CNCOperatorExportRunRecord Timestamp="1632496062.40879" RunName="JS Test 9.24.21">
+    <Material Name="MDF 3/4 [1] BSAW">
+      <Pattern Name="Pattern #1" />
+    </Material>
+  </CNCOperatorExportRunRecord>
+</RunRecords>
