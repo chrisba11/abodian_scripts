@@ -1,11 +1,16 @@
 import os
 from openpyxl.workbook import Workbook
 from openpyxl.styles import Border, Side, Alignment, Font
+from datetime import datetime
 
 
 # This is to ask for the directory path at the command prompt
 dir_path = input('What is the full directory path? ')
+rooms_string = input('Which rooms should be included in this report? List the room integers only, separated by commas and no spaces. Include "0" if you want Order Entry included. If all rooms, type "all". ').lower()
+rooms_in_report = rooms_string.split(',')
 
+now = datetime.now()
+now_string = now.strftime("%m.%d.%Y-%H.%M.%S")
 
 def product_list_with_notes():
     """
@@ -44,6 +49,8 @@ def product_list_with_notes():
                 rm_start_idx = content[2].find('Name=') + 6
                 rm_end_idx = content[2].find('" RoomNosDirty=')
                 room_num = int(file[4:file.find('.')])
+                if room_num not in rooms_in_report and 'all' not in rooms_in_report:
+                    continue
                 room_name = content[2][rm_start_idx:rm_end_idx] + ' (Room' + str(room_num) + ')'
                 prod_dict[room_num] = [room_name,[]]
                                 
@@ -76,86 +83,99 @@ def product_list_with_notes():
                             prod_dict[room_num][1].append([prod_name, full_prod_num, note])
 
 
-    wb = Workbook()
-    sheet1 = wb.active
-    row = 1
-    col = 1
-    room_key = 0
+    if len(prod_dict) > 0:
+        wb = Workbook()
+        sheet1 = wb.active
+        row = 1
+        col = 1
+        room_key = 0
 
-    sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 2)
-    sheet1.cell(row, col, job_name + ' - Special Notes')
-    sheet1.cell(row, col).alignment = Alignment(vertical='top')
-    sheet1.cell(row, col).font = Font(size=12, bold=True, italic=True)
-    sheet1.row_dimensions[1].height = 25
-    row += 1
+        for i in range(len(prod_dict)):
+            if prod_dict[room_key][1] != []:
+                sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 2)
+                sheet1.cell(row, col, prod_dict[room_key][0])
+                sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='center')
+                sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
+                row += 1
 
-    for i in range(len(prod_dict)):
-        if prod_dict[room_key][1] != []:
-            sheet1.merge_cells(start_row=row, start_column=col, end_row=row, end_column=col + 2)
-            sheet1.cell(row, col, prod_dict[room_key][0])
-            sheet1.cell(row, col).alignment = Alignment(wrapText=True, horizontal='center')
-            sheet1.cell(row, col).font = Font(size=14, bold=True, underline='single')
-            row += 1
-
-            sheet1.cell(row, col, 'Product Name')
-            sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=1.0)
-            sheet1.cell(row, col).font = Font(size=12, italic=True)
-            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-            col += 1
-
-            sheet1.cell(row, col, 'CabNo')
-            sheet1.cell(row, col).alignment = Alignment(horizontal='center')
-            sheet1.cell(row, col).font = Font(size=12, italic=True)
-            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-            col += 1
-
-            sheet1.cell(row, col, 'Notes')
-            sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=1.0)
-            sheet1.cell(row, col).font = Font(size=12, italic=True)
-            sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
-            col -= 2
-            row += 1
-
-
-            for prod in prod_dict[room_key][1]:
-                sheet1.cell(row, col, prod[0])
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
-                sheet1.cell(row, col).font = Font(size=10)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                sheet1.cell(row, col, 'Product Name')
+                sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=1.0)
+                sheet1.cell(row, col).font = Font(size=12, italic=True)
+                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
                 col += 1
 
-                sheet1.cell(row, col, prod[1])
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='center')
-                sheet1.cell(row, col).font = Font(size=10)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                sheet1.cell(row, col, 'CabNo')
+                sheet1.cell(row, col).alignment = Alignment(horizontal='center')
+                sheet1.cell(row, col).font = Font(size=12, italic=True)
+                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
                 col += 1
-                
-                sheet1.cell(row, col, prod[2])
-                sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
-                sheet1.cell(row, col).font = Font(size=10)
-                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+
+                sheet1.cell(row, col, 'Notes')
+                sheet1.cell(row, col).alignment = Alignment(horizontal='general', indent=1.0)
+                sheet1.cell(row, col).font = Font(size=12, italic=True)
+                sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='000000'))
                 col -= 2
                 row += 1
 
-            row += 1
-        room_key += 1
 
-    sheet1.column_dimensions['A'].width = 25
-    sheet1.column_dimensions['B'].width = 8
-    sheet1.column_dimensions['C'].width = 50
-    
-    print_area = 'A1:C' + str(row)
-    sheet1.print_area = print_area
-    
-    save_name = job_name + ' - Special Notes' + '.xlsx'
-    full_save_name = os.path.join(dir_path, save_name)
-    try:
-        wb.save(full_save_name)
-    except PermissionError:
-        print("\nSAVE FAILED\nYou will need to close the open file before it can be saved.")
+                for prod in prod_dict[room_key][1]:
+                    sheet1.cell(row, col, prod[0])
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
+                    sheet1.cell(row, col).font = Font(size=10)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                    col += 1
 
-    os.startfile(full_save_name)
+                    sheet1.cell(row, col, prod[1])
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', horizontal='center')
+                    sheet1.cell(row, col).font = Font(size=10)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                    col += 1
+                    
+                    sheet1.cell(row, col, prod[2])
+                    sheet1.cell(row, col).alignment = Alignment(wrapText=True, vertical='top', indent=1.0)
+                    sheet1.cell(row, col).font = Font(size=10)
+                    sheet1.cell(row, col).border = Border(bottom=Side(style='thin', color='D4D4D4'))
+                    col -= 2
+                    row += 1
+
+                row += 1
+            room_key += 1
+
+        sheet1.column_dimensions['A'].width = 32
+        sheet1.column_dimensions['B'].width = 8
+        sheet1.column_dimensions['C'].width = 55
+
+        sheet1.page_margins.left = 0.5
+        sheet1.page_margins.right = 0.5
+        sheet1.page_margins.top = 1.0
+        sheet1.page_margins.bottom = 0.5
+        sheet1.page_margins.footer = 0.25
+        sheet1.page_margins.header = 0.375
+
+
+        sheet1.oddHeader.left.text = job_name + ' - Special Notes (Rooms: ' + rooms_string + ')'
+        sheet1.oddHeader.left.size = 12
+        sheet1.oddHeader.left.color = "000000"
+        sheet1.oddFooter.right.text = "Page &[Page] of &N"
+        sheet1.oddFooter.right.size = 10
+        sheet1.oddFooter.right.color = "000000"
+        
+        print_area = 'A1:C' + str(row)
+        sheet1.print_area = print_area
+        
+        save_name = job_name + ' - Special Notes'  + rooms_string + " - " + now_string + '.xlsx'
+        full_save_name = os.path.join(dir_path, save_name)
+        try:
+            wb.save(full_save_name)
+        except PermissionError:
+            print("\nSAVE FAILED\nYou will need to close the open file before it can be saved.")
+
+        os.startfile(full_save_name)
     
+    else:
+        print("\nThere are no special notes in the rooms you specified.")
+
+        
 product_list_with_notes()
 
-input("Press Enter to Close")
+input("\nPress Enter to Close")

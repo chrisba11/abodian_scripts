@@ -194,8 +194,8 @@ def inserts_list():
         os.startfile(full_save_name)
     
     else:
-        print("There are no inserts in the rooms you specified.")
+        print("\nThere are no inserts in the rooms you specified.")
     
 inserts_list()
 
-input("Press Enter to Close")
+input("\nPress Enter to Close")
