@@ -68,19 +68,20 @@ def inserts_list():
 
                         
                     if line.startswith('          <Insert'):
-                        insert_start_idx = line.find('Name=') + 5
-                        insert_end_idx = line.find('" Library=')
-                        insert_name = line[insert_start_idx + 1:insert_end_idx]
+                        if 'GraphicOnly="False"' in line:
+                            insert_start_idx = line.find('Name=') + 5
+                            insert_end_idx = line.find('" Library=')
+                            insert_name = line[insert_start_idx + 1:insert_end_idx]
 
-                        opening_start_idx = line.find('<Insert') + 7
-                        opening_end_idx = line.find('Count=')
-                        opening_name = line[opening_start_idx:opening_end_idx]
+                            opening_start_idx = line.find('<Insert') + 7
+                            opening_end_idx = line.find('Count=')
+                            opening_name = line[opening_start_idx:opening_end_idx]
 
-                        for char in xml_char_ents:
-                            prod_name = prod_name.replace(char[0], char[1])
-                            insert_name = insert_name.replace(char[0], char[1])
+                            for char in xml_char_ents:
+                                prod_name = prod_name.replace(char[0], char[1])
+                                insert_name = insert_name.replace(char[0], char[1])
 
-                        inserts.append([insert_name, opening_name])
+                            inserts.append([insert_name, opening_name])
 
                                               
                     if line.startswith('    </Product>'):
