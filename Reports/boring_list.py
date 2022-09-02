@@ -67,6 +67,8 @@ def hinge_boring_report():
     job_name = dir_path_lst[-1]
 
     product_dict = {}
+    is_blind = False
+
 
 # #    product_dict sample
 #     product_dict = {
@@ -286,7 +288,7 @@ def hinge_boring_report():
                         end_idx = line.find('" W=')
                         quantity = line[start_idx:end_idx]
 
-                        # add to door dict of quantity > 0
+                        # add to door dict if quantity > 0
                         if int(quantity) > 0:
                             door["Name"] = door_name
                             door["ReportName"] = report_name
@@ -294,9 +296,71 @@ def hinge_boring_report():
                             door["Quan"] = int(quantity)
 
 
+                    # If there is a door, append it to the list
                     if line.startswith('        </ProductDoor>'):
                         if "Quan" in door:
                             doors.append(door)
+
+
+                    # Check for blind panels and add them
+                    if line.startswith('        <CabProdPart Name="Panel" ReportName=" Blind Panel'):
+                        door = {}
+                        is_blind = True
+
+                        # door name
+                        start_idx = line.find('Name=') + 6
+                        end_idx = line.find('" ReportName=')
+                        door_name = line[start_idx:end_idx]
+                        
+                        # report name
+                        start_idx = end_idx + 14
+                        end_idx = line.find('" UsageType=')
+                        report_name = line[start_idx:end_idx]
+
+                        # comment
+                        start_idx = line.find('Comment=') + 9
+                        end_idx = line.find('" CommentLocked=')
+                        comment = line[start_idx:end_idx]
+
+                        # quantity
+                        start_idx = line.find('Quan=') + 6
+                        end_idx = line.find('" W=')
+                        quantity = line[start_idx:end_idx]
+
+                        # width
+                        start_idx = end_idx + 5
+                        end_idx = line.find('" L=')
+                        width = float(line[start_idx:end_idx])
+                        
+                        # length
+                        start_idx = end_idx + 5
+                        end_idx = line.find('" Color=')
+                        height = float(line[start_idx:end_idx])
+
+
+                        # add to door dict if quantity > 0
+                        if int(quantity) > 0:
+                            door["Name"] = door_name
+                            door["ReportName"] = report_name
+                            door["Comment"] = comment
+                            door["Quan"] = int(quantity)
+                            door["DoorStyle"] = door_name
+                            door["W"] = width
+                            door["H"] = height
+                            door["HingeCenterLines"] = ''
+                            door["HingeEdge"] = ''
+                            door["HingeType"] = ''
+                            door["IsHorizGrain"] = False
+                    
+
+                    # If there is a door, append it to the list
+                    if line.startswith('        </CabProdPart>'):
+                        if is_blind:
+                            if "Quan" in door:
+                                doors.append(door)
+                                is_blind = False
+
+
 
 
     sorted_product_dict = {}
