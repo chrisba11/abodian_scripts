@@ -353,7 +353,7 @@ def hinge_boring_report():
                             door["IsHorizGrain"] = False
                     
 
-                    # If there is a door, append it to the list
+                    # If is_blind is True and there is a door, append it to the list
                     if line.startswith('        </CabProdPart>'):
                         if is_blind:
                             if "Quan" in door:
