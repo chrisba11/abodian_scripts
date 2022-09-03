@@ -1,0 +1,72 @@
+1
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PricingTemplateRuns>
+  <PricingTemplateRun Name="1. Material List (Apr 08, 22)" CreationDate="1649407362.391" Refreshable="True">
+    <PricingTemplate Name="1. Material List" IsTaxableColumnViewable="False" IsItemColumnViewable="True" IsDescriptionColumnViewable="False" IsQTYColumnViewable="True" IsUnitsColumnViewable="True" IsAmountColumnViewable="False" IsMarkupColumnViewable="False" IsTotalColumnViewable="False" ShowMyCost="False">
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="101" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="CM Birch PF 5/8 ADJ [Matching Banding]" Units="0" IDTag="CM Birch PF 5/8 ADJ [Matching Banding]" SortTag="CM Birch PF 5/8 ADJ [Matching Banding]" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Birch PF 5/8 BACK [Matching Banding]" Units="0" IDTag="CM Birch PF 5/8 BACK [Matching Banding]" SortTag="CM Birch PF 5/8 BACK [Matching Banding]" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Birch PF 5/8 DRAWER [Matching Banding]" Units="0" IDTag="CM Birch PF 5/8 DRAWER [Matching Banding]" SortTag="CM Birch PF 5/8 DRAWER [Matching Banding]" QTY="6" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Birch PF 5/8 GABLE [Night Blue Matte Banding]" Units="0" IDTag="CM Birch PF 5/8 GABLE [Night Blue Matte Banding]" SortTag="CM Birch PF 5/8 GABLE [Night Blue Matte Banding]" QTY="8" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Birch PF 5/8 GABLE [White STN101 Banding]" Units="0" IDTag="CM Birch PF 5/8 GABLE [White STN101 Banding]" SortTag="CM Birch PF 5/8 GABLE [White STN101 Banding]" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Birch PF 5/8 SHELF [Night Blue Matte Banding]" Units="0" IDTag="CM Birch PF 5/8 SHELF [Night Blue Matte Banding]" SortTag="CM Birch PF 5/8 SHELF [Night Blue Matte Banding]" QTY="5" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="CM Birch PF 5/8 SHELF [White STN101 Banding]" Units="0" IDTag="CM Birch PF 5/8 SHELF [White STN101 Banding]" SortTag="CM Birch PF 5/8 SHELF [White STN101 Banding]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Night Blue Matte 2S 3/4 P3003 AGT DOORS [Matching Banding]" Units="0" IDTag="Night Blue Matte 2S 3/4 P3003 AGT DOORS [Matching Banding]" SortTag="Night Blue Matte 2S 3/4 P3003 AGT DOORS [Matching Banding]" QTY="4" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Night Blue Matte 2S 3/4 P3003 AGT PARTS [Matching Banding]" Units="0" IDTag="Night Blue Matte 2S 3/4 P3003 AGT PARTS [Matching Banding]" SortTag="Night Blue Matte 2S 3/4 P3003 AGT PARTS [Matching Banding]" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Night Blue Matte 2S 3/4 P3003 AGT PARTS [Matching Banding] BSAW" Units="0" IDTag="Night Blue Matte 2S 3/4 P3003 AGT PARTS [Matching Banding] BSAW" SortTag="Night Blue Matte 2S 3/4 P3003 AGT PARTS [Matching Banding] BSAW" QTY="3" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="NONE" Units="0" IDTag="NONE" SortTag="NONE" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Raw Toe Material 5/8" Units="0" IDTag="Raw Toe Material 5/8" SortTag="Raw Toe Material 5/8" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="White Matte 1S 3/4 P734 AGT DOORS [Matching Banding]" Units="0" IDTag="White Matte 1S 3/4 P734 AGT DOORS [Matching Banding]" SortTag="White Matte 1S 3/4 P734 AGT DOORS [Matching Banding]" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="White Matte 1S 3/4 P734 AGT PARTS [Matching Banding]" Units="0" IDTag="White Matte 1S 3/4 P734 AGT PARTS [Matching Banding]" SortTag="White Matte 1S 3/4 P734 AGT PARTS [Matching Banding]" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="White Matte 1S 3/4 P734 AGT PARTS [Matching Banding] BSAW" Units="0" IDTag="White Matte 1S 3/4 P734 AGT PARTS [Matching Banding] BSAW" SortTag="White Matte 1S 3/4 P734 AGT PARTS [Matching Banding] BSAW" QTY="1" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="102" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\LeMans II 60 - Maple - Left Opening - 6935140150" Units="0" IDTag="Cabinet Accessories\LeMans II 60 - Maple - Left Opening - 6935140150" SortTag="Cabinet Accessories\LeMans II 60 - Maple - Left Opening - 6935140150" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Rev-A-Shelf heavy-Duty Appliance Lift - Maple - MLMPHDSCCR18 " Units="0" IDTag="Cabinet Accessories\Rev-A-Shelf heavy-Duty Appliance Lift - Maple - MLMPHDSCCR18 " SortTag="Cabinet Accessories\Rev-A-Shelf heavy-Duty Appliance Lift - Maple - MLMPHDSCCR18 " QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Rev-A-Shelf wood Spice Drawer Insert - 22in - 4SDI24" Units="0" IDTag="Cabinet Accessories\Rev-A-Shelf wood Spice Drawer Insert - 22in - 4SDI24" SortTag="Cabinet Accessories\Rev-A-Shelf wood Spice Drawer Insert - 22in - 4SDI24" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Spice PO - Left Mount (3) Shelf 7.75in - WEBKIT1214711" Units="0" IDTag="Cabinet Accessories\Spice PO - Left Mount (3) Shelf 7.75in - WEBKIT1214711" SortTag="Cabinet Accessories\Spice PO - Left Mount (3) Shelf 7.75in - WEBKIT1214711" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Spice PO - Right Mount (3) Shelf 10.375in - WEBKIT1214717" Units="0" IDTag="Cabinet Accessories\Spice PO - Right Mount (3) Shelf 10.375in - WEBKIT1214717" SortTag="Cabinet Accessories\Spice PO - Right Mount (3) Shelf 10.375in - WEBKIT1214717" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Universal 90 Degree Bracket Nickel (x5) - 04-3514" Units="0" IDTag="Cabinet Accessories\Universal 90 Degree Bracket Nickel (x5) - 04-3514" SortTag="Cabinet Accessories\Universal 90 Degree Bracket Nickel (x5) - 04-3514" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" Units="0" IDTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" SortTag="Cabinet Accessories\Waste Pullout - K-Waste Dual 52qt (Gray) - WEBKIT1216909" QTY="1" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Cabinet Accessories\Wood Cutlery and Knife Insert for Large Drawer - 4WUTKB361" Units="0" IDTag="Cabinet Accessories\Wood Cutlery and Knife Insert for Large Drawer - 4WUTKB361" SortTag="Cabinet Accessories\Wood Cutlery and Knife Insert for Large Drawer - 4WUTKB361" QTY="2" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="103" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="0.5mm Apple Spice 4274 DOL" Units="6" IDTag="0.5mm Apple Spice 4274 DOL" SortTag="0.5mm Apple Spice 4274 DOL" QTY="162.920931718480780" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm Mysterious Velvet SF247 PRZ" Units="6" IDTag="0.5mm Mysterious Velvet SF247 PRZ" SortTag="0.5mm Mysterious Velvet SF247 PRZ" QTY="172.645669771930322" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="0.5mm White STN101 TEK" Units="6" IDTag="0.5mm White STN101 TEK" SortTag="0.5mm White STN101 TEK" QTY="66.79855667074200" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm Night Blue Matte P3003 AGT" Units="6" IDTag="1mm Night Blue Matte P3003 AGT" SortTag="1mm Night Blue Matte P3003 AGT" QTY="415.288226160164518" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="1mm White Matte P734 AGT" Units="6" IDTag="1mm White Matte P734 AGT" SortTag="1mm White Matte P734 AGT" QTY="190.217726699949284" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="108" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Hettich - Sensys 110 / 3mm - 9071226" Units="0" IDTag="Hettich - Sensys 110 / 3mm - 9071226" SortTag="Hettich - Sensys 110 / 3mm - 9071226" QTY="52" Amount="2.6" Total="135.2" />
+        <PricingTemplateSubRow ItemName="Hettich - Sensys Blind 95 / 3mm - 9088045" Units="0" IDTag="Hettich - Sensys Blind 95 / 3mm - 9088045" SortTag="Hettich - Sensys Blind 95 / 3mm - 9088045" QTY="4" Amount="2.6" Total="10.4" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="109" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="828300" Units="0" IDTag="828300" SortTag="828300" QTY="2" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="828500" Units="0" IDTag="828500" SortTag="828500" QTY="22" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="110" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="None" Units="0" IDTag="None" SortTag="None" QTY="41" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="None (for real though)" Units="0" IDTag="None (for real though)" SortTag="None (for real though)" QTY="4" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="114" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="U58-Rich-RO Dovetail 16mm Spacers" Units="0" IDTag="U58-Rich-RO Dovetail 16mm Spacers" SortTag="U58-Rich-RO Dovetail 16mm Spacers" QTY="42" Amount="0" Total="0" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="113" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0" />
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="115" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Back Screws" Units="0" IDTag="Back Screws" SortTag="Back Screws" QTY="78" Amount="0" Total="0" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 1-4 V3" Units="0" IDTag="Dowels (End to Back) 1-4 V3" SortTag="Dowels (End to Back) 1-4 V3" QTY="200" Amount="0.001785" Total="0.36" />
+        <PricingTemplateSubRow ItemName="Dowels (End to Back) 5-8 V3" Units="0" IDTag="Dowels (End to Back) 5-8 V3" SortTag="Dowels (End to Back) 5-8 V3" QTY="96" Amount="0.001785" Total="0.17" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 1-2 V3" Units="0" IDTag="Dowels (End to TRB) 1-2 V3" SortTag="Dowels (End to TRB) 1-2 V3" QTY="8" Amount="0.001785" Total="0.01" />
+        <PricingTemplateSubRow ItemName="Dowels (End to TRB) 3 V3" Units="0" IDTag="Dowels (End to TRB) 3 V3" SortTag="Dowels (End to TRB) 3 V3" QTY="0" Amount="0.001785" Total="0.00" />
+        <PricingTemplateSubRow ItemName="Dowels 1-4 V3" Units="0" IDTag="Dowels 1-4 V3" SortTag="Dowels 1-4 V3" QTY="408" Amount="0.001785" Total="0.73" />
+        <PricingTemplateSubRow ItemName="Dowels 5-8 V3" Units="0" IDTag="Dowels 5-8 V3" SortTag="Dowels 5-8 V3" QTY="84" Amount="0.001785" Total="0.15" />
+      </PricingTemplateRow>
+      <PricingTemplateRow Include="True" Tax="True" RowTypeTypeCode="116" Description="" MarkupPercentage="0" Amount="0" QTY="0" Total="0">
+        <PricingTemplateSubRow ItemName="Notched Toe" Units="0" IDTag="Notched Toe" SortTag="Notched Toe" QTY="15" Amount="0" Total="0" />
+      </PricingTemplateRow>
+    </PricingTemplate>
+    <PricingTemplateFilter RoomIndices="" CabFilterString="" />
+    <ReportFilename Filename="1. Material List (Apr 08, 22)" />
+  </PricingTemplateRun>
+</PricingTemplateRuns>

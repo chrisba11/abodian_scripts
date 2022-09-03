@@ -7,7 +7,7 @@ from datetime import datetime
 
 
 # This is to ask for the directory path at the command prompt
-dir_path = input('What is the full directory path for the job? ')
+dir_path = os.path.normpath(input('What is the full directory path for the job? '))
 rooms_string = input('Which rooms should be included in this report? List the room integers only, separated by commas and no spaces. Include "0" if you want Order Entry included. If all rooms, type "all". ').lower()
 rooms_in_report = rooms_string.split(',')
 
@@ -59,6 +59,63 @@ def mm_to_in(metric_decimal):
 
     return inches
 
+
+class Room:
+    def __init__(self, number, mat_door_template):
+        self.number            = number
+        self.mat_door_template = mat_door_template
+        self.products          = []
+
+
+class Product:
+    def __init__(self, unique_id, name, cab_num, door_mat_override):
+        self.unique_id         = unique_id
+        self.name              = name
+        self.cab_num           = cab_num
+        self.door_mat_override = door_mat_override
+        self.doors             = []
+    
+    def add_door(self, door):
+        self.doors.append(door)
+    
+    def get_doors(self):
+        return self.doors
+
+
+class Door:
+    def __init__(self, name=None, report_name=None, door_style=None,
+                width=None, height=None, comment=None, quantity=0,
+                hinge_type=None, hinge_edge=None,
+                hinge_centers=None, horizontal_grain=False):
+
+        self.name          = name
+        self.report_name   = report_name
+        self.comment       = comment
+        self.door_style    = door_style
+        self.width         = width
+        self.height        = height
+        self.quantity      = quantity
+        self.hinge_type    = hinge_type
+        self.hinge_edge    = hinge_edge
+        self.hinge_centers = hinge_centers
+        self.horizontal    = horizontal_grain
+
+
+class Material:
+    def __init__(self, name):
+        self.name = name
+
+
+class DoorStyle:
+    def __init__(self, name):
+        self.name = name
+
+
+class HingeType:
+    def __init__(self, name):
+        self.name = name
+
+
 def hinge_boring_report():
     """
 
@@ -68,6 +125,8 @@ def hinge_boring_report():
 
     product_dict = {}
     is_blind = False
+
+    room_list = []
 
 
 # #    product_dict sample
@@ -152,10 +211,9 @@ def hinge_boring_report():
 
             if file.endswith('.des'):
 
-                full_path = dir_path + '\\' + file
-                f = open(full_path, "rt")
-                content = f.readlines()
-                f.close()
+                full_path = os.path.join(dir_path, file)
+                with open(full_path, "rt") as f:
+                    content = f.readlines()
 
                 # room settings
                 room_num = file[4:file.find('.')]
@@ -166,17 +224,15 @@ def hinge_boring_report():
                 mat_temp_end_idx = content[4].find('" MatDrawerTemplate=')
                 room_mat_door_template = content[4][mat_temp_start_idx:mat_temp_end_idx]
 
-                # add room to product list dictionary
-                product_dict[room_num] = {
-                    "MatDoorTemplate": room_mat_door_template,
-                    "Products": {}
-                }
+                ## instantiate room
+                room = Room(number=room_num, mat_door_template=room_mat_door_template)
+                ## add room to room list
+                room_list.append(room)
 
                 # set products var to current room's products list
-                products = product_dict[room_num]["Products"]
+                # products = product_dict[room_num]["Products"]
 
                 # declaring variables that are used in multiple scopes
-                doors = None
                 door = None
 
                 for line in content:
@@ -205,66 +261,59 @@ def hinge_boring_report():
                         end_idx = line.find('" MatDrawerOR=')
                         door_mat_or = line[start_idx:end_idx] if line[start_idx:end_idx] != '' else None
 
+                        # instantiate product
+                        product = Product(unique_id, prod_name, prod_num, door_mat_or)
                         # add product to room's product list
-                        products[num_prefix + prod_num] = {
-                            "UniqueID": unique_id,
-                            "Name": prod_name,
-                            "MatOR": door_mat_or,
-                            "Doors": []
-                        }
-
-                        # set doors var to current product's door list
-                        doors = products[num_prefix + prod_num]["Doors"]
+                        room.products.append(product)
 
 
                     if line.startswith('        <ProductDoor '):
-                        door = {}
+                        # instantiate door
+                        door = Door()
 
                         # door style
                         start_idx = line.find('DoorStyle=') + 11
                         end_idx = line.find('" W=')
                         door_style = line[start_idx:end_idx]
+                        door.door_style = door_style
 
                         # width
                         start_idx = end_idx + 5
                         end_idx = line.find('" H=')
                         width = float(line[start_idx:end_idx])
+                        door.width = width
                         
                         # height
                         start_idx = end_idx + 5
                         end_idx = line.find('" Oversize=')
                         height = float(line[start_idx:end_idx])
+                        door.height = height
 
                         # hinge center lines
                         start_idx = line.find('HingeCenterLines=') + 18
                         end_idx = line.find('" HingeEdge=')
                         hinge_centers = line[start_idx:end_idx].split('#')
                         hinge_centers = [float(i) for i in hinge_centers if i != '']
+                        door.hinge_centers = hinge_centers
 
                         # hinge edge
                         start_idx = end_idx + 13
                         end_idx = line.find('" HingeType=')
                         hinge_edge = line[start_idx:end_idx]
+                        door.hinge_edge = hinge_edge
 
                         # hinge type
                         start_idx = end_idx + 13
                         end_idx = line.find('" IsDrawerFront=')
                         hinge_type = line[start_idx:end_idx]
+                        door.hinge_type = hinge_type
 
                         # horizontal grain?
                         start_idx = line.find('IsHorizGrain=') + 14
                         end_idx = line.find('" DoorType=')
                         horizontal = line[start_idx:end_idx]
                         horizontal = True if horizontal == 'True' else False
-
-                        # add to door dict
-                        door["DoorStyle"] = door_style
-                        door["W"] = width
-                        door["H"] = height
-                        door["HingeCenterLines"] = hinge_centers
-                        door["HingeEdge"] = hinge_edge
-                        door["HingeType"] = hinge_type
-                        door["IsHorizGrain"] = horizontal
+                        door.horizontal = horizontal
 
 
                     if line.startswith('          <DoorProdPart '):
@@ -272,96 +321,92 @@ def hinge_boring_report():
                         start_idx = line.find('Name=') + 6
                         end_idx = line.find('" ReportName=')
                         door_name = line[start_idx:end_idx]
+                        door.name = door_name
                         
                         # report name
                         start_idx = end_idx + 14
                         end_idx = line.find('" UsageType=')
                         report_name = line[start_idx:end_idx]
+                        door.report_name = report_name
 
                         # comment
                         start_idx = line.find('Comment=') + 9
                         end_idx = line.find('" CommentLocked=')
                         comment = line[start_idx:end_idx]
+                        door.comment = comment
 
                         # quantity
                         start_idx = line.find('Quan=') + 6
                         end_idx = line.find('" W=')
                         quantity = line[start_idx:end_idx]
-
-                        # add to door dict if quantity > 0
-                        if int(quantity) > 0:
-                            door["Name"] = door_name
-                            door["ReportName"] = report_name
-                            door["Comment"] = comment
-                            door["Quan"] = int(quantity)
+                        door.quantity = int(quantity)
 
 
                     # If there is a door, append it to the list
                     if line.startswith('        </ProductDoor>'):
-                        if "Quan" in door:
-                            doors.append(door)
+                        if door.quantity > 0:
+                            product.doors.append(door)
 
 
                     # Check for blind panels and add them
                     if line.startswith('        <CabProdPart Name="Panel" ReportName=" Blind Panel'):
-                        door = {}
+                        door = Door()
                         is_blind = True
 
                         # door name
                         start_idx = line.find('Name=') + 6
-                        end_idx = line.find('" ReportName=')
+                        end_idx   = line.find('" ReportName=')
                         door_name = line[start_idx:end_idx]
+                        door.name = door_name
                         
                         # report name
-                        start_idx = end_idx + 14
-                        end_idx = line.find('" UsageType=')
-                        report_name = line[start_idx:end_idx]
+                        start_idx        = end_idx + 14
+                        end_idx          = line.find('" UsageType=')
+                        report_name      = line[start_idx:end_idx]
+                        door.report_name = report_name
 
                         # comment
-                        start_idx = line.find('Comment=') + 9
-                        end_idx = line.find('" CommentLocked=')
-                        comment = line[start_idx:end_idx]
+                        start_idx    = line.find('Comment=') + 9
+                        end_idx      = line.find('" CommentLocked=')
+                        comment      = line[start_idx:end_idx]
+                        door.comment = comment
 
                         # quantity
-                        start_idx = line.find('Quan=') + 6
-                        end_idx = line.find('" W=')
-                        quantity = line[start_idx:end_idx]
+                        start_idx     = line.find('Quan=') + 6
+                        end_idx       = line.find('" W=')
+                        quantity      = line[start_idx:end_idx]
+                        door.quantity = quantity
 
                         # width
-                        start_idx = end_idx + 5
-                        end_idx = line.find('" L=')
-                        width = float(line[start_idx:end_idx])
+                        start_idx  = end_idx + 5
+                        end_idx    = line.find('" L=')
+                        width      = float(line[start_idx:end_idx])
+                        door.width = width
                         
                         # length
-                        start_idx = end_idx + 5
-                        end_idx = line.find('" Color=')
-                        height = float(line[start_idx:end_idx])
+                        start_idx   = end_idx + 5
+                        end_idx     = line.find('" Color=')
+                        height      = float(line[start_idx:end_idx])
+                        door.height = height
 
-
-                        # add to door dict if quantity > 0
-                        if int(quantity) > 0:
-                            door["Name"] = door_name
-                            door["ReportName"] = report_name
-                            door["Comment"] = comment
-                            door["Quan"] = int(quantity)
-                            door["DoorStyle"] = door_name
-                            door["W"] = width
-                            door["H"] = height
-                            door["HingeCenterLines"] = ''
-                            door["HingeEdge"] = ''
-                            door["HingeType"] = ''
-                            door["IsHorizGrain"] = False
+                        # append defaults for blind panels
+                        door.hinge_centers = ''
+                        door.hinge_edge    = ''
+                        door.hinge_type    = ''
+                        door.horizontal    = False
                     
 
                     # If is_blind is True and there is a door, append it to the list
                     if line.startswith('        </CabProdPart>'):
                         if is_blind:
-                            if "Quan" in door:
-                                doors.append(door)
+                            if door.quantity > 0:
+                                product.doors.append(door)
                                 is_blind = False
 
 
-
+    ####
+    # Start back here with converting to OOP
+    ####
 
     sorted_product_dict = {}
     materials = set()
