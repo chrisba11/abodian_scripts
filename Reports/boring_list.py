@@ -123,7 +123,7 @@ def hinge_boring_report():
     dir_path_lst = dir_path.split('\\')
     job_name = dir_path_lst[-1]
 
-    product_dict = {}
+    # product_dict = {}
     is_blind = False
 
     room_list = []
@@ -225,7 +225,7 @@ def hinge_boring_report():
                 room_mat_door_template = content[4][mat_temp_start_idx:mat_temp_end_idx]
 
                 ## instantiate room
-                room = Room(number=room_num, mat_door_template=room_mat_door_template)
+                room = Room(number=int(room_num), mat_door_template=room_mat_door_template)
                 ## add room to room list
                 room_list.append(room)
 
@@ -240,7 +240,7 @@ def hinge_boring_report():
                         # product number
                         start_idx = line.find('CabNo=') + 7
                         end_idx = line.find('" Numbered=')
-                        prod_num = line[start_idx:end_idx]
+                        cab_num = line[start_idx:end_idx]
                         
                         # product number prefix
                         start_idx = end_idx + 12
@@ -262,7 +262,7 @@ def hinge_boring_report():
                         door_mat_or = line[start_idx:end_idx] if line[start_idx:end_idx] != '' else None
 
                         # instantiate product
-                        product = Product(unique_id, prod_name, prod_num, door_mat_or)
+                        product = Product(unique_id, prod_name, cab_num, door_mat_or)
                         # add product to room's product list
                         room.products.append(product)
 
@@ -414,17 +414,23 @@ def hinge_boring_report():
     hinge_types = set()
     std_hinge_dist = 101.6
 
-    for _room in product_dict:
-        __room = product_dict[_room]
-        mat = __room["MatDoorTemplate"]
+    # for _room in product_dict:
+    #     __room = product_dict[_room]
+    #     mat = __room["MatDoorTemplate"]
+    #     # if material does not exist in sorted product list, add it
+    #     if mat not in sorted_product_dict:
+    #         sorted_product_dict[mat] = {}
+    #         materials.add(mat)
+
+    for room in room_list:
+        mat = room.mat_door_template
         # if material does not exist in sorted product list, add it
         if mat not in sorted_product_dict:
             sorted_product_dict[mat] = {}
             materials.add(mat)
 
-        for _product in __room["Products"]:
-            __product = __room["Products"][_product]
-            cab_num = 'R' + _room + _product
+        for product in room.products:
+            cab_num = 'R' + str(room.number) + product.cab_num
 
             mat = __room["MatDoorTemplate"]
             # if product has material override
