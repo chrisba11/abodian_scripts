@@ -262,7 +262,7 @@ def hinge_boring_report():
                         door_mat_or = line[start_idx:end_idx] if line[start_idx:end_idx] != '' else None
 
                         # instantiate product
-                        product = Product(unique_id, prod_name, cab_num, door_mat_or)
+                        product = Product(unique_id, prod_name, (num_prefix + cab_num), door_mat_or)
                         # add product to room's product list
                         room.products.append(product)
 
@@ -404,23 +404,11 @@ def hinge_boring_report():
                                 is_blind = False
 
 
-    ####
-    # Start back here with converting to OOP
-    ####
-
     sorted_product_dict = {}
     materials = set()
     door_styles = set()
     hinge_types = set()
     std_hinge_dist = 101.6
-
-    # for _room in product_dict:
-    #     __room = product_dict[_room]
-    #     mat = __room["MatDoorTemplate"]
-    #     # if material does not exist in sorted product list, add it
-    #     if mat not in sorted_product_dict:
-    #         sorted_product_dict[mat] = {}
-    #         materials.add(mat)
 
     for room in room_list:
         mat = room.mat_door_template
@@ -432,23 +420,28 @@ def hinge_boring_report():
         for product in room.products:
             cab_num = 'R' + str(room.number) + product.cab_num
 
-            mat = __room["MatDoorTemplate"]
+            mat = room.mat_door_template
             # if product has material override
-            if __product["MatOR"] != None:
-                mat = __product["MatOR"]
+            if product.door_mat_override != None:
+                mat = product.door_mat_override
 
                 # if material does not exist in sorted product list, add it
                 if mat not in sorted_product_dict:
                     sorted_product_dict[mat] = {}
                     materials.add(mat)
             
-            for _door in __product["Doors"]:
+            # for _door in __product["Doors"]:
+            #     mat_dict = sorted_product_dict[mat]
+            #     door_style = _door["DoorStyle"]
+            #     hinge_type = _door["HingeType"]
+
+            for door in product.doors:
                 mat_dict = sorted_product_dict[mat]
-                door_style = _door["DoorStyle"]
-                hinge_type = _door["HingeType"]
+                door_style = door.door_style
+                hinge_type = door.hinge_type
 
                 # if door style is not in material dict, add it
-                if door_style not in mat_dict:
+                if door.door_style not in mat_dict:
                     mat_dict[door_style] = {}
                     door_styles.add(door_style)
 
